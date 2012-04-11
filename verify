@@ -28,6 +28,7 @@ run fizzbuzz.cpp g++ fizzbuzz.cpp -o fizzbuzz
 run fizzbuzz.csh
 run fizzbuzz.f g77 fizzbuzz.f -o fizzbuzz
 run fizzbuzz.lua
+run fizzbuzz.php
 run fizzbuzz.pl
 run fizzbuzz.py
 run fizzbuzz.rb
