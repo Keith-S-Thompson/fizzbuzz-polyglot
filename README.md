@@ -17,6 +17,8 @@ The requirements are simple:
 In my [fizzbuz-c](https://github.com/Keith-S-Thompson/fizzbuzz-c)
 I present multiple (23 at last count) C solutions.
 
-Here I present multiple implementations, one in each language.
+Here I present multiple implementations, one in each language.  The current set of languages is
+
+Ada, Bash, C, C++, C-shell, Fortran, Lua, Perl, Python, Ruby, Bourne shell
 
 Do not take this too seriously.
