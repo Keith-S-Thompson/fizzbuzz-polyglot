@@ -1,0 +1,40 @@
+#!/bin/sh
+
+ok=1
+failures=""
+
+run() {
+    if [ $# -eq 1 ] ; then
+        echo "$1":
+        ./$1 > $name.out
+    else
+        name=$1
+        shift
+        echo "$name":
+        "$@" && ./fizzbuzz > $name.out
+        rm -f ./fizzbuzz
+    fi
+    if ! cmp -s $name.out expected-output.txt ; then
+        ok=0
+        failures="$failures $name"
+    fi
+    rm -f $name.out
+}
+
+run fizzbuzz.adb gnatmake fizzbuzz
+run fizzbuzz.bash
+run fizzbuzz.c gcc -std=c99 fizzbuzz.c -o fizzbuzz
+run fizzbuzz.cpp g++ fizzbuzz.cpp -o fizzbuzz
+run fizzbuzz.csh
+run fizzbuzz.f g77 fizzbuzz.f -o fizzbuzz
+run fizzbuzz.lua
+run fizzbuzz.pl
+run fizzbuzz.py
+run fizzbuzz.rb
+run fizzbuzz.sh
+
+if [ $ok -eq 1 ] ; then
+    echo OK
+else
+    echo Failures: $failures
+fi
