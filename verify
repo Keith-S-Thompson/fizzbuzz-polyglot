@@ -4,11 +4,11 @@ ok=1
 failures=""
 
 run() {
+    name=$1
     if [ $# -eq 1 ] ; then
         echo "$1":
         ./$1 > $name.out
     else
-        name=$1
         shift
         echo "$name":
         "$@" && ./fizzbuzz > $name.out
@@ -26,7 +26,7 @@ run fizzbuzz.bash
 run fizzbuzz.c gcc -std=c99 fizzbuzz.c -o fizzbuzz
 run fizzbuzz.cpp g++ fizzbuzz.cpp -o fizzbuzz
 run fizzbuzz.csh
-run fizzbuzz.f g77 fizzbuzz.f -o fizzbuzz
+run fizzbuzz.f gfortran fizzbuzz.f -o fizzbuzz
 run fizzbuzz.lua
 run fizzbuzz.php
 run fizzbuzz.pl
