@@ -1,11 +1,16 @@
 #!/usr/bin/lua
 
+-- The "%" operator was only added to Lua in version 5.1
+function is_multiple(a, b)
+    return a/b == math.floor(a/b);
+end
+
 for i = 1, 100, 1 do
-    if i % 15 == 0 then
+    if is_multiple(i, 15) then
         print("FizzBuzz");
-    elseif i % 3 == 0 then
+    elseif is_multiple(i, 3) then
         print("Fizz");
-    elseif i % 5 == 0 then
+    elseif is_multiple(i, 5) then
         print("Buzz");
     else
         print(i)
