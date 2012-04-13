@@ -21,12 +21,13 @@ run() {
     rm -f $name.out
 }
 
-run fizzbuzz.adb gnatmake fizzbuzz
+run fizzbuzz.adb     gnatmake fizzbuzz
 run fizzbuzz.bash
-run fizzbuzz.c gcc -std=c99 fizzbuzz.c -o fizzbuzz
-run fizzbuzz.cpp g++ fizzbuzz.cpp -o fizzbuzz
+run fizzbuzz.c       gcc -std=c99 fizzbuzz.c -o fizzbuzz
+run fizzbuzz.cpp     g++ fizzbuzz.cpp -o fizzbuzz
 run fizzbuzz.csh
-run fizzbuzz.f gfortran fizzbuzz.f -o fizzbuzz
+run fizzbuzz.f       gfortran fizzbuzz.f -o fizzbuzz
+run fizzbuzz.go      go build -o fizzbuzz fizzbuzz.go
 run fizzbuzz.lua
 run fizzbuzz.php
 run fizzbuzz.pl
