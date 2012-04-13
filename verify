@@ -31,6 +31,7 @@ run fizzbuzz.go      go build -o fizzbuzz fizzbuzz.go
 run fizzbuzz.lua
 run fizzbuzz.php
 run fizzbuzz.pl
+run fizzbuzz.pl6
 run fizzbuzz.py
 run fizzbuzz.rb
 run fizzbuzz.sh
