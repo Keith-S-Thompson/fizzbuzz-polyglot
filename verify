@@ -11,8 +11,8 @@ run() {
     else
         shift
         echo "$name":
-        "$@" && ./fizzbuzz > $name.out
-        rm -f ./fizzbuzz
+        eval "$@" && ./fizzbuzz > $name.out
+        rm -f fizzbuzz fizzbuzz.ali fizzbuzz.o
     fi
     if ! cmp -s $name.out expected-output.txt ; then
         ok=0
@@ -29,6 +29,7 @@ run fizzbuzz.csh
 run fizzbuzz.f       gfortran fizzbuzz.f -o fizzbuzz
 run fizzbuzz.go      go build -o fizzbuzz fizzbuzz.go
 run fizzbuzz.guile
+run fizzbuzz.js
 run fizzbuzz.lua
 run fizzbuzz.php
 run fizzbuzz.pl
