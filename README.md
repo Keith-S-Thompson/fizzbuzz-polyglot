@@ -22,6 +22,7 @@ Here I present multiple implementations, one in each language.  The current set 
     Ada
     Bash
     C
+    C#
     C++
     C-shell
     Fortran

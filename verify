@@ -2,36 +2,40 @@
 
 ok=1
 failures=""
+count=0
 
 run() {
     name=$1
     if [ $# -eq 1 ] ; then
         echo "$name":
         if [ $name = *.java ] ; then
-            program=$(basename $name .java)
             javac $name
-            java $program > $name.out
-            rm $program.class
+            java fizzbuzz > $name.out
         else
             ./$1 > $name.out
         fi
     else
         shift
         echo "$name":
-        eval "$@" && ./fizzbuzz > $name.out
-        rm -f fizzbuzz fizzbuzz.ali fizzbuzz.o
+        if [ $name = *.cs ] ; then
+            eval "$@" && ./fizzbuzz.exe > $name.out
+        else
+            eval "$@" && ./fizzbuzz > $name.out
+        fi
     fi
     if ! cmp -s $name.out expected-output.txt ; then
         ok=0
         failures="$failures $name"
     fi
-    rm -f $name.out
+    rm -f $name.out fizzbuzz.class fizzbuzz fizzbuzz.o fizzbuzz.ali fizzbuzz.exe
+    (( count++ ))
 }
 
 run fizzbuzz.adb     gnatmake fizzbuzz
 run fizzbuzz.bash
 run fizzbuzz.c       gcc -std=c99 fizzbuzz.c -o fizzbuzz
 run fizzbuzz.cpp     g++ fizzbuzz.cpp -o fizzbuzz
+run fizzbuzz.cs      gmcs fizzbuzz.cs
 run fizzbuzz.csh
 run fizzbuzz.f       gfortran fizzbuzz.f -o fizzbuzz
 run fizzbuzz.go      go build -o fizzbuzz fizzbuzz.go
@@ -47,6 +51,7 @@ run fizzbuzz.py
 run fizzbuzz.rb
 run fizzbuzz.sh
 
+echo Tested $count languages
 if [ $ok -eq 1 ] ; then
     echo OK
 else
