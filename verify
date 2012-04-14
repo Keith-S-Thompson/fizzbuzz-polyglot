@@ -28,6 +28,7 @@ run fizzbuzz.cpp     g++ fizzbuzz.cpp -o fizzbuzz
 run fizzbuzz.csh
 run fizzbuzz.f       gfortran fizzbuzz.f -o fizzbuzz
 run fizzbuzz.go      go build -o fizzbuzz fizzbuzz.go
+run fizzbuzz.guile
 run fizzbuzz.lua
 run fizzbuzz.php
 run fizzbuzz.pl

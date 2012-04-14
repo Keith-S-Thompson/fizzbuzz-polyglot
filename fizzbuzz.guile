@@ -1,0 +1,17 @@
+#!/usr/bin/guile --no-auto-compile
+!#
+
+(define line
+    (lambda (n)
+        (cond ((= (modulo n 15) 0) (display "FizzBuzz") (newline))
+              ((= (modulo n  3) 0) (display "Fizz")     (newline))
+              ((= (modulo n  5) 0) (display "Buzz")     (newline))
+              (else           (display n) (newline)))))
+
+(define fizzbuzz
+    (lambda (first last)
+        (cond ((> first last) )
+              (else (line first)
+                    (fizzbuzz (+ first 1) last)))))
+
+(fizzbuzz 1 100)
