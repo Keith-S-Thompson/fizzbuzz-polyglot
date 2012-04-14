@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 ok=1
 failures=""
@@ -6,8 +6,15 @@ failures=""
 run() {
     name=$1
     if [ $# -eq 1 ] ; then
-        echo "$1":
-        ./$1 > $name.out
+        echo "$name":
+        if [ $name = *.java ] ; then
+            program=$(basename $name .java)
+            javac $name
+            java $program > $name.out
+            rm $program.class
+        else
+            ./$1 > $name.out
+        fi
     else
         shift
         echo "$name":
@@ -29,6 +36,7 @@ run fizzbuzz.csh
 run fizzbuzz.f       gfortran fizzbuzz.f -o fizzbuzz
 run fizzbuzz.go      go build -o fizzbuzz fizzbuzz.go
 run fizzbuzz.guile
+run fizzbuzz.java
 run fizzbuzz.js
 run fizzbuzz.lua
 run fizzbuzz.php

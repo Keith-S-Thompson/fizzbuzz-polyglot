@@ -27,6 +27,7 @@ Here I present multiple implementations, one in each language.  The current set 
     Fortran
     Go
     Guile
+    Java
     JavaScript
     Lua
     PHP
