@@ -39,6 +39,7 @@ run fizzbuzz.guile
 run fizzbuzz.java
 run fizzbuzz.js
 run fizzbuzz.lua
+run fizzbuzz.pas     fpc fizzbuzz.pas
 run fizzbuzz.php
 run fizzbuzz.pl
 run fizzbuzz.pl6

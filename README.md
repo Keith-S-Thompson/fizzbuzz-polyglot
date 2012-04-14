@@ -30,9 +30,10 @@ Here I present multiple implementations, one in each language.  The current set 
     Java
     JavaScript
     Lua
-    PHP
+    Pascal
     Perl5
     Perl6
+    PHP
     Python
     Ruby
     Bourne shell
