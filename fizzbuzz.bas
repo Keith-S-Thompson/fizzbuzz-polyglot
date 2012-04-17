@@ -6,7 +6,7 @@ print "Fizz"
 elseif I mod 5 = 0 then
 print "Buzz"
 else
-print I
+print using "#"; I
 end if
 next I
 quit

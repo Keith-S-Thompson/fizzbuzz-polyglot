@@ -10,10 +10,12 @@ run() {
         echo "$name":
         if [ $name = *.java ] ; then
             javac $name
-            java fizzbuzz > $name.out
+            java fizzbuzz
+        elif [ $name = *.bas ] ; then
+            bwbasic $name | sed '/ \|^$/d'  # Need to filter out the copyright header
         else
-            ./$1 > $name.out
-        fi
+            ./$1
+        fi > $name.out
     else
         shift
         echo "$name":
@@ -32,6 +34,7 @@ run() {
 }
 
 run fizzbuzz.adb     gnatmake fizzbuzz
+run fizzbuzz.bas
 run fizzbuzz.bash
 run fizzbuzz.c       gcc -std=c99 fizzbuzz.c -o fizzbuzz
 run fizzbuzz.cpp     g++ fizzbuzz.cpp -o fizzbuzz

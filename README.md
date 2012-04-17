@@ -21,6 +21,7 @@ Here I present multiple implementations, one in each language.  The current set 
 
     Ada
     Bash
+    BASIC (bwBASIC)
     C
     C#
     C++
