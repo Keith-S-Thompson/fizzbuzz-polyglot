@@ -14,7 +14,7 @@ The requirements are simple:
 > five print "Buzz". For numbers which are multiples of both three and
 > five print "FizzBuzz".
 
-In my [fizzbuz-c](https://github.com/Keith-S-Thompson/fizzbuzz-c)
+In my [fizzbuz-c](https://github.com/Keith-S-Thompson/fizzbuzz-c) project
 I present multiple (23 at last count) C solutions.
 
 Here I present multiple implementations, one in each language.  The current set of languages is
