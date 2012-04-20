@@ -61,6 +61,7 @@ run() {
         ok=0
         failures="$failures $name"
     fi
+    rm -f $out
     (( count++ ))
 }
 
