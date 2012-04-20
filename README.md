@@ -19,25 +19,26 @@ I present multiple (25 at last count) C solutions.
 
 Here I present multiple implementations, one in each language.  The current set of languages is
 
-    Ada
-    Bash
-    BASIC (bwBASIC)
-    C
-    C#
-    C++
-    C-shell
-    Fortran
-    Go
-    Guile
-    Java
-    JavaScript
-    Lua
-    Pascal
-    Perl5
-    Perl6
-    PHP
-    Python
-    Ruby
-    Bourne shell
+- Ada
+- BASIC (bwBASIC)
+- Bash
+- C
+- C++
+- C#
+- C-shell
+- Fortran
+- Go
+- Guile
+- Java
+- JavaScript
+- Lua
+- Pascal
+- PHP
+- Perl 5
+- Perl 6
+- Python
+- Ruby
+- Scala
+- Bourne shell
 
 Do not take this too seriously.
