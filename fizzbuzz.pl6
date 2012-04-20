@@ -1,16 +1,8 @@
 #!/usr/bin/perl6
 
 for (1..100) {
-    if ($_ % 15 == 0) {
-        say "FizzBuzz";
-    }
-    elsif ($_ % 3 == 0) {
-        say "Fizz";
-    }
-    elsif ($_ % 5 == 0) {
-        say "Buzz";
-    }
-    else {
-        say $_;
-    }
+    ( $_ % 15 == 0 ?? "FizzBuzz" !!
+      $_ % 3 == 0  ?? "Fizz" !!
+      $_ % 5 == 0  ?? "Buzz" !!
+      $_).say;
 }
