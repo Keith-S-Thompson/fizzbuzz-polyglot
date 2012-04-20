@@ -47,11 +47,17 @@ run() {
         java)
             javac $filename
             java $basename > $out
+            rm -f $basename.class
             ;;
         pas)
             fpc $filename
             ./$basename > $out
-            rm -f $basename
+            rm -f $basename $basename.o
+            ;;
+        scala)
+            scalac $filename
+            scala $basename > $out
+            rm -f *.class
             ;;
         *)
             ./$filename > $out
@@ -65,28 +71,21 @@ run() {
     (( count++ ))
 }
 
-run fizzbuzz.adb
-run fizzbuzz.bas
-run fizzbuzz.bash
-run fizzbuzz.c
-run fizzbuzz.cpp
-run fizzbuzz.cs
-run fizzbuzz.csh
-run fizzbuzz.f
-run fizzbuzz.go
-run fizzbuzz.guile
-run fizzbuzz.java
-run fizzbuzz.js
-run fizzbuzz.lua
-run fizzbuzz.pas
-run fizzbuzz.php
-run fizzbuzz.pl
-run fizzbuzz.pl6
-run fizzbuzz.py
-run fizzbuzz.rb
-run fizzbuzz.sh
+if [ $# -gt 0 ] ; then
+    for file in "$@" ; do
+        run $file
+    done
+else
+    for file in fizzbuzz.* ; do
+        run $file
+    done
+fi
 
-echo Tested $count languages
+s=''
+if [ $count -ne 1 ] ; then
+    s=s
+fi
+echo Tested $count language$s
 if [ $ok -eq 1 ] ; then
     echo OK
 else
