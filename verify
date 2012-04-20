@@ -5,48 +5,79 @@ failures=""
 count=0
 
 run() {
-    name=$1
-    if [ $# -eq 1 ] ; then
-        echo "$name":
-        if [ $name = *.java ] ; then
-            javac $name
-            java fizzbuzz
-        elif [ $name = *.bas ] ; then
-            bwbasic $name | sed '/ \|^$/d'  # Need to filter out the copyright header
-        else
-            ./$1
-        fi > $name.out
-    else
-        shift
-        echo "$name":
-        if [ $name = *.cs ] ; then
-            eval "$@" && ./fizzbuzz.exe > $name.out
-        else
-            eval "$@" && ./fizzbuzz > $name.out
-        fi
-    fi
-    if ! cmp -s $name.out expected-output.txt ; then
+    filename=$1
+    echo "$filename:"
+    basename=${filename%.*}
+    suffix=${filename#*.}
+    out=$filename.out
+    case $suffix in
+        adb)
+            gnatmake $basename
+            ./$basename > $out
+            rm -f $basename{,.ali,.o}
+            ;;
+        bas)
+            bwbasic $filename | sed '/ \|^$/d' > $out # Need to filter out the copyright header
+            ;;
+        c)
+            gcc -std=c99 $filename -o $basename
+            ./$basename > $out
+            rm -f $basename
+            ;;
+        cpp)
+            g++ $filename -o $basename
+            ./$basename > $out
+            rm -f $basename
+            ;;
+        cs)
+            gmcs $filename
+            ./$basename.exe > $out
+            rm -f $basename.exe
+            ;;
+        f)
+            gfortran $filename -o $basename
+            ./$basename > $out
+            rm -f $basename
+            ;;
+        go)
+            go build -o $basename $filename
+            ./$basename > $out
+            rm -f $basename
+            ;;
+        java)
+            javac $filename
+            java $basename > $out
+            ;;
+        pas)
+            fpc $filename
+            ./$basename > $out
+            rm -f $basename
+            ;;
+        *)
+            ./$filename > $out
+            ;;
+    esac
+    if ! cmp -s $out expected-output.txt ; then
         ok=0
         failures="$failures $name"
     fi
-    rm -f $name.out fizzbuzz.class fizzbuzz fizzbuzz.o fizzbuzz.ali fizzbuzz.exe
     (( count++ ))
 }
 
-run fizzbuzz.adb     gnatmake fizzbuzz
+run fizzbuzz.adb
 run fizzbuzz.bas
 run fizzbuzz.bash
-run fizzbuzz.c       gcc -std=c99 fizzbuzz.c -o fizzbuzz
-run fizzbuzz.cpp     g++ fizzbuzz.cpp -o fizzbuzz
-run fizzbuzz.cs      gmcs fizzbuzz.cs
+run fizzbuzz.c
+run fizzbuzz.cpp
+run fizzbuzz.cs
 run fizzbuzz.csh
-run fizzbuzz.f       gfortran fizzbuzz.f -o fizzbuzz
-run fizzbuzz.go      go build -o fizzbuzz fizzbuzz.go
+run fizzbuzz.f
+run fizzbuzz.go
 run fizzbuzz.guile
 run fizzbuzz.java
 run fizzbuzz.js
 run fizzbuzz.lua
-run fizzbuzz.pas     fpc fizzbuzz.pas
+run fizzbuzz.pas
 run fizzbuzz.php
 run fizzbuzz.pl
 run fizzbuzz.pl6
