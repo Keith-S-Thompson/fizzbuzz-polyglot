@@ -6,8 +6,8 @@ use feature 'say';
 
 for (1..100) {
     my $s = '';
-    $s .= 'Fizz' unless $_ % 3;
-    $s .= 'Buzz' unless $_ % 5;
-    $s .= $_     unless $s;
+    $_%3 or $s.='Fizz';
+    $_%5 or $s.='Buzz';
+    $s or $s.=$_;
     say $s;
 }
