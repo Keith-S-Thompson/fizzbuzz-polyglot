@@ -46,18 +46,27 @@ run() {
             ;;
         java)
             javac $filename
-            java $basename > $out
-            rm -f $basename.class
+            jar cvf $basename.jar $basename.class
+            CLASSPATH=$basename.jar java $basename > $out
+            # java $basename > $out
+            rm -f $basename.class $basename.jar
             ;;
         pas)
             fpc $filename
             ./$basename > $out
             rm -f $basename $basename.o
             ;;
+        m)
+            . /usr/share/GNUstep/Makefiles/GNUstep.sh
+            cc -std=c99 `gnustep-config --objc-flags` $filename -lobjc -lgnustep-base -o $basename
+            ./$basename > $out
+            rm -f $basename $basename.d
+            ;;
         scala)
             scalac $filename
-            scala $basename > $out
-            rm -f *.class
+            jar cvf $basename.jar *.class
+            CLASSPATH=$basename.jar scala $basename > $out
+            rm -f *.class $basename.jar
             ;;
         *)
             ./$filename > $out
@@ -65,7 +74,7 @@ run() {
     esac
     if ! cmp -s $out expected-output.txt ; then
         ok=0
-        failures="$failures $name"
+        failures="$failures $filename"
     fi
     rm -f $out
     (( count++ ))
