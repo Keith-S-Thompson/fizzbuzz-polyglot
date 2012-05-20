@@ -32,6 +32,7 @@ Here I present multiple implementations, one in each language.  The current set 
 - Java
 - JavaScript
 - Lua
+- Objective-C
 - Pascal
 - PHP
 - Perl 5
