@@ -42,4 +42,8 @@ Here I present multiple implementations, one in each language.  The current set 
 - Scala
 - Bourne shell
 
+The `verify` script executes each program and confirms that its output
+is correct.  It works on my system, Ubuntu 12.04 with a certain set
+of packages installed.
+
 Do not take this too seriously.
