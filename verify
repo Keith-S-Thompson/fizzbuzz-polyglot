@@ -3,6 +3,7 @@
 ok=1
 failures=""
 count=0
+failure_count=0
 
 run() {
     filename=$1
@@ -75,6 +76,7 @@ run() {
     if ! cmp -s $out expected-output.txt ; then
         ok=0
         failures="$failures $filename"
+        (( failure_count++ ))
     fi
     rm -f $out
     (( count++ ))
@@ -98,5 +100,7 @@ echo Tested $count language$s
 if [ $ok -eq 1 ] ; then
     echo OK
 else
-    echo Failures: $failures
+    s=s
+    if [ $failure_count -eq 1 ] ; then s='' ; fi
+    echo "$failure_count failure$s: $failures"
 fi
