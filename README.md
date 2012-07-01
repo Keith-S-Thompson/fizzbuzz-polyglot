@@ -15,7 +15,7 @@ The requirements are simple:
 > five print "FizzBuzz".
 
 In my [fizzbuz-c](https://github.com/Keith-S-Thompson/fizzbuzz-c) project
-I present multiple (25 at last count) C solutions.
+I present multiple (26 at last count) C solutions.
 
 Here I present multiple implementations, one in each language.  The current set of languages is
 
@@ -40,7 +40,8 @@ Here I present multiple implementations, one in each language.  The current set 
 - Python
 - Ruby
 - Scala
-- Bourne shell
+- sh (Bourne shell)
+- Tcl
 
 The `verify` script executes each program and confirms that its output
 is correct.  It works on my system, Ubuntu 12.04 with a certain set
