@@ -35,6 +35,11 @@ run() {
             ./$basename.exe > $out
             rm -f $basename.exe
             ;;
+        d)
+            gdc $filename -o $basename
+            ./$basename > $out
+            rm -f $basename
+            ;;
         f)
             gfortran $filename -o $basename
             ./$basename > $out

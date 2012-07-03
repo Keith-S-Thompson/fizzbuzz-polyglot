@@ -26,6 +26,7 @@ Here I present multiple implementations, one in each language.  The current set 
 - C++
 - C#
 - C-shell
+- D
 - Fortran
 - Go
 - Guile
