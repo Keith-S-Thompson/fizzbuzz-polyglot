@@ -63,10 +63,18 @@ run() {
             rm -f $basename $basename.o
             ;;
         m)
+            # Problem: gcc, when compiling an Objective-C (".m")
+            # file creates and intermediate file with a ".d" suffix,
+            # clobbering the "fizzbuzz.d" D source file. To avoid this,
+            # compile and run in a temporary directory.
+            mkdir tmpdir-$$
+            cd tmpdir-$$
+            cp ../fizzbuzz.m .
             . /usr/share/GNUstep/Makefiles/GNUstep.sh
             cc -std=c99 `gnustep-config --objc-flags` $filename -lobjc -lgnustep-base -o $basename
-            ./$basename > $out
-            rm -f $basename $basename.d
+            ./$basename > ../$out
+            cd ..
+            rm -rf tmpdir-$$
             ;;
         scala)
             scalac $filename
