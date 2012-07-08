@@ -1,4 +1,6 @@
 using System;
+using System.Linq;
+
 class FizzBuzz {
     static void Main() {
 		var list = Enumerable.Range(1,100)
