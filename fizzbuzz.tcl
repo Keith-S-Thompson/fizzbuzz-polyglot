@@ -1,6 +1,6 @@
 #!/usr/bin/tclsh
 
-for {set i 1} {$i<= 100} {} {
+for {set i 1} {$i<= 100} {incr i} {
     if {$i % 15 == 0} {
         puts "FizzBuzz"
     } elseif {$i % 3 == 0} {
@@ -10,5 +10,4 @@ for {set i 1} {$i<= 100} {} {
     } else {
         puts $i
     }
-    incr i
 }
