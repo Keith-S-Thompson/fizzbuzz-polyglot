@@ -19,33 +19,33 @@ I present multiple (30 at last count) C solutions.
 
 Here I present multiple implementations, one in each language.  The current set of languages (27 of them) is
 
-- `fizzbuzz.adb  ` : Ada
-- `fizzbuzz.bas  ` : BASIC (bwBASIC)
-- `fizzbuzz.bash ` : Bash
-- `fizzbuzz.c    ` : C
-- `fizzbuzz.cpp  ` : C++
-- `fizzbuzz.cs   ` : C#
-- `fizzbuzz.csh  ` : C-shell
-- `fizzbuzz.d    ` : D
-- `fizzbuzz.f    ` : Fortran
-- `fizzbuzz.go   ` : Go
-- `fizzbuzz.gpt  ` : G-Portugol
-- `fizzbuzz.guile` : Guile
-- `fizzbuzz.java ` : Java
-- `fizzbuzz.js   ` : JavaScript
-- `fizzbuzz.lua  ` : Lua
-- `fizzbuzz.m    ` : Objective_C
-- `fizzbuzz.m4   ` : M4
-- `fizzbuzz.pas  ` : Pascal
-- `fizzbuzz.php  ` : PHP
-- `fizzbuzz.pl   ` : Perl 5
-- `fizzbuzz.pl6  ` : Perl 6
-- `fizzbuzz.py   ` : Python
-- `fizzbuzz.rb   ` : Ruby
-- `fizzbuzz.scala` : Scala
-- `fizzbuzz.sh   ` : Bourne shell
-- `fizzbuzz.tcl  ` : Tcl
-- `fizzbuzz.vb   ` : Visual Basic .NET
+- fizzbuzz.adb   : Ada
+- fizzbuzz.bas   : BASIC (bwBASIC)
+- fizzbuzz.bash  : Bash
+- fizzbuzz.c     : C
+- fizzbuzz.cpp   : C++
+- fizzbuzz.cs    : C#
+- fizzbuzz.csh   : C-shell
+- fizzbuzz.d     : D
+- fizzbuzz.f     : Fortran
+- fizzbuzz.go    : Go
+- fizzbuzz.gpt   : G-Portugol
+- fizzbuzz.guile : Guile
+- fizzbuzz.java  : Java
+- fizzbuzz.js    : JavaScript
+- fizzbuzz.lua   : Lua
+- fizzbuzz.m     : Objective_C
+- fizzbuzz.m4    : M4
+- fizzbuzz.pas   : Pascal
+- fizzbuzz.php   : PHP
+- fizzbuzz.pl    : Perl 5
+- fizzbuzz.pl6   : Perl 6
+- fizzbuzz.py    : Python
+- fizzbuzz.rb    : Ruby
+- fizzbuzz.scala : Scala
+- fizzbuzz.sh    : Bourne shell
+- fizzbuzz.tcl   : Tcl
+- fizzbuzz.vb    : Visual Basic .NET
 
 The `verify` script executes each program and confirms that its output
 is correct.  It works on my system, Ubuntu 12.04 with a certain set
