@@ -20,33 +20,33 @@ I present multiple (30 at last count) C solutions.
 Here I present multiple implementations, one in each language.  The current set of languages (27 of them) is
 
 <table border="0">
-<tr><td>fizzbuzz.adb</td><td>Ada</td></tr>
-<tr><td>fizzbuzz.bas</td><td>BASIC (bwBASIC)</td></tr>
-<tr><td>fizzbuzz.bash</td><td>Bash</td></tr>
-<tr><td>fizzbuzz.c</td><td>C</td></tr>
-<tr><td>fizzbuzz.cpp</td><td>C++</td></tr>
-<tr><td>fizzbuzz.cs</td><td>C#</td></tr>
-<tr><td>fizzbuzz.csh</td><td>C-shell</td></tr>
-<tr><td>fizzbuzz.d</td><td>D</td></tr>
-<tr><td>fizzbuzz.f</td><td>Fortran</td></tr>
-<tr><td>fizzbuzz.go</td><td>Go</td></tr>
-<tr><td>fizzbuzz.gpt</td><td>G-Portugol</td></tr>
-<tr><td>fizzbuzz.guile</td><td>Guile</td></tr>
-<tr><td>fizzbuzz.java</td><td>Java</td></tr>
-<tr><td>fizzbuzz.js</td><td>JavaScript</td></tr>
-<tr><td>fizzbuzz.lua</td><td>Lua</td></tr>
-<tr><td>fizzbuzz.m</td><td>Objective_C</td></tr>
-<tr><td>fizzbuzz.m4</td><td>M4</td></tr>
-<tr><td>fizzbuzz.pas</td><td>Pascal</td></tr>
-<tr><td>fizzbuzz.php</td><td>PHP</td></tr>
-<tr><td>fizzbuzz.pl</td><td>Perl 5</td></tr>
-<tr><td>fizzbuzz.pl6</td><td>Perl 6</td></tr>
-<tr><td>fizzbuzz.py</td><td>Python</td></tr>
-<tr><td>fizzbuzz.rb</td><td>Ruby</td></tr>
-<tr><td>fizzbuzz.scala</td><td>Scala</td></tr>
-<tr><td>fizzbuzz.sh</td><td>Bourne shell</td></tr>
-<tr><td>fizzbuzz.tcl</td><td>Tcl</td></tr>
-<tr><td>fizzbuzz.vb</td><td>Visual Basic .NET</td></tr>
+<tr> <td>Ada</td>               <td>fizzbuzz.adb@</td> </tr>
+<tr> <td>BASIC (bwBASIC)</td>   <td>fizzbuzz.bas@</td> </tr>
+<tr> <td>Bash</td>              <td>fizzbuzz.bash@</td> </tr>
+<tr> <td>C</td>                 <td>fizzbuzz.c@</td> </tr>
+<tr> <td>C++</td>               <td>fizzbuzz.cpp@</td> </tr>
+<tr> <td>C#</td>                <td>fizzbuzz.cs@</td> </tr>
+<tr> <td>C-shell</td>           <td>fizzbuzz.csh@</td> </tr>
+<tr> <td>D</td>                 <td>fizzbuzz.d@</td> </tr>
+<tr> <td>Fortran</td>           <td>fizzbuzz.f@</td> </tr>
+<tr> <td>Go</td>                <td>fizzbuzz.go@</td> </tr>
+<tr> <td>G-Portugol</td>        <td>fizzbuzz.gpt@</td> </tr>
+<tr> <td>Guile</td>             <td>fizzbuzz.guile@</td> </tr>
+<tr> <td>Java</td>              <td>fizzbuzz.java@</td> </tr>
+<tr> <td>JavaScript</td>        <td>fizzbuzz.js@</td> </tr>
+<tr> <td>Lua</td>               <td>fizzbuzz.lua@</td> </tr>
+<tr> <td>Objective_C</td>       <td>fizzbuzz.m@</td> </tr>
+<tr> <td>M4</td>                <td>fizzbuzz.m4@</td> </tr>
+<tr> <td>Pascal</td>            <td>fizzbuzz.pas@</td> </tr>
+<tr> <td>PHP</td>               <td>fizzbuzz.php@</td> </tr>
+<tr> <td>Perl 5</td>            <td>fizzbuzz.pl@</td> </tr>
+<tr> <td>Perl 6</td>            <td>fizzbuzz.pl6@</td> </tr>
+<tr> <td>Python</td>            <td>fizzbuzz.py@</td> </tr>
+<tr> <td>Ruby</td>              <td>fizzbuzz.rb@</td> </tr>
+<tr> <td>Scala</td>             <td>fizzbuzz.scala@</td> </tr>
+<tr> <td>Bourne shell</td>      <td>fizzbuzz.sh@</td> </tr>
+<tr> <td>Tcl</td>               <td>fizzbuzz.tcl@</td> </tr>
+<tr> <td>Visual Basic .NET</td> <td>fizzbuzz.vb@</td> </tr>
 </table>
 
 The `verify` script executes each program and confirms that its output
