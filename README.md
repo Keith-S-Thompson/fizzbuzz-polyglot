@@ -17,7 +17,7 @@ The requirements are simple:
 In my [fizzbuz-c](https://github.com/Keith-S-Thompson/fizzbuzz-c) project
 I present multiple (30 at last count) C solutions.
 
-Here I present multiple implementations, one in each language.  The current set of languages (26 of them) is
+Here I present multiple implementations, one in each language.  The current set of languages (27 of them) is
 
 - Ada
 - BASIC (bwBASIC)
@@ -34,6 +34,7 @@ Here I present multiple implementations, one in each language.  The current set 
 - Java
 - JavaScript
 - Lua
+- M4
 - Objective-C
 - Pascal
 - PHP

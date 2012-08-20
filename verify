@@ -81,6 +81,9 @@ run() {
             cd ..
             rm -rf tmpdir-$$
             ;;
+        m4)
+            m4 $filename > $out
+            ;;
         scala)
             scalac $filename
             jar cvf $basename.jar *.class
