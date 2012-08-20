@@ -3,7 +3,7 @@
 
 Module FizzBuzz
     Sub Main()
-        Dim I As Int32
+        Dim I As Integer
         For I = 1 to 100
             If I mod 15 = 0 Then
                 Console.WriteLine("FizzBuzz")
