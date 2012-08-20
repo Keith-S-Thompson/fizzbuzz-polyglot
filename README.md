@@ -17,7 +17,7 @@ The requirements are simple:
 In my [fizzbuz-c](https://github.com/Keith-S-Thompson/fizzbuzz-c) project
 I present multiple (30 at last count) C solutions.
 
-Here I present multiple implementations, one in each language.  The current set of languages (25 of them) is
+Here I present multiple implementations, one in each language.  The current set of languages (26 of them) is
 
 - Ada
 - BASIC (bwBASIC)
@@ -44,6 +44,7 @@ Here I present multiple implementations, one in each language.  The current set 
 - Scala
 - sh (Bourne shell)
 - Tcl
+- Visual Basic .NET
 
 The `verify` script executes each program and confirms that its output
 is correct.  It works on my system, Ubuntu 12.04 with a certain set

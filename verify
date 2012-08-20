@@ -87,6 +87,12 @@ run() {
             CLASSPATH=$basename.jar scala $basename > $out
             rm -f *.class $basename.jar
             ;;
+        vb)
+            vbnc $filename
+            chmod +x $basename.exe
+            ./$basename.exe > $out
+            rm -f $basename.exe
+            ;;
         *)
             ./$filename > $out
             ;;
