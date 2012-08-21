@@ -1,0 +1,17 @@
+#!/usr/bin/falcon -M
+
+// Language: Falcon
+// Web site: http://falconpl.org
+// Ubuntu: apt-get install falconpl
+
+for i in [1:101]
+    if i % 15 == 0
+        > "FizzBuzz"
+    elif i % 3 == 0
+        > "Fizz"
+    elif i % 5 == 0
+        > "Buzz"
+    else
+        > i
+    end
+end
