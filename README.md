@@ -19,6 +19,10 @@ I present multiple (30 at last count) C solutions.
 
 Here I present multiple implementations, one in each language.  The current set of languages (28 of them) is
 
+* [Ada](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.adb)
+
+(Work in progress, converting the table to a list with links to individual files.)
+
 <table border="0">
     <tr> <td> Ada               </td> <td> fizzbuzz.adb   </td> </tr>
     <tr> <td> BASIC (bwBASIC)   </td> <td> fizzbuzz.bas   </td> </tr>
