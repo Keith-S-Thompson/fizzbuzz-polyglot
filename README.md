@@ -20,39 +20,33 @@ I present multiple (30 at last count) C solutions.
 Here I present multiple implementations, one in each language.  The current set of languages (28 of them) is
 
 * [Ada](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.adb)
-
-(Work in progress, converting the table to a list with links to individual files.)
-
-<table border="0">
-    <tr> <td> Ada               </td> <td> fizzbuzz.adb   </td> </tr>
-    <tr> <td> BASIC (bwBASIC)   </td> <td> fizzbuzz.bas   </td> </tr>
-    <tr> <td> Bash              </td> <td> fizzbuzz.bash  </td> </tr>
-    <tr> <td> C                 </td> <td> fizzbuzz.c     </td> </tr>
-    <tr> <td> C++               </td> <td> fizzbuzz.cpp   </td> </tr>
-    <tr> <td> C#                </td> <td> fizzbuzz.cs    </td> </tr>
-    <tr> <td> C-shell           </td> <td> fizzbuzz.csh   </td> </tr>
-    <tr> <td> D                 </td> <td> fizzbuzz.d     </td> </tr>
-    <tr> <td> Falcon            </td> <td> fizzbuzz.fal   </td> </tr>
-    <tr> <td> Fortran           </td> <td> fizzbuzz.f     </td> </tr>
-    <tr> <td> Go                </td> <td> fizzbuzz.go    </td> </tr>
-    <tr> <td> G-Portugol        </td> <td> fizzbuzz.gpt   </td> </tr>
-    <tr> <td> Guile             </td> <td> fizzbuzz.guile </td> </tr>
-    <tr> <td> Java              </td> <td> fizzbuzz.java  </td> </tr>
-    <tr> <td> JavaScript        </td> <td> fizzbuzz.js    </td> </tr>
-    <tr> <td> Lua               </td> <td> fizzbuzz.lua   </td> </tr>
-    <tr> <td> Objective_C       </td> <td> fizzbuzz.m     </td> </tr>
-    <tr> <td> M4                </td> <td> fizzbuzz.m4    </td> </tr>
-    <tr> <td> Pascal            </td> <td> fizzbuzz.pas   </td> </tr>
-    <tr> <td> PHP               </td> <td> fizzbuzz.php   </td> </tr>
-    <tr> <td> Perl 5            </td> <td> fizzbuzz.pl    </td> </tr>
-    <tr> <td> Perl 6            </td> <td> fizzbuzz.pl6   </td> </tr>
-    <tr> <td> Python            </td> <td> fizzbuzz.py    </td> </tr>
-    <tr> <td> Ruby              </td> <td> fizzbuzz.rb    </td> </tr>
-    <tr> <td> Scala             </td> <td> fizzbuzz.scala </td> </tr>
-    <tr> <td> Bourne shell      </td> <td> fizzbuzz.sh    </td> </tr>
-    <tr> <td> Tcl               </td> <td> fizzbuzz.tcl   </td> </tr>
-    <tr> <td> Visual Basic .NET </td> <td> fizzbuzz.vb    </td> </tr>
-</table>
+* [BASIC (bwBASIC)](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.bas)
+* [Bash](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.bash)
+* [C](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.c)
+* [C++](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.cpp)
+* [C#](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.cs)
+* [C-shell](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.csh)
+* [D](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.d)
+* [Falcon](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.fal)
+* [Fortran](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.f)
+* [Go](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.go)
+* [G-Portugol](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.gpt)
+* [Guile](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.guile)
+* [Java](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.java)
+* [JavaScript](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.js)
+* [Lua](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.lua)
+* [Objective_C](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.m)
+* [M4](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.m4)
+* [Pascal](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.pas)
+* [PHP](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.php)
+* [Perl 5](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.pl)
+* [Perl 6](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.pl6)
+* [Python](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.py)
+* [Ruby](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.rb)
+* [Scala](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.scala)
+* [Bourne shell](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.sh)
+* [Tcl](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.tcl)
+* [Visual Basic .NET](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.vb)
 
 The `verify` script executes each program and confirms that its output
 is correct.  It works on my system, Ubuntu 12.04 with a certain set
