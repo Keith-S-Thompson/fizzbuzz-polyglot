@@ -1,0 +1,16 @@
+( PROC width = (INT x) INT: (x > 99 | 3 | (x>9 | 2 | 1))
+; 
+
+    FOR i FROM 1 TO 100
+    DO
+        IF (i MOD 15 = 0) THEN
+            printf (( $ "FizzBuzz" l $ ))
+        ELIF (i MOD 3 = 0) THEN
+            printf (( $ "Fizz" l $ ))
+        ELIF (i MOD 5 = 0) THEN
+            printf (( $ "Buzz" l $ ))
+        ELSE
+            printf (( $ n(width(i))d l$, i ))
+        FI
+    OD
+)
