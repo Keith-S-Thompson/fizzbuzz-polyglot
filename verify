@@ -12,6 +12,9 @@ run() {
     suffix=${filename#*.}
     out=$filename.out
     case $suffix in
+        a68)
+            a68g $filename > $out
+            ;;
         adb)
             gnatmake $basename
             ./$basename > $out
