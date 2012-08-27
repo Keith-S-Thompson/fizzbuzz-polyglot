@@ -1,0 +1,25 @@
+#!/usr/bin/bc -q
+
+/*
+ * Language: bc
+ * Web page: http://www.gnu.org/software/bc/
+ * Ubuntu: apt-get install bc
+ */
+
+for (i=1; i<=100; i++) {
+    printed=0
+    if (i % 3 == 0) {
+        print "Fizz"
+        printed=1
+    }
+    if (i % 5 == 0) {
+        print "Buzz"
+        printed=1
+    }
+    if (!printed) {
+        print i
+    }
+    print "\n"
+}
+
+halt
