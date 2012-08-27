@@ -20,6 +20,12 @@ run() {
             ./$basename > $out
             rm -f $basename{,.ali,.o}
             ;;
+        b)
+            sed 's/^$/#include <stdio.h>/;s/main()/int main(void)/;s/auto/auto int/;s/*n/\\n/' $filename >| $filename.c
+            gcc $filename.c -o $basename
+            ./$basename > $out
+            rm -f $filename.c $basename
+            ;;
         bas)
             bwbasic $filename | sed '/ \|^$/d' > $out # Need to filter out the copyright header
             ;;
