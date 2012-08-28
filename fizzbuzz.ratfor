@@ -2,6 +2,7 @@
 # Web site: http://sepwww.stanford.edu/doku.php?id=sep:software:ratfor
 # Ubuntu: apt-get install f2c ratfor
 
+program fizzbuzz
 integer i
 
 do i = 1, 100 {
@@ -14,15 +15,22 @@ do i = 1, 100 {
     else if (mod(i, 5) == 0) {
        print '(a)', 'Buzz'
     }
-    else if (i < 10) {
-        print '(i1)', i
-    }
-    else if (i < 100) {
-        print '(i2)', i
-    }
     else {
-        print '(i3)', i
+        call print_integer(i)
     }
 }
 
+end
+
+subroutine print_integer(n)
+integer n
+    if (n < 10) {
+        print '(i1)', n
+    }
+    else if (n < 100) {
+        print '(i2)', n
+    }
+    else {
+        print '(i3)', n
+    }
 end
