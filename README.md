@@ -17,7 +17,7 @@ The requirements are simple:
 In my [fizzbuz-c](https://github.com/Keith-S-Thompson/fizzbuzz-c) project
 I present multiple (33 at last count) C solutions.
 
-Here I present multiple implementations, one in each language.  The current set of languages (35 of them) is:
+Here I present multiple implementations, one in each language.  The current set of languages (36 of them) is:
 
 * [Ada](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.adb)
 * [Algol 68](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.a68)
@@ -49,6 +49,7 @@ Here I present multiple implementations, one in each language.  The current set 
 * [Perl 6](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.pl6)
 * [Python 2](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.py)
 * [Python 3](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.py3)
+* [Ratfor](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.ratfor)
 * [REXX](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.rexx)
 * [Ruby](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.rb)
 * [Scala](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.scala)

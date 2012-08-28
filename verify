@@ -96,6 +96,13 @@ run() {
         mod)
             m2c $filename /usr/lib/m2c/*.o -lm -o $basename
             ./$basename > $out
+            rm -f $basename
+            ;;
+        ratfor)
+            ratfor -o $filename.f $filename
+            f77 $filename.f -o $basename
+            ./$basename > $out
+            rm -f $filename.f $basename
             ;;
         scala)
             scalac $filename

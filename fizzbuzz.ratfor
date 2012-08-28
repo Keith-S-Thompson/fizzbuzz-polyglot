@@ -1,0 +1,28 @@
+# Language: Ratfor
+# Web site: http://sepwww.stanford.edu/doku.php?id=sep:software:ratfor
+# Ubuntu: apt-get install f2c ratfor
+
+integer i
+
+do i = 1, 100 {
+    if (mod(i, 15) == 0) {
+       print '(a)', 'FizzBuzz'
+    }
+    else if (mod(i, 3) == 0) {
+       print '(a)', 'Fizz'
+    }
+    else if (mod(i, 5) == 0) {
+       print '(a)', 'Buzz'
+    }
+    else if (i < 10) {
+        print '(i1)', i
+    }
+    else if (i < 100) {
+        print '(i2)', i
+    }
+    else {
+        print '(i3)', i
+    }
+}
+
+end
