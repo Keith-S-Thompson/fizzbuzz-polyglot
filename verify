@@ -34,6 +34,11 @@ run() {
             ./$basename > $out
             rm -f $basename
             ;;
+        cob)
+            cobc -x $filename
+            ./$basename > $out
+            rm -f $basename
+            ;;
         cpp)
             g++ $filename -o $basename
             ./$basename > $out
