@@ -64,6 +64,11 @@ run() {
             ./$basename > $out
             rm -f $basename
             ;;
+        hs)
+            ghc $filename
+            ./$basename > $out
+            rm -f $basename
+            ;;
         java)
             javac $filename
             jar cvf $basename.jar $basename.class
