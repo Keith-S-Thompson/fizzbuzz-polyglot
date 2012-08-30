@@ -15,7 +15,7 @@ The requirements are simple:
 > five print "FizzBuzz".
 
 In my [fizzbuz-c](https://github.com/Keith-S-Thompson/fizzbuzz-c) project
-I present multiple (33 at last count) C solutions.
+I present multiple (35 at last count) C solutions.
 
 Here I present multiple implementations, one in each language.  The current set of languages (38 of them) is:
 
