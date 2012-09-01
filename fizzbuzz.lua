@@ -1,5 +1,9 @@
 #!/usr/bin/lua
 
+-- Language: Lua
+-- Web site: http://www.lua.org/
+-- Ubuntu:   apt-get install lua50
+
 -- The "%" operator was only added to Lua in version 5.1
 function is_multiple(a, b)
     return a/b == math.floor(a/b);

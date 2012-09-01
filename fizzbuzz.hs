@@ -1,6 +1,6 @@
 -- Language: Haskell
 -- Web site: http://www.haskell.org/
--- Ubuntu: apt-get install ghc
+-- Ubuntu:   apt-get install ghc
 
 line n
     | n `mod` 15 == 0 = "FizzBuzz"

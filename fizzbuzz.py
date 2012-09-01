@@ -1,5 +1,9 @@
 #!/usr/bin/python
 
+# Language: Python
+# Web site: http://python.org/
+# Ubuntu:   apt-get install python
+
 for i in range(1,101):
     if i % 15 == 0:
         print "FizzBuzz"

@@ -1,5 +1,9 @@
 #!/bin/sh
 
+# Language: Bourne shell
+# Web site: (Defined by POSIX; see opengroup.org)
+# Ubuntu:   (pre-installed)
+
 i=1
 while [ $i -le 100 ] ; do
     if [ `expr $i % 15` -eq 0 ] ; then

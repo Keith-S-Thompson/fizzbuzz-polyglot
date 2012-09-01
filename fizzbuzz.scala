@@ -1,3 +1,7 @@
+// Language: Scala
+// Web site: http://www.scala-lang.org/
+// Ubuntu:   apt-get install scala
+
 object fizzbuzz
 {
     def main(args: Array[String]) = {

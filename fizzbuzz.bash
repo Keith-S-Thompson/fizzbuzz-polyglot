@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# Language: bash
+# Web site: http://www.gnu.org/software/bash/
+# Ubuntu:   The "bash" package is pre-installed
+
 for (( i=1 ; i <= 100; i ++ )) ; do
     if (( $i % 15 == 0 )) ; then
         echo FizzBuzz

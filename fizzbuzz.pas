@@ -1,3 +1,8 @@
+(*
+ * Language: Pascal
+ * Web site: http://www.freepascal.org/
+ * Ubuntu:   apt-get install fp-compiler
+ *)
 program FizzBuzz;
 var
     I: Integer;

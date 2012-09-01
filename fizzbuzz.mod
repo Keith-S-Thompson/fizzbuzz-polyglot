@@ -1,7 +1,8 @@
 (* 
  * Language: Modula-2
  * Web site: http://www.modula2.org/
- * Ubuntu: apt-get install m2c
+ * Ubuntu:   apt-get install m2c
+ *
  * NOTE: The m2c command doesn't invoke the linker with the required
  * libraries; see "verify" for the ugly workaround.
  *)

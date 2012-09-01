@@ -1,6 +1,6 @@
       * LANGUAGE: COBOL
       * Web site: http://www.opencobol.org/
-      * Ubuntu: apt-get install open-cobol
+      * Ubuntu:   apt-get install open-cobol
 
         IDENTIFICATION DIVISION.
         PROGRAM-ID. FIZZBUZZ.

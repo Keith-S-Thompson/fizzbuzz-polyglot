@@ -1,7 +1,9 @@
 #!/usr/bin/js
 
 // Language: JavaScript
-// Ubuntu: apt-get install rhino
+// Web site: https://developer.mozilla.org/en-US/docs/JavaScript
+// Ubuntu:   apt-get install rhino
+//
 // NOTE: Installing the "nodejs" package breaks this program;
 // I'll investigate later.
 

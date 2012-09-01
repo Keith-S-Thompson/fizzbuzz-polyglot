@@ -1,3 +1,7 @@
+// Language: go
+// Web site: http://golang.org/
+// Ubuntu:   apt-get install golang
+
 package main
 
 import "fmt"

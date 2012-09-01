@@ -1,3 +1,7 @@
+// Language: D
+// Web site: http://dlang.org/
+// Ubuntu:   apt-get install gdc
+
 import std.stdio;
 import std.string;
 void main() {

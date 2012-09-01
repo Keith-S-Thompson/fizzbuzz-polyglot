@@ -1,5 +1,6 @@
 ' Language: Visual Basic .NET
-' Ubuntu: apt-get install mono-vbnc
+' Web site: http://msdn.microsoft.com/en-us/vstudio/hh388568.aspx
+' Ubuntu:   apt-get install mono-vbnc
 
 Module FizzBuzz
     Sub Main()

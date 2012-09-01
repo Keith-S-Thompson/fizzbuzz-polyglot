@@ -1,3 +1,8 @@
+C Language: Fortran
+C Web site: http://gcc.gnu.org/wiki/GFortran (for the GNU implementation)
+C Ubuntu:   apt-get install gfortran
+C TODO:     Write programs for different versions of the language (77, 90, ...)
+
        program FizzBuzz
 
        do 1 i = 1, 100

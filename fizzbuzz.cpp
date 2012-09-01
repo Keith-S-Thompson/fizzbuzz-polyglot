@@ -1,3 +1,7 @@
+// Language: C++
+// Web site: http://www.open-std.org/JTC1/SC22/WG21/
+// Ubuntu:   apt-get install g++
+
 #include <iostream>
 int main() {
     for (int i = 1; i <= 100; i ++) {

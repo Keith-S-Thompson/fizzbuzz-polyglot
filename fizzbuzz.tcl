@@ -1,5 +1,9 @@
 #!/usr/bin/tclsh
 
+# Language: Tcl
+# Web site: http://www.tcl.tk/
+# Ubuntu:   apt-get install tcl
+
 for {set i 1} {$i<= 100} {incr i} {
     if {$i % 15 == 0} {
         puts "FizzBuzz"

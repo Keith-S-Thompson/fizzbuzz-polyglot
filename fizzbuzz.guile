@@ -1,6 +1,10 @@
 #!/usr/bin/guile --no-auto-compile
 !#
 
+; Language: Guile
+; Web site: http://www.gnu.org/software/guile/
+; Ubuntu:   apt-get install guile-2.0
+
 (define line
     (lambda (n)
         (cond ((= (modulo n 15) 0) (display "FizzBuzz") (newline))

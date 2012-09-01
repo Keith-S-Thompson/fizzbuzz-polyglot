@@ -1,5 +1,9 @@
 #!/usr/bin/ruby
 
+# Language: Ruby
+# Web site: http://www.ruby-lang.org/
+# Ubuntu:   apt-get install ruby
+
 for i in 1..100
     if i % 15 == 0
         print "FizzBuzz\n"

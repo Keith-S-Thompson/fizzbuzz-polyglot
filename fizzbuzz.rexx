@@ -3,7 +3,7 @@
 /* 
  * Language: REXX
  * Web site: http://regina-rexx.sourceforge.net/
- * Ubuntu: apt-get install regina-rexx
+ * Ubuntu:   apt-get install regina-rexx
 */
 
 DO I = 1 TO 100

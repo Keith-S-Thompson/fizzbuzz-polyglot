@@ -1,3 +1,7 @@
+// Language: Java
+// Web site: http://www.java.com/
+// Ubuntu:   apt-get install openjdk-6-jdk
+
 public class fizzbuzz
 {
     public static final void main( String args[] )

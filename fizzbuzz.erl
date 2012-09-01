@@ -2,7 +2,7 @@
 
 % Language: Erlang
 % Web site: http://www.erlang.org/
-% Ubuntu: apt-get install erlang
+% Ubuntu:   apt-get install erlang
 
 print_line(N) when N rem 15 == 0 ->
     io:format("FizzBuzz\n");

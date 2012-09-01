@@ -1,6 +1,6 @@
 // Language: G-Portugol
 // Web site: http://gpt.berlios.de/site/
-// Ubuntu: apt-get install gpt
+// Ubuntu:   apt-get install gpt
 
 algoritmo fizzbuzz;
 

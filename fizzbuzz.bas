@@ -1,7 +1,7 @@
 1 REM Language: BASIC
 2 REM Web site: http://www.bwbasic.at/info.htm
-3 REM Ubuntu: apt-get install bwbasic
-4 REM NOTE: The line numbers aren't necessary, but hey, it's BASIC!
+3 REM Ubuntu:   apt-get install bwbasic
+4 REM NOTE:     The line numbers aren't necessary, but hey, it's BASIC!
 10 for I = 1 to 100
 20 if I mod 15 = 0 then
 30 print "FizzBuzz"

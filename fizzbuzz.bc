@@ -3,7 +3,7 @@
 /*
  * Language: bc
  * Web page: http://www.gnu.org/software/bc/
- * Ubuntu: apt-get install bc
+ * Ubuntu:   apt-get install bc
  */
 
 for (i=1; i<=100; i++) {

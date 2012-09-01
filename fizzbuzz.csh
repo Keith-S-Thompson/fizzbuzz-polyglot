@@ -1,5 +1,9 @@
 #!/bin/csh -f
 
+# Language: csh (C shell)
+# Web site: http://www.tcsh.org/ (for tcsh, an enhanced version of csh)
+# Ubuntu:   apt-get install tcsh
+
 @ i = 1
 while ($i <= 100)
     if ($i % 15 == 0) then
