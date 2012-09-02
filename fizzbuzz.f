@@ -1,7 +1,6 @@
-C Language: Fortran
-C Web site: http://gcc.gnu.org/wiki/GFortran (for the GNU implementation)
-C Ubuntu:   apt-get install gfortran
-C TODO:     Write programs for different versions of the language (77, 90, ...)
+C Language: Fortran 77
+C Web site: http://www.netlib.org/f2c/ (for the f2c translator)
+C Ubuntu:   apt-get install fort77
 
        program FizzBuzz
 
@@ -36,4 +35,4 @@ C TODO:     Write programs for different versions of the language (77, 90, ...)
 
 1      continue
 
-       end program FizzBuzz
+       end
