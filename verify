@@ -55,6 +55,11 @@ run() {
             rm -f $basename
             ;;
         f)
+            fort77 $filename -o $basename
+            ./$basename > $out
+            rm -f $basename
+            ;;
+        f90)
             gfortran $filename -o $basename
             ./$basename > $out
             rm -f $basename
