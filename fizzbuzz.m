@@ -2,6 +2,10 @@
 // Web site: https://developer.apple.com/library/mac/#documentation/Cocoa/Conceptual/ObjectiveC/Introduction/introObjectiveC.html
 // Ubuntu:   apt-get install gobjc
 
+// Note: The use of Objective-C's object-oriented features (creating
+// and destroying a Num object for each line) is entirely gratuitous,
+// intended to distinguish this program from a pure C version.
+
 #import <stdio.h>
 #import <Foundation/Foundation.h>
 
