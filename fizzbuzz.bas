@@ -2,6 +2,9 @@
 2 REM Web site: http://www.bwbasic.at/info.htm
 3 REM Ubuntu:   apt-get install bwbasic
 4 REM NOTE:     The line numbers aren't necessary, but hey, it's BASIC!
+5 REM NOTE:     There doesn't seem to be a way to tell bwbasic not to
+6 REM           print a copyright header and a trailing blank line, so
+7 REM           the verify script filters them out.
 10 for I = 1 to 100
 20 if I mod 15 = 0 then
 30 print "FizzBuzz"
