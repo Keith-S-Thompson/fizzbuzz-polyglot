@@ -1,7 +1,6 @@
 ! Language: Fortran 90
 ! Web site: http://gcc.gnu.org/wiki/GFortran (for the GNU implementation)
 ! Ubuntu:   apt-get install gfortran
-! TODO:     Write programs for different versions of the language (77, 90, ...)
 
        program FizzBuzz
        implicit none
