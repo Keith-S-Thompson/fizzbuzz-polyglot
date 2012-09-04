@@ -17,7 +17,7 @@ The requirements are simple:
 In my [fizzbuz-c](https://github.com/Keith-S-Thompson/fizzbuzz-c) project
 I present multiple (37 at last count) C solutions.
 
-Here I present multiple implementations, one in each language.  The current set of languages (42 of them) is:
+Here I present multiple implementations, one in each language.  The current set of languages (43 of them) is:
 
 * [Ada](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.adb)
 * [Algol 68](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.a68)
@@ -59,8 +59,11 @@ Here I present multiple implementations, one in each language.  The current set 
 * [REXX](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.rexx)
 * [Ruby](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.rb)
 * [Scala](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.scala)
+* [tail](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.tail)
 * [Tcl](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.tcl)
 * [Visual Basic .NET](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.vb)
+
+`tail` is simply the standard Unix/Linux utility, not a real scripting language.
 
 Many of these are inspired by http://99-bottles-of-beer.net/.
 
