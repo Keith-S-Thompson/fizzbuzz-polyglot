@@ -74,6 +74,12 @@ run() {
             ./$basename > $out
             rm -f $basename
             ;;
+        groovy)
+            groovyc $filename
+            jar cvf $basename.jar *.class
+            CLASSPATH=$basename.jar groovy $basename > $out
+            rm -f *.class $basename.jar
+            ;;
         hs)
             ghc $filename
             ./$basename > $out
