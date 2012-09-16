@@ -65,7 +65,7 @@ run() {
             rm -f $basename
             ;;
         fizzbuzz)
-            fizzbuzz $filename > $out
+            /usr/local/bin/fizzbuzz $filename > $out
             ;;
         go)
             go build -o $basename $filename
