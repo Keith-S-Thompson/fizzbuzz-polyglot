@@ -1,0 +1,18 @@
+#!/usr/bin/node
+
+// Language: Node.js (JavaScript)
+// Web site: http://nodejs.org/
+// Ubuntu:   apt-get install nodejs curl
+
+var http = require('http');
+ 
+http.createServer(function (request, response) {
+    response.writeHead(200, {'Content-Type': 'text/plain'});
+    for (i = 1; i <= 100; i ++) {
+        response.write(i % 15 == 0 ? "FizzBuzz\n" :
+                       i %  3 == 0 ? "Fizz\n" :
+                       i %  5 == 0 ? "Buzz\n" :
+                       i.toString() + "\n")
+    }
+    response.end()
+}).listen(9000);

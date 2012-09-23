@@ -122,6 +122,12 @@ run() {
             ./$basename > $out
             rm -f $basename
             ;;
+        nodejs)
+             ./$filename &
+             sleep 1
+             curl --silent http://localhost:9000 > $out
+             kill $!
+             ;;
         ratfor)
             ratfor -o $filename.f $filename
             f77 $filename.f -o $basename
