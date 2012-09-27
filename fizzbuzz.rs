@@ -5,18 +5,10 @@
 fn main() {
     let mut i = 1;
     while i <= 100 {
-        if i % 15 == 0 {
-            io::println("FizzBuzz");
-        }
-        else if i % 3 == 0 {
-            io::println("Fizz");
-        }
-        else if i % 5 == 0 {
-            io::println("Buzz");
-        }
-        else {
-            io::println(#fmt("%d", i));
-        }
+        io::println( if i % 15 == 0 { "FizzBuzz" }
+                     else if i % 3 == 0 { "Fizz" }
+                     else if i % 5 == 0 { "Buzz" }
+                     else { #fmt("%d", i) });
         i += 1;
     }
 }
