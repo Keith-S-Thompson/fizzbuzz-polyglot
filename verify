@@ -134,6 +134,11 @@ run() {
             ./$basename > $out
             rm -f $filename.f $basename
             ;;
+        rs)
+            rustc $filename
+            ./$basename > $out
+            rm -f $basename
+            ;;
         scala)
             scalac $filename
             jar cvf $basename.jar *.class
