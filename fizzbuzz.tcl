@@ -2,7 +2,7 @@
 
 # Language: Tcl
 # Web site: http://www.tcl.tk/
-# Ubuntu:   apt-get install tcl
+# Ubuntu:   Package "tcl8.5" is pre-installed.
 
 for {set i 1} {$i<= 100} {incr i} {
     if {$i % 15 == 0} {

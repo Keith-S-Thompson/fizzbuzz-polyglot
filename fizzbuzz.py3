@@ -2,7 +2,7 @@
 
 # Language: Python3
 # Web site: http://python.org/
-# Ubuntu:   apt-get install python3
+# Ubuntu:   Package "python3" is pre-installed
 
 for i in range(1,101):
     if i % 15 == 0:

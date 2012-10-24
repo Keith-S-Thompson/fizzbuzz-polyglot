@@ -1,8 +1,11 @@
-#!/usr/bin/node
+#!/usr/bin/nodejs
 
 // Language: Node.js (JavaScript)
 // Web site: http://nodejs.org/
 // Ubuntu:   apt-get install nodejs curl
+
+// Note: In Ubuntu 12.04, the interpreter is "/usr/bin/node";
+// in 12.10, it's "/usr/bin/nodejs"
 
 var http = require('http');
  

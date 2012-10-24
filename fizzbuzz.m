@@ -1,6 +1,6 @@
 // Language: Objective-C
 // Web site: https://developer.apple.com/library/mac/#documentation/Cocoa/Conceptual/ObjectiveC/Introduction/introObjectiveC.html
-// Ubuntu:   apt-get install gobjc
+// Ubuntu:   apt-get install gobjc libgnustep-base-dev
 
 // Note: The use of Objective-C's object-oriented features (creating
 // and destroying a Num object for each line) is entirely gratuitous,

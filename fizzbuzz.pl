@@ -2,7 +2,7 @@
 
 # Language: Perl
 # Web site: http://www.perl.org/
-# Ubuntu:   apt-get install perl (pre-installed)
+# Ubuntu:   Package "perl" is pre-installed
 
 use strict;
 use warnings;

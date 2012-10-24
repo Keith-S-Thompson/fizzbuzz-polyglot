@@ -2,7 +2,7 @@
 
 # Language: Bourne shell
 # Web site: (Defined by POSIX; see opengroup.org)
-# Ubuntu:   (pre-installed)
+# Ubuntu:   Package "dash" is pre-installed.
 
 i=1
 while [ $i -le 100 ] ; do

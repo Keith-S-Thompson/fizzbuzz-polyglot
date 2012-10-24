@@ -3,7 +3,7 @@
 # Language: Awk
 # Web site: http://invisible-island.net/mawk/
 #           http://www.gnu.org/software/gawk/
-# Ubuntu:   mawk is pre-installed *or* apt-get install gawk
+# Ubuntu:   The "mawk" package is pre-installed *or* apt-get install gawk
 
 BEGIN {
     for (i = 1; i <= 100; i ++) {
