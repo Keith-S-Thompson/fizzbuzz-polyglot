@@ -2,7 +2,7 @@
 
 # Language: Make
 # Web site: http://www.gnu.org/software/make/ (for the GNU implementation)
-# Ubuntu:   apt-get install make (probably pre-installed)
+# Ubuntu:   Package "make" is pre-installed
 
 # This is a brute-force approach, where each line depends on the previous
 # one.  There may be a way to force make itself to do the iteration and/or

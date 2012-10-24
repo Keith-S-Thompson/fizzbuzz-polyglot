@@ -1,7 +1,8 @@
 /*
  * Language: C
  * Web site: http://www.open-std.org/JTC1/SC22/WG14/
- * Ubuntu:   apt-get install gcc
+ *           http://gcc.gnu.org/
+ * Ubuntu:   The "gcc" package is pre-installed 
  */
 
 #include <stdio.h>

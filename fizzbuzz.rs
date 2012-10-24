@@ -1,6 +1,7 @@
 // Language: Rust
 // Web site: http://www.rust-lang.org/
 // Ubuntu:   Build compiler from source
+//           I was able to build rust-0.3.1 but not rust-0.4
 
 fn main() {
     let mut i = 1;
