@@ -17,7 +17,7 @@ The requirements are simple:
 In my [fizzbuz-c](https://github.com/Keith-S-Thompson/fizzbuzz-c) project
 I present multiple (37 at last count) C solutions.
 
-Here I present multiple implementations, one in each language.  The current set of languages (48 of them) is:
+Here I present multiple implementations, one in each language.  The current set of languages (49 of them) is:
 
 * [Ada](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.adb)
 * [Algol 68](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.a68)
@@ -67,6 +67,7 @@ Here I present multiple implementations, one in each language.  The current set 
 * [tail](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.tail)
 * [Tcl](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.tcl)
 * [Visual Basic .NET](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.vb)
+* [x86 assembly](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.s)
 
 `tail` is simply the standard Unix/Linux utility, not a real scripting language.
 
@@ -77,9 +78,9 @@ is correct.  It works on my system, Ubuntu 12.10 with a certain set
 of packages installed.  One minor change is needed to work in Ubuntu
 12.04; that change is visible on the "ubuntu-12.04" git branch.
 
-Note that I don't have a B compiler; instead, I used `sed` to translate
-`fizzbuzz.b` to equivalent C code, which I then compile and execute. I
-can't guarantee that the translation (which is *extremely* ad-hoc)
-is correct.
+I don't have a B compiler.  Instead, I use `sed` to translate
+`fizzbuzz.b` to equivalent C code, which I then compile and
+execute. I can't guarantee that the translation (which is *extremely*
+ad-hoc) is correct.
 
 Do not take this too seriously.
