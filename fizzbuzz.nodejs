@@ -5,7 +5,8 @@
 // Ubuntu:   apt-get install nodejs curl
 
 // Note: In Ubuntu 12.04, the interpreter is "/usr/bin/node";
-// in 12.10, it's "/usr/bin/nodejs"
+// in 12.10, it's "/usr/bin/nodejs".  The "verify" script
+// allows for this.
 
 var http = require('http');
  
