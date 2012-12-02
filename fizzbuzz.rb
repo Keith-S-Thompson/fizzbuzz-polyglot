@@ -6,12 +6,12 @@
 
 for i in 1..100
     if i % 15 == 0
-        print "FizzBuzz\n"
+        puts "FizzBuzz"
     elsif i % 3 == 0
-        print "Fizz\n"
+        puts "Fizz"
     elsif i % 5 == 0
-        print "Buzz\n"
+        puts "Buzz"
     else
-        print i, "\n"
+        puts i
     end
 end
