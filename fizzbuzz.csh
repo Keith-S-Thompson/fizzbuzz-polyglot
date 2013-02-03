@@ -2,7 +2,7 @@
 
 # Language: csh (C shell)
 # Web site: http://www.tcsh.org/ (for tcsh, an enhanced version of csh)
-# Ubuntu:   apt-get install tcsh
+# Ubuntu:   apt-get install tcsh (or csh)
 
 @ i = 1
 while ($i <= 100)
