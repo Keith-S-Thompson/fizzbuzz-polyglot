@@ -74,9 +74,15 @@ Here I present multiple implementations, one in each language.  The current set 
 Many of these are inspired by http://99-bottles-of-beer.net/.
 
 The `verify` script executes each program and confirms that its output
-is correct.  It works on my system, Ubuntu 12.10 with a certain set
-of packages installed.  One minor change is needed to work in Ubuntu
-12.04; that change is visible on the "ubuntu-12.04" git branch.
+is correct.  It works on my system, Linux Mint 14 on x86_64 with a
+certain set of packages installed.  (Linux Mint is derived from Ubuntu).
+
+A previous version worked on Ubuntu 12.10 x86.
+
+I intend to set up a fresh installation of Ubuntu 12.10 x86_64 system
+on a virtual machine to confirm that all tests will pass when the
+specified packages are installed.  I'll write and publish a script
+to automate the entire process.
 
 I don't have a B compiler.  Instead, I use `sed` to translate
 `fizzbuzz.b` to equivalent C code, which I then compile and
