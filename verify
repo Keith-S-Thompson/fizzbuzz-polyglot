@@ -118,7 +118,7 @@ run() {
             m4 $filename > $out
             ;;
         mod)
-            m2c $filename /usr/lib/m2c/*.o -lm -o $basename
+            gm2 $filename -o $basename
             ./$basename > $out
             rm -f $basename
             ;;
