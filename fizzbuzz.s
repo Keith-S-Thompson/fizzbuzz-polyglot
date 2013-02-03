@@ -1,12 +1,15 @@
 /*
- * Language: x86 assembly
+ * Language: x86_64 assembly
  * Web site: http://gcc.gnu.org/
  * Ubuntu:   The "gcc" package is pre-installed 
  *
  * Note: The code is simply generated from fizzbuzz.c with the command:
  *       "gcc -std=c99 -S fizzbuzz.c"
+ *
+ * (The previous version was 32-bit x86 code; my new system is x86_64.)
  */
 
+	.file	"fizzbuzz.c"
 	.section	.rodata
 .LC0:
 	.string	"FizzBuzz"
@@ -22,21 +25,20 @@
 main:
 .LFB0:
 	.cfi_startproc
-	pushl	%ebp
-	.cfi_def_cfa_offset 8
-	.cfi_offset 5, -8
-	movl	%esp, %ebp
-	.cfi_def_cfa_register 5
-	andl	$-16, %esp
-	subl	$32, %esp
-	movl	$1, 28(%esp)
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movq	%rsp, %rbp
+	.cfi_def_cfa_register 6
+	subq	$16, %rsp
+	movl	$1, -4(%rbp)
 	jmp	.L2
 .L7:
-	movl	28(%esp), %ecx
+	movl	-4(%rbp), %ecx
 	movl	$-2004318071, %edx
 	movl	%ecx, %eax
 	imull	%edx
-	leal	(%edx,%ecx), %eax
+	leal	(%rdx,%rcx), %eax
 	movl	%eax, %edx
 	sarl	$3, %edx
 	movl	%ecx, %eax
@@ -49,11 +51,11 @@ main:
 	subl	%eax, %edx
 	testl	%edx, %edx
 	jne	.L3
-	movl	$.LC0, (%esp)
+	movl	$.LC0, %edi
 	call	puts
 	jmp	.L4
 .L3:
-	movl	28(%esp), %ecx
+	movl	-4(%rbp), %ecx
 	movl	$1431655766, %edx
 	movl	%ecx, %eax
 	imull	%edx
@@ -67,11 +69,11 @@ main:
 	subl	%eax, %edx
 	testl	%edx, %edx
 	jne	.L5
-	movl	$.LC1, (%esp)
+	movl	$.LC1, %edi
 	call	puts
 	jmp	.L4
 .L5:
-	movl	28(%esp), %ecx
+	movl	-4(%rbp), %ecx
 	movl	$1717986919, %edx
 	movl	%ecx, %eax
 	imull	%edx
@@ -86,26 +88,26 @@ main:
 	subl	%eax, %edx
 	testl	%edx, %edx
 	jne	.L6
-	movl	$.LC2, (%esp)
+	movl	$.LC2, %edi
 	call	puts
 	jmp	.L4
 .L6:
-	movl	28(%esp), %eax
-	movl	%eax, 4(%esp)
-	movl	$.LC3, (%esp)
+	movl	-4(%rbp), %eax
+	movl	%eax, %esi
+	movl	$.LC3, %edi
+	movl	$0, %eax
 	call	printf
 .L4:
-	addl	$1, 28(%esp)
+	addl	$1, -4(%rbp)
 .L2:
-	cmpl	$100, 28(%esp)
+	cmpl	$100, -4(%rbp)
 	jle	.L7
 	movl	$0, %eax
 	leave
-	.cfi_restore 5
-	.cfi_def_cfa 4, 4
+	.cfi_def_cfa 7, 8
 	ret
 	.cfi_endproc
 .LFE0:
 	.size	main, .-main
-	.ident	"GCC: (Ubuntu/Linaro 4.7.0-7ubuntu3) 4.7.0"
+	.ident	"GCC: (Ubuntu/Linaro 4.7.2-2ubuntu1) 4.7.2"
 	.section	.note.GNU-stack,"",@progbits
