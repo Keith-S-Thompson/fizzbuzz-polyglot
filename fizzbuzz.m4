@@ -1,6 +1,6 @@
 dnl Language: m4
 dnl Web site: http://www.gnu.org/software/m4/
-dnl Ubuntu:   Package "m4" is pre-installed
+dnl Ubuntu:   Package "m4" is pre-installed (not on Linux Mint, re-check this)
 define(`line', `ifelse(eval($1 % 15), `0', `FizzBuzz
 ',
                        eval($1 %  3), `0', `Fizz
