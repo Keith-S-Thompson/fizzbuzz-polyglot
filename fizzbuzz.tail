@@ -1,11 +1,12 @@
-#!/usr/bin/tail +10
+#!/usr/bin/tail +11
 
 Language: tail
 Web site: http://www.gnu.org/software/coreutils/
 Ubuntu:   apt-get install coreutils (pre-installed)
 
 NOTE: This is cheating; "tail" is not really a scripting language.
-
+This may require setting the environment variable $_POSIX2_VERSION to "199209"
+to enable "tail +11" as a synonym for "tail -n +11"
 
 1
 2
