@@ -49,6 +49,9 @@ run() {
             ./$basename.exe > $out
             rm -f $basename.exe
             ;;
+        curl)
+            ./$filename > $out 2>/dev/null
+            ;;
         d)
             gdc $filename -o $basename
             ./$basename > $out
@@ -145,7 +148,7 @@ run() {
             ./$basename > $out
             rm -f $basename
             ;;
-        s)
+        sx)
             gcc $filename -o $basename
             ./$basename > $out
             rm -f $basename
@@ -155,6 +158,9 @@ run() {
             jar cvf $basename.jar *.class
             CLASSPATH=$basename.jar scala $basename > $out
             rm -f *.class $basename.jar
+            ;;
+        tail)
+            _POSIX2_VERSION=199209 ./$filename > $out
             ;;
         vb)
             vbnc $filename

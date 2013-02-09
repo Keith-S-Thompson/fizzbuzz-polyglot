@@ -18,7 +18,7 @@ In my [fizzbuz-c](https://github.com/Keith-S-Thompson/fizzbuzz-c) project
 I present multiple (37 at last count) C solutions.
 
 Here I present multiple implementations, one in each language.
-The current set of languages (50 of them) is:
+The current set of languages (51 of them) is:
 
 * [Ada](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.adb)
 * [Algol 68](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.a68)
@@ -35,6 +35,7 @@ The current set of languages (50 of them) is:
 * [cat](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.cat)
 * [Clojure](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.clojure)
 * [COBOL](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.cob)
+* [curl](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.curl)
 * [D](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.d)
 * [Erlang (using escript)](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.erl)
 * [Falcon](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.fal)
@@ -69,7 +70,7 @@ The current set of languages (50 of them) is:
 * [tail](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.tail)
 * [Tcl](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.tcl)
 * [Visual Basic .NET](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.vb)
-* [x86 assembly](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.s)
+* [x86/x86_64/SPARC assembly](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.sx)
 
 Many of these are inspired by http://99-bottles-of-beer.net/.
 
@@ -77,11 +78,16 @@ Many of these are inspired by http://99-bottles-of-beer.net/.
 scripting languages.  The `cat` implementation in particular is an ugly
 cheat, depending on the existence of the `expected-output.txt` file.
 
-The `verify` script executes each program and confirms that its output
-is correct.  It works on my system, Linux Mint 14 on x86_64 with a
-certain set of packages installed.  (Linux Mint is derived from Ubuntu).
+`curl` is a URL transfer utility, not a programming language.
+`fizzbuzz.curl`, like `fizzbuzz.cat`, depends on the existence
+of `expected-output.txt`, but on this [`GitHub` project
+page](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot) rather
+than in the current directory; it also requires an Internet connection.
 
-A previous version worked on Ubuntu 12.10 x86.
+The `verify` script executes each program and confirms that its
+output is correct.  It works on my systems, x86 Ubuntu 12.10 and
+x86_64 Linux Mint 14, with required packages installed as documented
+in each source file.  (Linux Mint is derived from Ubuntu).
 
 I intend to set up a fresh installation of Ubuntu 12.10 x86_64 system
 on a virtual machine to confirm that all tests will pass when the
