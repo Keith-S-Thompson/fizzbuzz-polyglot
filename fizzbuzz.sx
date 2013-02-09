@@ -1,0 +1,414 @@
+/*
+ * Language: x86/x86_64/SPARC assembly
+ * Web site: http://gcc.gnu.org/
+ * Ubuntu:   The "gcc" package is pre-installed 
+ *
+ * The code was generated from fizzbuzz.c with the command:
+ *     "gcc -std=c99 -O3 -S fizzbuzz.c"
+ * on Linux/x86, Linux/x86_64, Cygwin, and SPARC/Solaris systems,
+ * and then merged into a single file which can then processed by the
+ * C preprocessor.  (The ".sx" suffix tells gcc to treat the file
+ * as assembly language to be preprocessed).
+ */
+
+#if defined(__CYGWIN32__)
+	.file	"fizzbuzz.c"
+	.def	___main;	.scl	2;	.type	32;	.endef
+	.section .rdata,"dr"
+LC0:
+	.ascii "FizzBuzz\0"
+LC1:
+	.ascii "Fizz\0"
+LC2:
+	.ascii "Buzz\0"
+LC3:
+	.ascii "%d\12\0"
+	.text
+	.p2align 4,,15
+.globl _main
+	.def	_main;	.scl	2;	.type	32;	.endef
+_main:
+	pushl	%ebp
+	movl	%esp, %ebp
+	andl	$-16, %esp
+	pushl	%edi
+	movl	$1431655766, %edi
+	pushl	%esi
+	movl	$-2004318071, %esi
+	pushl	%ebx
+	movl	$1, %ebx
+	subl	$20, %esp
+	call	___main
+	jmp	L6
+	.p2align 4,,7
+L2:
+	movl	%ebx, %eax
+	imull	%edi
+	subl	%ecx, %edx
+	leal	(%edx,%edx,2), %eax
+	cmpl	%eax, %ebx
+	je	L9
+	movl	%ebx, %eax
+	movl	$1717986919, %edx
+	imull	%edx
+	sarl	%edx
+	subl	%ecx, %edx
+	leal	(%edx,%edx,4), %eax
+	cmpl	%eax, %ebx
+	jne	L5
+	movl	$LC2, (%esp)
+	call	_puts
+L3:
+	addl	$1, %ebx
+	cmpl	$101, %ebx
+	je	L10
+L6:
+	movl	%ebx, %eax
+	movl	%ebx, %ecx
+	imull	%esi
+	sarl	$31, %ecx
+	addl	%ebx, %edx
+	sarl	$3, %edx
+	subl	%ecx, %edx
+	movl	%edx, %eax
+	sall	$4, %eax
+	subl	%edx, %eax
+	cmpl	%eax, %ebx
+	jne	L2
+	addl	$1, %ebx
+	movl	$LC0, (%esp)
+	call	_puts
+	cmpl	$101, %ebx
+	jne	L6
+L10:
+	addl	$20, %esp
+	xorl	%eax, %eax
+	popl	%ebx
+	popl	%esi
+	popl	%edi
+	movl	%ebp, %esp
+	popl	%ebp
+	ret
+	.p2align 4,,7
+L5:
+	movl	%ebx, 4(%esp)
+	movl	$LC3, (%esp)
+	call	_printf
+	jmp	L3
+	.p2align 4,,7
+L9:
+	movl	$LC1, (%esp)
+	call	_puts
+	jmp	L3
+	.def	_puts;	.scl	2;	.type	32;	.endef
+	.def	_printf;	.scl	2;	.type	32;	.endef
+#elif defined(__sun__) && defined(__sparc__)
+	.file	"fizzbuzz.c"
+	.section	".rodata"
+	.align 8
+.LLC0:
+	.asciz	"FizzBuzz"
+	.align 8
+.LLC1:
+	.asciz	"Fizz"
+	.align 8
+.LLC2:
+	.asciz	"Buzz"
+	.align 8
+.LLC3:
+	.asciz	"%d\n"
+	.section	".text"
+	.align 4
+	.global main
+	.type	main, #function
+	.proc	04
+main:
+	save	%sp, -112, %sp
+	sethi	%hi(-2004318208), %g1
+	sethi	%hi(1431655424), %g2
+	or	%g1, 137, %l2
+	sethi	%hi(1717986304), %g1
+	or	%g2, 342, %l1
+	or	%g1, 615, %l0
+	sethi	%hi(.LLC3), %g2
+	sethi	%hi(.LLC2), %g1
+	or	%g2, %lo(.LLC3), %l5
+	or	%g1, %lo(.LLC2), %l4
+	sethi	%hi(.LLC1), %g2
+	sethi	%hi(.LLC0), %g1
+	or	%g2, %lo(.LLC1), %l6
+	or	%g1, %lo(.LLC0), %l3
+	ba,pt	%xcc, .LL2
+	 mov	1, %i0
+.LL3:
+	add	%g4, %g4, %g1
+	add	%g1, %g4, %g1
+	cmp	%i0, %g1
+	be,pn	%icc, .LL15
+	 sll	%o5, 2, %g1
+	add	%g1, %o5, %g1
+	cmp	%i0, %g1
+	bne,pt	%icc, .LL8
+	 mov	%i0, %o1
+	call	puts, 0
+	 mov	%l4, %o0
+	add	%i0, 1, %i0
+.LL17:
+	cmp	%i0, 101
+	be,pn	%icc, .LL16
+	 nop
+.LL2:
+	smul	%i0, %l0, %g1
+	srlx	%g1, 32, %g1
+	sra	%g1, 1, %g1
+	sra	%i0, 31, %g2
+	smul	%i0, %l2, %g3
+	srlx	%g3, 32, %g3
+	smul	%i0, %l1, %g4
+	srlx	%g4, 32, %g4
+	add	%g3, %i0, %g3
+	sub	%g1, %g2, %o5
+	sra	%g3, 3, %g3
+	sub	%g3, %g2, %g3
+	sll	%g3, 4, %g1
+	sub	%g1, %g3, %g1
+	cmp	%i0, %g1
+	bne,pt	%icc, .LL3
+	 sub	%g4, %g2, %g4
+	call	puts, 0
+	 mov	%l3, %o0
+	add	%i0, 1, %i0
+	cmp	%i0, 101
+	bne,pt	%icc, .LL2
+	 nop
+.LL16:
+	return	%i7+8
+	 mov	0, %o0
+.LL8:
+	call	printf, 0
+	 mov	%l5, %o0
+	ba,pt	%xcc, .LL17
+	 add	%i0, 1, %i0
+.LL15:
+	call	puts, 0
+	 mov	%l6, %o0
+	ba,pt	%xcc, .LL17
+	 add	%i0, 1, %i0
+	.size	main, .-main
+	.ident	"GCC: (GNU) 4.2.1"
+#elif defined(__linux__) && defined(__i386__)
+	.file	"fizzbuzz.c"
+	.section	.rodata.str1.1,"aMS",@progbits,1
+.LC0:
+	.string	"FizzBuzz"
+.LC1:
+	.string	"Fizz"
+.LC2:
+	.string	"Buzz"
+.LC3:
+	.string	"%d\n"
+	.section	.text.startup,"ax",@progbits
+	.p2align 4,,15
+	.globl	main
+	.type	main, @function
+main:
+.LFB13:
+	.cfi_startproc
+	pushl	%ebp
+	.cfi_def_cfa_offset 8
+	.cfi_offset 5, -8
+	movl	%esp, %ebp
+	.cfi_def_cfa_register 5
+	pushl	%edi
+	.cfi_offset 7, -12
+	movl	$1431655766, %edi
+	pushl	%esi
+	.cfi_offset 6, -16
+	movl	$-2004318071, %esi
+	pushl	%ebx
+	.cfi_offset 3, -20
+	movl	$1, %ebx
+	andl	$-16, %esp
+	subl	$16, %esp
+	jmp	.L6
+	.p2align 4,,7
+	.p2align 3
+.L2:
+	movl	%ebx, %eax
+	imull	%edi
+	subl	%ecx, %edx
+	leal	(%edx,%edx,2), %eax
+	cmpl	%eax, %ebx
+	je	.L10
+	movl	%ebx, %eax
+	movl	$1717986919, %edx
+	imull	%edx
+	sarl	%edx
+	subl	%ecx, %edx
+	leal	(%edx,%edx,4), %eax
+	cmpl	%eax, %ebx
+	jne	.L5
+	movl	$.LC2, (%esp)
+	call	puts
+.L3:
+	addl	$1, %ebx
+	cmpl	$101, %ebx
+	je	.L11
+.L6:
+	movl	%ebx, %eax
+	movl	%ebx, %ecx
+	imull	%esi
+	sarl	$31, %ecx
+	addl	%ebx, %edx
+	sarl	$3, %edx
+	subl	%ecx, %edx
+	movl	%edx, %eax
+	sall	$4, %eax
+	subl	%edx, %eax
+	cmpl	%eax, %ebx
+	jne	.L2
+	movl	$.LC0, (%esp)
+	addl	$1, %ebx
+	call	puts
+	cmpl	$101, %ebx
+	jne	.L6
+.L11:
+	leal	-12(%ebp), %esp
+	xorl	%eax, %eax
+	popl	%ebx
+	.cfi_remember_state
+	.cfi_restore 3
+	popl	%esi
+	.cfi_restore 6
+	popl	%edi
+	.cfi_restore 7
+	popl	%ebp
+	.cfi_restore 5
+	.cfi_def_cfa 4, 4
+	ret
+	.p2align 4,,7
+	.p2align 3
+.L5:
+	.cfi_restore_state
+	movl	%ebx, 8(%esp)
+	movl	$.LC3, 4(%esp)
+	movl	$1, (%esp)
+	call	__printf_chk
+	jmp	.L3
+	.p2align 4,,7
+	.p2align 3
+.L10:
+	movl	$.LC1, (%esp)
+	call	puts
+	jmp	.L3
+	.cfi_endproc
+.LFE13:
+	.size	main, .-main
+	.ident	"GCC: (Ubuntu/Linaro 4.7.0-7ubuntu3) 4.7.0"
+	.section	.note.GNU-stack,"",@progbits
+#elif defined(__linux__) && defined(__x86_64__)
+	.file	"fizzbuzz.c"
+	.section	.rodata.str1.1,"aMS",@progbits,1
+.LC0:
+	.string	"FizzBuzz"
+.LC1:
+	.string	"Fizz"
+.LC2:
+	.string	"Buzz"
+.LC3:
+	.string	"%d\n"
+	.section	.text.startup,"ax",@progbits
+	.p2align 4,,15
+	.globl	main
+	.type	main, @function
+main:
+.LFB13:
+	.cfi_startproc
+	pushq	%rbp
+	.cfi_def_cfa_offset 16
+	.cfi_offset 6, -16
+	movl	$-2004318071, %ebp
+	pushq	%rbx
+	.cfi_def_cfa_offset 24
+	.cfi_offset 3, -24
+	movl	$1, %ebx
+	subq	$8, %rsp
+	.cfi_def_cfa_offset 32
+	jmp	.L6
+	.p2align 4,,10
+	.p2align 3
+.L2:
+	movl	%ebx, %eax
+	movl	$1431655766, %edx
+	imull	%edx
+	subl	%ecx, %edx
+	leal	(%rdx,%rdx,2), %eax
+	cmpl	%eax, %ebx
+	je	.L10
+	movl	%ebx, %eax
+	movl	$1717986919, %edx
+	imull	%edx
+	sarl	%edx
+	subl	%ecx, %edx
+	leal	(%rdx,%rdx,4), %eax
+	cmpl	%eax, %ebx
+	jne	.L5
+	movl	$.LC2, %edi
+	call	puts
+.L3:
+	addl	$1, %ebx
+	cmpl	$101, %ebx
+	je	.L11
+.L6:
+	movl	%ebx, %eax
+	movl	%ebx, %ecx
+	imull	%ebp
+	sarl	$31, %ecx
+	addl	%ebx, %edx
+	sarl	$3, %edx
+	subl	%ecx, %edx
+	movl	%edx, %eax
+	sall	$4, %eax
+	subl	%edx, %eax
+	cmpl	%eax, %ebx
+	jne	.L2
+	movl	$.LC0, %edi
+	addl	$1, %ebx
+	call	puts
+	cmpl	$101, %ebx
+	jne	.L6
+.L11:
+	addq	$8, %rsp
+	.cfi_remember_state
+	.cfi_def_cfa_offset 24
+	xorl	%eax, %eax
+	popq	%rbx
+	.cfi_def_cfa_offset 16
+	popq	%rbp
+	.cfi_def_cfa_offset 8
+	ret
+	.p2align 4,,10
+	.p2align 3
+.L5:
+	.cfi_restore_state
+	movl	%ebx, %edx
+	movl	$.LC3, %esi
+	movl	$1, %edi
+	xorl	%eax, %eax
+	call	__printf_chk
+	jmp	.L3
+	.p2align 4,,10
+	.p2align 3
+.L10:
+	movl	$.LC1, %edi
+	call	puts
+	.p2align 4,,3
+	jmp	.L3
+	.cfi_endproc
+.LFE13:
+	.size	main, .-main
+	.ident	"GCC: (Ubuntu/Linaro 4.7.2-2ubuntu1) 4.7.2"
+	.section	.note.GNU-stack,"",@progbits
+#else
+#error Unrecognized architecture
+#endif
