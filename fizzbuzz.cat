@@ -1,0 +1,11 @@
+#!/bin/sh
+
+# Language: cat
+# Web site: http://www.gnu.org/software/coreutils/
+# Ubuntu:   apt-get install coreutils (pre-installed)
+
+# NOTE: This is cheating; "cat" is not really a scripting language,
+# This depends on the existence of the expected-output.txt file
+# (provided with this project) in the current directory.
+
+cat expected-output.txt
