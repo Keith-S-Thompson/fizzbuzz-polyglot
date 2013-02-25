@@ -5,11 +5,11 @@
 # Ubuntu:   apt-get install fish
 
 for i in (seq 100)
-    if math "$i % 15 == 0" > /dev/null
+    if test (math "$i % 15") -eq 0
         echo FizzBuzz
-    else if math "$i % 3 == 0" > /dev/null
+    else if test (math "$i % 3") -eq 0
         echo Fizz
-    else if math "$i % 5 == 0" > /dev/null
+    else if test (math "$i % 5") -eq 0
         echo Buzz
     else
         echo $i
