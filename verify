@@ -125,6 +125,12 @@ run() {
             ./$basename > $out
             rm -f $basename
             ;;
+        nim)
+            nimrod compile $filename
+            ./$basename > $out
+            rm -f $basename
+            rm -rf nimcache
+            ;;
         nodejs)
             if [ -x /usr/bin/nodejs ] ; then
                 # Ubuntu 12.10
