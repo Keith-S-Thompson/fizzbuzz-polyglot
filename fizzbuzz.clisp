@@ -1,0 +1,23 @@
+#!/usr/bin/clisp
+
+; Language: Common Lisp
+; Web site: http://common-lisp.net/
+; Ubuntu:   apt-get install clisp
+
+(defun lines (n)
+  "Print lines from 1 to n"
+  (cond ((< n 1) nil)
+        (t (lines (1- n))(line n))
+  )
+)
+
+(defun line (n)
+    "Print a single line"
+    (cond ((= (mod n 15) 0) (format t "FizzBuzz~%"))
+          ((= (mod n 3) 0) (format t "Fizz~%"))
+          ((= (mod n 5) 0) (format t "Buzz~%"))
+          (t (format t "~a~%" n))
+    )
+)
+
+(lines 100)
