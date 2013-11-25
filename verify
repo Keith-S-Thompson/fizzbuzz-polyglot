@@ -168,6 +168,11 @@ run() {
         tail)
             _POSIX2_VERSION=199209 ./$filename > $out
             ;;
+        vala)
+            valac $filename -o $basename
+            ./$basename > $out
+            rm -f $basename
+            ;;
         vb)
             vbnc $filename
             chmod +x $basename.exe
