@@ -3,6 +3,7 @@
 ; Language: Clojure
 ; Web site: http://clojure.org/
 ; Ubuntu:   apt-get install clojure
+; Linux Mint 17: apt-get install clojure1.4
 
 (defn line [n]
     (cond
