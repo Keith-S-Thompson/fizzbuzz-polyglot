@@ -18,7 +18,7 @@ In my [fizzbuz-c](https://github.com/Keith-S-Thompson/fizzbuzz-c) project
 I present multiple (42 at last count) C solutions.
 
 Here I present multiple implementations, one in each language.
-The current set of languages (54 of them) is:
+The current set of languages (55 of them) is:
 
 * [Ada](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.adb)
 * [Algol 68](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.a68)
@@ -72,6 +72,7 @@ The current set of languages (54 of them) is:
 * [tail](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.tail)
 * [Tcl](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.tcl)
 * [Vala](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.vala)
+* [Vimscript](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.vim)
 * [Visual Basic .NET](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.vb)
 * [x86/x86_64/SPARC assembly](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.sx)
 
@@ -88,18 +89,22 @@ page](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot) rather
 than in the current directory; it also requires an Internet connection.
 
 The `verify` script executes each program and confirms that its
-output is correct.  It works on my systems, x86 Ubuntu 12.10 and
-x86_64 Linux Mint 14, with required packages installed as documented
-in each source file.  (Linux Mint is derived from Ubuntu).
+output is correct.  It works on my system, x86_64 Linux Mint 17,
+with required packages installed as documented in each source file.
+(Linux Mint is derived from Ubuntu).
 
 I intend to set up a fresh installation of Ubuntu 12.10 x86_64 system
 on a virtual machine to confirm that all tests will pass when the
 specified packages are installed.  I'll write and publish a script
-to automate the entire process.
+to automate the entire process (in the unlikely event that I ever
+get around to it).
 
 I don't have a B compiler.  Instead, I use `sed` to translate
 `fizzbuzz.b` to equivalent C code, which I then compile and
 execute. I can't guarantee that the translation (which is *extremely*
 ad-hoc) is correct.
+
+At the moment, I don't have the Modula-2 program working; I'll need
+to build and install the compiler from source.
 
 Do not take this too seriously.

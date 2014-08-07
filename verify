@@ -178,6 +178,9 @@ run() {
             ./$basename.exe > $out
             rm -f $basename.exe
             ;;
+        vim)
+            vim --cmd "source $filename"
+            ;;
         *)
             ./$filename > $out
             ;;
