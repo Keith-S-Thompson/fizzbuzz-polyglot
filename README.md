@@ -15,10 +15,10 @@ The requirements are simple:
 > five print "FizzBuzz".
 
 In my [fizzbuz-c](https://github.com/Keith-S-Thompson/fizzbuzz-c) project
-I present multiple (42 at last count) C solutions.
+I present multiple (45 at last count) C solutions.
 
 Here I present multiple implementations, one in each language.
-The current set of languages (55 of them) is:
+The current set of languages (56 of them) is:
 
 * [Ada](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.adb)
 * [Algol 68](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.a68)
@@ -40,6 +40,7 @@ The current set of languages (55 of them) is:
 * [D](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.d)
 * [Erlang (using escript)](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.erl)
 * [Falcon](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.fal)
+* [Fish](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.Fish)
 * [FizzBuzz](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.fizzbuzz)
 * [Fortran 77](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.f)
 * [Fortran 90](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.f90)
