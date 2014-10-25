@@ -1,4 +1,4 @@
-C Language: Fortran 77
+C Language: FORTRAN 77
 C Web site: http://www.netlib.org/f2c/ (for the f2c translator)
 C Ubuntu:   apt-get install fort77
 

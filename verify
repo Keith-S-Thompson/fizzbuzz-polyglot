@@ -57,6 +57,12 @@ run() {
             ./$basename > $out
             rm -f $basename
             ;;
+        f66)
+            cp $filename fizzbuzz66.f
+            fort77 -w66 -ext fizzbuzz66.f -o $basename
+            ./$basename > $out
+            rm -f fizzbuzz66.f $basename
+            ;;
         f)
             fort77 $filename -o $basename
             ./$basename > $out

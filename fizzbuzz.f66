@@ -1,0 +1,41 @@
+C Language: FORTRAN 66
+C Web site: http://www.netlib.org/f2c/ (for the f2c translator)
+C Ubuntu:   apt-get install fort77
+C I don't have a FORTRAN 66 compiler. This program is written
+C in a FORTRAN 66 compatible subset of Fortran 77.
+C The fort77 command is invoked with options to check for
+C FORTRAN 66 compatility.
+
+       PROGRAM FZZBZZ
+
+       DO 99 I = 1, 100
+
+       IF (MOD(I, 15)) 19,10,19
+10     WRITE (6, 100)
+       GO TO 99
+19     CONTINUE
+
+       IF (MOD(I, 3)) 29,20,29
+20     WRITE (6, 110)
+       GO TO 99
+29     CONTINUE
+
+       IF (MOD(I, 5)) 39,30,39
+30     WRITE (6, 120)
+       GO TO 99
+39     CONTINUE
+
+       IF (I-10) 40,49,49
+40     WRITE(6, 130) I
+       GO TO 99
+49     WRITE(6,140) I
+
+99     CONTINUE
+
+100    FORMAT (8HFizzBuzz)
+110    FORMAT (4HFizz)
+120    FORMAT (4HBuzz)
+130    FORMAT (I1)
+140    FORMAT (I2)
+
+       end
