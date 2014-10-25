@@ -1,0 +1,16 @@
+#!/usr/bin/logo
+
+; Language: Logo
+; Web site: http://ucblogo.sourceforge.net/
+; Ubuntu:   apt-get install ucblogo
+
+to print_line :i
+    if [(remainder :i 15) = 0] [print "FizzBuzz stop]
+    if [(remainder :i 3)  = 0] [print "Fizz stop]
+    if [(remainder :i 5)  = 0] [print "Buzz stop]
+    print :i
+end
+
+for [i 1 100 1] [print_line :i]
+
+bye
