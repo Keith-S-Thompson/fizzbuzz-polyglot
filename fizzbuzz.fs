@@ -1,9 +1,11 @@
-#! /usr/bin/gforth
+#! /usr/local/bin/gforth
 
 \ Language: Forth
 \ Web site: http://www.forth.org/
 \           https://www.gnu.org/software/gforth/
 \ Ubuntu:   apt-get install gforth
+\           But there's a problem with the gforth package, so I installed
+\           version 0.7.3 from source
 
 : fizzbuzz ( -- )
     101 1 ?do
