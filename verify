@@ -155,7 +155,8 @@ run() {
             rm -f $filename.f $basename
             ;;
         rs)
-            rustc $filename
+            # This LD_LIBRARY_PATH setting works for my system.
+            LD_LIBRARY_PATH=/usr/local/lib rustc $filename
             ./$basename > $out
             rm -f $basename
             ;;

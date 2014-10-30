@@ -1,7 +1,7 @@
 // Language: Rust
 // Web site: http://www.rust-lang.org/
 // Ubuntu:   Build compiler from source
-//           Currently using rust 0.11
+//           Currently using rust 0.12
 
 fn main() {
     let mut i = 1i;
