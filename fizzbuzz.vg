@@ -1,0 +1,26 @@
+#!/usr/local/bin/vigil
+
+# Language: Vigil
+# Web site: https://github.com/munificent/vigil
+# Ubuntu:   Install interpreter from git repo
+
+def fizzbuzz_line(n):
+    """
+    Returns the contents of the nth line of the output for FizzBuzz
+    """
+    implore isinstance(n, int) and n >= 1 and n <= 100
+    if n % 15 == 0:
+        result = "FizzBuzz"
+    elif n % 3 == 0:
+        result = "Fizz"
+    elif n % 5 == 0:
+        result = "Buzz"
+    else:
+        result = n
+
+    swear result == n or result.find("zz") != -1
+    return result
+
+def main():
+    for n in xrange(1, 101):
+        print fizzbuzz_line(n)
