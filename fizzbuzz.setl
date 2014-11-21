@@ -12,10 +12,11 @@ program Fizz_Buzz;
     fizz -:= fizzbuzz;
     buzz -:= fizzbuzz;
     num := {1..100} - fizz - buzz - fizzbuzz;
+    line_map := {[n, "Fizz"]     : n in fizz} +
+                {[n, "Buzz"]     : n in buzz} +
+                {[n, "FizzBuzz"] : n in fizzbuzz} +
+                {[n, n]          : n in num};
     loop for i in [1..100] do
-        print(({[n, "Fizz"]     : n in fizz} +
-               {[n, "Buzz"]     : n in buzz} +
-               {[n, "FizzBuzz"] : n in fizzbuzz} +
-               {[n, n]          : n in num})(i));
+        print(line_map(i));
     end loop;
 end Fizz_Buzz;
