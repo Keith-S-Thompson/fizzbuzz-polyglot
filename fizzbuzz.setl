@@ -1,0 +1,21 @@
+#!/usr/local/bin/setl
+
+-- Language: SETL
+-- Web site: http://setl.org/setl/
+-- Ubuntu:   Install precompiled executables from
+--           http://setl.org/setl/bin/Linux-x86-64bit/
+
+program Fizz_Buzz;
+    fizz := {3, 6..100};
+    buzz := {5, 10..100};
+    fizzbuzz := fizz * buzz;
+    fizz -:= fizzbuzz;
+    buzz -:= fizzbuzz;
+    num := {1..100} - fizz - buzz - fizzbuzz;
+    loop for i in [1..100] do
+        print(({[n, "Fizz"]     : n in fizz} +
+               {[n, "Buzz"]     : n in buzz} +
+               {[n, "FizzBuzz"] : n in fizzbuzz} +
+               {[n, n]          : n in num})(i));
+    end loop;
+end Fizz_Buzz;
