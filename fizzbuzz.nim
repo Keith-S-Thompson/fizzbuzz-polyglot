@@ -10,4 +10,4 @@ for i in countup(1, 100):
     elif i mod 5 == 0:
         echo("Buzz")
     else:
-        echo(i)
+        echo($i)
