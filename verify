@@ -11,6 +11,10 @@ run() {
     basename=${filename%.*}
     suffix=${filename#*.}
     out=$filename.out
+    tmpdir=${filename}__$$
+    mkdir $tmpdir || return
+    cd $tmpdir
+    cp -p ../$filename ../expected-output.txt .
     case $suffix in
         a68)
             a68g $filename > $out
@@ -18,13 +22,11 @@ run() {
         adb)
             gnatmake $basename
             ./$basename > $out
-            rm -f $basename{,.ali,.o}
             ;;
         b)
             sed 's/^$/#include <stdio.h>/;s/main()/int main(void)/;s/auto/auto int/;s/*n/\\n/' $filename >| $filename.c
             gcc $filename.c -o $basename
             ./$basename > $out
-            rm -f $filename.c $basename
             ;;
         bas)
             bwbasic $filename | sed '/ \|^$/d' > $out # Need to filter out the copyright header
@@ -32,22 +34,18 @@ run() {
         c)
             gcc -std=c99 $filename -o $basename
             ./$basename > $out
-            rm -f $basename
             ;;
         cob)
             cobc -x $filename
             ./$basename > $out
-            rm -f $basename
             ;;
         cpp)
             g++ $filename -o $basename
             ./$basename > $out
-            rm -f $basename
             ;;
         cs)
             gmcs $filename
             ./$basename.exe > $out
-            rm -f $basename.exe
             ;;
         curl)
             ./$filename > $out 2>/dev/null
@@ -55,23 +53,19 @@ run() {
         d)
             gdc $filename -o $basename
             ./$basename > $out
-            rm -f $basename
             ;;
         f66)
             cp $filename fizzbuzz66.f
             fort77 -w66 -ext fizzbuzz66.f -o $basename
             ./$basename > $out
-            rm -f fizzbuzz66.f $basename
             ;;
         f)
             fort77 $filename -o $basename
             ./$basename > $out
-            rm -f $basename
             ;;
         f90)
             gfortran $filename -o $basename
             ./$basename > $out
-            rm -f $basename
             ;;
         fizzbuzz)
             /usr/local/bin/fizzbuzz $filename > $out
@@ -79,48 +73,33 @@ run() {
         go)
             go build -o $basename $filename
             ./$basename > $out
-            rm -f $basename
             ;;
         gpt)
             gpt $filename -o $basename
             ./$basename > $out
-            rm -f $basename
             ;;
         groovy)
             groovyc $filename
             jar cvf $basename.jar *.class
             CLASSPATH=$basename.jar groovy $basename > $out
-            rm -f *.class $basename.jar
             ;;
         hs)
             ghc $filename
             ./$basename > $out
-            rm -f $basename.hi $basename.o $basename
             ;;
         java)
             javac $filename
             jar cfe $basename.jar $basename $basename.class
             java -jar $basename.jar > $out
-            rm -f $basename.class $basename.jar
             ;;
         pas)
             fpc $filename
             ./$basename > $out
-            rm -f $basename $basename.o
             ;;
         m)
-            # Problem: gcc, when compiling an Objective-C (".m")
-            # file creates and intermediate file with a ".d" suffix,
-            # clobbering the "fizzbuzz.d" D source file. To avoid this,
-            # compile and run in a temporary directory.
-            mkdir tmpdir-$$
-            cd tmpdir-$$
-            cp ../fizzbuzz.m .
             . /usr/share/GNUstep/Makefiles/GNUstep.sh
             cc -std=c99 `gnustep-config --objc-flags` $filename -lobjc -lgnustep-base -o $basename
-            ./$basename > ../$out
-            cd ..
-            rm -rf tmpdir-$$
+            ./$basename > $out
             ;;
         m4)
             m4 $filename > $out
@@ -128,13 +107,10 @@ run() {
         mod)
             gm2 $filename -o $basename
             ./$basename > $out
-            rm -f $basename
             ;;
         nim)
             nim compile $filename
             ./$basename > $out
-            rm -f $basename
-            rm -rf nimcache
             ;;
         nodejs)
             if [ -x /usr/bin/nodejs ] ; then
@@ -152,24 +128,20 @@ run() {
             ratfor -o $filename.f $filename
             f77 $filename.f -o $basename
             ./$basename > $out
-            rm -f $filename.f $basename
             ;;
         rs)
-            # This LD_LIBRARY_PATH setting works for my system.
+            # This LD_LIBRARY_PATH setting works for my system; YMMV.
             LD_LIBRARY_PATH=/usr/local/lib rustc $filename
             ./$basename > $out
-            rm -f $basename
             ;;
         sx)
             gcc $filename -o $basename
             ./$basename > $out
-            rm -f $basename
             ;;
         scala)
             scalac $filename
             jar cfe $basename.jar $basename *.class
             scala $basename.jar > $out
-            rm -f *.class $basename.jar
             ;;
         tail)
             _POSIX2_VERSION=199209 ./$filename > $out
@@ -177,13 +149,11 @@ run() {
         vala)
             valac $filename -o $basename
             ./$basename > $out
-            rm -f $basename
             ;;
         vb)
             vbnc $filename
             chmod +x $basename.exe
             ./$basename.exe > $out
-            rm -f $basename.exe
             ;;
         vim)
             vim --cmd "source $filename"
@@ -197,7 +167,8 @@ run() {
         failures="$failures $filename"
         (( failure_count++ ))
     fi
-    rm -f $out
+    cd ..
+    rm -rf $tmpdir
     (( count++ ))
 }
 
