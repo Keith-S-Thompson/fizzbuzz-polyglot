@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ok=1
+ok=true
 failures=""
 count=0
 failure_count=0
@@ -193,7 +193,7 @@ run() {
             ;;
     esac
     if ! cmp -s $out expected-output.txt ; then
-        ok=0
+        ok=false
         failures="$failures $filename"
         (( failure_count++ ))
     fi
@@ -216,7 +216,7 @@ if [ $count -ne 1 ] ; then
     s=s
 fi
 echo Tested $count language$s
-if [ $ok -eq 1 ] ; then
+if $ok ; then
     echo OK
 else
     s=s
