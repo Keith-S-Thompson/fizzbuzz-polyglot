@@ -131,7 +131,7 @@ run() {
             rm -f $basename
             ;;
         nim)
-            nimrod compile $filename
+            nim compile $filename
             ./$basename > $out
             rm -f $basename
             rm -rf nimcache

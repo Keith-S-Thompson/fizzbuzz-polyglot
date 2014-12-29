@@ -1,5 +1,5 @@
-# Language: Nimrod
-# Web site: http://nimrod-code.org/
+# Language: Nim
+# Web site: http://nim-lang.org/
 # Ubuntu:   Install from source
 
 for i in countup(1, 100):
