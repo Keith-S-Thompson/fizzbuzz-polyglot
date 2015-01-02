@@ -2,12 +2,15 @@
 # Web site: http://nim-lang.org/
 # Ubuntu:   Install from source
 
-for i in countup(1, 100):
-    if i mod 15 == 0:
-        echo("FizzBuzz")
-    elif i mod 3 == 0:
-        echo("Fizz")
-    elif i mod 5 == 0:
-        echo("Buzz")
-    else:
-        echo($i)
+template foreach(i, lo, hi: expr; actions: stmt): stmt {.immediate.} =
+    for i in lo..hi:
+        actions
+
+proc line(i: int): string =
+    result = ""
+    if i mod 3 == 0: result &= "Fizz"
+    if i mod 5 == 0: result &= "Buzz"
+    if result == "": result = $i
+
+foreach(i, 1, 100):
+    i.line.echo
