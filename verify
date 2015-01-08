@@ -105,7 +105,9 @@ run() {
             m4 $filename > $out
             ;;
         mod)
-            gm2 $filename -o $basename
+            # Ugly hack ...
+            ln -s /usr/lib/x86_64-linux-gnu/libmpc.so.3 libmpc.so.2
+            LD_LIBRARY_PATH=. gm2 $filename -o $basename
             ./$basename > $out
             ;;
         nim)
