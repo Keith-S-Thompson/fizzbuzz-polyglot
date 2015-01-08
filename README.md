@@ -113,7 +113,4 @@ I don't have a B compiler.  Instead, I use `sed` to translate
 execute. I can't guarantee that the translation (which is *extremely*
 ad-hoc) is correct.
 
-At the moment, I don't have the Modula-2 program working; I'll need
-to build and install the compiler from source.
-
 Do not take this too seriously.
