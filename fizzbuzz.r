@@ -15,7 +15,6 @@ for (i in 1:100) {
         cat("Buzz\n")
     }
     else {
-        cat(i)
-        cat("\n")
+        cat(i, "\n", sep="")
     }
 }
