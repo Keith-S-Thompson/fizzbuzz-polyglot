@@ -4,15 +4,14 @@
 verseBlock := [ :i  | | verse |
   verse := WriteStream with: (String new).
     i \\ 15 = 0
-      ifTrue:  [verse nextPutAll: 'FizzBuzz']
+      ifTrue:  ['FizzBuzz' display]
       ifFalse:
         [i \\ 3 = 0
-          ifTrue:  [verse nextPutAll: 'Fizz']
+          ifTrue:  ['Fizz' display]
           ifFalse:
             [i \\ 5 = 0
-              ifTrue:  [verse nextPutAll: 'Buzz']
-              ifFalse: [verse nextPutAll: i printString]]].
+              ifTrue:  ['Buzz' display]
+              ifFalse: [i display]]].
   verse contents].
 
-"99 to: 0 by: -1 do: [: i | Transcript show: (verseBlock value: i); nl]."
 1 to: 100 do: [: i | Transcript show: (verseBlock value: i); nl].
