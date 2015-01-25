@@ -18,7 +18,7 @@ In my [fizzbuz-c](https://github.com/Keith-S-Thompson/fizzbuzz-c) project
 I present multiple (45 at last count) C solutions.
 
 Here I present multiple implementations, one in each language.
-The current set of languages (64 of them) is:
+The current set of languages (65 of them) is:
 
 * [Ada](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.adb)
 * [Algol 68](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.a68)
@@ -77,6 +77,7 @@ The current set of languages (64 of them) is:
 * [Rust](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.rs)
 * [Scala](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.scala)
 * [SETL](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.setl)
+* [Smalltalk](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.st)
 * [tail](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.tail)
 * [Tcl](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.tcl)
 * [Vala](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.vala)
