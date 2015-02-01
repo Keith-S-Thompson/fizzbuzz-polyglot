@@ -1,7 +1,7 @@
-   	
-   	
+Language: Whitespace  	
+Website: http://compsoc.dur.ac.uk/whitespace/  	
 		 
-      
+Linux Mint: Install wspace executable in $PATH
    		  	  
    	
 				  	
