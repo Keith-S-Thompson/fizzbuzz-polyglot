@@ -160,6 +160,9 @@ run() {
         vim)
             vim --cmd "source $filename"
             ;;
+        ws)
+            wspace $filename | egrep -v '^(Done|Stack size|Heap size)' > $out
+            ;;
         *)
             ./$filename > $out
             ;;
