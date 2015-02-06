@@ -4,18 +4,12 @@
 -- Web site: http://www.lua.org/
 -- Ubuntu:   apt-get install lua5.1
 
--- The "%" operator was only added to Lua in version 5.1;
--- earlier versions require this function.
-function is_multiple(a, b)
-    return a/b == math.floor(a/b);
-end
-
 for i = 1, 100 do
-    if is_multiple(i, 15) then
+    if i % 15 == 0 then
         print("FizzBuzz");
-    elseif is_multiple(i, 3) then
+    elseif i % 3 == 0 then
         print("Fizz");
-    elseif is_multiple(i, 5) then
+    elseif i % 5 == 0 then
         print("Buzz");
     else
         print(i)
