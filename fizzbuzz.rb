@@ -4,9 +4,7 @@
 # Web site: http://www.ruby-lang.org/
 # Ubuntu:   apt-get install ruby
 
-# "puts" suggested by Casey Olson
-
-for i in 1..100
+(1..100).each do |i|
     if i % 15 == 0
         puts "FizzBuzz"
     elsif i % 3 == 0
