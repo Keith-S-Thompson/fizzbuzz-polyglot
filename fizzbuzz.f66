@@ -4,7 +4,7 @@ C Ubuntu:   apt-get install fort77
 C I don't have a FORTRAN 66 compiler. This program is written
 C in a FORTRAN 66 compatible subset of Fortran 77.
 C The fort77 command is invoked with options to check for
-C FORTRAN 66 compatility.
+C FORTRAN 66 compatibility.
 
        PROGRAM FZZBZZ
 
@@ -38,4 +38,6 @@ C FORTRAN 66 compatility.
 130    FORMAT (I1)
 140    FORMAT (I2)
 
-       end
+       STOP
+
+       END
