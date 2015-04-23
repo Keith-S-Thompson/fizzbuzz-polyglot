@@ -96,6 +96,10 @@ run() {
             fpc $filename
             ./$basename > $out
             ;;
+        pure)
+            # This LD_LIBRARY_PATH setting works for my system; YMMV.
+            LD_LIBRARY_PATH=/usr/local/lib ./$filename > $out
+            ;;
         m)
             . /usr/share/GNUstep/Makefiles/GNUstep.sh
             cc -std=c99 `gnustep-config --objc-flags` $filename -lobjc -lgnustep-base -o $basename

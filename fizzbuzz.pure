@@ -1,0 +1,15 @@
+#!/usr/local/bin/pure
+
+// Language:   Pure
+// Web site:   http://purelang.bitbucket.org/
+// Linux Mint: Build from source
+//             Currently using Pure 0.64
+
+using system;
+
+print_line n::int = puts "FizzBuzz" if n mod 15 == 0;
+                  = puts "Fizz"     if n mod  3 == 0;
+                  = puts "Buzz"     if n mod  5 == 0;
+                  = printf "%d\n" n;
+
+map print_line (1..100);
