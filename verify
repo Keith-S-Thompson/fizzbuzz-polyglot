@@ -43,6 +43,10 @@ run() {
             g++ $filename -o $basename
             ./$basename > $out
             ;;
+        crystal)
+            crystal build $filename
+            ./$basename > $out
+            ;;
         cs)
             gmcs $filename
             ./$basename.exe > $out

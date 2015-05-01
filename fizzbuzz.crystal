@@ -1,0 +1,18 @@
+# Language:   Crystal
+# Web site:   http://crystal-lang.org/
+# Linux Mint: Installation instructions at http://crystal-lang.org/docs/installation/on_debian_and_ubuntu.html
+
+# Note: This is identical to fizzbuzz.rb (Rudy),
+# but it's compiled rather than interpreted.
+
+(1..100).each do |i|
+    puts "#{if i % 15 == 0
+                "FizzBuzz"
+            elsif i % 3 == 0
+                "Fizz"
+            elsif i % 5 == 0
+                "Buzz"
+            else
+                i
+            end}"
+end
