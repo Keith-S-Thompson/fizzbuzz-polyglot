@@ -1,0 +1,208 @@
+/*
+ * Language: gcc error messages
+ * Web site: http://www.open-std.org/JTC1/SC22/WG14/
+ *           http://gcc.gnu.org/
+ * Ubuntu:   The "gcc" package is pre-installed 
+ * NOTE:     The stderr output of the compiler must be filtered to
+ *           extract the correct output; see the `verify` script.
+ */
+#line __LINE__ "1"
+#error
+#line __LINE__ "2"
+#error
+#line __LINE__ "Fizz"
+#error
+#line __LINE__ "4"
+#error
+#line __LINE__ "Buzz"
+#error
+#line __LINE__ "Fizz"
+#error
+#line __LINE__ "7"
+#error
+#line __LINE__ "8"
+#error
+#line __LINE__ "Fizz"
+#error
+#line __LINE__ "Buzz"
+#error
+#line __LINE__ "11"
+#error
+#line __LINE__ "Fizz"
+#error
+#line __LINE__ "13"
+#error
+#line __LINE__ "14"
+#error
+#line __LINE__ "FizzBuzz"
+#error
+#line __LINE__ "16"
+#error
+#line __LINE__ "17"
+#error
+#line __LINE__ "Fizz"
+#error
+#line __LINE__ "19"
+#error
+#line __LINE__ "Buzz"
+#error
+#line __LINE__ "Fizz"
+#error
+#line __LINE__ "22"
+#error
+#line __LINE__ "23"
+#error
+#line __LINE__ "Fizz"
+#error
+#line __LINE__ "Buzz"
+#error
+#line __LINE__ "26"
+#error
+#line __LINE__ "Fizz"
+#error
+#line __LINE__ "28"
+#error
+#line __LINE__ "29"
+#error
+#line __LINE__ "FizzBuzz"
+#error
+#line __LINE__ "31"
+#error
+#line __LINE__ "32"
+#error
+#line __LINE__ "Fizz"
+#error
+#line __LINE__ "34"
+#error
+#line __LINE__ "Buzz"
+#error
+#line __LINE__ "Fizz"
+#error
+#line __LINE__ "37"
+#error
+#line __LINE__ "38"
+#error
+#line __LINE__ "Fizz"
+#error
+#line __LINE__ "Buzz"
+#error
+#line __LINE__ "41"
+#error
+#line __LINE__ "Fizz"
+#error
+#line __LINE__ "43"
+#error
+#line __LINE__ "44"
+#error
+#line __LINE__ "FizzBuzz"
+#error
+#line __LINE__ "46"
+#error
+#line __LINE__ "47"
+#error
+#line __LINE__ "Fizz"
+#error
+#line __LINE__ "49"
+#error
+#line __LINE__ "Buzz"
+#error
+#line __LINE__ "Fizz"
+#error
+#line __LINE__ "52"
+#error
+#line __LINE__ "53"
+#error
+#line __LINE__ "Fizz"
+#error
+#line __LINE__ "Buzz"
+#error
+#line __LINE__ "56"
+#error
+#line __LINE__ "Fizz"
+#error
+#line __LINE__ "58"
+#error
+#line __LINE__ "59"
+#error
+#line __LINE__ "FizzBuzz"
+#error
+#line __LINE__ "61"
+#error
+#line __LINE__ "62"
+#error
+#line __LINE__ "Fizz"
+#error
+#line __LINE__ "64"
+#error
+#line __LINE__ "Buzz"
+#error
+#line __LINE__ "Fizz"
+#error
+#line __LINE__ "67"
+#error
+#line __LINE__ "68"
+#error
+#line __LINE__ "Fizz"
+#error
+#line __LINE__ "Buzz"
+#error
+#line __LINE__ "71"
+#error
+#line __LINE__ "Fizz"
+#error
+#line __LINE__ "73"
+#error
+#line __LINE__ "74"
+#error
+#line __LINE__ "FizzBuzz"
+#error
+#line __LINE__ "76"
+#error
+#line __LINE__ "77"
+#error
+#line __LINE__ "Fizz"
+#error
+#line __LINE__ "79"
+#error
+#line __LINE__ "Buzz"
+#error
+#line __LINE__ "Fizz"
+#error
+#line __LINE__ "82"
+#error
+#line __LINE__ "83"
+#error
+#line __LINE__ "Fizz"
+#error
+#line __LINE__ "Buzz"
+#error
+#line __LINE__ "86"
+#error
+#line __LINE__ "Fizz"
+#error
+#line __LINE__ "88"
+#error
+#line __LINE__ "89"
+#error
+#line __LINE__ "FizzBuzz"
+#error
+#line __LINE__ "91"
+#error
+#line __LINE__ "92"
+#error
+#line __LINE__ "Fizz"
+#error
+#line __LINE__ "94"
+#error
+#line __LINE__ "Buzz"
+#error
+#line __LINE__ "Fizz"
+#error
+#line __LINE__ "97"
+#error
+#line __LINE__ "98"
+#error
+#line __LINE__ "Fizz"
+#error
+#line __LINE__ "Buzz"
+#error
