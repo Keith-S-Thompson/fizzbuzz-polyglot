@@ -1,0 +1,11 @@
+# TODO
+
+Obviously the major flaw of this project is that there just aren't
+enough languages.  Here are a few that I plan to add when I get the
+proverbial Round Tuit:
+
+- [Picat](http://picat-lang.org/)
+- [C2](http://c2lang.org/)
+- [Brainfuck](http://www.muppetlabs.com/~breadbox/bf/)
+- [Plankalkül](https://en.wikipedia.org/wiki/Plankalk%C3%BCl) -- It's not likely that I'll find an implementation
+- [BCPL](http://www.cl.cam.ac.uk/~mr10/index.html)
