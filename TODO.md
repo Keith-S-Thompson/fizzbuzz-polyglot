@@ -9,3 +9,4 @@ proverbial Round Tuit:
 - [Brainfuck](http://www.muppetlabs.com/~breadbox/bf/)
 - [Plankalkül](https://en.wikipedia.org/wiki/Plankalk%C3%BCl) -- It's not likely that I'll find an implementation
 - [BCPL](http://www.cl.cam.ac.uk/~mr10/index.html)
+- [TECO](http://almy.us/teco.html) [see also](http://goodmath.scientopia.org/2010/11/30/the-glorious-horror-of-teco/)
