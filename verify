@@ -165,8 +165,7 @@ run() {
             ;;
         vb)
             vbnc $filename
-            chmod +x $basename.exe
-            ./$basename.exe > $out
+            mono $basename.exe > $out
             ;;
         vim)
             vim --cmd "source $filename"
