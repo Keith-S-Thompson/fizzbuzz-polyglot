@@ -49,7 +49,7 @@ run() {
             ;;
         cs)
             gmcs $filename
-            ./$basename.exe > $out
+            mono $basename.exe > $out
             ;;
         curl)
             ./$filename > $out 2>/dev/null
