@@ -11,3 +11,5 @@ proverbial Round Tuit:
 - [BCPL](http://www.cl.cam.ac.uk/~mr10/index.html)
 - [TECO](http://almy.us/teco.html) [see also](http://goodmath.scientopia.org/2010/11/30/the-glorious-horror-of-teco/)
 - [SNOBOL/SPITBOL](http://daveshields.me/2012/09/02/on-being-the-maintainer-sole-developer-and-probably-the-sole-active-user-of-the-programming-language-spitbol/)
+- [Rebol](http://www.rebol.com/)
+- [Intercal](http://catb.org/esr/intercal/)
