@@ -1,6 +1,7 @@
-// Language: C++
-// Web site: http://www.open-std.org/JTC1/SC22/WG21/
-// Ubuntu:   apt-get install g++
+// Language:       C++
+// Web site:       http://www.open-std.org/JTC1/SC22/WG21/
+// Last tested on: Linux Mint 17.2
+// Requires:       apt-get install g++
 
 #include <iostream>
 int main() {

@@ -1,9 +1,10 @@
 #!/usr/bin/clojure
 
-; Language: Clojure
-; Web site: http://clojure.org/
-; Ubuntu:   apt-get install clojure
-; Linux Mint 17: apt-get install clojure1.4
+; Language:       Clojure
+; Web site:       http://clojure.org/
+; Last tested on: Linux Mint 17.2
+; Requires:       apt-get install clojure1.4
+; (On other systems the package name may be just "clojure")
 
 (defn line [n]
     (cond

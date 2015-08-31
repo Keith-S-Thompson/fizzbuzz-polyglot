@@ -1,8 +1,9 @@
 #!/usr/bin/clisp
 
-; Language: Common Lisp
-; Web site: http://common-lisp.net/
-; Ubuntu:   apt-get install clisp
+; Language:       Common Lisp
+; Web site:       http://common-lisp.net/
+; Last tested on: Linux Mint 17.2
+; Requires:       apt-get install clisp
 
 (defun lines (n)
   "Print lines from 1 to n"

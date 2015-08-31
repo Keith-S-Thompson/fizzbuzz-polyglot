@@ -1,6 +1,7 @@
-" Language: Vimscript
-" Web site: http://www.vim.org/
-" Ubuntu:   apt-get install vim
+" Language:       Vimscript
+" Web site:       http://www.vim.org/
+" Last tested on: Linux Mint 17.2
+" Requires:       apt-get install vim
 
 let i = 1
 while i <= 100

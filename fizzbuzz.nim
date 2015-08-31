@@ -1,6 +1,7 @@
-# Language: Nim
-# Web site: http://nim-lang.org/
-# Ubuntu:   Install from source
+# Language:       Nim
+# Web site:       http://nim-lang.org/
+# Last tested on: Linux Mint 17.2
+# Requires:       Install from source
 
 template foreach(i, lo, hi: expr; actions: stmt): stmt {.immediate.} =
     for i in lo..hi:

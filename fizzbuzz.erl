@@ -2,7 +2,8 @@
 
 % Language: Erlang
 % Web site: http://www.erlang.org/
-% Ubuntu:   apt-get install erlang
+% Last tested on: Linux Mint 17.2
+% Requires:       apt-get install erlang
 
 print_line(N) when N rem 15 == 0 ->
     io:format("FizzBuzz\n");

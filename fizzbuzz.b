@@ -1,11 +1,13 @@
 /*
- * Language: B
- * Web site: http://cm.bell-labs.com/cm/cs/who/dmr/kbman.html
- * Ubuntu:   No known implementation, cannot test directly.  Instead,
- *           I filter the B source code in an ad-hoc manner, applicable
- *           only to this specific program, to generate valid C,
- *           which I then compile and execute.  I can't guarantee
- *           that this is correct.
+ * Language:       B
+ * Web site:       http://cm.bell-labs.com/cm/cs/who/dmr/kbman.html
+ * Last tested on: Linux Mint 17.2
+ * Requires:       I've verified the program using a B compiler
+ *                 available at https://github.com/Leushenko/ybc
+ *                 I have not yet set up the `verify` script to use it.
+ *                 Instead, I filter the B source code in an ad-hoc
+ *                 manner, applicable only to this specific program, to
+ *                 generate valid C, which I then compile and execute.
  */
 
 main() {

@@ -1,8 +1,9 @@
 #!/usr/bin/falcon -M
 
-// Language: Falcon
-// Web site: http://falconpl.org
-// Ubuntu:   apt-get install falconpl
+// Language:       Falcon
+// Web site:       http://falconpl.org
+// Last tested on: Linux Mint 17.2
+// Requires:       apt-get install falconpl
 
 for i in [1:101]
     if i % 15 == 0

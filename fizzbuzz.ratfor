@@ -1,6 +1,7 @@
-# Language: Ratfor
-# Web site: http://sepwww.stanford.edu/doku.php?id=sep:software:ratfor
-# Ubuntu:   apt-get install f2c ratfor
+# Language:        Ratfor
+# Web site:        http://sepwww.stanford.edu/doku.php?id=sep:software:ratfor
+# Last tested on: Linux Mint 17.2
+# Requires:       apt-get install f2c ratfor
 
 program fizzbuzz
 integer i

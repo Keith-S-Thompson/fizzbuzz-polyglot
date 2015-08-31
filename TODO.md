@@ -13,3 +13,4 @@ proverbial Round Tuit:
 - [SNOBOL/SPITBOL](http://daveshields.me/2012/09/02/on-being-the-maintainer-sole-developer-and-probably-the-sole-active-user-of-the-programming-language-spitbol/)
 - [Rebol](http://www.rebol.com/)
 - [Intercal](http://catb.org/esr/intercal/)
+- [Factor](http://factorcode.org/)

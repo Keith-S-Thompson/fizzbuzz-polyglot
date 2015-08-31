@@ -1,8 +1,9 @@
 /*
- * Language: C
- * Web site: http://www.open-std.org/JTC1/SC22/WG14/
- *           http://gcc.gnu.org/
- * Ubuntu:   The "gcc" package is pre-installed 
+ * Language:       C
+ * Web site:       http://www.open-std.org/JTC1/SC22/WG14/
+ *                 http://gcc.gnu.org/
+ * Last tested on: Linux Mint 17.2
+ * Requires:       The "gcc" package is pre-installed
  */
 
 #include <stdio.h>

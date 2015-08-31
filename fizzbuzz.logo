@@ -1,8 +1,9 @@
 #!/usr/bin/logo
 
-; Language: Logo
-; Web site: http://ucblogo.sourceforge.net/
-; Ubuntu:   apt-get install ucblogo
+; Language:       Logo
+; Web site:       http://ucblogo.sourceforge.net/
+; Last tested on: Linux Mint 17.2
+; Requires:       apt-get install ucblogo
 
 to print_line :i
     if [(remainder :i 15) = 0] [print "FizzBuzz stop]

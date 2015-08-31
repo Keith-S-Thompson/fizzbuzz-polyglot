@@ -1,9 +1,10 @@
 #!/usr/bin/guile --no-auto-compile
 !#
 
-; Language: Guile
-; Web site: http://www.gnu.org/software/guile/
-; Ubuntu:   apt-get install guile-2.0
+; Language:       Guile
+; Web site:       http://www.gnu.org/software/guile/
+; Last tested on: Linux Mint 17.2
+; Requires:       apt-get install guile-2.0
 
 (define line
     (lambda (n)

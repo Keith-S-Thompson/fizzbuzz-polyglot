@@ -1,9 +1,10 @@
 #!/usr/bin/awk -f
 
-# Language: Awk
-# Web site: http://invisible-island.net/mawk/
-#           http://www.gnu.org/software/gawk/
-# Ubuntu:   The "mawk" package is pre-installed *or* apt-get install gawk
+# Language:       Awk
+# Web site:       http://invisible-island.net/mawk/
+#                 http://www.gnu.org/software/gawk/
+# Last tested on: Linux Mint 17.2
+# Requires:       The "gawk" (GNU awk) and "mawk" packages are pre-installed.
 
 BEGIN {
     for (i = 1; i <= 100; i ++) {

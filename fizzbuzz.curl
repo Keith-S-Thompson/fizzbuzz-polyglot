@@ -1,1 +1,13 @@
 #!/usr/bin/curl https://raw.githubusercontent.com/Keith-S-Thompson/fizzbuzz-polyglot/master/expected-output.txt
+
+# Language:       curl
+# Web site:       http://curl.haxx.se/
+# Last tested on: Linux Mint 17.2
+# Requires:       apt-get install curl
+
+# NOTE: This is cheating; "curl" is not really a scripting language,
+# This depends on the existence of the expected-output.txt file
+# (provided with this project) at the specified location.
+
+# NOTE: These lines are ignored; /usr/bin/curl is invoked with the
+# argument given on the #! line.

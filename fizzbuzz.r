@@ -1,8 +1,10 @@
 #!/usr/bin/R --slave -f
 
-# Language: R
-# Web site: http://www.r-project.org/
-# Ubuntu:   apt-get install r-base-core
+# Language:       R
+# Web site:       http://www.r-project.org/
+# Last tested on: Linux Mint 17.2
+# Requires:       apt-get install r-base-core
+
 
 for (i in 1:100) {
     if (i %% 15 == 0) {

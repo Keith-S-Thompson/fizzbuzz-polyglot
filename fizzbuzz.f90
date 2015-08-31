@@ -1,6 +1,7 @@
-! Language: Fortran 90
-! Web site: http://gcc.gnu.org/wiki/GFortran (for the GNU implementation)
-! Ubuntu:   apt-get install gfortran
+! Language:       Fortran 90
+! Web site:       http://gcc.gnu.org/wiki/GFortran (for the GNU implementation)
+! Last tested on: Linux Mint 17.2
+! Requires:       apt-get install gfortran
 
        program FizzBuzz
        implicit none

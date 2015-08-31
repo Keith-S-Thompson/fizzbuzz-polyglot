@@ -1,8 +1,9 @@
 #!/usr/bin/perl
 
-# Language: Perl
-# Web site: http://www.perl.org/
-# Ubuntu:   Package "perl" is pre-installed
+# Language:       Perl
+# Web site:       http://www.perl.org/
+# Last tested on: Linux Mint 17.2
+# Requires:       The "perl" package is pre-installed
 
 use strict;
 use warnings;

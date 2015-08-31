@@ -1,6 +1,7 @@
-dnl Language: m4
-dnl Web site: http://www.gnu.org/software/m4/
-dnl Ubuntu:   sudo apt-get install m4
+dnl Language:       m4
+dnl Web site:       http://www.gnu.org/software/m4/
+dnl Last tested on: Linux Mint 17.2
+dnl Requires:       The "m4" package is pre-installed
 define(`line', `ifelse(eval($1 % 15), `0', `FizzBuzz
 ',
                        eval($1 %  3), `0', `Fizz

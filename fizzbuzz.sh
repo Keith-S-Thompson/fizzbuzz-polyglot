@@ -1,8 +1,9 @@
 #!/bin/sh
 
-# Language: Bourne shell
-# Web site: (Defined by POSIX; see opengroup.org)
-# Ubuntu:   Package "dash" is pre-installed.
+# Language:       Bourne shell
+# Web site:       (Defined by POSIX; see opengroup.org)
+# Last tested on: Linux Mint 17.2
+# Requires:       The "dash" package is pre-installed
 
 i=1
 while [ $i -le 100 ] ; do

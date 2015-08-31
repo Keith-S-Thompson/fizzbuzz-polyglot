@@ -1,8 +1,9 @@
 #!/usr/bin/ruby
 
-# Language: Ruby
-# Web site: http://www.ruby-lang.org/
-# Ubuntu:   apt-get install ruby
+# Language:       Ruby
+# Web site:       http://www.ruby-lang.org/
+# Last tested on: Linux Mint 17.2
+# Requires:       apt-get install rubyt
 
 (1..100).each do |i|
     puts "#{if i % 15 == 0

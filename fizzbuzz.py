@@ -1,8 +1,9 @@
 #!/usr/bin/python
 
-# Language: Python
-# Web site: http://python.org/
-# Ubuntu:   Package "python" is pre-installed
+# Language:       Python
+# Web site:       http://python.org/
+# Last tested on: Linux Mint 17.2
+# Requires:       The "python" package is pre-installed
 
 for i in xrange(1,101):
     if i % 15 == 0:

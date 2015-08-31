@@ -1,6 +1,7 @@
-C Language: FORTRAN 77
-C Web site: http://www.netlib.org/f2c/ (for the f2c translator)
-C Ubuntu:   apt-get install fort77
+C Language:       FORTRAN 77
+C Web site:       http://www.netlib.org/f2c/ (for the f2c translator)
+C Last tested on: Linux Mint 17.2
+C Requires:       apt-get install fort77
 
        program FizzBuzz
 

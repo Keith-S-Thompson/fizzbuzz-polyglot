@@ -1,6 +1,7 @@
-// Language: D
-// Web site: http://dlang.org/
-// Ubuntu:   apt-get install gdc
+// Language:       D
+// Web site:       http://dlang.org/
+// Last tested on: Linux Mint 17.2
+// Requires:       apt-get install gdc
 
 import std.stdio;
 import std.string;

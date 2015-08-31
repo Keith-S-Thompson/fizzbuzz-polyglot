@@ -1,6 +1,7 @@
 -- Language: Ada
 -- Web site: http://www.adaic.org/
--- Ubuntu:   apt-get install gnat
+-- Last tested on: Linux Mint 17.2
+-- Requires:       apt-get install gnat
 
 with Ada.Text_IO; use Ada.Text_IO;
 with Ada.Integer_Text_IO; use Ada.Integer_Text_IO;

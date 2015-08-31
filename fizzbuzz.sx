@@ -1,14 +1,15 @@
 /*
- * Language: x86/x86_64/SPARC assembly
- * Web site: http://gcc.gnu.org/
- * Ubuntu:   The "gcc" package is pre-installed 
+ * Language:       x86/x86_64/SPARC assembly
+ * Web site:       http://gcc.gnu.org/
+ * Last tested on: Linux Mint 17.2
+ * Requires:       The "gcc" package is pre-installed
  *
  * The code was generated from fizzbuzz.c with the command:
  *     "gcc -std=c99 -O3 -S fizzbuzz.c"
  * on Linux/x86, Linux/x86_64, Cygwin, and SPARC/Solaris systems,
  * and then merged into a single file which can then processed by the
- * C preprocessor.  (The ".sx" suffix tells gcc to treat the file
- * as assembly language to be preprocessed).
+ * C preprocessor.  The ".sx" suffix tells gcc to treat the file
+ * as assembly language to be preprocessed.
  */
 
 #if defined(__CYGWIN32__)

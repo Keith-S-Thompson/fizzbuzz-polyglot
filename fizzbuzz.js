@@ -1,8 +1,9 @@
 #!/usr/bin/rhino
 
-// Language: JavaScript
-// Web site: https://developer.mozilla.org/en-US/docs/JavaScript
-// Ubuntu:   apt-get install rhino
+// Language:       JavaScript
+// Web site:       https://developer.mozilla.org/en-US/docs/JavaScript
+// Last tested on: Linux Mint 17.2
+// Requires:       apt-get install rhino
 
 for (i = 1; i <= 100; i ++) {
     print(i % 15 == 0 ? "FizzBuzz" :

@@ -1,6 +1,7 @@
-// Language: Vala
-// Web site: https://wiki.gnome.org/Projects/Vala
-// Ubuntu:   apt-get install valac
+// Language:       Vala
+// Web site:       https://wiki.gnome.org/Projects/Vala
+// Last tested on: Linux Mint 17.2
+// Requires:       apt-get install valac
 
 void main() {
     for (var i = 1; i <= 100; i ++) {

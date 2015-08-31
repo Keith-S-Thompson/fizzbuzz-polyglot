@@ -1,9 +1,10 @@
 #!/usr/bin/rexx
 
 /* 
- * Language: REXX
- * Web site: http://regina-rexx.sourceforge.net/
- * Ubuntu:   apt-get install regina-rexx
+ * Language:       REXX
+ * Web site:       http://regina-rexx.sourceforge.net/
+ * Last tested on: Linux Mint 17.2
+ * Requires:       apt-get install regina-rexx
 */
 
 DO I = 1 TO 100

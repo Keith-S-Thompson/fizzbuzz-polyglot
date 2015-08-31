@@ -1,8 +1,9 @@
 #!/bin/sh
 
-# Language: cat
-# Web site: http://www.gnu.org/software/coreutils/
-# Ubuntu:   apt-get install coreutils (pre-installed)
+# Language:       cat
+# Web site:       http://www.gnu.org/software/coreutils/
+# Last tested on: Linux Mint 17.2
+# Requires:       The "coreutils" package is pre-installed
 
 # NOTE: This is cheating; "cat" is not really a scripting language,
 # This depends on the existence of the expected-output.txt file

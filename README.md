@@ -15,7 +15,7 @@ The requirements are simple:
 > five print "FizzBuzz".
 
 In my [fizzbuz-c](https://github.com/Keith-S-Thompson/fizzbuzz-c) project
-I present multiple (61 at last count) C solutions.
+I present multiple (63 at last count) C solutions.
 
 Here I present multiple implementations, one in each language.
 The current set of languages (70 of them) is:
@@ -104,19 +104,14 @@ page](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot) rather
 than in the current directory; it also requires an Internet connection.
 
 The `verify` script executes each program and confirms that its
-output is correct.  It works on my system, x86_64 Linux Mint 17,
+output is correct.  It works on my system, x86_64 Linux Mint 17.2,
 with required packages installed as documented in each source file.
-(Linux Mint is derived from Ubuntu).
+(Linux Mint is derived from Ubuntu, which is derived from Debian).
 
-I intend to set up a fresh installation of Ubuntu 12.10 x86_64 system
-on a virtual machine to confirm that all tests will pass when the
-specified packages are installed.  I'll write and publish a script
-to automate the entire process (in the unlikely event that I ever
-get around to it).
+`fizzbuzz.b` is not tested with an actual B compiler; see that file
+for details.
 
-I don't have a B compiler.  Instead, I use `sed` to translate
-`fizzbuzz.b` to equivalent C code, which I then compile and
-execute. I can't guarantee that the translation (which is *extremely*
-ad-hoc) is correct.
+I'm keeping an informal list of languages I intend to add in
+[TODO.md](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/TODO.md).
 
 Do not take this too seriously.

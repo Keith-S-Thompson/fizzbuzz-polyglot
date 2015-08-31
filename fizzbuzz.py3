@@ -1,8 +1,9 @@
 #!/usr/bin/python3
 
-# Language: Python3
-# Web site: http://python.org/
-# Ubuntu:   Package "python3" is pre-installed
+# Language:       Python
+# Web site:       http://python.org/
+# Last tested on: Linux Mint 17.2
+# Requires:       The "python3" package is pre-installed
 
 for i in range(1,101):
     if i % 15 == 0:

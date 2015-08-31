@@ -1,8 +1,9 @@
 #!/usr/bin/tclsh
 
-# Language: Tcl
-# Web site: http://www.tcl.tk/
-# Ubuntu:   Package "tcl8.5" is pre-installed.
+# Language:       Tcl
+# Web site:       http://www.tcl.tk/
+# Last tested on: Linux Mint 17.2
+# Requires:       The "tcl" package is pre-installed
 
 for {set i 1} {$i<= 100} {incr i} {
     if {$i % 15 == 0} {

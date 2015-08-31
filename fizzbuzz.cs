@@ -1,6 +1,7 @@
-// Language: C#
-// Web site: http://www.ecma-international.org/publications/standards/Ecma-334.htm
-// Ubuntu:   apt-get install mono-gmcs binfmt-support
+// Language:       C#
+// Web site:       http://www.ecma-international.org/publications/standards/Ecma-334.htm
+// Last tested on: Linux Mint 17.2
+// Requires:       apt-get install mono-gmcs
 
 using System;
 class FizzBuzz {

@@ -1,9 +1,10 @@
 #!/usr/bin/gst -g
 
 "
-Language: Smalltalk
-Web site: http://smalltalk.gnu.org/
-Linux Mint 17:   apt-get install gst
+Language:       Smalltalk
+Web site:       http://smalltalk.gnu.org/
+Last tested on: Linux Mint 17.2
+Requires:       apt-get install gnu-smalltalk (previously called gst)
 "
 
 1 to: 100 do: [ :i |

@@ -1,6 +1,7 @@
-// Language: Java
-// Web site: http://www.java.com/
-// Ubuntu:   apt-get install openjdk-6-jdk
+// Language:       Java
+// Web site:       http://www.java.com/
+// Last tested on: Linux Mint 17.2
+// Requires:       apt-get install openjdk-7-jdk
 
 public class fizzbuzz
 {

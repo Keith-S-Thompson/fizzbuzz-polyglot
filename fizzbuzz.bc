@@ -1,9 +1,10 @@
 #!/usr/bin/bc -q
 
 /*
- * Language: bc
- * Web page: http://www.gnu.org/software/bc/
- * Ubuntu:   The "bc" package is pre-installed
+ * Language:       bc
+ * Web page:       http://www.gnu.org/software/bc/
+ * Last tested on: Linux Mint 17.2
+ * Requires:       The "bc" package is pre-installed
  */
 
 for (i=1; i<=100; i++) {

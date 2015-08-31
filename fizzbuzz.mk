@@ -1,8 +1,9 @@
 #!/usr/bin/make -f
 
-# Language: Make
-# Web site: http://www.gnu.org/software/make/ (for the GNU implementation)
-# Ubuntu:   Package "make" is pre-installed
+# Language:       Make
+# Web site:       http://www.gnu.org/software/make/ (for the GNU implementation)
+# Last tested on: Linux Mint 17.2
+# Requires:       The "make" package is pre-installed
 
 # This is a brute-force approach, where each line depends on the previous
 # one.  There may be a way to force make itself to do the iteration and/or
