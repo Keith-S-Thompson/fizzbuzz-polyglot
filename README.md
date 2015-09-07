@@ -115,6 +115,12 @@ As of Mon 2015-09-07, all tests pass on Linux Mint 17.2 *except*
 `fizzbuzz.mod` (Modula-2); I have so far been unable to install
 the compiler.
 
+The [Whitespace web page](http://compsoc.dur.ac.uk/whitespace/)
+is currently down, so I'm using the Perl implementation from
+[here](https://github.com/hostilefork/whitespacers/).  I'll update
+the "comments" in the source file later (that's difficult to do,
+since I have to preserve existing whitespace).
+
 I'm keeping an informal list of languages I intend to add in
 [TODO.md](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/TODO.md).
 
