@@ -1,9 +1,10 @@
 #!/usr/local/bin/setl
 
--- Language: SETL
--- Web site: http://setl.org/setl/
--- Ubuntu:   Install precompiled executables from
---           http://setl.org/setl/bin/Linux-x86-64bit/
+-- Language:       SETL
+-- Web site:       http://setl.org/setl/
+-- Last tested on: Linux Mint 17.2
+-- Requires:       Install precompiled executables from
+--                 http://setl.org/setl/bin/Linux-x86-64bit/
 
 program Fizz_Buzz;
     fizz := {3, 6..100};

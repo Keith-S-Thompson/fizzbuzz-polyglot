@@ -1,9 +1,10 @@
 #!/usr/local/bin/pure
 
-// Language:   Pure
-// Web site:   http://purelang.bitbucket.org/
-// Linux Mint: Build from source
-//             Currently using Pure 0.64
+// Language:       Pure
+// Web site:       http://purelang.bitbucket.org/
+// Last tested on: Linux Mint 17.2
+// Requires:       Build from source
+//                 Currently using Pure 0.64
 
 using system;
 

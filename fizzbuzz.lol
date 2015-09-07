@@ -1,9 +1,10 @@
 #!/usr/local/bin/lci
 
-BTW  Language: LOLCODE
-BTW Web site: http://lolcode.org/
-BTW Ubuntu:   Install from source: https://github.com/justinmeza/lci
-BTW           Requires cmake (apt-get install cmake)
+BTW  Language:      LOLCODE
+BTW Web site:       http://lolcode.org/
+BTW Last tested on: Linux Mint 17.2
+BTW Requires:       Install from source: https://github.com/justinmeza/lci
+BTW                 Requires cmake (apt-get install cmake)
 
 HAI 1.3
     IM IN YR loop UPPIN YR i WILE DIFFRINT i AN 100

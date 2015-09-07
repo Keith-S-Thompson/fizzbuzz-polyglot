@@ -1,8 +1,10 @@
-// Language: Rust
-// Web site: http://www.rust-lang.org/
-// Ubuntu:   Build compiler from source
-//           Currently using rust 1.0.0-alpha
-
+// Language:       Rust
+// Web site:       http://www.rust-lang.org/
+// Last tested on: Linux Mint 17.2
+// Requires:       Build compiler from source
+//                 Also need to symlink *.so files and set $LD_LIBRARY_PATH
+//                 (see verify script)
+//                 Currently using rust 1.2.0
 fn main() {
     let mut i = 1;
     while i <= 100 {

@@ -1,8 +1,9 @@
 #!/usr/local/bin/vigil
 
-# Language: Vigil
-# Web site: https://github.com/munificent/vigil
-# Ubuntu:   Install interpreter from git repo
+# Language:       Vigil
+# Web site:       https://github.com/munificent/vigil
+# Last tested on: Linux Mint 17.2
+# Requires:       Install interpreter from git repo
 
 def fizzbuzz_line(n):
     """
