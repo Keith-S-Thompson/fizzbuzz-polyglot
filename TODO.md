@@ -20,3 +20,4 @@ proverbial Round Tuit:
 - [Icon](http://www.cs.arizona.edu/icon/index.htm)
 - [PL/M](https://en.wikipedia.org/wiki/PL/M)
 - [Eiffel](https://en.wikipedia.org/wiki/Eiffel_(programming_language))
+- [Yorick](yorick.sourceforge.net)
