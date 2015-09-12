@@ -94,6 +94,12 @@ run() {
             ghc $filename
             ./$basename > $out
             ;;
+        hx)
+            # Haxe requires a class name to start with an uppercase letter,
+            # and requires the source file name to match the class name.
+            cp -p $filename Fizzbuzz.hx
+            haxe -main Fizzbuzz --interp > $out
+            ;;
         java)
             javac $filename
             jar cfe $basename.jar $basename $basename.class
