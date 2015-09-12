@@ -15,7 +15,6 @@ proverbial Round Tuit:
 - [Intercal](http://catb.org/esr/intercal/)
 - [Factor](http://factorcode.org/)
 - [PL/1](https://en.wikipedia.org/wiki/PL/I)
-- [Haxe](http://haxe.org/)
 - [Clu](https://en.wikipedia.org/wiki/CLU_(programming_language)) [see also clu2c](http://woodsheep.jp/clu2c.html) [current download](ftp://ftp.lip6.fr/pub/lang/clu/clu2c/)
 - [Icon](http://www.cs.arizona.edu/icon/index.htm)
 - [PL/M](https://en.wikipedia.org/wiki/PL/M)
