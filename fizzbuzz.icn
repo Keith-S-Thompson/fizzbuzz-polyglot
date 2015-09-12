@@ -1,0 +1,21 @@
+# Language:       Icon
+# Web site:       http://www.cs.arizona.edu/icon/
+# Last tested on: Linux Mint 17.2
+# Requires:       apt-get install iconc icont iconx
+
+procedure main()
+    every i := 1 to 100 do {
+        if i % 15 == 0 then {
+            write("FizzBuzz")
+        }
+        else if i % 3 == 0 then {
+            write("Fizz")
+        }
+        else if i % 5 == 0 then {
+            write("Buzz")
+        }
+        else {
+            write(i)
+        }
+    }
+end

@@ -100,6 +100,10 @@ run() {
             cp -p $filename Fizzbuzz.hx
             haxe -main Fizzbuzz --interp > $out
             ;;
+        icn)
+            icont $filename
+            ./$basename > $out
+            ;;
         java)
             javac $filename
             jar cfe $basename.jar $basename $basename.class
