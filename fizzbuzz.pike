@@ -1,9 +1,10 @@
 #!/usr/local/bin/pike
 
-// Language: Pike
-// Web site: http://pike.lysator.liu.se/
-// Linux Mint 17: Install from source:
-//     http://pike.lysator.liu.se/pub/pike/latest-stable/Pike-v7.8.866.tar.gz
+// Language:       Pike
+// Web site:       http://pike.lysator.liu.se/
+// Last tested on: Linux Mint 17.2: Install from source:
+// Requires:       Install from source
+//                 http://pike.lysator.liu.se/pub/pike/latest-stable/Pike-v7.8.866.tar.gz
 
 int main() {
     for (int i = 1; i <= 100; i ++) {

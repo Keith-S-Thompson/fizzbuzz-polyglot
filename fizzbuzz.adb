@@ -1,5 +1,5 @@
--- Language: Ada
--- Web site: http://www.adaic.org/
+-- Language:       Ada
+-- Web site:       http://www.adaic.org/
 -- Last tested on: Linux Mint 17.2
 -- Requires:       apt-get install gnat
 

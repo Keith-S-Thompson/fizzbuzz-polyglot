@@ -1,8 +1,10 @@
 (* 
- * Language: Modula-2
- * Web site: http://www.modula2.org/
- *           http://www.nongnu.org/gm2/
- * Ubuntu:   See http://www.nongnu.org/gm2/debian.html
+ * Language:       Modula-2
+ * Web site:       http://www.modula2.org/
+ *                 http://www.nongnu.org/gm2/
+ * Last tested on: Ubuntu
+ * 
+ * See http://www.nongnu.org/gm2/debian.html
  *     Add to /etc/apt/sources.list:
  *         deb http://floppsie.comp.glam.ac.uk/debian/ squeeze main 
  *         deb-src http://floppsie.comp.glam.ac.uk/debian/ squeeze main
@@ -18,6 +20,8 @@
  *     Finally, the current libmpc3:amd64 package provides libmpc.so.3, but
  *     the gm2 command needs libmpc.so.2, so the `verify` script creates
  *     a symlink in the current directory.  Ugly, but it works.
+ *
+ * I've been unable so far to get the Modula-2 compiler working on Linux Mint 17.2.
  *)
 
 MODULE fizzbuzz;

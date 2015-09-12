@@ -1,7 +1,7 @@
 #!/usr/bin/escript
 
-% Language: Erlang
-% Web site: http://www.erlang.org/
+% Language:       Erlang
+% Web site:       http://www.erlang.org/
 % Last tested on: Linux Mint 17.2
 % Requires:       apt-get install erlang
 
