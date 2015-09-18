@@ -19,3 +19,4 @@ proverbial Round Tuit:
 - [PL/M](https://en.wikipedia.org/wiki/PL/M)
 - [Eiffel](https://en.wikipedia.org/wiki/Eiffel_(programming_language))
 - [Yorick](yorick.sourceforge.net)
+- [Ni](https://github.com/gokr/ni) [see also](http://goran.krampe.se/2015/09/16/ni-a-strange-little-language/)
