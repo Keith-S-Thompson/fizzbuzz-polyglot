@@ -20,3 +20,4 @@ proverbial Round Tuit:
 - [Eiffel](https://en.wikipedia.org/wiki/Eiffel_(programming_language))
 - [Yorick](yorick.sourceforge.net)
 - [Ni](https://github.com/gokr/ni) [see also](http://goran.krampe.se/2015/09/16/ni-a-strange-little-language/)
+- [MoonScript](http://moonscript.org/)
