@@ -21,3 +21,4 @@ proverbial Round Tuit:
 - [Yorick](yorick.sourceforge.net)
 - [Ni](https://github.com/gokr/ni) [see also](http://goran.krampe.se/2015/09/16/ni-a-strange-little-language/)
 - [MoonScript](http://moonscript.org/)
+- [Ark](http://ark-lang.org/)
