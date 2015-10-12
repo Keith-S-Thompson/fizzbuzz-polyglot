@@ -24,4 +24,4 @@ proverbial Round Tuit:
 - [SNOBOL/SPITBOL](http://daveshields.me/2012/09/02/on-being-the-maintainer-sole-developer-and-probably-the-sole-active-user-of-the-programming-language-spitbol/)
 - [Squirrel](http://squirrel-lang.org/)
 - [TECO](http://almy.us/teco.html) ... [see also](http://goodmath.scientopia.org/2010/11/30/the-glorious-horror-of-teco/)
-- [Yorick](yorick.sourceforge.net)
+- [Yorick](http://yorick.sourceforge.net)
