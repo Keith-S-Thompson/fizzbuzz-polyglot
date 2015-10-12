@@ -18,7 +18,7 @@ proverbial Round Tuit:
 - [Ni](https://github.com/gokr/ni) [see also](http://goran.krampe.se/2015/09/16/ni-a-strange-little-language/)
 - [Picat](http://picat-lang.org/)
 - [PL/1](https://en.wikipedia.org/wiki/PL/I)
-- [Plankalkül](https://en.wikipedia.org/wiki/Plankalk%C3%BCl) -- It's not likely that I'll find an implementation
+- [Plankalkül](https://en.wikipedia.org/wiki/Plankalk%C3%BCl) See also the [Konrad Zuse Internet Archive](http://zuse.zib.de/) -- It's not likely that I'll find an implementation
 - [PL/M](https://en.wikipedia.org/wiki/PL/M)
 - [Rebol](http://www.rebol.com/)
 - [SNOBOL/SPITBOL](http://daveshields.me/2012/09/02/on-being-the-maintainer-sole-developer-and-probably-the-sole-active-user-of-the-programming-language-spitbol/)
