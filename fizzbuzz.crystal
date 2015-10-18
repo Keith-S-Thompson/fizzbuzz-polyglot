@@ -7,7 +7,7 @@
 #                 apt-get update
 #                 apt-get install crystal
 
-# Note: This is identical to fizzbuzz.rb (Rudy),
+# Note: This is identical to fizzbuzz.rb (Ruby),
 # but it's compiled rather than interpreted.
 
 (1..100).each do |i|
