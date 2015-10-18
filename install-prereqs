@@ -1,0 +1,34 @@
+#!/bin/sh
+
+# This script installs the prerequisites for *most* of these
+# programs on a Debian or derived system.
+#
+# In a test on a freshly configured Ubuntu 14.04 system,
+# 57 out of 72 tests passed.  The failing tests were:
+#    fizzbuzz.crystal
+#    fizzbuzz.fizzbuzz
+#    fizzbuzz.groovy
+#    fizzbuzz.hodor
+#    fizzbuzz.icn
+#    fizzbuzz.lol
+#    fizzbuzz.mod
+#    fizzbuzz.nim
+#    fizzbuzz.nodejs
+#    fizzbuzz.pike
+#    fizzbuzz.pure
+#    fizzbuzz.rs
+#    fizzbuzz.setl
+#    fizzbuzz.vg
+#    fizzbuzz.ws
+# all of which require some manual installation.  I plan to improve this
+# script so more of the prerequisites can be installed automatically.
+
+# The "g++" package is likely to be preinstalled, but I've included it
+# here anyway.
+
+sudo apt-get install \
+    algol68g bwbasic clisp clojure1.4 csh curl erlang falconpl fish fort77 \
+    fp-compiler g++ gdc gforth gfortran ghc gnat gnu-smalltalk golang gpt \
+    guile-2.0 haxe iconx libgnustep-base-dev lua5.2 mono-gmcs mono-vbnc \
+    octave open-cobol openjdk-7-jdk php5-cli rakudo ratfor r-base-core \
+    regina-rexx rhino ruby scala ucblogo valac vim
