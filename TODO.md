@@ -9,6 +9,7 @@ proverbial Round Tuit:
 - [BCPL](http://www.cl.cam.ac.uk/~mr10/index.html)
 - [Brainfuck](http://www.muppetlabs.com/~breadbox/bf/)
 - [C2](http://c2lang.org/)
+- [Ceylon](http://ceylon-lang.org/)
 - [Clu](https://en.wikipedia.org/wiki/CLU_(programming_language)) ... [see also clu2c](http://woodsheep.jp/clu2c.html) [current download](ftp://ftp.lip6.fr/pub/lang/clu/clu2c/)
 - [Eiffel](https://en.wikipedia.org/wiki/Eiffel_(programming_language))
 - [Factor](http://factorcode.org/)
