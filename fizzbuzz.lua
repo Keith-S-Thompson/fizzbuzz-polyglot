@@ -5,6 +5,8 @@
 -- Last tested on: Linux Mint 17.2
 -- Requires:       apt-get install lua5.2
 
+-- NOTE: The "%" modulo operator was added in Lua 5.1.
+
 for i = 1, 100 do
     if i % 15 == 0 then
         print("FizzBuzz");
