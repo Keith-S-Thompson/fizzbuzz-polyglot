@@ -1,6 +1,6 @@
 #!/usr/bin/python
 
-# Language:       Python
+# Language:       Python 2
 # Web site:       http://python.org/
 # Last tested on: Linux Mint 17.2
 # Requires:       The "python" package is pre-installed

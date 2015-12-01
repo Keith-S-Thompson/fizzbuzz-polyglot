@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-# Language:       Python
+# Language:       Python 3
 # Web site:       http://python.org/
 # Last tested on: Linux Mint 17.2
 # Requires:       The "python3" package is pre-installed
