@@ -1,4 +1,4 @@
-#!/usr/local/bin/vigil
+#!/usr/bin/env vigil
 
 # Language:       Vigil
 # Web site:       https://github.com/munificent/vigil

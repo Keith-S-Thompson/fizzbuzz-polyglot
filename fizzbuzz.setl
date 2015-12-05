@@ -1,4 +1,4 @@
-#!/usr/local/bin/setl
+#!/usr/bin/env setl
 
 -- Language:       SETL
 -- Web site:       http://setl.org/setl/

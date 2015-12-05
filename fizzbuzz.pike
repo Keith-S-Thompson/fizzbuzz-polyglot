@@ -1,4 +1,4 @@
-#!/usr/local/bin/pike
+#!/usr/bin/env pike
 
 // Language:       Pike
 // Web site:       http://pike.lysator.liu.se/

@@ -1,4 +1,4 @@
-#!/usr/local/bin/fizzbuzz
+#!/usr/bin/env fizzbuzz
 
 # Language:       FizzBuzz
 # Web site:       https://github.com/Keith-S-Thompson/fizzbuzz

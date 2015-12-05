@@ -1,4 +1,4 @@
-#!/usr/local/bin/lci
+#!/usr/bin/env lci
 
 BTW  Language:      LOLCODE
 BTW Web site:       http://lolcode.org/

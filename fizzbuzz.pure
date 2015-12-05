@@ -1,4 +1,4 @@
-#!/usr/local/bin/pure
+#!/usr/bin/env pure
 
 // Language:       Pure
 // Web site:       http://purelang.bitbucket.org/
