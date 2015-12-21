@@ -23,6 +23,7 @@ proverbial Round Tuit:
 - [Plankalkül](https://en.wikipedia.org/wiki/Plankalk%C3%BCl) See also the [Konrad Zuse Internet Archive](http://zuse.zib.de/) -- It's not likely that I'll find an implementation
 - [PL/M](https://en.wikipedia.org/wiki/PL/M)
 - [Rebol](http://www.rebol.com/)
+- [Red](http://www.red-lang.org/)
 - [SNOBOL/SPITBOL](http://daveshields.me/2012/09/02/on-being-the-maintainer-sole-developer-and-probably-the-sole-active-user-of-the-programming-language-spitbol/)
 - [Squirrel](http://squirrel-lang.org/)
 - [TECO](http://almy.us/teco.html) ... [see also](http://goodmath.scientopia.org/2010/11/30/the-glorious-horror-of-teco/)
