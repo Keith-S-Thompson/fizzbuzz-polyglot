@@ -106,8 +106,7 @@ run() {
             ;;
         java)
             javac $filename
-            jar cfe $basename.jar $basename $basename.class
-            java -jar $basename.jar > $out
+            java $basename > $out
             ;;
         pas)
             fpc $filename
