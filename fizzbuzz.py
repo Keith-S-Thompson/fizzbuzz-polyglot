@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/python2
 
 # Language:       Python 2
 # Web site:       http://python.org/
