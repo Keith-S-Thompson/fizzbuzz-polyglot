@@ -114,9 +114,7 @@ with required packages installed as documented in each source file.
 `fizzbuzz.b` is not tested with an actual B compiler; see that file
 for details.
 
-As of Mon 2015-09-07, all tests pass on Linux Mint 17.2 *except*
-`fizzbuzz.mod` (Modula-2); I have so far been unable to install
-the compiler.
+As of Mon 2015-12-28, all tests pass on Linux Mint 17.3.
 
 The [Whitespace web page](http://compsoc.dur.ac.uk/whitespace/)
 is currently down, so I'm using the Perl implementation from

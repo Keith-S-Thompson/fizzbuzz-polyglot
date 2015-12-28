@@ -2,26 +2,26 @@
  * Language:       Modula-2
  * Web site:       http://www.modula2.org/
  *                 http://www.nongnu.org/gm2/
- * Last tested on: Ubuntu
- * 
+ * Last tested on: Linux Mint 17.3
+ *
  * See http://www.nongnu.org/gm2/debian.html
  *     Add to /etc/apt/sources.list:
- *         deb http://floppsie.comp.glam.ac.uk/debian/ squeeze main 
- *         deb-src http://floppsie.comp.glam.ac.uk/debian/ squeeze main
+ *         deb     http://floppsie.comp.glam.ac.uk/debian/ jessie main 
+ *         deb-src http://floppsie.comp.glam.ac.uk/debian/ jessie main
  *     Then:
  *         apt-get update
- *         apt-get install gm2-doc gm2
- *         apt-get install libpth-dev
- *     Then (see http://lists.gnu.org/archive/html/gm2/2011-12/msg00003.html):
- *         cd /usr/lib
- *         ln -s /usr/lib/x86_64-linux-gnu/crti.o crti.o
- *         ln -s /usr/lib/x86_64-linux-gnu/crt1.o crt1.o
- *         ln -s /usr/lib/x86_64-linux-gnu/crtn.o crtn.o
- *     Finally, the current libmpc3:amd64 package provides libmpc.so.3, but
- *     the gm2 command needs libmpc.so.2, so the `verify` script creates
- *     a symlink in the current directory.  Ugly, but it works.
+ *         apt-get install gm2 libpth-dev
+ *     (gm2-doc may also be useful)
+ * You'll see a warning that the gm2 package cannot be authenticated.
  *
- * I've been unable so far to get the Modula-2 compiler working on Linux Mint 17.2.
+ * The `verify` script creates a local symlink for the libmpc.so library,
+ * since gm2 requires version 2 but Linux Mint 17.3 only provides version 3.
+ *
+ * See /etc/debian_version to determine the Debian release corresponding
+ * to your current Ubuntu or Linux Mint release.
+ *
+ * Other steps were necessary in earlier versions.  See the git history
+ * of this file for details.
  *)
 
 MODULE fizzbuzz;
