@@ -2,7 +2,7 @@
 
 // Language:       Pike
 // Web site:       http://pike.lysator.liu.se/
-// Last tested on: Linux Mint 17.2: Install from source:
+// Last tested on: Linux Mint 17.3: Install from source:
 // Requires:       Install from source
 //                 http://pike.lysator.liu.se/pub/pike/latest-stable/Pike-v7.8.866.tar.gz
 

@@ -3,7 +3,7 @@
 # Language:       Awk
 # Web site:       http://invisible-island.net/mawk/
 #                 http://www.gnu.org/software/gawk/
-# Last tested on: Linux Mint 17.2
+# Last tested on: Linux Mint 17.3
 # Requires:       The "gawk" (GNU awk) and "mawk" packages are pre-installed.
 
 BEGIN {

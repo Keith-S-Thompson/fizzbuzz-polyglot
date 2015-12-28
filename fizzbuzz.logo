@@ -2,7 +2,7 @@
 
 ; Language:       Logo
 ; Web site:       http://ucblogo.sourceforge.net/
-; Last tested on: Linux Mint 17.2
+; Last tested on: Linux Mint 17.3
 ; Requires:       apt-get install ucblogo
 
 to print_line :i

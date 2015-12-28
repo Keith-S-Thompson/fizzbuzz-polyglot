@@ -2,7 +2,7 @@
 
 // Language:       Swift
 // Web site:       https://swift.org/
-// Last tested on: Linux Mint 17.2
+// Last tested on: Linux Mint 17.3
 // Requires:       Install swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04.tar.gz
 
 for i in 1...100 {

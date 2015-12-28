@@ -1,6 +1,6 @@
 // Language:       go
 // Web site:       http://golang.org/
-// Last tested on: Linux Mint 17.2
+// Last tested on: Linux Mint 17.3
 // Requires:       apt-get install golang
 
 package main

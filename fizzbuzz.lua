@@ -2,7 +2,7 @@
 
 -- Language:       Lua
 -- Web site:       http://www.lua.org/
--- Last tested on: Linux Mint 17.2
+-- Last tested on: Linux Mint 17.3
 -- Requires:       apt-get install lua5.2
 
 -- NOTE: The "%" modulo operator was added in Lua 5.1.

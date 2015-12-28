@@ -2,7 +2,7 @@
 
 # Language:       Bourne shell
 # Web site:       (Defined by POSIX; see opengroup.org)
-# Last tested on: Linux Mint 17.2
+# Last tested on: Linux Mint 17.3
 # Requires:       The "dash" package is pre-installed
 
 i=1

@@ -1,6 +1,6 @@
 " Language:       Vimscript
 " Web site:       http://www.vim.org/
-" Last tested on: Linux Mint 17.2
+" Last tested on: Linux Mint 17.3
 " Requires:       apt-get install vim
 
 let i = 1

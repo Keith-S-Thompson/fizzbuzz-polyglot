@@ -1,6 +1,6 @@
 // Language:       Groovy
 // Web site:       http://groovy.codehaus.org/
-// Last tested on: Linux Mint 17.2
+// Last tested on: Linux Mint 17.3
 // Requires:       apt-get install groovy openjdk-7-jdk
 
 1.upto(100) {

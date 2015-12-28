@@ -2,7 +2,7 @@
 
 // Language:       JavaScript
 // Web site:       https://developer.mozilla.org/en-US/docs/JavaScript
-// Last tested on: Linux Mint 17.2
+// Last tested on: Linux Mint 17.3
 // Requires:       apt-get install rhino
 
 for (i = 1; i <= 100; i ++) {

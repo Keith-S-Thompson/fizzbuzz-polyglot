@@ -1,6 +1,6 @@
 // Language:       Scala
 // Web site:       http://www.scala-lang.org/
-// Last tested on: Linux Mint 17.2
+// Last tested on: Linux Mint 17.3
 // Requires:       apt-get install scala
 
 object fizzbuzz

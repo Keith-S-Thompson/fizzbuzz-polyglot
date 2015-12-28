@@ -1,6 +1,6 @@
 dnl Language:       m4
 dnl Web site:       http://www.gnu.org/software/m4/
-dnl Last tested on: Linux Mint 17.2
+dnl Last tested on: Linux Mint 17.3
 dnl Requires:       The "m4" package is pre-installed
 define(`line', `ifelse(eval($1 % 15), `0', `FizzBuzz
 ',

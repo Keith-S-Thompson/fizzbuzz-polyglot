@@ -1,6 +1,6 @@
 // Language:       C++
 // Web site:       http://www.open-std.org/JTC1/SC22/WG21/
-// Last tested on: Linux Mint 17.2
+// Last tested on: Linux Mint 17.3
 // Requires:       The "g++" package is pre-installed
 
 #include <iostream>

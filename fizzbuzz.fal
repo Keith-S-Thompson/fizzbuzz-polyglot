@@ -2,7 +2,7 @@
 
 // Language:       Falcon
 // Web site:       http://falconpl.org
-// Last tested on: Linux Mint 17.2
+// Last tested on: Linux Mint 17.3
 // Requires:       apt-get install falconpl
 
 for i in [1:101]

@@ -3,7 +3,7 @@
 /* 
  * Language:       REXX
  * Web site:       http://regina-rexx.sourceforge.net/
- * Last tested on: Linux Mint 17.2
+ * Last tested on: Linux Mint 17.3
  * Requires:       apt-get install regina-rexx
 */
 

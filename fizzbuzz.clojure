@@ -2,7 +2,7 @@
 
 ; Language:       Clojure
 ; Web site:       http://clojure.org/
-; Last tested on: Linux Mint 17.2
+; Last tested on: Linux Mint 17.3
 ; Requires:       apt-get install clojure1.4
 ; (On other systems the package name may be just "clojure")
 

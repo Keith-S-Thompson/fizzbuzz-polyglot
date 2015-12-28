@@ -2,7 +2,7 @@
 
 # Language:       Python 2
 # Web site:       http://python.org/
-# Last tested on: Linux Mint 17.2
+# Last tested on: Linux Mint 17.3
 # Requires:       The "python" package is pre-installed
 
 for i in xrange(1,101):

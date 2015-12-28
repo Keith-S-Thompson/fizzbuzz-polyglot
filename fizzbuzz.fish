@@ -2,7 +2,7 @@
 
 # Language:       fish shell
 # Web site:       http://fishshell.com/
-# Last tested on: Linux Mint 17.2
+# Last tested on: Linux Mint 17.3
 # Requires:       apt-get install fish
 
 for i in (seq 1 100)

@@ -2,7 +2,7 @@
 
 # Language:       Perl6
 # Web site:       http://perl6.org/
-# Last tested on: Linux Mint 17.2
+# Last tested on: Linux Mint 17.3
 # Requires:       apt-get install rakudo
 
 ( (1..100).map: {

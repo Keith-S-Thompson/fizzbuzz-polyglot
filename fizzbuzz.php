@@ -2,7 +2,7 @@
 <?php
     // Language:       php
     // Web site:       http://php.net/
-    // Last tested on: Linux Mint 17.2
+    // Last tested on: Linux Mint 17.3
     // Requires:       apt-get install php5 php5-cli
     for ($i = 1; $i <= 100; $i ++) {
         if ($i % 15 == 0) {

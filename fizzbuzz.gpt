@@ -1,6 +1,6 @@
 // Language:       G-Portugol
 // Web site:       http://gpt.berlios.de/site/
-// Last tested on: Linux Mint 17.2
+// Last tested on: Linux Mint 17.3
 // Requires:       apt-get install gpt
 
 algoritmo fizzbuzz;

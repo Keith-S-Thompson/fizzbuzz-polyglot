@@ -2,7 +2,7 @@
 
 # Language:       Vigil
 # Web site:       https://github.com/munificent/vigil
-# Last tested on: Linux Mint 17.2
+# Last tested on: Linux Mint 17.3
 # Requires:       Install interpreter from git repo
 
 def fizzbuzz_line(n):

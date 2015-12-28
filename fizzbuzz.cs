@@ -1,6 +1,6 @@
 // Language:       C#
 // Web site:       http://www.ecma-international.org/publications/standards/Ecma-334.htm
-// Last tested on: Linux Mint 17.2
+// Last tested on: Linux Mint 17.3
 // Requires:       apt-get install mono-gmcs
 
 using System;

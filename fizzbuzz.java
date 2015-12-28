@@ -1,6 +1,6 @@
 // Language:       Java
 // Web site:       http://www.java.com/
-// Last tested on: Linux Mint 17.2
+// Last tested on: Linux Mint 17.3
 // Requires:       apt-get install openjdk-7-jdk
 
 public class fizzbuzz

@@ -2,7 +2,7 @@
 
 # Language:       R
 # Web site:       http://www.r-project.org/
-# Last tested on: Linux Mint 17.2
+# Last tested on: Linux Mint 17.3
 # Requires:       apt-get install r-base-core
 
 

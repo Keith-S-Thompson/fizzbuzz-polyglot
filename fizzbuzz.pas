@@ -1,7 +1,7 @@
 (*
  * Language:       Pascal
  * Web site:       http://www.freepascal.org/
- * Last tested on: Linux Mint 17.2
+ * Last tested on: Linux Mint 17.3
  * Requires:       apt-get install fp-compiler
  *)
 program FizzBuzz;

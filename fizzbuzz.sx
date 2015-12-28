@@ -1,7 +1,7 @@
 /*
  * Language:       x86/x86_64/SPARC assembly
  * Web site:       http://gcc.gnu.org/
- * Last tested on: Linux Mint 17.2
+ * Last tested on: Linux Mint 17.3
  * Requires:       The "gcc" package is pre-installed
  *
  * The code was generated from fizzbuzz.c with the command:

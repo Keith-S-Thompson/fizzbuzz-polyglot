@@ -2,7 +2,7 @@
 
 # Language:       csh (C shell)
 # Web site:       http://www.tcsh.org/ (for tcsh, an enhanced version of csh)
-# Last tested on: Linux Mint 17.2
+# Last tested on: Linux Mint 17.3
 # Requires:       apt-get install csh (or tcsh)
 
 @ i = 1

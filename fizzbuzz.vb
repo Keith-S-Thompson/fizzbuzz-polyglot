@@ -1,6 +1,6 @@
 ' Language:       Visual Basic .NET
 ' Web site:       http://msdn.microsoft.com/en-us/vstudio/hh388568.aspx
-' Last tested on: Linux Mint 17.2
+' Last tested on: Linux Mint 17.3
 ' Requires:       apt-get install mono-vbnc
 
 Module FizzBuzz

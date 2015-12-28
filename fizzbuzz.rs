@@ -1,6 +1,6 @@
 // Language:       Rust
 // Web site:       http://www.rust-lang.org/
-// Last tested on: Linux Mint 17.2
+// Last tested on: Linux Mint 17.3
 // Requires:       Build compiler from source
 //                 Also need to symlink *.so files and set $LD_LIBRARY_PATH
 //                 (see verify script)
