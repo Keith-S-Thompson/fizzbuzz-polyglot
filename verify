@@ -71,9 +71,6 @@ run() {
             gfortran $filename -o $basename
             ./$basename > $out
             ;;
-        fizzbuzz)
-            /usr/local/bin/fizzbuzz $filename > $out
-            ;;
         gcc)
             gcc -x c -c $filename 2>&1 | sed 's/:.*//' > $out
             ;;
@@ -113,8 +110,7 @@ run() {
             ./$basename > $out
             ;;
         pure)
-            # This LD_LIBRARY_PATH setting works for my system; YMMV.
-            LD_LIBRARY_PATH=/usr/local/lib ./$filename > $out
+            ./$filename > $out
             ;;
         m)
             . /usr/share/GNUstep/Makefiles/GNUstep.sh
@@ -152,8 +148,7 @@ run() {
             ./$basename > $out
             ;;
         rs)
-            # This LD_LIBRARY_PATH setting works for my system; YMMV.
-            LD_LIBRARY_PATH=/usr/local/lib rustc $filename
+            rustc $filename
             ./$basename > $out
             ;;
         sx)
