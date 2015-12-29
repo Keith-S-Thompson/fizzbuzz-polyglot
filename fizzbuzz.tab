@@ -1,0 +1,13 @@
+# Language:       Tab
+# Web site:       http://tkatchev.bitbucket.org/tab/
+# Last tested on: Linux Mint 17.3
+# Requires:       Clone the git repo at http://bitbucket.org/tkatchev/tab
+#                 `make dist`
+#                 Install `tab-linux-x86_64` in $PATH as `tab`
+#                 (`make` build a `tab` executable that doesn't load
+#                 its dynamic libraries properly.)
+
+# Tab does not appear to have any comment syntax.
+# The `verify` script removes these lines before invoking `tab`.
+
+[ if (@ % 15 == 0, "FizzBuzz", if (@ % 3 == 0, "Fizz", if (@ % 5 == 0, "Buzz", string(@)))) : count(100) ]

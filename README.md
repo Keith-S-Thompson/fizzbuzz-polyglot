@@ -85,6 +85,7 @@ The current set of languages (72 of them) is:
 * [SETL](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.setl)
 * [Smalltalk](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.st)
 * [Swift](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.swift)
+- [Tab](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.tab)
 * [tail](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.tail)
 * [Tcl](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.tcl)
 * [Vala](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.vala)

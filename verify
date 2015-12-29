@@ -165,6 +165,9 @@ run() {
             jar cfe $basename.jar $basename *.class
             scala $basename.jar > $out
             ;;
+        tab)
+            tab -f <(grep -v '^#' $filename) > $out
+            ;;
         tail)
             _POSIX2_VERSION=199209 ./$filename > $out
             ;;
