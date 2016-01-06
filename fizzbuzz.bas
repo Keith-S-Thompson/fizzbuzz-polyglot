@@ -1,4 +1,4 @@
-0 REM Language:       BASIC
+1 REM Language:       BASIC
 2 REM Web site:       http://www.bwbasic.at/info.htm
 3 REM Last tested on: Linux Mint 17.3
 4 REM Requires:       apt-get install bwbasic
