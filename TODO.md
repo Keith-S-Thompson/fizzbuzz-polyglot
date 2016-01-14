@@ -7,6 +7,7 @@ proverbial Round Tuit:
 - [Ark](http://ark-lang.org/)
 - [ArnoldC](https://github.com/lhartikk/ArnoldC)
 - [BCPL](http://www.cl.cam.ac.uk/~mr10/index.html)
+- [Boo](http://boo-lang.org/)
 - [Brainfuck](http://www.muppetlabs.com/~breadbox/bf/)
 - [C2](http://c2lang.org/)
 - [Ceylon](http://ceylon-lang.org/)
