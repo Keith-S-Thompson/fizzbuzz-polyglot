@@ -13,6 +13,7 @@ proverbial Round Tuit:
 - [Ceylon](http://ceylon-lang.org/)
 - [Clu](https://en.wikipedia.org/wiki/CLU_(programming_language)) ... [see also clu2c](http://woodsheep.jp/clu2c.html) [current download](ftp://ftp.lip6.fr/pub/lang/clu/clu2c/)
 - [Eiffel](https://en.wikipedia.org/wiki/Eiffel_(programming_language))
+- [Elixir](http://elixir-lang.org/)
 - [Elm](http://elm-lang.org/)
 - [Euphoria](http://www.rapideuphoria.com/)
 - [Factor](http://factorcode.org/)
