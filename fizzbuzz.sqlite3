@@ -1,0 +1,24 @@
+-- Language:       sqlite3 (SQL)
+-- Web site:       https://www.sqlite.org/
+-- Last tested on: Linux Mint 17.3
+-- Requires:       apt-get install sqlite
+
+-- Loop code based on a Stack Overflow answer by Doug Currie,
+-- http://stackoverflow.com/a/7373289/827263
+
+create table t (startrange int not null, endrange int not null);
+insert into t values(1, 100);
+create table lines (i int not null, s string);
+
+pragma recursive_triggers = on;
+create temp trigger ttrig
+    after insert on lines
+    when new.i < (select t.endrange from t) begin
+        insert into lines values (new.i + 1, new.i + 1);
+    end;
+
+insert into lines values ((select t.startrange from t), (select t.startrange from t));
+update lines set s = "Fizz"     where i % 3 = 0;
+update lines set s = "Buzz"     where i % 5 = 0;
+update lines set s = "FizzBuzz" where i % 15 = 0;
+select s from lines;

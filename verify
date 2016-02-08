@@ -151,14 +151,17 @@ run() {
             rustc $filename
             ./$basename > $out
             ;;
-        sx)
-            gcc $filename -o $basename
-            ./$basename > $out
-            ;;
         scala)
             scalac $filename
             jar cfe $basename.jar $basename *.class
             scala $basename.jar > $out
+            ;;
+        sqlite3)
+            sqlite3 -init $filename < /dev/null > $out
+            ;;
+        sx)
+            gcc $filename -o $basename
+            ./$basename > $out
             ;;
         tab)
             tab -f <(grep -v '^#' $filename) > $out
