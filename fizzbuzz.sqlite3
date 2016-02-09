@@ -21,4 +21,4 @@ insert into lines values ((select t.startrange from t), (select t.startrange fro
 update lines set s = "Fizz"     where i % 3 = 0;
 update lines set s = "Buzz"     where i % 5 = 0;
 update lines set s = "FizzBuzz" where i % 15 = 0;
-select s from lines;
+select s from lines order by i;
