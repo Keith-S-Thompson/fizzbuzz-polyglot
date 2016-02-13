@@ -18,6 +18,7 @@ proverbial Round Tuit:
 - [Euphoria](http://www.rapideuphoria.com/)
 - [Factor](http://factorcode.org/)
 - [Intercal](http://catb.org/esr/intercal/)
+- [Io](http://iolanguage.org/)
 - [MoonScript](http://moonscript.org/)
 - [newLISP](http://www.newlisp.org/)
 - [Ni](https://github.com/gokr/ni) ... [see also](http://goran.krampe.se/2015/09/16/ni-a-strange-little-language/)
@@ -25,6 +26,7 @@ proverbial Round Tuit:
 - [PL/1](https://en.wikipedia.org/wiki/PL/I)
 - [Plankalkül](https://en.wikipedia.org/wiki/Plankalk%C3%BCl) See also the [Konrad Zuse Internet Archive](http://zuse.zib.de/) -- It's not likely that I'll find an implementation
 - [PL/M](https://en.wikipedia.org/wiki/PL/M)
+- [Prolog](https://en.wikipedia.org/wiki/Prolog)
 - [Rebol](http://www.rebol.com/)
 - [Red](http://www.red-lang.org/)
 - [SNOBOL/SPITBOL](http://daveshields.me/2012/09/02/on-being-the-maintainer-sole-developer-and-probably-the-sole-active-user-of-the-programming-language-spitbol/)
