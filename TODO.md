@@ -4,6 +4,7 @@ Obviously the major flaw of this project is that there just aren't
 enough languages.  Here are a few that I plan to add when I get the
 proverbial Round Tuit:
 
+- [APL](https://www.gnu.org/software/apl/)
 - [Ark](http://ark-lang.org/)
 - [ArnoldC](https://github.com/lhartikk/ArnoldC)
 - [BCPL](http://www.cl.cam.ac.uk/~mr10/index.html)
