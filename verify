@@ -132,15 +132,12 @@ run() {
             ;;
         nodejs)
             if [ -x /usr/bin/nodejs ] ; then
-                # Ubuntu 12.10
                 ./$filename &
             elif [ -x /usr/bin/node ] ; then
-                # Ubuntu 12.04
                 /usr/bin/node $filename &
             fi
             sleep 1
             curl --silent http://localhost:9000 > $out
-            kill $!
             ;;
         ratfor)
             ratfor -o $filename.f $filename

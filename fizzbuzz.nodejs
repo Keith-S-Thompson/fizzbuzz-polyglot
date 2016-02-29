@@ -5,9 +5,10 @@
 // Last tested on: Linux Mint 17.3
 // Requires:       apt-get install nodejs curl
 
-// Note: In Ubuntu 12.04, the interpreter is "/usr/bin/node";
-// in 12.10, it's "/usr/bin/nodejs".  The "verify" script
-// allows for this.
+// Note: The interpreter may be "/usr/bin/node" or "/usr/bin/nodejs",
+// depending on the OS release (e.g., Ubuntu 12.04 has "node",
+// 12.10 has "nodejs".)
+// The "verify" script allows for this.
 
 var http = require('http');
  
@@ -20,4 +21,5 @@ http.createServer(function (request, response) {
                        i.toString() + "\n")
     }
     response.end()
+    process.exit()
 }).listen(9000);
