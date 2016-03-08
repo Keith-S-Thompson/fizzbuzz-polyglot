@@ -10,10 +10,10 @@
 // 12.10 has "nodejs".)
 // The "verify" script allows for this.
 
-var http = require('http');
+var http = require('http')
  
 http.createServer(function (request, response) {
-    response.writeHead(200, {'Content-Type': 'text/plain'});
+    response.writeHead(200, {'Content-Type': 'text/plain'})
     for (i = 1; i <= 100; i ++) {
         response.write(i % 15 == 0 ? "FizzBuzz\n" :
                        i %  3 == 0 ? "Fizz\n" :
@@ -22,4 +22,4 @@ http.createServer(function (request, response) {
     }
     response.end()
     process.exit()
-}).listen(9000);
+}).listen(9000)
