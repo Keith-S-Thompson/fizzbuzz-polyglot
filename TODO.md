@@ -22,6 +22,7 @@ proverbial Round Tuit:
 - [Factor](http://factorcode.org/)
 - [Intercal](http://catb.org/esr/intercal/)
 - [Io](http://iolanguage.org/)
+- [KLisp (kernel)](http://klisp.org/)
 - [Kotlin](https://kotlinlang.org/)
 - [MoonScript](http://moonscript.org/)
 - [newLISP](http://www.newlisp.org/)
