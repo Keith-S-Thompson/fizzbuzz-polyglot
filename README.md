@@ -17,6 +17,13 @@ The requirements are simple:
 In my [fizzbuz-c](https://github.com/Keith-S-Thompson/fizzbuzz-c) project
 I present multiple (78 at last count) C solutions.
 
+**NOTE :** This is not intended as a collaborative project.  It is my
+own personal playground.  A few people have submitted pull requests for
+languages I haven't covered, which I certainly appreciate, but I won't
+be accepting them.  If you're interested in collaborating on something
+similar, see [Rosetta Code](http://rosettacode.org/wiki/Rosetta_Code).
+Bug reports are quite welcome.
+
 Here I present multiple implementations, one in each language.
 The current set of languages (74 of them) is:
 
