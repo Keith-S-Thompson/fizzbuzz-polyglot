@@ -12,205 +12,105 @@
 
 set $i = 0
 
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
-set $i ++
-print $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
+print $i++, $i % 15 == 0 ? "FizzBuzz" : $i % 3 == 0 ? "Fizz" : $i % 5 == 0 ? "Buzz" : $i 
 
 quit
