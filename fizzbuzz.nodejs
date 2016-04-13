@@ -1,14 +1,11 @@
-#!/usr/bin/nodejs
+#!/usr/bin/node
 
 // Language:       Node.js (JavaScript)
 // Web site:       http://nodejs.org/
 // Last tested on: Linux Mint 17.3
-// Requires:       apt-get install nodejs curl
+// Requires:       apt-get install nodejs nodejs-legacy curl
 
-// Note: The interpreter may be "/usr/bin/node" or "/usr/bin/nodejs",
-// depending on the OS release (e.g., Ubuntu 12.04 has "node",
-// 12.10 has "nodejs".)
-// The "verify" script allows for this.
+// Note: The "nodejs-legacy" creates /usr/bin/node as a symlink to nodejs.
 
 var http = require('http')
  

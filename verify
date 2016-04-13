@@ -134,11 +134,7 @@ run() {
             ./$basename > $out
             ;;
         nodejs)
-            if [ -x /usr/bin/nodejs ] ; then
-                ./$filename &
-            elif [ -x /usr/bin/node ] ; then
-                /usr/bin/node $filename &
-            fi
+            ./$filename &
             sleep 1
             curl --silent http://localhost:9000 > $out
             ;;
