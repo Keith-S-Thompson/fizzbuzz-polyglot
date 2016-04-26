@@ -25,7 +25,7 @@ similar, see [Rosetta Code](http://rosettacode.org/wiki/Rosetta_Code).
 Bug reports are quite welcome.
 
 Here I present multiple implementations, one in each language.
-The current set of languages (75 of them) is:
+The current set of languages (79 of them) is:
 
 * [Ada](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.adb)
 * [Algol 68](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.a68)
@@ -67,6 +67,7 @@ The current set of languages (75 of them) is:
 * [Icon](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.icn)
 * [Java](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.java)
 * [JavaScript](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.js)
+* [Julia](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.jl)
 * [Lily](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.lly)
 * [Logo](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.logo)
 * [LOLCODE](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.lol)
@@ -112,21 +113,25 @@ Many of these are inspired by http://99-bottles-of-beer.net/.
 scripting languages.  The `cat` implementation in particular is an ugly
 cheat, depending on the existence of the `expected-output.txt` file.
 
+JavaScript and Node.js aren't really distinct languages, but Node.js
+is a sufficiently different environment than plain JavaScript that
+I thought it was worth having both.
+
 `curl` is a URL transfer utility, not a programming language.
 `fizzbuzz.curl`, like `fizzbuzz.cat`, depends on the existence
 of `expected-output.txt`, but on this [`GitHub` project
 page](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot) rather
-than in the current directory; it also requires an Internet connection.
+than in the current directory.  It also requires an Internet connection.
 
 The `verify` script executes each program and confirms that its
-output is correct.  It works on my system, x86_64 Linux Mint 17.2,
+output is correct.  It works on my system, x86_64 Linux Mint 17.3,
 with required packages installed as documented in each source file.
 (Linux Mint is derived from Ubuntu, which is derived from Debian).
 
 `fizzbuzz.b` is not tested with an actual B compiler; see that file
 for details.
 
-As of Mon 2015-12-28, all tests pass on Linux Mint 17.3.
+As of Tue 2016-04-26, all tests pass on Linux Mint 17.3.
 
 The [Whitespace web page](http://compsoc.dur.ac.uk/whitespace/)
 is currently down, so I'm using the Perl implementation from
