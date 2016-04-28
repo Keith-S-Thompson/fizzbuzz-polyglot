@@ -34,7 +34,6 @@ proverbial Round Tuit:
 - [PL/1](https://en.wikipedia.org/wiki/PL/I)
 - [Plankalkül](https://en.wikipedia.org/wiki/Plankalk%C3%BCl) See also the [Konrad Zuse Internet Archive](http://zuse.zib.de/) -- It's not likely that I'll find an implementation
 - [PL/M](https://en.wikipedia.org/wiki/PL/M)
-- [PostScript](https://en.wikipedia.org/wiki/PostScript)
 - [Prolog](https://en.wikipedia.org/wiki/Prolog)
 - [Rebol](http://www.rebol.com/)
 - [Red](http://www.red-lang.org/)

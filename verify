@@ -112,6 +112,9 @@ run() {
             fpc $filename
             ./$basename > $out
             ;;
+        ps)
+            gs -q -dNODISPLAY $filename > $out
+            ;;
         pure)
             ./$filename > $out
             ;;
