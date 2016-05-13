@@ -31,6 +31,7 @@ proverbial Round Tuit:
 - [MoonScript](http://moonscript.org/)
 - [newLISP](http://www.newlisp.org/)
 - [Ni](https://github.com/gokr/ni) ... [see also](http://goran.krampe.se/2015/09/16/ni-a-strange-little-language/)
+- [Pharo](http://pharo.org/)
 - [Picat](http://picat-lang.org/)
 - [PL/1](https://en.wikipedia.org/wiki/PL/I)
 - [Plankalkül](https://en.wikipedia.org/wiki/Plankalk%C3%BCl) See also the [Konrad Zuse Internet Archive](http://zuse.zib.de/) -- It's not likely that I'll find an implementation
