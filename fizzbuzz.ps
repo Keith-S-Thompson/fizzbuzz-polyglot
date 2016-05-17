@@ -6,25 +6,24 @@
 % Last tested on: Linux Mint 17.3
 % Requires:       apt-get install ghostscript
 
-/i 1 def
+1
 100 {
-    i 15 div dup floor eq
+    dup 15 div dup floor eq
         { (FizzBuzz\n) print }
         {
-            i 3 div dup floor eq
+            dup 3 div dup floor eq
                 { (Fizz\n) print }
                 {
-                    i 5 div dup floor eq
+                    dup 5 div dup floor eq
                         { (Buzz\n) print }
-                        { i 3 string cvs print (\n) print }
+                        { dup 3 string cvs print (\n) print }
                     ifelse
                 }
             ifelse
         }
     ifelse
 
-    /i i 1 add def
-    % i 30 gt { exit } if
+    1 add
 } repeat
 
 quit
