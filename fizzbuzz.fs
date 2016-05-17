@@ -10,21 +10,24 @@
 \ version 0.7.3 from source.  On Linux Mint 17.3 this was not necessary.
 
 : fizzbuzz ( -- )
+    1
     101 1 ?do
-        i 15 mod 0= if
+        dup 15 mod 0= if
             ." FizzBuzz" cr
         else
-            i 3 mod 0= if
+            dup 3 mod 0= if
                 ." Fizz" cr
             else
-                i 5 mod 0= if
+                dup 5 mod 0= if
                     ." Buzz" cr
                 else
-                    i 1 .r cr
+                    dup 1 .r cr
                 then
             then
         then
+        1+
     loop
+    drop
     ;
 fizzbuzz
 bye
