@@ -25,7 +25,7 @@ similar, see [Rosetta Code](http://rosettacode.org/wiki/Rosetta_Code).
 Bug reports are quite welcome.
 
 Here I present multiple implementations, one in each language.
-The current set of languages (80 of them) is:
+The current set of languages (81 of them) is:
 
 * [Ada](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.adb)
 * [Algol 68](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.a68)
@@ -65,6 +65,7 @@ The current set of languages (80 of them) is:
 * [Haxe](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.hx)
 * [Hodor](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.hodor)
 * [Icon](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.icn)
+* [Io](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.io)
 * [Java](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.java)
 * [JavaScript](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.js)
 * [Julia](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.jl)
