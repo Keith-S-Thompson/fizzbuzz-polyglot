@@ -70,6 +70,7 @@ The current set of languages (81 of them) is:
 * [JavaScript](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.js)
 * [Julia](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.jl)
 * [Lily](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.lly)
+* [Little](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.l)
 * [Logo](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.logo)
 * [LOLCODE](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.lol)
 * [Lua](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.lua)

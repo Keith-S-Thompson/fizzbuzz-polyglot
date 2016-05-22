@@ -27,7 +27,6 @@ proverbial Round Tuit:
 - [KLisp (kernel)](http://klisp.org/)
 - [Kotlin](https://kotlinlang.org/)
 - [LISP/C](https://github.com/eratosthenesia/lispc)
-- [Little](http://www.little-lang.org/)
 - [MoonScript](http://moonscript.org/)
 - [newLISP](http://www.newlisp.org/)
 - [Ni](https://github.com/gokr/ni) ... [see also](http://goran.krampe.se/2015/09/16/ni-a-strange-little-language/)
