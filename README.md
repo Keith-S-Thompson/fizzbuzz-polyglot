@@ -15,7 +15,7 @@ The requirements are simple:
 > five print "FizzBuzz".
 
 In my [fizzbuz-c](https://github.com/Keith-S-Thompson/fizzbuzz-c) project
-I present multiple (78 at last count) C solutions.
+I present multiple (79 at last count) C solutions.
 
 **NOTE :** This is not intended as a collaborative project.  It is my
 own personal playground.  A few people have submitted pull requests for
@@ -25,7 +25,7 @@ similar, see [Rosetta Code](http://rosettacode.org/wiki/Rosetta_Code).
 Bug reports are quite welcome.
 
 Here I present multiple implementations, one in each language.
-The current set of languages (81 of them) is:
+The current set of languages (82 of them) is:
 
 * [Ada](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.adb)
 * [Algol 68](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.a68)
@@ -92,6 +92,7 @@ The current set of languages (81 of them) is:
 * [Python 3](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.py3)
 * [R](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.r)
 * [Ratfor](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.ratfor)
+* [Rc (Plan 9 shell)](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.rc)
 * [REXX](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.rexx)
 * [Ruby](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.rb)
 * [Rust](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.rs)

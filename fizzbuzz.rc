@@ -1,0 +1,18 @@
+#!/usr/bin/rc
+
+# Language:       rc (Plan 9 shell)
+# Web site:       http://plan9.bell-labs.com/sys/doc/rc.html
+# Last tested on: Linux Mint 17.3
+# Requires:       apt-get install rc
+
+for ( i in `{seq 100} ) {
+    if ( test `{expr $i % 15} -eq 0 ) {
+        echo FizzBuzz
+    } else if ( test `{expr $i % 3} -eq 0 ) {
+        echo Fizz
+    } else if ( test `{expr $i % 5} -eq 0 ) {
+        echo Buzz
+    } else {
+        echo $i
+    }
+}
