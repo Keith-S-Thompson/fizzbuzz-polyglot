@@ -49,6 +49,7 @@ proverbial Round Tuit:
 - [Thomson Shell](http://v6shell.org/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Whenever](http://www.dangermouse.net/esoteric/whenever.html)
+- [Whiley](http://whiley.org/)
 - [Wren](https://munificent.github.io/wren/index.html)
 - [Xonsh](http://xon.sh/)
 - [Yorick](http://yorick.sourceforge.net)
