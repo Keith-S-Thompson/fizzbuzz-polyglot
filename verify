@@ -155,6 +155,10 @@ run() {
             jar cfe $basename.jar $basename *.class
             scala $basename.jar > $out
             ;;
+        sim)
+            cim -e $filename
+            ./$basename > $out
+            ;;
         sqlite3)
             sqlite3 -init $filename < /dev/null > $out
             ;;
