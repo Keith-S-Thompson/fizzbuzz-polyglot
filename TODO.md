@@ -18,6 +18,7 @@ proverbial Round Tuit:
 - [Clu](https://en.wikipedia.org/wiki/CLU_(programming_language)) ... [see also clu2c](http://woodsheep.jp/clu2c.html) [current download](ftp://ftp.lip6.fr/pub/lang/clu/clu2c/)
 - [Cmajor](https://sourceforge.net/projects/cmajor/)
 - [Cobra](http://cobra-language.com/)
+- [Coconut](http://coconut-lang.org/)
 - [Cyclops](http://cyclopslang.org/) 𐙀
 - [Eiffel](https://en.wikipedia.org/wiki/Eiffel_(programming_language))
 - [Elixir](http://elixir-lang.org/)
