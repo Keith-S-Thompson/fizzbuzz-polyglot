@@ -49,7 +49,6 @@ proverbial Round Tuit:
 - [Stanza](http://lbstanza.org/)
 - [TECO](http://almy.us/teco.html) ... [see also](http://goodmath.scientopia.org/2010/11/30/the-glorious-horror-of-teco/)
 - [Terra](http://terralang.org/index.html)
-- [Thomson Shell](http://v6shell.org/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Whenever](http://www.dangermouse.net/esoteric/whenever.html)
 - [Whiley](http://whiley.org/)

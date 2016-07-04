@@ -1,0 +1,38 @@
+#!/usr/bin/env sh6
+
+: "Language:       Thomson Shell (Unix V6)"
+: "Web site:       http://v6shell.org/"
+: "Last tested on: Linux Mint 17.3"
+: "Requires:       Install from source, http://v6shell.org/src/osh-4.2.1.tar.gz"
+
+echo 0 > _count
+
+: LOOP
+    ( cat _count ; echo 1 + p ) | dc > _count.new ; mv _count.new _count
+
+    ( cat _count ; echo 15 % p ) | dc > _imod15
+    if { grep -v '^0$' _imod15 > /dev/null } goto L1
+    echo FizzBuzz
+    goto NEXT
+    : L1
+
+    ( cat _count ; echo 3 % p ) | dc > _imod3
+    if { grep -v '^0$' _imod3 > /dev/null } goto L2
+    echo Fizz
+    goto NEXT
+    : L2
+
+    ( cat _count ; echo 5 % p ) | dc > _imod5
+    if { grep -v '^0$' _imod5 > /dev/null } goto L3
+    echo Buzz
+    goto NEXT
+    : L3
+
+    cat _count
+
+    : NEXT
+    if { grep '^100$' _count > /dev/null } goto DONE
+goto LOOP
+
+: DONE
+rm _count _imod3 _imod5 _imod15
