@@ -40,6 +40,7 @@ proverbial Round Tuit:
 - [Plankalkül](https://en.wikipedia.org/wiki/Plankalk%C3%BCl) See also the [Konrad Zuse Internet Archive](http://zuse.zib.de/) -- It's not likely that I'll find an implementation
 - [PL/M](https://en.wikipedia.org/wiki/PL/M)
 - [Prolog](https://en.wikipedia.org/wiki/Prolog)
+- [Pyth](https://pyth.readthedocs.io/)
 - [Rebol](http://www.rebol.com/)
 - [Red](http://www.red-lang.org/)
 - [Sed](https://www.gnu.org/software/sed/) (This is going to be challenging.)
