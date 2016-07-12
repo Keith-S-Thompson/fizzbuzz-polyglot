@@ -25,7 +25,7 @@ similar, see [Rosetta Code](http://rosettacode.org/wiki/Rosetta_Code).
 Bug reports are quite welcome.
 
 Here I present multiple implementations, one in each language.
-The current set of languages (85 of them) is:
+The current set of languages (86 of them) is:
 
 * [Ada](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.adb)
 * [Algol 68](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.a68)
@@ -101,6 +101,7 @@ The current set of languages (85 of them) is:
 - [Simula](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.sim)
 * [Smalltalk](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.st)
 * [SQLite3](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.sqlite3)
+- [Squirrel](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.squirrel)
 * [Swift](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.swift)
 - [Tab](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.tab)
 * [tail](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.tail)
