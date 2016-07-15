@@ -75,7 +75,7 @@ run() {
             gcc -x c -c $filename 2>&1 | sed 's/:.*//' > $out
             ;;
         gdb)
-            ./$filename | sed -n '/ = /{s/.*= //;s/"//g;p;}' > $out
+            gdb -q -x $filename > $out
             ;;
         go)
             go build -o $basename $filename
