@@ -4,8 +4,8 @@
 // Requires:       apt-get install golang
 
 // NOTE: The above currently installs Go version 1.2.1.
-//       The latest version is 1.6, installable from 
-//       https://storage.googleapis.com/golang/go1.6.linux-amd64.tar.gz
+//       The latest version is 1.7, installable from 
+//       https://storage.googleapis.com/golang/go1.7.linux-amd64.tar.gz
 
 package main
 
