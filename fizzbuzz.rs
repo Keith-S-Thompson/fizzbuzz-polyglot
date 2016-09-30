@@ -2,7 +2,7 @@
 // Web site:       http://www.rust-lang.org/
 // Last tested on: Linux Mint 17.3
 // Requires:       Build compiler from source and update ldconfig
-//                 Currently using rust 1.9.0
+//                 Currently using rust 1.12.0
 fn main() {
     for i in 1..101 {
         if      i % 15 == 0 { println!("FizzBuzz") }
