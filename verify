@@ -44,7 +44,7 @@ run() {
             ./$basename > $out
             ;;
         crystal)
-            crystal build $filename
+            crystal compile $filename
             ./$basename > $out
             ;;
         cs)
