@@ -9,19 +9,20 @@
 1
 100 {
     dup 15 div dup floor eq
-        { (FizzBuzz\n) print }
+        { (FizzBuzz) }
         {
             dup 3 div dup floor eq
-                { (Fizz\n) print }
+                { (Fizz) }
                 {
                     dup 5 div dup floor eq
-                        { (Buzz\n) print }
-                        { dup 3 string cvs print (\n) print }
+                        { (Buzz) }
+                        { dup 3 string cvs }
                     ifelse
                 }
             ifelse
         }
     ifelse
+    print (\n) print
 
     1 add
 } repeat
