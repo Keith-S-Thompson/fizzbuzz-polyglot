@@ -10,6 +10,7 @@ proverbial Round Tuit:
 - [ArnoldC](https://github.com/lhartikk/ArnoldC)
 - [Batsh](https://github.com/BYVoid/Batsh)
 - [BCPL](http://www.cl.cam.ac.uk/~mr10/index.html)
+- [BLISS](https://madisongh.github.io/blissc/)
 - [Boo](http://boo-lang.org/)
 - [Brainfuck](http://www.muppetlabs.com/~breadbox/bf/)
 - [C--](http://www.cs.tufts.edu/~nr/c--/)
