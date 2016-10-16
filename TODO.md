@@ -27,6 +27,7 @@ proverbial Round Tuit:
 - [Euphoria](http://www.rapideuphoria.com/)
 - [Factor](http://factorcode.org/)
 - [Intercal](http://catb.org/esr/intercal/)
+- [K](https://en.wikipedia.org/wiki/K_(programming_language))
 - [Kitten](http://kittenlang.org/)
 - [KLisp (kernel)](http://klisp.org/)
 - [Kotlin](https://kotlinlang.org/)
