@@ -26,6 +26,7 @@ proverbial Round Tuit:
 - [Elm](http://elm-lang.org/)
 - [Euphoria](http://www.rapideuphoria.com/)
 - [Factor](http://factorcode.org/)
+- [Foo](https://esolangs.org/wiki/Foo)
 - [Intercal](http://catb.org/esr/intercal/)
 - [K](https://en.wikipedia.org/wiki/K_(programming_language))
 - [Kitten](http://kittenlang.org/)
