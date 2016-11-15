@@ -48,7 +48,7 @@ run() {
             ./$basename > $out
             ;;
         cs)
-            gmcs $filename
+            mcs $filename
             mono $basename.exe > $out
             ;;
         curl)
