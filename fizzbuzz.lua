@@ -2,8 +2,10 @@
 
 -- Language:       Lua
 -- Web site:       http://www.lua.org/
--- Last tested on: Linux Mint 17.3
--- Requires:       apt-get install lua5.2
+-- Last tested on: Ubuntu 16.10
+-- Requires:       apt-get install lua5.3
+--                 update-alternatives --install /usr/bin/lua  lua-interpreter /usr/bin/lua5.3  90
+--                 update-alternatives --install /usr/bin/luac lua-compiler    /usr/bin/luac5.3 90
 
 -- NOTE: The "%" modulo operator was added in Lua 5.1.
 
