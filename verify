@@ -11,7 +11,7 @@ run() {
     basename=${filename%.*}
     suffix=${filename#*.}
     out=$filename.out
-    tmpdir=${filename}__$$
+    tmpdir=__${filename}__$$
     mkdir $tmpdir || return
     cd $tmpdir
     cp -p ../$filename ../expected-output.txt .
