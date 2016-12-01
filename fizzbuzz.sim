@@ -1,0 +1,35 @@
+COMMENT
+Language:       Simula
+Web site:       http://www.simula67.info/
+Last tested on: Linux Mint 17.3
+Requires:       Install from source
+                Currently using cim-3.37
+;
+
+begin
+    integer i;
+    for i:= 1 step 1 until 100 do 
+    begin
+        if (i // 15 * 15 = i) then
+        begin
+            OutText("FizzBuzz");
+        end
+        else if (i // 3 * 3 = i) then
+        begin
+            OutText("Fizz");
+        end
+        else if (i // 5 * 5 = i) then
+        begin
+            OutText("Buzz");
+        end
+        else
+        begin
+            integer width;
+            width := 1;
+            if (i >= 10) then width := 2;
+            if (i = 100) then width := 3;
+            OutInt(i, width);
+        end;
+        OutImage;
+    end;
+end;
