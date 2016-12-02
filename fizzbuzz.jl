@@ -2,7 +2,7 @@
 
 # Language:       Julia
 # Web site:       http://julialang.org/
-# Last tested on: Linux Mint 17.3
+# Last tested on: Ubuntu 16.10
 # Requires:       apt-get install julia
 
 for i = 1:100

@@ -2,9 +2,10 @@
 
 // Language:       Little
 // Web site:       http://www.little-lang.org/
-// Last tested on: Linux Mint 17.3
+// Last tested on: Ubuntu 16.10
 // Requires:       git clone --recursive https://github.com/bitkeeper-scm/little-lang.git
 //                 make && make PREFIX=... install
+//                 apt-get install libxft-dev
 
 void main(void) {
     int i;

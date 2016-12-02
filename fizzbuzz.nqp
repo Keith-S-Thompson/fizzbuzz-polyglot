@@ -2,8 +2,8 @@
 
 # Language:       NQP ("Not Quite Perl")
 # Web site:       https://github.com/perl6/nqp
-# Last tested on: Linux Mint 17.3
-# Requires:       Install rakudo-star-2016.04 from source (installs both nqp and perl6)
+# Last tested on: Ubuntu 16.10
+# Requires:       apt-get install nqp
 
 my $i := 1;
 while $i <= 100 {

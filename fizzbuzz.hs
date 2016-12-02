@@ -1,6 +1,6 @@
 -- Language:       Haskell
 -- Web site:       http://www.haskell.org/
--- Last tested on: Linux Mint 17.3
+-- Last tested on: Ubuntu 16.10
 -- Requires:       apt-get install ghc
 
 line n

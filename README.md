@@ -132,14 +132,14 @@ page](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot) rather
 than in the current directory.  It also requires an Internet connection.
 
 The `verify` script executes each program and confirms that its
-output is correct.  It works on my system, x86_64 Linux Mint 17.3,
+output is correct.  It works on my system, x86_64 Ubuntu 16.10,
 with required packages installed as documented in each source file.
-(Linux Mint is derived from Ubuntu, which is derived from Debian).
 
 `fizzbuzz.b` is not tested with an actual B compiler; see that file
 for details.
 
-As of Wed 2016-04-27, all tests pass on Linux Mint 17.3.
+As of Thu 2016-12-01, all tests but one pass on Ubuntu 16.10.
+`fizzbuzz.sh6` fails due to a problem with the external `goto` command.
 
 The [Whitespace web page](http://compsoc.dur.ac.uk/whitespace/)
 is currently down, so I'm using the Perl implementation from

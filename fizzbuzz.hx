@@ -1,6 +1,6 @@
 // Language:       Haxe
 // Web site:       http://haxe.org/
-// Last tested on: Linux Mint 17.3
+// Last tested on: Ubuntu 16.10
 // Requires:       apt-get install haxe
 
 // NOTE: Haxe requires a class name to start with an upper case letter,

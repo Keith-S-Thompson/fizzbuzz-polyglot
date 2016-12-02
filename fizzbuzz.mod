@@ -2,7 +2,7 @@
  * Language:       Modula-2
  * Web site:       http://www.modula2.org/
  *                 http://www.nongnu.org/gm2/
- * Last tested on: Linux Mint 17.3
+ * Last tested on: Ubuntu 16.10
  *
  * See http://www.nongnu.org/gm2/debian.html
  *     Add to /etc/apt/sources.list:
@@ -13,9 +13,6 @@
  *         apt-get install gm2 libpth-dev
  *     (gm2-doc may also be useful)
  * You'll see a warning that the gm2 package cannot be authenticated.
- *
- * The `verify` script creates a local symlink for the libmpc.so library,
- * since gm2 requires version 2 but Linux Mint 17.3 only provides version 3.
  *
  * See /etc/debian_version to determine the Debian release corresponding
  * to your current Ubuntu or Linux Mint release.

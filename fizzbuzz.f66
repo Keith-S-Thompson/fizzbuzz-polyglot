@@ -1,12 +1,9 @@
 C Language:       FORTRAN 66
 C Web site:       http://www.netlib.org/f2c/ (for the f2c translator)
-C Last tested on: Linux Mint 17.3
-C Requires:       apt-get install fort77
+C Last tested on: Ubuntu 16.10
+C Requires:       apt-get install gfortran
 
-C I don't have a FORTRAN 66 compiler. This program is written
-C in a FORTRAN 66 compatible subset of Fortran 77.
-C The fort77 command is invoked with options to check for
-C FORTRAN 66 compatibility.
+C I don't have a FORTRAN 66 compiler, so I use the gfortran compiler.
 
        PROGRAM FZZBZZ
 

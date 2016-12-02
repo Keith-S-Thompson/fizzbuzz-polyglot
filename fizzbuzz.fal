@@ -1,9 +1,10 @@
-#!/usr/bin/falcon -M
+#!/usr/bin/env falcon
 
 // Language:       Falcon
 // Web site:       http://falconpl.org
-// Last tested on: Linux Mint 17.3
-// Requires:       apt-get install falconpl
+// Last tested on: Ubuntu 16.10
+// Requires:       Build from source, Falcon-0.9.6.8.tgz
+//                 (There doesn't seem to be be a falconpl package for Ubuntu 16.10)
 
 for i in [1:101]
     if i % 15 == 0

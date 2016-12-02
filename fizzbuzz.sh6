@@ -2,8 +2,10 @@
 
 : "Language:       Thomson Shell (Unix V6)"
 : "Web site:       http://v6shell.org/"
-: "Last tested on: Linux Mint 17.3"
+: "Last tested on: Ununtu 16.10 -- FAILED"
 : "Requires:       Install from source, http://v6shell.org/src/osh-4.2.1.tar.gz"
+: "                NOTE: This worked under Linux Mint 17.3, but fails undef Ubuntu 16.10,"
+: "                      apparently due to a problem with the external goto command"
 
 echo 0 > _count
 

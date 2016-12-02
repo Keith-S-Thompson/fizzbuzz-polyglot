@@ -31,4 +31,5 @@ sudo apt-get install \
     fp-compiler g++ gdc gforth gfortran ghc gnat gnu-smalltalk golang gpt \
     guile-2.0 haxe iconx libgnustep-base-dev lua5.2 mono-gmcs mono-vbnc \
     octave open-cobol openjdk-7-jdk php5-cli rakudo ratfor r-base-core \
-    regina-rexx rhino ruby scala ucblogo valac vim
+    regina-rexx rhino ruby scala ucblogo valac vim \
+    cmake

@@ -2,8 +2,8 @@
 
 // Language:       Swift
 // Web site:       https://swift.org/
-// Last tested on: Linux Mint 17.3
-// Requires:       Install swift-2.2-SNAPSHOT-2015-12-01-b-ubuntu14.04.tar.gz
+// Last tested on: Ubuntu 16.10
+// Requires:       Install swift-DEVELOPMENT-SNAPSHOT-2016-11-29-a-ubuntu16.10.tar.gz
 
 for i in 1...100 {
     if i % 15 == 0 {

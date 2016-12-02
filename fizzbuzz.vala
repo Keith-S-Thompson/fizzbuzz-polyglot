@@ -1,6 +1,6 @@
 // Language:       Vala
 // Web site:       https://wiki.gnome.org/Projects/Vala
-// Last tested on: Linux Mint 17.3
+// Last tested on: Ubuntu 16.10
 // Requires:       apt-get install valac
 
 void main() {

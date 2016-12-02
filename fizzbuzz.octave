@@ -2,7 +2,7 @@
 
 % Language:       Octave (should be compatible with Matlab)
 % Web site:       http://www.gnu.org/software/octave/
-% Last tested on: Linux Mint 17.3
+% Last tested on: Ubuntu 16.10
 % Requires:       apt-get install octave
 
 for i=1:100

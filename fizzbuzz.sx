@@ -1,7 +1,7 @@
 /*
  * Language:       x86/x86_64/SPARC assembly
  * Web site:       http://gcc.gnu.org/
- * Last tested on: Linux Mint 17.3
+ * Last tested on: Ubuntu 16.10
  * Requires:       The "gcc" package is pre-installed
  *
  * The code was generated from fizzbuzz.c with the command:
@@ -328,10 +328,10 @@ main:
 	pushq	%rbp
 	.cfi_def_cfa_offset 16
 	.cfi_offset 6, -16
-	movl	$-2004318071, %ebp
 	pushq	%rbx
 	.cfi_def_cfa_offset 24
 	.cfi_offset 3, -24
+	movl	$-2004318071, %ebp
 	movl	$1, %ebx
 	subq	$8, %rsp
 	.cfi_def_cfa_offset 32
@@ -354,8 +354,8 @@ main:
 	leal	(%rdx,%rdx,4), %eax
 	cmpl	%eax, %ebx
 	jne	.L5
-	movl	$.LC2, %edi
-	call	puts
+	leaq	.LC2(%rip), %rdi
+	call	puts@PLT
 .L3:
 	addl	$1, %ebx
 	cmpl	$101, %ebx
@@ -373,9 +373,9 @@ main:
 	subl	%edx, %eax
 	cmpl	%eax, %ebx
 	jne	.L2
-	movl	$.LC0, %edi
+	leaq	.LC0(%rip), %rdi
 	addl	$1, %ebx
-	call	puts
+	call	puts@PLT
 	cmpl	$101, %ebx
 	jne	.L6
 .L11:
@@ -392,23 +392,22 @@ main:
 	.p2align 3
 .L5:
 	.cfi_restore_state
+	leaq	.LC3(%rip), %rsi
 	movl	%ebx, %edx
-	movl	$.LC3, %esi
 	movl	$1, %edi
 	xorl	%eax, %eax
-	call	__printf_chk
+	call	__printf_chk@PLT
 	jmp	.L3
 	.p2align 4,,10
 	.p2align 3
 .L10:
-	movl	$.LC1, %edi
-	call	puts
-	.p2align 4,,3
+	leaq	.LC1(%rip), %rdi
+	call	puts@PLT
 	jmp	.L3
 	.cfi_endproc
 .LFE13:
 	.size	main, .-main
-	.ident	"GCC: (Ubuntu/Linaro 4.7.2-2ubuntu1) 4.7.2"
+	.ident	"GCC: (Ubuntu 6.2.0-5ubuntu12) 6.2.0 20161005"
 	.section	.note.GNU-stack,"",@progbits
 #else
 #error Unrecognized architecture

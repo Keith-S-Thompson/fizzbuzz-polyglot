@@ -1,10 +1,10 @@
 # Language:       Nim
 # Web site:       http://nim-lang.org/
-# Last tested on: Linux Mint 17.3
-# Requires:       Install from source
-#                 Currently using Nim 0.14.0
+# Last tested on: Ubuntu 16.10
+# Requires:       Install from source, nim-0.15.2.tar.xz
+#                 Currently using Nim 0.15.2
 
-template foreach(i, lo, hi: expr; actions: stmt): stmt {.immediate.} =
+template foreach(i, lo, hi, actions) =
     for i in lo..hi:
         actions
 

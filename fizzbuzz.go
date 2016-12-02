@@ -1,11 +1,11 @@
 // Language:       go
 // Web site:       http://golang.org/
-// Last tested on: Linux Mint 17.3
+// Last tested on: Ubuntu 16.10
 // Requires:       apt-get install golang
 
-// NOTE: The above currently installs Go version 1.2.1.
-//       The latest version is 1.7, installable from
-//       https://storage.googleapis.com/golang/go1.7.linux-amd64.tar.gz
+// NOTE: The above currently installs Go version 1.6.1.
+//       The latest version is 1.7.3, installable from
+//       https://storage.googleapis.com/golang/go1.7.3.linux-amd64.tar.gz
 
 package main
 

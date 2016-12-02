@@ -2,9 +2,9 @@
 
 // Language:       Dart
 // Web site:       https://www.dartlang.org/
-// Last tested on: Linux Mint 17.3
-// Requires:       Install from repository following instructions at
-//                 https://www.dartlang.org/downloads/linux.html
+// Last tested on: Ubuntu 16.10
+// Requires:       Download https://storage.googleapis.com/dart-archive/channels/stable/release/latest/linux_packages/debian_wheezy/dart_1.20.1-1_amd64.deb
+//                 dpkg -i dart_1.20.1-1_amd64.deb
 
 void main() {
     for (var i = 1; i <= 100; i ++) {

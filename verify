@@ -44,7 +44,7 @@ run() {
             ./$basename > $out
             ;;
         crystal)
-            crystal compile $filename
+            crystal build $filename
             ./$basename > $out
             ;;
         cs)
@@ -60,11 +60,11 @@ run() {
             ;;
         f66)
             cp $filename fizzbuzz66.f
-            fort77 -w66 -ext fizzbuzz66.f -o $basename
+            gfortran fizzbuzz66.f -o $basename
             ./$basename > $out
             ;;
         f)
-            fort77 $filename -o $basename
+            gfortran $filename -o $basename
             ./$basename > $out
             ;;
         f90)
@@ -127,9 +127,7 @@ run() {
             m4 $filename > $out
             ;;
         mod)
-            # Ugly hack ...
-            ln -s /usr/lib/x86_64-linux-gnu/libmpc.so.3 libmpc.so.2
-            LD_LIBRARY_PATH=. gm2 $filename -o $basename
+            gm2 $filename -o $basename
             ./$basename > $out
             ;;
         nim)

@@ -1,8 +1,7 @@
 // Language:       Rust
 // Web site:       http://www.rust-lang.org/
-// Last tested on: Linux Mint 17.3
-// Requires:       Build compiler from source and update ldconfig
-//                 Currently using rust 1.12.0
+// Last tested on: Ubuntu 16.10
+// Requires:       apt-get install rustc
 fn main() {
     for i in 1..101 {
         if      i % 15 == 0 { println!("FizzBuzz") }
