@@ -1,0 +1,157 @@
+% mkdir src
+% cd src
+% wget --quiet http://v6shell.org/src/osh-4.2.1.tar.gz
+% tar xf osh-4.2.1.tar.gz
+% cd osh-4.2.1
+% export PREFIX=/tmp/sh6-bug-32107/install
+% make
+/bin/sh ./mkconfig
+mkconfig: PATH_LOGIN == "/bin/login"
+	  Modify value in "config.h" if this is incorrect.
+mkconfig: PATH_NEWGRP == "/usr/bin/newgrp"
+	  Modify value in "config.h" if this is incorrect.
+make[1]: Entering directory '/tmp/sh6-bug-32107/src/osh-4.2.1'
+cc -c -Os -std=c99 -pedantic -Wall -Wextra   -DOSH_VERSION='"osh-4.2.1"' -DLIBEXECDIR='"/tmp/sh6-bug-32107/install/libexec/osh-4.2.1"' -DSYSCONFDIR='"/tmp/sh6-bug-32107/install/etc"' v.c
+cc -c -Os -std=c99 -pedantic -Wall -Wextra   -DOSH_VERSION='"osh-4.2.1"' -DLIBEXECDIR='"/tmp/sh6-bug-32107/install/libexec/osh-4.2.1"' -DSYSCONFDIR='"/tmp/sh6-bug-32107/install/etc"' osh.c
+In file included from /usr/include/x86_64-linux-gnu/sys/stat.h:25:0,
+                 from defs.h:42,
+                 from osh.c:72:
+/usr/include/features.h:148:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+ # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+   ^~~~~~~
+osh.c: In function ‘source_open’:
+osh.c:2658:4: warning: ignoring return value of ‘writev’, declared with attribute warn_unused_result [-Wunused-result]
+    (void)writev(FD2, msg, 6);
+    ^~~~~~~~~~~~~~~~~~~~~~~~~
+cc -c -Os -std=c99 -pedantic -Wall -Wextra   -DOSH_VERSION='"osh-4.2.1"' -DLIBEXECDIR='"/tmp/sh6-bug-32107/install/libexec/osh-4.2.1"' -DSYSCONFDIR='"/tmp/sh6-bug-32107/install/etc"' err.c
+In file included from /usr/include/x86_64-linux-gnu/sys/stat.h:25:0,
+                 from defs.h:42,
+                 from err.c:32:
+/usr/include/features.h:148:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+ # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+   ^~~~~~~
+err.c: In function ‘wmsg’:
+err.c:254:5: warning: ignoring return value of ‘writev’, declared with attribute warn_unused_result [-Wunused-result]
+     (void)writev(FD2, ev, 4);
+     ^~~~~~~~~~~~~~~~~~~~~~~~
+cc -c -Os -std=c99 -pedantic -Wall -Wextra   -DOSH_VERSION='"osh-4.2.1"' -DLIBEXECDIR='"/tmp/sh6-bug-32107/install/libexec/osh-4.2.1"' -DSYSCONFDIR='"/tmp/sh6-bug-32107/install/etc"' util.c
+In file included from /usr/include/x86_64-linux-gnu/sys/stat.h:25:0,
+                 from defs.h:42,
+                 from util.c:72:
+/usr/include/features.h:148:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+ # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+   ^~~~~~~
+cc -c -Os -std=c99 -pedantic -Wall -Wextra   -DOSH_VERSION='"osh-4.2.1"' -DLIBEXECDIR='"/tmp/sh6-bug-32107/install/libexec/osh-4.2.1"' -DSYSCONFDIR='"/tmp/sh6-bug-32107/install/etc"' pexec.c
+In file included from /usr/include/x86_64-linux-gnu/sys/stat.h:25:0,
+                 from defs.h:42,
+                 from pexec.c:64:
+/usr/include/features.h:148:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+ # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+   ^~~~~~~
+pexec.c: In function ‘pexec’:
+pexec.c:143:4: warning: ignoring return value of ‘writev’, declared with attribute warn_unused_result [-Wunused-result]
+    (void)writev(FD2, msg, 3);
+    ^~~~~~~~~~~~~~~~~~~~~~~~~
+cc -c -Os -std=c99 -pedantic -Wall -Wextra   -DOSH_VERSION='"osh-4.2.1"' -DLIBEXECDIR='"/tmp/sh6-bug-32107/install/libexec/osh-4.2.1"' -DSYSCONFDIR='"/tmp/sh6-bug-32107/install/etc"' sasignal.c
+In file included from /usr/include/x86_64-linux-gnu/sys/stat.h:25:0,
+                 from defs.h:42,
+                 from sasignal.c:62:
+/usr/include/features.h:148:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+ # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+   ^~~~~~~
+cc -c -Os -std=c99 -pedantic -Wall -Wextra   -DOSH_VERSION='"osh-4.2.1"' -DLIBEXECDIR='"/tmp/sh6-bug-32107/install/libexec/osh-4.2.1"' -DSYSCONFDIR='"/tmp/sh6-bug-32107/install/etc"' strtoint.c
+In file included from /usr/include/x86_64-linux-gnu/sys/stat.h:25:0,
+                 from defs.h:42,
+                 from strtoint.c:29:
+/usr/include/features.h:148:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+ # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+   ^~~~~~~
+cc  -o osh v.o osh.o err.o util.o pexec.o sasignal.o strtoint.o 
+make[1]: Leaving directory '/tmp/sh6-bug-32107/src/osh-4.2.1'
+sed -e 's|@OSH_DATE@|May 15, 2016|' -e 's|@OSH_VERSION@|osh-4.2.1|' -e 's|@LIBEXECDIR@|/tmp/sh6-bug-32107/install/libexec/osh-4.2.1|' -e 's|@SYSCONFDIR@|/tmp/sh6-bug-32107/install/etc|' <osh.1 >osh.1.out
+sed -e 's|@OSH_DATE@|May 15, 2016|' -e 's|@OSH_VERSION@|osh-4.2.1|' -e 's|@LIBEXECDIR@|/tmp/sh6-bug-32107/install/libexec/osh-4.2.1|' -e 's|@SYSCONFDIR@|/tmp/sh6-bug-32107/install/etc|' <fd2.1 >fd2.1.out
+sed -e 's|@OSH_DATE@|May 15, 2016|' -e 's|@OSH_VERSION@|osh-4.2.1|' -e 's|@LIBEXECDIR@|/tmp/sh6-bug-32107/install/libexec/osh-4.2.1|' -e 's|@SYSCONFDIR@|/tmp/sh6-bug-32107/install/etc|' <goto.1 >goto.1.out
+sed -e 's|@OSH_DATE@|May 15, 2016|' -e 's|@OSH_VERSION@|osh-4.2.1|' -e 's|@LIBEXECDIR@|/tmp/sh6-bug-32107/install/libexec/osh-4.2.1|' -e 's|@SYSCONFDIR@|/tmp/sh6-bug-32107/install/etc|' <if.1 >if.1.out
+make[1]: Entering directory '/tmp/sh6-bug-32107/src/osh-4.2.1'
+cc -c -Os -std=c99 -pedantic -Wall -Wextra   -DOSH_VERSION='"osh-4.2.1"' -DLIBEXECDIR='"/tmp/sh6-bug-32107/install/libexec/osh-4.2.1"' -DSYSCONFDIR='"/tmp/sh6-bug-32107/install/etc"' sh6.c
+In file included from /usr/include/x86_64-linux-gnu/sys/stat.h:25:0,
+                 from defs.h:42,
+                 from sh6.c:69:
+/usr/include/features.h:148:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+ # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+   ^~~~~~~
+cc  -o sh6 v.o sh6.o err.o pexec.o sasignal.o 
+make[1]: Leaving directory '/tmp/sh6-bug-32107/src/osh-4.2.1'
+make[1]: Entering directory '/tmp/sh6-bug-32107/src/osh-4.2.1'
+cc -c -Os -std=c99 -pedantic -Wall -Wextra   -DOSH_VERSION='"osh-4.2.1"' -DLIBEXECDIR='"/tmp/sh6-bug-32107/install/libexec/osh-4.2.1"' -DSYSCONFDIR='"/tmp/sh6-bug-32107/install/etc"' glob.c
+In file included from /usr/include/x86_64-linux-gnu/sys/stat.h:25:0,
+                 from defs.h:42,
+                 from glob.c:67:
+/usr/include/features.h:148:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+ # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+   ^~~~~~~
+cc  -o glob v.o glob.o err.o pexec.o 
+make[1]: Leaving directory '/tmp/sh6-bug-32107/src/osh-4.2.1'
+sed -e 's|@OSH_DATE@|May 15, 2016|' -e 's|@OSH_VERSION@|osh-4.2.1|' -e 's|@LIBEXECDIR@|/tmp/sh6-bug-32107/install/libexec/osh-4.2.1|' -e 's|@SYSCONFDIR@|/tmp/sh6-bug-32107/install/etc|' <sh6.1 >sh6.1.out
+sed -e 's|@OSH_DATE@|May 15, 2016|' -e 's|@OSH_VERSION@|osh-4.2.1|' -e 's|@LIBEXECDIR@|/tmp/sh6-bug-32107/install/libexec/osh-4.2.1|' -e 's|@SYSCONFDIR@|/tmp/sh6-bug-32107/install/etc|' <glob.1 >glob.1.out
+make[1]: Entering directory '/tmp/sh6-bug-32107/src/osh-4.2.1'
+cc -c -Os -std=c99 -pedantic -Wall -Wextra   -DOSH_VERSION='"osh-4.2.1"' -DLIBEXECDIR='"/tmp/sh6-bug-32107/install/libexec/osh-4.2.1"' -DSYSCONFDIR='"/tmp/sh6-bug-32107/install/etc"' fd2.c
+In file included from /usr/include/x86_64-linux-gnu/sys/stat.h:25:0,
+                 from defs.h:42,
+                 from fd2.c:32:
+/usr/include/features.h:148:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+ # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+   ^~~~~~~
+cc  -o fd2 v.o fd2.o err.o pexec.o 
+make[1]: Leaving directory '/tmp/sh6-bug-32107/src/osh-4.2.1'
+make[1]: Entering directory '/tmp/sh6-bug-32107/src/osh-4.2.1'
+cc -c -Os -std=c99 -pedantic -Wall -Wextra   -DOSH_VERSION='"osh-4.2.1"' -DLIBEXECDIR='"/tmp/sh6-bug-32107/install/libexec/osh-4.2.1"' -DSYSCONFDIR='"/tmp/sh6-bug-32107/install/etc"' goto.c
+In file included from /usr/include/x86_64-linux-gnu/sys/stat.h:25:0,
+                 from defs.h:42,
+                 from goto.c:67:
+/usr/include/features.h:148:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+ # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+   ^~~~~~~
+cc  -o goto v.o goto.o err.o 
+make[1]: Leaving directory '/tmp/sh6-bug-32107/src/osh-4.2.1'
+make[1]: Entering directory '/tmp/sh6-bug-32107/src/osh-4.2.1'
+cc -c -Os -std=c99 -pedantic -Wall -Wextra   -DOSH_VERSION='"osh-4.2.1"' -DLIBEXECDIR='"/tmp/sh6-bug-32107/install/libexec/osh-4.2.1"' -DSYSCONFDIR='"/tmp/sh6-bug-32107/install/etc"' if.c
+In file included from /usr/include/x86_64-linux-gnu/sys/stat.h:25:0,
+                 from defs.h:42,
+                 from if.c:69:
+/usr/include/features.h:148:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+ # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+   ^~~~~~~
+cc  -o if v.o if.o err.o pexec.o sasignal.o strtoint.o 
+make[1]: Leaving directory '/tmp/sh6-bug-32107/src/osh-4.2.1'
+% make install
+test -d /tmp/sh6-bug-32107/install/bin || { umask 0022 && mkdir -p /tmp/sh6-bug-32107/install/bin ; }
+test -d /tmp/sh6-bug-32107/install/share/man/man1 || { umask 0022 && mkdir -p /tmp/sh6-bug-32107/install/share/man/man1 ; }
+/usr/bin/install -c -s  -m 0555 osh        /tmp/sh6-bug-32107/install/bin
+/usr/bin/install -c     -m 0444 osh.1.out  /tmp/sh6-bug-32107/install/share/man/man1/osh.1
+/usr/bin/install -c     -m 0444 fd2.1.out  /tmp/sh6-bug-32107/install/share/man/man1/fd2.1
+/usr/bin/install -c     -m 0444 goto.1.out /tmp/sh6-bug-32107/install/share/man/man1/goto.1
+/usr/bin/install -c     -m 0444 if.1.out   /tmp/sh6-bug-32107/install/share/man/man1/if.1
+test -d /tmp/sh6-bug-32107/install/libexec/osh-4.2.1 || { umask 0022 && mkdir -p /tmp/sh6-bug-32107/install/libexec/osh-4.2.1 ; }
+/usr/bin/install -c  -m 0444 README.libexec /tmp/sh6-bug-32107/install/libexec/osh-4.2.1/README
+/usr/bin/install -c -s  -m 0555 sh6        /tmp/sh6-bug-32107/install/bin
+/usr/bin/install -c     -m 0444 sh6.1.out  /tmp/sh6-bug-32107/install/share/man/man1/sh6.1
+/usr/bin/install -c -s  -m 0555 glob       /tmp/sh6-bug-32107/install/libexec/osh-4.2.1
+/usr/bin/install -c     -m 0444 glob.1.out /tmp/sh6-bug-32107/install/share/man/man1/glob.1
+/usr/bin/install -c -s  -m 0555 fd2        /tmp/sh6-bug-32107/install/libexec/osh-4.2.1
+/usr/bin/install -c -s  -m 0555 goto       /tmp/sh6-bug-32107/install/libexec/osh-4.2.1
+/usr/bin/install -c -s  -m 0555 if         /tmp/sh6-bug-32107/install/libexec/osh-4.2.1
+% mkdir /tmp/sh6-bug-32107/test
+% cd /tmp/sh6-bug-32107/test
+% cat test.sh6
+#!/tmp/sh6-bug-32107/install/bin/sh6
+
+echo one
+goto LABEL
+echo two
+: LABEL
+echo three
+% ./test.sh6
+one
+wo: not found
+% rm -rf /tmp/sh6-bug-32107
