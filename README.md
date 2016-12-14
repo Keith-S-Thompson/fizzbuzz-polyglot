@@ -140,6 +140,8 @@ for details.
 
 As of Thu 2016-12-01, all tests but one pass on Ubuntu 16.10.
 `fizzbuzz.sh6` fails due to a problem with the external `goto` command.
+I'm in touch with the maintainer to (I hope) get a fix for this.
+See the `sh6-bug` subdirectory for details.
 
 The [Whitespace web page](http://compsoc.dur.ac.uk/whitespace/)
 is currently down, so I'm using the Perl implementation from
