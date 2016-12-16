@@ -24,9 +24,9 @@ mkdir $tmpdir && cd $tmpdir
 
 verbosely mkdir src
 verbosely cd src
-verbosely wget --quiet http://v6shell.org/src/osh-4.2.1.tar.gz
-verbosely tar xf osh-4.2.1.tar.gz
-verbosely cd osh-4.2.1
+verbosely git clone https://github.com/JNeitzel/v6shell.git
+verbosely cd v6shell
+verbosely git log -n 1
 verbosely export PREFIX=$tmpdir/install
 verbosely make
 verbosely make install
@@ -35,7 +35,7 @@ verbosely mkdir $tmpdir/test
 verbosely cd $tmpdir/test
 
 if $strace ; then
-    goto_LABEL="strace -o goto.strace $PREFIX/libexec/osh-4.2.1/goto LABEL"
+    goto_LABEL="strace -o goto.strace $PREFIX/libexec/osh-current/sh6/goto LABEL"
 else
     goto_LABEL="goto LABEL"
 fi

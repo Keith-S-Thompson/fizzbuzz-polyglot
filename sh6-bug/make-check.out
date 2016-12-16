@@ -6,72 +6,30 @@ mkconfig: PATH_NEWGRP == "/usr/bin/newgrp"
 make[1]: Entering directory '/home/kst/git/v6shell'
 cc -c -Os -std=c99 -pedantic -Wall -Wextra   -DOSH_VERSION='"osh-current"' -DLIBEXECDIROSH='"/usr/local/libexec/osh-current/osh"' -DLIBEXECDIRSH6='"/usr/local/libexec/osh-current/sh6"' -DSYSCONFDIR='"/usr/local/etc"' v.c
 cc -c -Os -std=c99 -pedantic -Wall -Wextra   -DOSH_VERSION='"osh-current"' -DLIBEXECDIROSH='"/usr/local/libexec/osh-current/osh"' -DLIBEXECDIRSH6='"/usr/local/libexec/osh-current/sh6"' -DSYSCONFDIR='"/usr/local/etc"' osh.c
-In file included from /usr/include/x86_64-linux-gnu/sys/stat.h:25:0,
-                 from defs.h:42,
-                 from osh.c:72:
-/usr/include/features.h:148:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
- # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
-   ^~~~~~~
 osh.c: In function ‘source_open’:
 osh.c:2560:4: warning: ignoring return value of ‘writev’, declared with attribute warn_unused_result [-Wunused-result]
     (void)writev(FD2, msg, 6);
     ^~~~~~~~~~~~~~~~~~~~~~~~~
 cc -c -Os -std=c99 -pedantic -Wall -Wextra   -DOSH_VERSION='"osh-current"' -DLIBEXECDIROSH='"/usr/local/libexec/osh-current/osh"' -DLIBEXECDIRSH6='"/usr/local/libexec/osh-current/sh6"' -DSYSCONFDIR='"/usr/local/etc"' err.c
-In file included from /usr/include/x86_64-linux-gnu/sys/stat.h:25:0,
-                 from defs.h:42,
-                 from err.c:32:
-/usr/include/features.h:148:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
- # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
-   ^~~~~~~
 err.c: In function ‘wmsg’:
 err.c:254:5: warning: ignoring return value of ‘writev’, declared with attribute warn_unused_result [-Wunused-result]
      (void)writev(FD2, ev, 4);
      ^~~~~~~~~~~~~~~~~~~~~~~~
 cc -c -Os -std=c99 -pedantic -Wall -Wextra   -DOSH_VERSION='"osh-current"' -DLIBEXECDIROSH='"/usr/local/libexec/osh-current/osh"' -DLIBEXECDIRSH6='"/usr/local/libexec/osh-current/sh6"' -DSYSCONFDIR='"/usr/local/etc"' lib.c
-In file included from /usr/include/x86_64-linux-gnu/sys/stat.h:25:0,
-                 from defs.h:42,
-                 from lib.c:66:
-/usr/include/features.h:148:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
- # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
-   ^~~~~~~
 cc -c -Os -std=c99 -pedantic -Wall -Wextra   -DOSH_VERSION='"osh-current"' -DLIBEXECDIROSH='"/usr/local/libexec/osh-current/osh"' -DLIBEXECDIRSH6='"/usr/local/libexec/osh-current/sh6"' -DSYSCONFDIR='"/usr/local/etc"' util.c
-In file included from /usr/include/x86_64-linux-gnu/sys/stat.h:25:0,
-                 from defs.h:42,
-                 from util.c:72:
-/usr/include/features.h:148:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
- # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
-   ^~~~~~~
 cc -c -Os -std=c99 -pedantic -Wall -Wextra   -DOSH_VERSION='"osh-current"' -DLIBEXECDIROSH='"/usr/local/libexec/osh-current/osh"' -DLIBEXECDIRSH6='"/usr/local/libexec/osh-current/sh6"' -DSYSCONFDIR='"/usr/local/etc"' pexec.c
-In file included from /usr/include/x86_64-linux-gnu/sys/stat.h:25:0,
-                 from defs.h:42,
-                 from pexec.c:64:
-/usr/include/features.h:148:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
- # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
-   ^~~~~~~
 pexec.c: In function ‘pexec’:
 pexec.c:143:4: warning: ignoring return value of ‘writev’, declared with attribute warn_unused_result [-Wunused-result]
     (void)writev(FD2, msg, 3);
     ^~~~~~~~~~~~~~~~~~~~~~~~~
 cc -c -Os -std=c99 -pedantic -Wall -Wextra   -DOSH_VERSION='"osh-current"' -DLIBEXECDIROSH='"/usr/local/libexec/osh-current/osh"' -DLIBEXECDIRSH6='"/usr/local/libexec/osh-current/sh6"' -DSYSCONFDIR='"/usr/local/etc"' sasignal.c
-In file included from /usr/include/x86_64-linux-gnu/sys/stat.h:25:0,
-                 from defs.h:42,
-                 from sasignal.c:62:
-/usr/include/features.h:148:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
- # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
-   ^~~~~~~
 cc -c -Os -std=c99 -pedantic -Wall -Wextra   -DOSH_VERSION='"osh-current"' -DLIBEXECDIROSH='"/usr/local/libexec/osh-current/osh"' -DLIBEXECDIRSH6='"/usr/local/libexec/osh-current/sh6"' -DSYSCONFDIR='"/usr/local/etc"' strtoint.c
-In file included from /usr/include/x86_64-linux-gnu/sys/stat.h:25:0,
-                 from defs.h:42,
-                 from strtoint.c:29:
-/usr/include/features.h:148:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
- # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
-   ^~~~~~~
 cc  -o osh v.o osh.o err.o lib.o util.o pexec.o sasignal.o strtoint.o 
 make[1]: Leaving directory '/home/kst/git/v6shell'
-Thursday, 2016-12-15, 17:34:06 PST
+Friday, 2016-12-16, 13:51:35 PST
 Testing osh binary . . . . . . . . Done .
 Testing sh6 binary . . . . --- test05_sh6.log	2016-12-15 17:21:07.345985981 -0800
-+++ -	2016-12-15 17:34:17.191214405 -0800
++++ -	2016-12-16 13:51:46.095608603 -0800
 @@ -1,232 +1,4 @@
  Begin ...
  % "

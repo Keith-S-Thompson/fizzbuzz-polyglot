@@ -1,153 +1,102 @@
 % mkdir src
 % cd src
-% wget --quiet http://v6shell.org/src/osh-4.2.1.tar.gz
-% tar xf osh-4.2.1.tar.gz
-% cd osh-4.2.1
-% export PREFIX=/tmp/sh6-bug-32240/install
+% git clone https://github.com/JNeitzel/v6shell.git
+Cloning into 'v6shell'...
+% cd v6shell
+% git log -n 1
+commit 6eb726247c76124feebd40d6523784912d2df215 (HEAD -> current, origin/current, origin/HEAD)
+Author: Jeff Neitzel <jan@v6shell.org>
+Date:   2016-12-16 20:52:40 +0000
+
+    Possible fix - sh6 / goto prob - Ubuntu 16.(04|10)
+    
+    The prob (problem) noted above was reported to me by @Keith-S-Thompson.
+% export PREFIX=/tmp/sh6-bug-6733/install
 % make
 /bin/sh ./mkconfig
 mkconfig: PATH_LOGIN == "/bin/login"
 	  Modify value in "config.h" if this is incorrect.
 mkconfig: PATH_NEWGRP == "/usr/bin/newgrp"
 	  Modify value in "config.h" if this is incorrect.
-make[1]: Entering directory '/tmp/sh6-bug-32240/src/osh-4.2.1'
-cc -c -Os -std=c99 -pedantic -Wall -Wextra   -DOSH_VERSION='"osh-4.2.1"' -DLIBEXECDIR='"/tmp/sh6-bug-32240/install/libexec/osh-4.2.1"' -DSYSCONFDIR='"/tmp/sh6-bug-32240/install/etc"' v.c
-cc -c -Os -std=c99 -pedantic -Wall -Wextra   -DOSH_VERSION='"osh-4.2.1"' -DLIBEXECDIR='"/tmp/sh6-bug-32240/install/libexec/osh-4.2.1"' -DSYSCONFDIR='"/tmp/sh6-bug-32240/install/etc"' osh.c
-In file included from /usr/include/x86_64-linux-gnu/sys/stat.h:25:0,
-                 from defs.h:42,
-                 from osh.c:72:
-/usr/include/features.h:148:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
- # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
-   ^~~~~~~
+make[1]: Entering directory '/tmp/sh6-bug-6733/src/v6shell'
+cc -c -Os -std=c99 -pedantic -Wall -Wextra   -DOSH_VERSION='"osh-current"' -DLIBEXECDIROSH='"/tmp/sh6-bug-6733/install/libexec/osh-current/osh"' -DLIBEXECDIRSH6='"/tmp/sh6-bug-6733/install/libexec/osh-current/sh6"' -DSYSCONFDIR='"/tmp/sh6-bug-6733/install/etc"' v.c
+cc -c -Os -std=c99 -pedantic -Wall -Wextra   -DOSH_VERSION='"osh-current"' -DLIBEXECDIROSH='"/tmp/sh6-bug-6733/install/libexec/osh-current/osh"' -DLIBEXECDIRSH6='"/tmp/sh6-bug-6733/install/libexec/osh-current/sh6"' -DSYSCONFDIR='"/tmp/sh6-bug-6733/install/etc"' osh.c
 osh.c: In function ‘source_open’:
-osh.c:2658:4: warning: ignoring return value of ‘writev’, declared with attribute warn_unused_result [-Wunused-result]
+osh.c:2560:4: warning: ignoring return value of ‘writev’, declared with attribute warn_unused_result [-Wunused-result]
     (void)writev(FD2, msg, 6);
     ^~~~~~~~~~~~~~~~~~~~~~~~~
-cc -c -Os -std=c99 -pedantic -Wall -Wextra   -DOSH_VERSION='"osh-4.2.1"' -DLIBEXECDIR='"/tmp/sh6-bug-32240/install/libexec/osh-4.2.1"' -DSYSCONFDIR='"/tmp/sh6-bug-32240/install/etc"' err.c
-In file included from /usr/include/x86_64-linux-gnu/sys/stat.h:25:0,
-                 from defs.h:42,
-                 from err.c:32:
-/usr/include/features.h:148:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
- # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
-   ^~~~~~~
+cc -c -Os -std=c99 -pedantic -Wall -Wextra   -DOSH_VERSION='"osh-current"' -DLIBEXECDIROSH='"/tmp/sh6-bug-6733/install/libexec/osh-current/osh"' -DLIBEXECDIRSH6='"/tmp/sh6-bug-6733/install/libexec/osh-current/sh6"' -DSYSCONFDIR='"/tmp/sh6-bug-6733/install/etc"' err.c
 err.c: In function ‘wmsg’:
 err.c:254:5: warning: ignoring return value of ‘writev’, declared with attribute warn_unused_result [-Wunused-result]
      (void)writev(FD2, ev, 4);
      ^~~~~~~~~~~~~~~~~~~~~~~~
-cc -c -Os -std=c99 -pedantic -Wall -Wextra   -DOSH_VERSION='"osh-4.2.1"' -DLIBEXECDIR='"/tmp/sh6-bug-32240/install/libexec/osh-4.2.1"' -DSYSCONFDIR='"/tmp/sh6-bug-32240/install/etc"' util.c
-In file included from /usr/include/x86_64-linux-gnu/sys/stat.h:25:0,
-                 from defs.h:42,
-                 from util.c:72:
-/usr/include/features.h:148:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
- # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
-   ^~~~~~~
-cc -c -Os -std=c99 -pedantic -Wall -Wextra   -DOSH_VERSION='"osh-4.2.1"' -DLIBEXECDIR='"/tmp/sh6-bug-32240/install/libexec/osh-4.2.1"' -DSYSCONFDIR='"/tmp/sh6-bug-32240/install/etc"' pexec.c
-In file included from /usr/include/x86_64-linux-gnu/sys/stat.h:25:0,
-                 from defs.h:42,
-                 from pexec.c:64:
-/usr/include/features.h:148:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
- # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
-   ^~~~~~~
+cc -c -Os -std=c99 -pedantic -Wall -Wextra   -DOSH_VERSION='"osh-current"' -DLIBEXECDIROSH='"/tmp/sh6-bug-6733/install/libexec/osh-current/osh"' -DLIBEXECDIRSH6='"/tmp/sh6-bug-6733/install/libexec/osh-current/sh6"' -DSYSCONFDIR='"/tmp/sh6-bug-6733/install/etc"' lib.c
+cc -c -Os -std=c99 -pedantic -Wall -Wextra   -DOSH_VERSION='"osh-current"' -DLIBEXECDIROSH='"/tmp/sh6-bug-6733/install/libexec/osh-current/osh"' -DLIBEXECDIRSH6='"/tmp/sh6-bug-6733/install/libexec/osh-current/sh6"' -DSYSCONFDIR='"/tmp/sh6-bug-6733/install/etc"' util.c
+cc -c -Os -std=c99 -pedantic -Wall -Wextra   -DOSH_VERSION='"osh-current"' -DLIBEXECDIROSH='"/tmp/sh6-bug-6733/install/libexec/osh-current/osh"' -DLIBEXECDIRSH6='"/tmp/sh6-bug-6733/install/libexec/osh-current/sh6"' -DSYSCONFDIR='"/tmp/sh6-bug-6733/install/etc"' pexec.c
 pexec.c: In function ‘pexec’:
 pexec.c:143:4: warning: ignoring return value of ‘writev’, declared with attribute warn_unused_result [-Wunused-result]
     (void)writev(FD2, msg, 3);
     ^~~~~~~~~~~~~~~~~~~~~~~~~
-cc -c -Os -std=c99 -pedantic -Wall -Wextra   -DOSH_VERSION='"osh-4.2.1"' -DLIBEXECDIR='"/tmp/sh6-bug-32240/install/libexec/osh-4.2.1"' -DSYSCONFDIR='"/tmp/sh6-bug-32240/install/etc"' sasignal.c
-In file included from /usr/include/x86_64-linux-gnu/sys/stat.h:25:0,
-                 from defs.h:42,
-                 from sasignal.c:62:
-/usr/include/features.h:148:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
- # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
-   ^~~~~~~
-cc -c -Os -std=c99 -pedantic -Wall -Wextra   -DOSH_VERSION='"osh-4.2.1"' -DLIBEXECDIR='"/tmp/sh6-bug-32240/install/libexec/osh-4.2.1"' -DSYSCONFDIR='"/tmp/sh6-bug-32240/install/etc"' strtoint.c
-In file included from /usr/include/x86_64-linux-gnu/sys/stat.h:25:0,
-                 from defs.h:42,
-                 from strtoint.c:29:
-/usr/include/features.h:148:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
- # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
-   ^~~~~~~
-cc  -o osh v.o osh.o err.o util.o pexec.o sasignal.o strtoint.o 
-make[1]: Leaving directory '/tmp/sh6-bug-32240/src/osh-4.2.1'
-sed -e 's|@OSH_DATE@|May 15, 2016|' -e 's|@OSH_VERSION@|osh-4.2.1|' -e 's|@LIBEXECDIR@|/tmp/sh6-bug-32240/install/libexec/osh-4.2.1|' -e 's|@SYSCONFDIR@|/tmp/sh6-bug-32240/install/etc|' <osh.1 >osh.1.out
-sed -e 's|@OSH_DATE@|May 15, 2016|' -e 's|@OSH_VERSION@|osh-4.2.1|' -e 's|@LIBEXECDIR@|/tmp/sh6-bug-32240/install/libexec/osh-4.2.1|' -e 's|@SYSCONFDIR@|/tmp/sh6-bug-32240/install/etc|' <fd2.1 >fd2.1.out
-sed -e 's|@OSH_DATE@|May 15, 2016|' -e 's|@OSH_VERSION@|osh-4.2.1|' -e 's|@LIBEXECDIR@|/tmp/sh6-bug-32240/install/libexec/osh-4.2.1|' -e 's|@SYSCONFDIR@|/tmp/sh6-bug-32240/install/etc|' <goto.1 >goto.1.out
-sed -e 's|@OSH_DATE@|May 15, 2016|' -e 's|@OSH_VERSION@|osh-4.2.1|' -e 's|@LIBEXECDIR@|/tmp/sh6-bug-32240/install/libexec/osh-4.2.1|' -e 's|@SYSCONFDIR@|/tmp/sh6-bug-32240/install/etc|' <if.1 >if.1.out
-make[1]: Entering directory '/tmp/sh6-bug-32240/src/osh-4.2.1'
-cc -c -Os -std=c99 -pedantic -Wall -Wextra   -DOSH_VERSION='"osh-4.2.1"' -DLIBEXECDIR='"/tmp/sh6-bug-32240/install/libexec/osh-4.2.1"' -DSYSCONFDIR='"/tmp/sh6-bug-32240/install/etc"' sh6.c
-In file included from /usr/include/x86_64-linux-gnu/sys/stat.h:25:0,
-                 from defs.h:42,
-                 from sh6.c:69:
-/usr/include/features.h:148:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
- # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
-   ^~~~~~~
+cc -c -Os -std=c99 -pedantic -Wall -Wextra   -DOSH_VERSION='"osh-current"' -DLIBEXECDIROSH='"/tmp/sh6-bug-6733/install/libexec/osh-current/osh"' -DLIBEXECDIRSH6='"/tmp/sh6-bug-6733/install/libexec/osh-current/sh6"' -DSYSCONFDIR='"/tmp/sh6-bug-6733/install/etc"' sasignal.c
+cc -c -Os -std=c99 -pedantic -Wall -Wextra   -DOSH_VERSION='"osh-current"' -DLIBEXECDIROSH='"/tmp/sh6-bug-6733/install/libexec/osh-current/osh"' -DLIBEXECDIRSH6='"/tmp/sh6-bug-6733/install/libexec/osh-current/sh6"' -DSYSCONFDIR='"/tmp/sh6-bug-6733/install/etc"' strtoint.c
+cc  -o osh v.o osh.o err.o lib.o util.o pexec.o sasignal.o strtoint.o 
+make[1]: Leaving directory '/tmp/sh6-bug-6733/src/v6shell'
+sed -e 's|@OSH_DATE@|December 15, 2016|' -e 's|@OSH_VERSION@|osh-current|' -e 's|@LIBEXECDIROSH@|/tmp/sh6-bug-6733/install/libexec/osh-current/osh|' -e 's|@LIBEXECDIRSH6@|/tmp/sh6-bug-6733/install/libexec/osh-current/sh6|' -e 's|@SYSCONFDIR@|/tmp/sh6-bug-6733/install/etc|' <osh.1 >osh.1.out
+sed -e 's|@OSH_DATE@|December 15, 2016|' -e 's|@OSH_VERSION@|osh-current|' -e 's|@LIBEXECDIROSH@|/tmp/sh6-bug-6733/install/libexec/osh-current/osh|' -e 's|@LIBEXECDIRSH6@|/tmp/sh6-bug-6733/install/libexec/osh-current/sh6|' -e 's|@SYSCONFDIR@|/tmp/sh6-bug-6733/install/etc|' <fd2.1 >fd2.1.out
+sed -e 's|@OSH_DATE@|December 15, 2016|' -e 's|@OSH_VERSION@|osh-current|' -e 's|@LIBEXECDIROSH@|/tmp/sh6-bug-6733/install/libexec/osh-current/osh|' -e 's|@LIBEXECDIRSH6@|/tmp/sh6-bug-6733/install/libexec/osh-current/sh6|' -e 's|@SYSCONFDIR@|/tmp/sh6-bug-6733/install/etc|' <goto.1 >goto.1.out
+sed -e 's|@OSH_DATE@|December 15, 2016|' -e 's|@OSH_VERSION@|osh-current|' -e 's|@LIBEXECDIROSH@|/tmp/sh6-bug-6733/install/libexec/osh-current/osh|' -e 's|@LIBEXECDIRSH6@|/tmp/sh6-bug-6733/install/libexec/osh-current/sh6|' -e 's|@SYSCONFDIR@|/tmp/sh6-bug-6733/install/etc|' <if.1 >if.1.out
+make[1]: Entering directory '/tmp/sh6-bug-6733/src/v6shell'
+cc -c -Os -std=c99 -pedantic -Wall -Wextra   -DOSH_VERSION='"osh-current"' -DLIBEXECDIROSH='"/tmp/sh6-bug-6733/install/libexec/osh-current/osh"' -DLIBEXECDIRSH6='"/tmp/sh6-bug-6733/install/libexec/osh-current/sh6"' -DSYSCONFDIR='"/tmp/sh6-bug-6733/install/etc"' sh6.c
 cc  -o sh6 v.o sh6.o err.o pexec.o sasignal.o 
-make[1]: Leaving directory '/tmp/sh6-bug-32240/src/osh-4.2.1'
-make[1]: Entering directory '/tmp/sh6-bug-32240/src/osh-4.2.1'
-cc -c -Os -std=c99 -pedantic -Wall -Wextra   -DOSH_VERSION='"osh-4.2.1"' -DLIBEXECDIR='"/tmp/sh6-bug-32240/install/libexec/osh-4.2.1"' -DSYSCONFDIR='"/tmp/sh6-bug-32240/install/etc"' glob.c
-In file included from /usr/include/x86_64-linux-gnu/sys/stat.h:25:0,
-                 from defs.h:42,
-                 from glob.c:67:
-/usr/include/features.h:148:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
- # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
-   ^~~~~~~
+make[1]: Leaving directory '/tmp/sh6-bug-6733/src/v6shell'
+make[1]: Entering directory '/tmp/sh6-bug-6733/src/v6shell'
+cc -c -Os -std=c99 -pedantic -Wall -Wextra   -DOSH_VERSION='"osh-current"' -DLIBEXECDIROSH='"/tmp/sh6-bug-6733/install/libexec/osh-current/osh"' -DLIBEXECDIRSH6='"/tmp/sh6-bug-6733/install/libexec/osh-current/sh6"' -DSYSCONFDIR='"/tmp/sh6-bug-6733/install/etc"' glob.c
 cc  -o glob v.o glob.o err.o pexec.o 
-make[1]: Leaving directory '/tmp/sh6-bug-32240/src/osh-4.2.1'
-sed -e 's|@OSH_DATE@|May 15, 2016|' -e 's|@OSH_VERSION@|osh-4.2.1|' -e 's|@LIBEXECDIR@|/tmp/sh6-bug-32240/install/libexec/osh-4.2.1|' -e 's|@SYSCONFDIR@|/tmp/sh6-bug-32240/install/etc|' <sh6.1 >sh6.1.out
-sed -e 's|@OSH_DATE@|May 15, 2016|' -e 's|@OSH_VERSION@|osh-4.2.1|' -e 's|@LIBEXECDIR@|/tmp/sh6-bug-32240/install/libexec/osh-4.2.1|' -e 's|@SYSCONFDIR@|/tmp/sh6-bug-32240/install/etc|' <glob.1 >glob.1.out
-make[1]: Entering directory '/tmp/sh6-bug-32240/src/osh-4.2.1'
-cc -c -Os -std=c99 -pedantic -Wall -Wextra   -DOSH_VERSION='"osh-4.2.1"' -DLIBEXECDIR='"/tmp/sh6-bug-32240/install/libexec/osh-4.2.1"' -DSYSCONFDIR='"/tmp/sh6-bug-32240/install/etc"' fd2.c
-In file included from /usr/include/x86_64-linux-gnu/sys/stat.h:25:0,
-                 from defs.h:42,
-                 from fd2.c:32:
-/usr/include/features.h:148:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
- # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
-   ^~~~~~~
+make[1]: Leaving directory '/tmp/sh6-bug-6733/src/v6shell'
+sed -e 's|@OSH_DATE@|December 15, 2016|' -e 's|@OSH_VERSION@|osh-current|' -e 's|@LIBEXECDIROSH@|/tmp/sh6-bug-6733/install/libexec/osh-current/osh|' -e 's|@LIBEXECDIRSH6@|/tmp/sh6-bug-6733/install/libexec/osh-current/sh6|' -e 's|@SYSCONFDIR@|/tmp/sh6-bug-6733/install/etc|' <sh6.1 >sh6.1.out
+sed -e 's|@OSH_DATE@|December 15, 2016|' -e 's|@OSH_VERSION@|osh-current|' -e 's|@LIBEXECDIROSH@|/tmp/sh6-bug-6733/install/libexec/osh-current/osh|' -e 's|@LIBEXECDIRSH6@|/tmp/sh6-bug-6733/install/libexec/osh-current/sh6|' -e 's|@SYSCONFDIR@|/tmp/sh6-bug-6733/install/etc|' <glob.1 >glob.1.out
+make[1]: Entering directory '/tmp/sh6-bug-6733/src/v6shell'
+cc -c -Os -std=c99 -pedantic -Wall -Wextra   -DOSH_VERSION='"osh-current"' -DLIBEXECDIROSH='"/tmp/sh6-bug-6733/install/libexec/osh-current/osh"' -DLIBEXECDIRSH6='"/tmp/sh6-bug-6733/install/libexec/osh-current/sh6"' -DSYSCONFDIR='"/tmp/sh6-bug-6733/install/etc"' fd2.c
 cc  -o fd2 v.o fd2.o err.o pexec.o 
-make[1]: Leaving directory '/tmp/sh6-bug-32240/src/osh-4.2.1'
-make[1]: Entering directory '/tmp/sh6-bug-32240/src/osh-4.2.1'
-cc -c -Os -std=c99 -pedantic -Wall -Wextra   -DOSH_VERSION='"osh-4.2.1"' -DLIBEXECDIR='"/tmp/sh6-bug-32240/install/libexec/osh-4.2.1"' -DSYSCONFDIR='"/tmp/sh6-bug-32240/install/etc"' goto.c
-In file included from /usr/include/x86_64-linux-gnu/sys/stat.h:25:0,
-                 from defs.h:42,
-                 from goto.c:67:
-/usr/include/features.h:148:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
- # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
-   ^~~~~~~
+make[1]: Leaving directory '/tmp/sh6-bug-6733/src/v6shell'
+make[1]: Entering directory '/tmp/sh6-bug-6733/src/v6shell'
+cc -c -Os -std=c99 -pedantic -Wall -Wextra   -DOSH_VERSION='"osh-current"' -DLIBEXECDIROSH='"/tmp/sh6-bug-6733/install/libexec/osh-current/osh"' -DLIBEXECDIRSH6='"/tmp/sh6-bug-6733/install/libexec/osh-current/sh6"' -DSYSCONFDIR='"/tmp/sh6-bug-6733/install/etc"' goto.c
 cc  -o goto v.o goto.o err.o 
-make[1]: Leaving directory '/tmp/sh6-bug-32240/src/osh-4.2.1'
-make[1]: Entering directory '/tmp/sh6-bug-32240/src/osh-4.2.1'
-cc -c -Os -std=c99 -pedantic -Wall -Wextra   -DOSH_VERSION='"osh-4.2.1"' -DLIBEXECDIR='"/tmp/sh6-bug-32240/install/libexec/osh-4.2.1"' -DSYSCONFDIR='"/tmp/sh6-bug-32240/install/etc"' if.c
-In file included from /usr/include/x86_64-linux-gnu/sys/stat.h:25:0,
-                 from defs.h:42,
-                 from if.c:69:
-/usr/include/features.h:148:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
- # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
-   ^~~~~~~
+make[1]: Leaving directory '/tmp/sh6-bug-6733/src/v6shell'
+make[1]: Entering directory '/tmp/sh6-bug-6733/src/v6shell'
+cc -c -Os -std=c99 -pedantic -Wall -Wextra   -DOSH_VERSION='"osh-current"' -DLIBEXECDIROSH='"/tmp/sh6-bug-6733/install/libexec/osh-current/osh"' -DLIBEXECDIRSH6='"/tmp/sh6-bug-6733/install/libexec/osh-current/sh6"' -DSYSCONFDIR='"/tmp/sh6-bug-6733/install/etc"' if.c
 cc  -o if v.o if.o err.o pexec.o sasignal.o strtoint.o 
-make[1]: Leaving directory '/tmp/sh6-bug-32240/src/osh-4.2.1'
+make[1]: Leaving directory '/tmp/sh6-bug-6733/src/v6shell'
 % make install
-test -d /tmp/sh6-bug-32240/install/bin || { umask 0022 && mkdir -p /tmp/sh6-bug-32240/install/bin ; }
-test -d /tmp/sh6-bug-32240/install/share/man/man1 || { umask 0022 && mkdir -p /tmp/sh6-bug-32240/install/share/man/man1 ; }
-/usr/bin/install -c -s  -m 0555 osh        /tmp/sh6-bug-32240/install/bin
-/usr/bin/install -c     -m 0444 osh.1.out  /tmp/sh6-bug-32240/install/share/man/man1/osh.1
-/usr/bin/install -c     -m 0444 fd2.1.out  /tmp/sh6-bug-32240/install/share/man/man1/fd2.1
-/usr/bin/install -c     -m 0444 goto.1.out /tmp/sh6-bug-32240/install/share/man/man1/goto.1
-/usr/bin/install -c     -m 0444 if.1.out   /tmp/sh6-bug-32240/install/share/man/man1/if.1
-test -d /tmp/sh6-bug-32240/install/libexec/osh-4.2.1 || { umask 0022 && mkdir -p /tmp/sh6-bug-32240/install/libexec/osh-4.2.1 ; }
-/usr/bin/install -c  -m 0444 README.libexec /tmp/sh6-bug-32240/install/libexec/osh-4.2.1/README
-/usr/bin/install -c -s  -m 0555 sh6        /tmp/sh6-bug-32240/install/bin
-/usr/bin/install -c     -m 0444 sh6.1.out  /tmp/sh6-bug-32240/install/share/man/man1/sh6.1
-/usr/bin/install -c -s  -m 0555 glob       /tmp/sh6-bug-32240/install/libexec/osh-4.2.1
-/usr/bin/install -c     -m 0444 glob.1.out /tmp/sh6-bug-32240/install/share/man/man1/glob.1
-/usr/bin/install -c -s  -m 0555 fd2        /tmp/sh6-bug-32240/install/libexec/osh-4.2.1
-/usr/bin/install -c -s  -m 0555 goto       /tmp/sh6-bug-32240/install/libexec/osh-4.2.1
-/usr/bin/install -c -s  -m 0555 if         /tmp/sh6-bug-32240/install/libexec/osh-4.2.1
-% mkdir /tmp/sh6-bug-32240/test
-% cd /tmp/sh6-bug-32240/test
+test -d /tmp/sh6-bug-6733/install/bin || { umask 0022 && mkdir -p /tmp/sh6-bug-6733/install/bin ; }
+test -d /tmp/sh6-bug-6733/install/man/man1 || { umask 0022 && mkdir -p /tmp/sh6-bug-6733/install/man/man1 ; }
+/usr/bin/install -c -s  -m 0555 osh        /tmp/sh6-bug-6733/install/bin
+/usr/bin/install -c     -m 0444 osh.1.out  /tmp/sh6-bug-6733/install/man/man1/osh.1
+/usr/bin/install -c     -m 0444 fd2.1.out  /tmp/sh6-bug-6733/install/man/man1/fd2.1
+/usr/bin/install -c     -m 0444 goto.1.out /tmp/sh6-bug-6733/install/man/man1/goto.1
+/usr/bin/install -c     -m 0444 if.1.out   /tmp/sh6-bug-6733/install/man/man1/if.1
+test -d /tmp/sh6-bug-6733/install/libexec/osh-current || { umask 0022 && mkdir -p /tmp/sh6-bug-6733/install/libexec/osh-current ; }
+/usr/bin/install -c  -m 0444 README.libexec /tmp/sh6-bug-6733/install/libexec/osh-current/README
+test -d /tmp/sh6-bug-6733/install/libexec/osh-current/osh || { umask 0022 && mkdir -p /tmp/sh6-bug-6733/install/libexec/osh-current/osh ; }
+/usr/bin/install -c  -m 0444 libexec.osh/README /tmp/sh6-bug-6733/install/libexec/osh-current/osh
+/usr/bin/install -c  -m 0555 libexec.osh/history /tmp/sh6-bug-6733/install/libexec/osh-current/osh
+/usr/bin/install -c  -m 0444 libexec.osh/history.help /tmp/sh6-bug-6733/install/libexec/osh-current/osh
+test -d /tmp/sh6-bug-6733/install/libexec/osh-current/sh6 || { umask 0022 && mkdir -p /tmp/sh6-bug-6733/install/libexec/osh-current/sh6 ; }
+/usr/bin/install -c  -m 0444 README.libexec.sh6 /tmp/sh6-bug-6733/install/libexec/osh-current/sh6/README
+/usr/bin/install -c -s  -m 0555 sh6        /tmp/sh6-bug-6733/install/bin
+/usr/bin/install -c     -m 0444 sh6.1.out  /tmp/sh6-bug-6733/install/man/man1/sh6.1
+/usr/bin/install -c -s  -m 0555 glob       /tmp/sh6-bug-6733/install/libexec/osh-current/sh6
+/usr/bin/install -c     -m 0444 glob.1.out /tmp/sh6-bug-6733/install/man/man1/glob.1
+/usr/bin/install -c -s  -m 0555 fd2        /tmp/sh6-bug-6733/install/libexec/osh-current/sh6
+/usr/bin/install -c -s  -m 0555 goto       /tmp/sh6-bug-6733/install/libexec/osh-current/sh6
+/usr/bin/install -c -s  -m 0555 if         /tmp/sh6-bug-6733/install/libexec/osh-current/sh6
+% mkdir /tmp/sh6-bug-6733/test
+% cd /tmp/sh6-bug-6733/test
 % cat test.sh6
-#!/tmp/sh6-bug-32240/install/bin/sh6
+#!/tmp/sh6-bug-6733/install/bin/sh6
 
 echo one
-strace -o goto.strace /tmp/sh6-bug-32240/install/libexec/osh-4.2.1/goto LABEL
+strace -o goto.strace /tmp/sh6-bug-6733/install/libexec/osh-current/sh6/goto LABEL
 echo two
 : LABEL
 echo three
@@ -155,39 +104,39 @@ echo three
 one
 wo: not found
 % cat goto.strace
-execve("/tmp/sh6-bug-32240/install/libexec/osh-4.2.1/goto", ["/tmp/sh6-bug-32240/install/libex"..., "LABEL"], [/* 55 vars */]) = 0
-brk(NULL)                               = 0x55e166d6a000
+execve("/tmp/sh6-bug-6733/install/libexec/osh-current/sh6/goto", ["/tmp/sh6-bug-6733/install/libexe"..., "LABEL"], [/* 55 vars */]) = 0
+brk(NULL)                               = 0x5589d6e7a000
 access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
-mmap(NULL, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7ea8050000
+mmap(NULL, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f531ab38000
 access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
 open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
-fstat(3, {st_mode=S_IFREG|0644, st_size=146681, ...}) = 0
-mmap(NULL, 146681, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f7ea802c000
+fstat(3, {st_mode=S_IFREG|0644, st_size=147325, ...}) = 0
+mmap(NULL, 147325, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f531ab14000
 close(3)                                = 0
 access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
 open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20\5\2\0\0\0\0\0"..., 832) = 832
 fstat(3, {st_mode=S_IFREG|0755, st_size=1856752, ...}) = 0
-mmap(NULL, 3959200, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f7ea7a68000
-mprotect(0x7f7ea7c25000, 2097152, PROT_NONE) = 0
-mmap(0x7f7ea7e25000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1bd000) = 0x7f7ea7e25000
-mmap(0x7f7ea7e2b000, 14752, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f7ea7e2b000
+mmap(NULL, 3959200, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f531a550000
+mprotect(0x7f531a70d000, 2097152, PROT_NONE) = 0
+mmap(0x7f531a90d000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1bd000) = 0x7f531a90d000
+mmap(0x7f531a913000, 14752, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f531a913000
 close(3)                                = 0
-mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f7ea802a000
-arch_prctl(ARCH_SET_FS, 0x7f7ea802a700) = 0
-mprotect(0x7f7ea7e25000, 16384, PROT_READ) = 0
-mprotect(0x55e165c25000, 4096, PROT_READ) = 0
-mprotect(0x7f7ea8053000, 4096, PROT_READ) = 0
-munmap(0x7f7ea802c000, 146681)          = 0
-getpid()                                = 32369
-ioctl(0, TCGETS, 0x7ffed0d334a0)        = -1 ENOTTY (Inappropriate ioctl for device)
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f531ab12000
+arch_prctl(ARCH_SET_FS, 0x7f531ab12700) = 0
+mprotect(0x7f531a90d000, 16384, PROT_READ) = 0
+mprotect(0x5589d60f5000, 4096, PROT_READ) = 0
+mprotect(0x7f531ab3b000, 4096, PROT_READ) = 0
+munmap(0x7f531ab14000, 147325)          = 0
+getpid()                                = 6887
+ioctl(0, TCGETS, 0x7ffc9bc729d0)        = -1 ENOTTY (Inappropriate ioctl for device)
 lseek(0, 0, SEEK_SET)                   = 0
-fstat(0, {st_mode=S_IFREG|0755, st_size=153, ...}) = 0
-brk(NULL)                               = 0x55e166d6a000
-brk(0x55e166d8c000)                     = 0x55e166d8c000
-read(0, "#!/tmp/sh6-bug-32240/install/bin"..., 4096) = 153
-lseek(0, 142, SEEK_SET)                 = 142
-lseek(0, -11, SEEK_CUR)                 = 131
+fstat(0, {st_mode=S_IFREG|0755, st_size=157, ...}) = 0
+brk(NULL)                               = 0x5589d6e7a000
+brk(0x5589d6e9c000)                     = 0x5589d6e9c000
+read(0, "#!/tmp/sh6-bug-6733/install/bin/"..., 4096) = 157
+lseek(0, 146, SEEK_SET)                 = 146
+lseek(0, -11, SEEK_CUR)                 = 135
 exit_group(0)                           = ?
 +++ exited with 0 +++
-% rm -rf /tmp/sh6-bug-32240
+% rm -rf /tmp/sh6-bug-6733
