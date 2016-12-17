@@ -4,96 +4,101 @@
 Cloning into 'v6shell'...
 % cd v6shell
 % git log -n 1
-commit 6eb726247c76124feebd40d6523784912d2df215 (HEAD -> current, origin/current, origin/HEAD)
+commit 38e29b34dd5d481dfba4d8cc94632bf9a5c642f9 (HEAD -> current, origin/current, origin/HEAD)
 Author: Jeff Neitzel <jan@v6shell.org>
-Date:   2016-12-16 20:52:40 +0000
+Date:   2016-12-17 18:15:34 +0000
 
-    Possible fix - sh6 / goto prob - Ubuntu 16.(04|10)
+    Fix external goto for sh6 on Ubuntu 16.xx
     
-    The prob (problem) noted above was reported to me by @Keith-S-Thompson.
-% export PREFIX=/tmp/sh6-bug-6574/install
+    This comes with a performance penalty by using read(2) instead
+    of getchar(3), but the penalty is not very noticeable in the
+    real world.
+    
+    NOTE: This does not fix the true cause of whatever the problem
+          is with lseek(2) on Ubuntu 16.xx.
+% export PREFIX=/tmp/sh6-bug-2722/install
 % make
 /bin/sh ./mkconfig
 mkconfig: PATH_LOGIN == "/bin/login"
 	  Modify value in "config.h" if this is incorrect.
 mkconfig: PATH_NEWGRP == "/usr/bin/newgrp"
 	  Modify value in "config.h" if this is incorrect.
-make[1]: Entering directory '/tmp/sh6-bug-6574/src/v6shell'
-cc -c -Os -std=c99 -pedantic -Wall -Wextra   -DOSH_VERSION='"osh-current"' -DLIBEXECDIROSH='"/tmp/sh6-bug-6574/install/libexec/osh-current/osh"' -DLIBEXECDIRSH6='"/tmp/sh6-bug-6574/install/libexec/osh-current/sh6"' -DSYSCONFDIR='"/tmp/sh6-bug-6574/install/etc"' v.c
-cc -c -Os -std=c99 -pedantic -Wall -Wextra   -DOSH_VERSION='"osh-current"' -DLIBEXECDIROSH='"/tmp/sh6-bug-6574/install/libexec/osh-current/osh"' -DLIBEXECDIRSH6='"/tmp/sh6-bug-6574/install/libexec/osh-current/sh6"' -DSYSCONFDIR='"/tmp/sh6-bug-6574/install/etc"' osh.c
+make[1]: Entering directory '/tmp/sh6-bug-2722/src/v6shell'
+cc -c -Os -std=c99 -pedantic -Wall -Wextra   -DOSH_VERSION='"osh-current"' -DLIBEXECDIROSH='"/tmp/sh6-bug-2722/install/libexec/osh-current/osh"' -DLIBEXECDIRSH6='"/tmp/sh6-bug-2722/install/libexec/osh-current/sh6"' -DSYSCONFDIR='"/tmp/sh6-bug-2722/install/etc"' v.c
+cc -c -Os -std=c99 -pedantic -Wall -Wextra   -DOSH_VERSION='"osh-current"' -DLIBEXECDIROSH='"/tmp/sh6-bug-2722/install/libexec/osh-current/osh"' -DLIBEXECDIRSH6='"/tmp/sh6-bug-2722/install/libexec/osh-current/sh6"' -DSYSCONFDIR='"/tmp/sh6-bug-2722/install/etc"' osh.c
 osh.c: In function ‘source_open’:
 osh.c:2560:4: warning: ignoring return value of ‘writev’, declared with attribute warn_unused_result [-Wunused-result]
     (void)writev(FD2, msg, 6);
     ^~~~~~~~~~~~~~~~~~~~~~~~~
-cc -c -Os -std=c99 -pedantic -Wall -Wextra   -DOSH_VERSION='"osh-current"' -DLIBEXECDIROSH='"/tmp/sh6-bug-6574/install/libexec/osh-current/osh"' -DLIBEXECDIRSH6='"/tmp/sh6-bug-6574/install/libexec/osh-current/sh6"' -DSYSCONFDIR='"/tmp/sh6-bug-6574/install/etc"' err.c
+cc -c -Os -std=c99 -pedantic -Wall -Wextra   -DOSH_VERSION='"osh-current"' -DLIBEXECDIROSH='"/tmp/sh6-bug-2722/install/libexec/osh-current/osh"' -DLIBEXECDIRSH6='"/tmp/sh6-bug-2722/install/libexec/osh-current/sh6"' -DSYSCONFDIR='"/tmp/sh6-bug-2722/install/etc"' err.c
 err.c: In function ‘wmsg’:
 err.c:254:5: warning: ignoring return value of ‘writev’, declared with attribute warn_unused_result [-Wunused-result]
      (void)writev(FD2, ev, 4);
      ^~~~~~~~~~~~~~~~~~~~~~~~
-cc -c -Os -std=c99 -pedantic -Wall -Wextra   -DOSH_VERSION='"osh-current"' -DLIBEXECDIROSH='"/tmp/sh6-bug-6574/install/libexec/osh-current/osh"' -DLIBEXECDIRSH6='"/tmp/sh6-bug-6574/install/libexec/osh-current/sh6"' -DSYSCONFDIR='"/tmp/sh6-bug-6574/install/etc"' lib.c
-cc -c -Os -std=c99 -pedantic -Wall -Wextra   -DOSH_VERSION='"osh-current"' -DLIBEXECDIROSH='"/tmp/sh6-bug-6574/install/libexec/osh-current/osh"' -DLIBEXECDIRSH6='"/tmp/sh6-bug-6574/install/libexec/osh-current/sh6"' -DSYSCONFDIR='"/tmp/sh6-bug-6574/install/etc"' util.c
-cc -c -Os -std=c99 -pedantic -Wall -Wextra   -DOSH_VERSION='"osh-current"' -DLIBEXECDIROSH='"/tmp/sh6-bug-6574/install/libexec/osh-current/osh"' -DLIBEXECDIRSH6='"/tmp/sh6-bug-6574/install/libexec/osh-current/sh6"' -DSYSCONFDIR='"/tmp/sh6-bug-6574/install/etc"' pexec.c
+cc -c -Os -std=c99 -pedantic -Wall -Wextra   -DOSH_VERSION='"osh-current"' -DLIBEXECDIROSH='"/tmp/sh6-bug-2722/install/libexec/osh-current/osh"' -DLIBEXECDIRSH6='"/tmp/sh6-bug-2722/install/libexec/osh-current/sh6"' -DSYSCONFDIR='"/tmp/sh6-bug-2722/install/etc"' lib.c
+cc -c -Os -std=c99 -pedantic -Wall -Wextra   -DOSH_VERSION='"osh-current"' -DLIBEXECDIROSH='"/tmp/sh6-bug-2722/install/libexec/osh-current/osh"' -DLIBEXECDIRSH6='"/tmp/sh6-bug-2722/install/libexec/osh-current/sh6"' -DSYSCONFDIR='"/tmp/sh6-bug-2722/install/etc"' util.c
+cc -c -Os -std=c99 -pedantic -Wall -Wextra   -DOSH_VERSION='"osh-current"' -DLIBEXECDIROSH='"/tmp/sh6-bug-2722/install/libexec/osh-current/osh"' -DLIBEXECDIRSH6='"/tmp/sh6-bug-2722/install/libexec/osh-current/sh6"' -DSYSCONFDIR='"/tmp/sh6-bug-2722/install/etc"' pexec.c
 pexec.c: In function ‘pexec’:
 pexec.c:143:4: warning: ignoring return value of ‘writev’, declared with attribute warn_unused_result [-Wunused-result]
     (void)writev(FD2, msg, 3);
     ^~~~~~~~~~~~~~~~~~~~~~~~~
-cc -c -Os -std=c99 -pedantic -Wall -Wextra   -DOSH_VERSION='"osh-current"' -DLIBEXECDIROSH='"/tmp/sh6-bug-6574/install/libexec/osh-current/osh"' -DLIBEXECDIRSH6='"/tmp/sh6-bug-6574/install/libexec/osh-current/sh6"' -DSYSCONFDIR='"/tmp/sh6-bug-6574/install/etc"' sasignal.c
-cc -c -Os -std=c99 -pedantic -Wall -Wextra   -DOSH_VERSION='"osh-current"' -DLIBEXECDIROSH='"/tmp/sh6-bug-6574/install/libexec/osh-current/osh"' -DLIBEXECDIRSH6='"/tmp/sh6-bug-6574/install/libexec/osh-current/sh6"' -DSYSCONFDIR='"/tmp/sh6-bug-6574/install/etc"' strtoint.c
+cc -c -Os -std=c99 -pedantic -Wall -Wextra   -DOSH_VERSION='"osh-current"' -DLIBEXECDIROSH='"/tmp/sh6-bug-2722/install/libexec/osh-current/osh"' -DLIBEXECDIRSH6='"/tmp/sh6-bug-2722/install/libexec/osh-current/sh6"' -DSYSCONFDIR='"/tmp/sh6-bug-2722/install/etc"' sasignal.c
+cc -c -Os -std=c99 -pedantic -Wall -Wextra   -DOSH_VERSION='"osh-current"' -DLIBEXECDIROSH='"/tmp/sh6-bug-2722/install/libexec/osh-current/osh"' -DLIBEXECDIRSH6='"/tmp/sh6-bug-2722/install/libexec/osh-current/sh6"' -DSYSCONFDIR='"/tmp/sh6-bug-2722/install/etc"' strtoint.c
 cc  -o osh v.o osh.o err.o lib.o util.o pexec.o sasignal.o strtoint.o 
-make[1]: Leaving directory '/tmp/sh6-bug-6574/src/v6shell'
-sed -e 's|@OSH_DATE@|December 15, 2016|' -e 's|@OSH_VERSION@|osh-current|' -e 's|@LIBEXECDIROSH@|/tmp/sh6-bug-6574/install/libexec/osh-current/osh|' -e 's|@LIBEXECDIRSH6@|/tmp/sh6-bug-6574/install/libexec/osh-current/sh6|' -e 's|@SYSCONFDIR@|/tmp/sh6-bug-6574/install/etc|' <osh.1 >osh.1.out
-sed -e 's|@OSH_DATE@|December 15, 2016|' -e 's|@OSH_VERSION@|osh-current|' -e 's|@LIBEXECDIROSH@|/tmp/sh6-bug-6574/install/libexec/osh-current/osh|' -e 's|@LIBEXECDIRSH6@|/tmp/sh6-bug-6574/install/libexec/osh-current/sh6|' -e 's|@SYSCONFDIR@|/tmp/sh6-bug-6574/install/etc|' <fd2.1 >fd2.1.out
-sed -e 's|@OSH_DATE@|December 15, 2016|' -e 's|@OSH_VERSION@|osh-current|' -e 's|@LIBEXECDIROSH@|/tmp/sh6-bug-6574/install/libexec/osh-current/osh|' -e 's|@LIBEXECDIRSH6@|/tmp/sh6-bug-6574/install/libexec/osh-current/sh6|' -e 's|@SYSCONFDIR@|/tmp/sh6-bug-6574/install/etc|' <goto.1 >goto.1.out
-sed -e 's|@OSH_DATE@|December 15, 2016|' -e 's|@OSH_VERSION@|osh-current|' -e 's|@LIBEXECDIROSH@|/tmp/sh6-bug-6574/install/libexec/osh-current/osh|' -e 's|@LIBEXECDIRSH6@|/tmp/sh6-bug-6574/install/libexec/osh-current/sh6|' -e 's|@SYSCONFDIR@|/tmp/sh6-bug-6574/install/etc|' <if.1 >if.1.out
-make[1]: Entering directory '/tmp/sh6-bug-6574/src/v6shell'
-cc -c -Os -std=c99 -pedantic -Wall -Wextra   -DOSH_VERSION='"osh-current"' -DLIBEXECDIROSH='"/tmp/sh6-bug-6574/install/libexec/osh-current/osh"' -DLIBEXECDIRSH6='"/tmp/sh6-bug-6574/install/libexec/osh-current/sh6"' -DSYSCONFDIR='"/tmp/sh6-bug-6574/install/etc"' sh6.c
+make[1]: Leaving directory '/tmp/sh6-bug-2722/src/v6shell'
+sed -e 's|@OSH_DATE@|December 15, 2016|' -e 's|@OSH_VERSION@|osh-current|' -e 's|@LIBEXECDIROSH@|/tmp/sh6-bug-2722/install/libexec/osh-current/osh|' -e 's|@LIBEXECDIRSH6@|/tmp/sh6-bug-2722/install/libexec/osh-current/sh6|' -e 's|@SYSCONFDIR@|/tmp/sh6-bug-2722/install/etc|' <osh.1 >osh.1.out
+sed -e 's|@OSH_DATE@|December 15, 2016|' -e 's|@OSH_VERSION@|osh-current|' -e 's|@LIBEXECDIROSH@|/tmp/sh6-bug-2722/install/libexec/osh-current/osh|' -e 's|@LIBEXECDIRSH6@|/tmp/sh6-bug-2722/install/libexec/osh-current/sh6|' -e 's|@SYSCONFDIR@|/tmp/sh6-bug-2722/install/etc|' <fd2.1 >fd2.1.out
+sed -e 's|@OSH_DATE@|December 15, 2016|' -e 's|@OSH_VERSION@|osh-current|' -e 's|@LIBEXECDIROSH@|/tmp/sh6-bug-2722/install/libexec/osh-current/osh|' -e 's|@LIBEXECDIRSH6@|/tmp/sh6-bug-2722/install/libexec/osh-current/sh6|' -e 's|@SYSCONFDIR@|/tmp/sh6-bug-2722/install/etc|' <goto.1 >goto.1.out
+sed -e 's|@OSH_DATE@|December 15, 2016|' -e 's|@OSH_VERSION@|osh-current|' -e 's|@LIBEXECDIROSH@|/tmp/sh6-bug-2722/install/libexec/osh-current/osh|' -e 's|@LIBEXECDIRSH6@|/tmp/sh6-bug-2722/install/libexec/osh-current/sh6|' -e 's|@SYSCONFDIR@|/tmp/sh6-bug-2722/install/etc|' <if.1 >if.1.out
+make[1]: Entering directory '/tmp/sh6-bug-2722/src/v6shell'
+cc -c -Os -std=c99 -pedantic -Wall -Wextra   -DOSH_VERSION='"osh-current"' -DLIBEXECDIROSH='"/tmp/sh6-bug-2722/install/libexec/osh-current/osh"' -DLIBEXECDIRSH6='"/tmp/sh6-bug-2722/install/libexec/osh-current/sh6"' -DSYSCONFDIR='"/tmp/sh6-bug-2722/install/etc"' sh6.c
 cc  -o sh6 v.o sh6.o err.o pexec.o sasignal.o 
-make[1]: Leaving directory '/tmp/sh6-bug-6574/src/v6shell'
-make[1]: Entering directory '/tmp/sh6-bug-6574/src/v6shell'
-cc -c -Os -std=c99 -pedantic -Wall -Wextra   -DOSH_VERSION='"osh-current"' -DLIBEXECDIROSH='"/tmp/sh6-bug-6574/install/libexec/osh-current/osh"' -DLIBEXECDIRSH6='"/tmp/sh6-bug-6574/install/libexec/osh-current/sh6"' -DSYSCONFDIR='"/tmp/sh6-bug-6574/install/etc"' glob.c
+make[1]: Leaving directory '/tmp/sh6-bug-2722/src/v6shell'
+make[1]: Entering directory '/tmp/sh6-bug-2722/src/v6shell'
+cc -c -Os -std=c99 -pedantic -Wall -Wextra   -DOSH_VERSION='"osh-current"' -DLIBEXECDIROSH='"/tmp/sh6-bug-2722/install/libexec/osh-current/osh"' -DLIBEXECDIRSH6='"/tmp/sh6-bug-2722/install/libexec/osh-current/sh6"' -DSYSCONFDIR='"/tmp/sh6-bug-2722/install/etc"' glob.c
 cc  -o glob v.o glob.o err.o pexec.o 
-make[1]: Leaving directory '/tmp/sh6-bug-6574/src/v6shell'
-sed -e 's|@OSH_DATE@|December 15, 2016|' -e 's|@OSH_VERSION@|osh-current|' -e 's|@LIBEXECDIROSH@|/tmp/sh6-bug-6574/install/libexec/osh-current/osh|' -e 's|@LIBEXECDIRSH6@|/tmp/sh6-bug-6574/install/libexec/osh-current/sh6|' -e 's|@SYSCONFDIR@|/tmp/sh6-bug-6574/install/etc|' <sh6.1 >sh6.1.out
-sed -e 's|@OSH_DATE@|December 15, 2016|' -e 's|@OSH_VERSION@|osh-current|' -e 's|@LIBEXECDIROSH@|/tmp/sh6-bug-6574/install/libexec/osh-current/osh|' -e 's|@LIBEXECDIRSH6@|/tmp/sh6-bug-6574/install/libexec/osh-current/sh6|' -e 's|@SYSCONFDIR@|/tmp/sh6-bug-6574/install/etc|' <glob.1 >glob.1.out
-make[1]: Entering directory '/tmp/sh6-bug-6574/src/v6shell'
-cc -c -Os -std=c99 -pedantic -Wall -Wextra   -DOSH_VERSION='"osh-current"' -DLIBEXECDIROSH='"/tmp/sh6-bug-6574/install/libexec/osh-current/osh"' -DLIBEXECDIRSH6='"/tmp/sh6-bug-6574/install/libexec/osh-current/sh6"' -DSYSCONFDIR='"/tmp/sh6-bug-6574/install/etc"' fd2.c
+make[1]: Leaving directory '/tmp/sh6-bug-2722/src/v6shell'
+sed -e 's|@OSH_DATE@|December 15, 2016|' -e 's|@OSH_VERSION@|osh-current|' -e 's|@LIBEXECDIROSH@|/tmp/sh6-bug-2722/install/libexec/osh-current/osh|' -e 's|@LIBEXECDIRSH6@|/tmp/sh6-bug-2722/install/libexec/osh-current/sh6|' -e 's|@SYSCONFDIR@|/tmp/sh6-bug-2722/install/etc|' <sh6.1 >sh6.1.out
+sed -e 's|@OSH_DATE@|December 15, 2016|' -e 's|@OSH_VERSION@|osh-current|' -e 's|@LIBEXECDIROSH@|/tmp/sh6-bug-2722/install/libexec/osh-current/osh|' -e 's|@LIBEXECDIRSH6@|/tmp/sh6-bug-2722/install/libexec/osh-current/sh6|' -e 's|@SYSCONFDIR@|/tmp/sh6-bug-2722/install/etc|' <glob.1 >glob.1.out
+make[1]: Entering directory '/tmp/sh6-bug-2722/src/v6shell'
+cc -c -Os -std=c99 -pedantic -Wall -Wextra   -DOSH_VERSION='"osh-current"' -DLIBEXECDIROSH='"/tmp/sh6-bug-2722/install/libexec/osh-current/osh"' -DLIBEXECDIRSH6='"/tmp/sh6-bug-2722/install/libexec/osh-current/sh6"' -DSYSCONFDIR='"/tmp/sh6-bug-2722/install/etc"' fd2.c
 cc  -o fd2 v.o fd2.o err.o pexec.o 
-make[1]: Leaving directory '/tmp/sh6-bug-6574/src/v6shell'
-make[1]: Entering directory '/tmp/sh6-bug-6574/src/v6shell'
-cc -c -Os -std=c99 -pedantic -Wall -Wextra   -DOSH_VERSION='"osh-current"' -DLIBEXECDIROSH='"/tmp/sh6-bug-6574/install/libexec/osh-current/osh"' -DLIBEXECDIRSH6='"/tmp/sh6-bug-6574/install/libexec/osh-current/sh6"' -DSYSCONFDIR='"/tmp/sh6-bug-6574/install/etc"' goto.c
+make[1]: Leaving directory '/tmp/sh6-bug-2722/src/v6shell'
+make[1]: Entering directory '/tmp/sh6-bug-2722/src/v6shell'
+cc -c -Os -std=c99 -pedantic -Wall -Wextra   -DOSH_VERSION='"osh-current"' -DLIBEXECDIROSH='"/tmp/sh6-bug-2722/install/libexec/osh-current/osh"' -DLIBEXECDIRSH6='"/tmp/sh6-bug-2722/install/libexec/osh-current/sh6"' -DSYSCONFDIR='"/tmp/sh6-bug-2722/install/etc"' goto.c
 cc  -o goto v.o goto.o err.o 
-make[1]: Leaving directory '/tmp/sh6-bug-6574/src/v6shell'
-make[1]: Entering directory '/tmp/sh6-bug-6574/src/v6shell'
-cc -c -Os -std=c99 -pedantic -Wall -Wextra   -DOSH_VERSION='"osh-current"' -DLIBEXECDIROSH='"/tmp/sh6-bug-6574/install/libexec/osh-current/osh"' -DLIBEXECDIRSH6='"/tmp/sh6-bug-6574/install/libexec/osh-current/sh6"' -DSYSCONFDIR='"/tmp/sh6-bug-6574/install/etc"' if.c
+make[1]: Leaving directory '/tmp/sh6-bug-2722/src/v6shell'
+make[1]: Entering directory '/tmp/sh6-bug-2722/src/v6shell'
+cc -c -Os -std=c99 -pedantic -Wall -Wextra   -DOSH_VERSION='"osh-current"' -DLIBEXECDIROSH='"/tmp/sh6-bug-2722/install/libexec/osh-current/osh"' -DLIBEXECDIRSH6='"/tmp/sh6-bug-2722/install/libexec/osh-current/sh6"' -DSYSCONFDIR='"/tmp/sh6-bug-2722/install/etc"' if.c
 cc  -o if v.o if.o err.o pexec.o sasignal.o strtoint.o 
-make[1]: Leaving directory '/tmp/sh6-bug-6574/src/v6shell'
+make[1]: Leaving directory '/tmp/sh6-bug-2722/src/v6shell'
 % make install
-test -d /tmp/sh6-bug-6574/install/bin || { umask 0022 && mkdir -p /tmp/sh6-bug-6574/install/bin ; }
-test -d /tmp/sh6-bug-6574/install/man/man1 || { umask 0022 && mkdir -p /tmp/sh6-bug-6574/install/man/man1 ; }
-/usr/bin/install -c -s  -m 0555 osh        /tmp/sh6-bug-6574/install/bin
-/usr/bin/install -c     -m 0444 osh.1.out  /tmp/sh6-bug-6574/install/man/man1/osh.1
-/usr/bin/install -c     -m 0444 fd2.1.out  /tmp/sh6-bug-6574/install/man/man1/fd2.1
-/usr/bin/install -c     -m 0444 goto.1.out /tmp/sh6-bug-6574/install/man/man1/goto.1
-/usr/bin/install -c     -m 0444 if.1.out   /tmp/sh6-bug-6574/install/man/man1/if.1
-test -d /tmp/sh6-bug-6574/install/libexec/osh-current || { umask 0022 && mkdir -p /tmp/sh6-bug-6574/install/libexec/osh-current ; }
-/usr/bin/install -c  -m 0444 README.libexec /tmp/sh6-bug-6574/install/libexec/osh-current/README
-test -d /tmp/sh6-bug-6574/install/libexec/osh-current/osh || { umask 0022 && mkdir -p /tmp/sh6-bug-6574/install/libexec/osh-current/osh ; }
-/usr/bin/install -c  -m 0444 libexec.osh/README /tmp/sh6-bug-6574/install/libexec/osh-current/osh
-/usr/bin/install -c  -m 0555 libexec.osh/history /tmp/sh6-bug-6574/install/libexec/osh-current/osh
-/usr/bin/install -c  -m 0444 libexec.osh/history.help /tmp/sh6-bug-6574/install/libexec/osh-current/osh
-test -d /tmp/sh6-bug-6574/install/libexec/osh-current/sh6 || { umask 0022 && mkdir -p /tmp/sh6-bug-6574/install/libexec/osh-current/sh6 ; }
-/usr/bin/install -c  -m 0444 README.libexec.sh6 /tmp/sh6-bug-6574/install/libexec/osh-current/sh6/README
-/usr/bin/install -c -s  -m 0555 sh6        /tmp/sh6-bug-6574/install/bin
-/usr/bin/install -c     -m 0444 sh6.1.out  /tmp/sh6-bug-6574/install/man/man1/sh6.1
-/usr/bin/install -c -s  -m 0555 glob       /tmp/sh6-bug-6574/install/libexec/osh-current/sh6
-/usr/bin/install -c     -m 0444 glob.1.out /tmp/sh6-bug-6574/install/man/man1/glob.1
-/usr/bin/install -c -s  -m 0555 fd2        /tmp/sh6-bug-6574/install/libexec/osh-current/sh6
-/usr/bin/install -c -s  -m 0555 goto       /tmp/sh6-bug-6574/install/libexec/osh-current/sh6
-/usr/bin/install -c -s  -m 0555 if         /tmp/sh6-bug-6574/install/libexec/osh-current/sh6
-% mkdir /tmp/sh6-bug-6574/test
-% cd /tmp/sh6-bug-6574/test
+test -d /tmp/sh6-bug-2722/install/bin || { umask 0022 && mkdir -p /tmp/sh6-bug-2722/install/bin ; }
+test -d /tmp/sh6-bug-2722/install/man/man1 || { umask 0022 && mkdir -p /tmp/sh6-bug-2722/install/man/man1 ; }
+/usr/bin/install -c -s  -m 0555 osh        /tmp/sh6-bug-2722/install/bin
+/usr/bin/install -c     -m 0444 osh.1.out  /tmp/sh6-bug-2722/install/man/man1/osh.1
+/usr/bin/install -c     -m 0444 fd2.1.out  /tmp/sh6-bug-2722/install/man/man1/fd2.1
+/usr/bin/install -c     -m 0444 goto.1.out /tmp/sh6-bug-2722/install/man/man1/goto.1
+/usr/bin/install -c     -m 0444 if.1.out   /tmp/sh6-bug-2722/install/man/man1/if.1
+test -d /tmp/sh6-bug-2722/install/libexec/osh-current || { umask 0022 && mkdir -p /tmp/sh6-bug-2722/install/libexec/osh-current ; }
+/usr/bin/install -c  -m 0444 README.libexec /tmp/sh6-bug-2722/install/libexec/osh-current/README
+test -d /tmp/sh6-bug-2722/install/libexec/osh-current/osh || { umask 0022 && mkdir -p /tmp/sh6-bug-2722/install/libexec/osh-current/osh ; }
+/usr/bin/install -c  -m 0444 libexec.osh/README /tmp/sh6-bug-2722/install/libexec/osh-current/osh
+/usr/bin/install -c  -m 0555 libexec.osh/history /tmp/sh6-bug-2722/install/libexec/osh-current/osh
+/usr/bin/install -c  -m 0444 libexec.osh/history.help /tmp/sh6-bug-2722/install/libexec/osh-current/osh
+test -d /tmp/sh6-bug-2722/install/libexec/osh-current/sh6 || { umask 0022 && mkdir -p /tmp/sh6-bug-2722/install/libexec/osh-current/sh6 ; }
+/usr/bin/install -c  -m 0444 README.libexec.sh6 /tmp/sh6-bug-2722/install/libexec/osh-current/sh6/README
+/usr/bin/install -c -s  -m 0555 sh6        /tmp/sh6-bug-2722/install/bin
+/usr/bin/install -c     -m 0444 sh6.1.out  /tmp/sh6-bug-2722/install/man/man1/sh6.1
+/usr/bin/install -c -s  -m 0555 glob       /tmp/sh6-bug-2722/install/libexec/osh-current/sh6
+/usr/bin/install -c     -m 0444 glob.1.out /tmp/sh6-bug-2722/install/man/man1/glob.1
+/usr/bin/install -c -s  -m 0555 fd2        /tmp/sh6-bug-2722/install/libexec/osh-current/sh6
+/usr/bin/install -c -s  -m 0555 goto       /tmp/sh6-bug-2722/install/libexec/osh-current/sh6
+/usr/bin/install -c -s  -m 0555 if         /tmp/sh6-bug-2722/install/libexec/osh-current/sh6
+% mkdir /tmp/sh6-bug-2722/test
+% cd /tmp/sh6-bug-2722/test
 % cat test.sh6
-#!/tmp/sh6-bug-6574/install/bin/sh6
+#!/tmp/sh6-bug-2722/install/bin/sh6
 
 echo one
 goto LABEL
@@ -103,4 +108,4 @@ echo three
 % ./test.sh6
 one
 wo: not found
-% rm -rf /tmp/sh6-bug-6574
+% rm -rf /tmp/sh6-bug-2722

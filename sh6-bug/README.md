@@ -54,12 +54,17 @@ More information about the system I ran this on:
 
 Both are from the `current` branch:
 
-    commit 6eb726247c76124feebd40d6523784912d2df215
+    commit 38e29b34dd5d481dfba4d8cc94632bf9a5c642f9
     Author: Jeff Neitzel <jan@v6shell.org>
-    Date:   2016-12-16 20:52:40 +0000
+    Date:   2016-12-17 18:15:34 +0000
 
-        Possible fix - sh6 / goto prob - Ubuntu 16.(04|10)
+        Fix external goto for sh6 on Ubuntu 16.xx
         
-        The prob (problem) noted above was reported to me by @Keith-S-Thompson.
+        This comes with a performance penalty by using read(2) instead
+        of getchar(3), but the penalty is not very noticeable in the
+        real world.
+        
+        NOTE: This does not fix the true cause of whatever the problem
+              is with lseek(2) on Ubuntu 16.xx.
 
 The test passes when I run it with `osh` rather than `sh6`.

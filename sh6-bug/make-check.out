@@ -26,10 +26,10 @@ cc -c -Os -std=c99 -pedantic -Wall -Wextra   -DOSH_VERSION='"osh-current"' -DLIB
 cc -c -Os -std=c99 -pedantic -Wall -Wextra   -DOSH_VERSION='"osh-current"' -DLIBEXECDIROSH='"/usr/local/libexec/osh-current/osh"' -DLIBEXECDIRSH6='"/usr/local/libexec/osh-current/sh6"' -DSYSCONFDIR='"/usr/local/etc"' strtoint.c
 cc  -o osh v.o osh.o err.o lib.o util.o pexec.o sasignal.o strtoint.o 
 make[1]: Leaving directory '/home/kst/git/v6shell'
-Friday, 2016-12-16, 13:51:35 PST
+Saturday, 2016-12-17, 11:28:37 PST
 Testing osh binary . . . . . . . . Done .
 Testing sh6 binary . . . . --- test05_sh6.log	2016-12-15 17:21:07.345985981 -0800
-+++ -	2016-12-16 13:51:46.095608603 -0800
++++ -	2016-12-17 11:28:47.888197869 -0800
 @@ -1,232 +1,4 @@
  Begin ...
  % "
