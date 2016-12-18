@@ -108,6 +108,10 @@ run() {
             javac $filename
             java $basename > $out
             ;;
+        logo)
+            # ucblogo 6.0 depends on X11
+            timeout 10 ./$filename > $out
+            ;;
         pas)
             fpc $filename
             ./$basename > $out
