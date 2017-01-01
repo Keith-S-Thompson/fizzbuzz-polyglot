@@ -134,6 +134,10 @@ run() {
             gm2 $filename -o $basename
             ./$basename > $out
             ;;
+        myr)
+            mbld -b $basename $filename
+            ./$basename > $out
+            ;;
         nim)
             nim compile $filename
             ./$basename > $out

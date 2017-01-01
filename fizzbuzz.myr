@@ -1,0 +1,23 @@
+/*
+ * Language:       Myrddin
+ * Web site:       http://myrlang.org/
+ * Last tested on: Ubuntu 16.10
+ * Requires:       git clone https://github.com/oridb/mc
+ *                 Install from source
+ */
+
+use std
+const main = {
+    var i
+    for i = 1; i <= 100; i++
+        if i % 15 == 0
+            std.put("FizzBuzz\n")
+        elif i % 3 == 0
+            std.put("Fizz\n")
+        elif i % 5 == 0
+            std.put("Buzz\n")
+        else
+            std.put("{}\n", i)
+        ;;
+    ;;
+} 
