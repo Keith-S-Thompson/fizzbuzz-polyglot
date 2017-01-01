@@ -27,6 +27,7 @@ proverbial Round Tuit:
 - [Euphoria](http://www.rapideuphoria.com/)
 - [Factor](http://factorcode.org/)
 - [Foo](https://esolangs.org/wiki/Foo)
+- [Frege](https://github.com/Frege/frege) -- Similar or identical to Haskell
 - [Intercal](http://catb.org/esr/intercal/)
 - [K](https://en.wikipedia.org/wiki/K_(programming_language))
 - [Kitten](http://kittenlang.org/)
