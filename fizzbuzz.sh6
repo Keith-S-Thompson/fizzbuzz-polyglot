@@ -1,4 +1,4 @@
-#!/usr/bin/env sh6
+#!/usr/bin/env osh
 
 : "Language:       Thomson Shell (Unix V6)"
 : "Web site:       http://v6shell.org/"

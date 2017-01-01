@@ -108,7 +108,7 @@ The current set of languages (89 of them) is:
 - [Tab](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.tab)
 * [tail](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.tail)
 * [Tcl](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.tcl)
-- [Thomson Shell](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.sh6) *(currently failing)*
+- [Thomson Shell](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.sh6)
 * [Vala](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.vala)
 * [Vigil](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.vg)
 * [Vimscript](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.vim)
@@ -140,10 +140,11 @@ with required packages installed as documented in each source file.
 `fizzbuzz.b` is not tested with an actual B compiler; see that file
 for details.
 
-As of Thu 2016-12-01, all tests but one pass on Ubuntu 16.10.
-`fizzbuzz.sh6` fails due to a problem with the external `goto` command.
-I'm in touch with the maintainer to (I hope) get a fix for this.
-See the `sh6-bug` subdirectory for details.
+`fizzbuzz.sh6` failed due to a problem with the external `goto` command.
+I'm in touch with the maintainer to (I hope) get a fix for this.  See
+the `sh6-bug` subdirectory for details.  (For now I've worked around
+this problem by using `osh` rather than `sh6`. `osh` is an enhanced
+implementation of `sh6` that has `goto` as a built-in command.)
 
 The [Whitespace web page](http://compsoc.dur.ac.uk/whitespace/)
 is currently down, so I'm using the Perl implementation from
