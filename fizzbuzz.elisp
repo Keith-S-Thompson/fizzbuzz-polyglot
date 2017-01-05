@@ -1,0 +1,25 @@
+#!/usr/bin/emacs --script
+
+; Language:       Emacs Lisp
+; Web site:       https://www.gnu.org/software/emacs/
+; Last tested on: Ubuntu 16.10
+; Requires:       apt-get install emacs
+;                 (The verify script filters out messages written to stderr.)
+
+(defun lines (n)
+  "Print lines from 1 to n"
+  (cond ((< n 1) nil)
+        (t (lines (1- n))(line n))
+  )
+)
+
+(defun line (n)
+    "Print a single line"
+    (cond ((= (mod n 15) 0) (princ "FizzBuzz\n"))
+          ((= (mod n 3) 0)  (princ "Fizz\n"))
+          ((= (mod n 5) 0)  (princ "Buzz\n"))
+          (t                (princ n) (princ "\n"))
+    )
+)
+
+(lines 100)

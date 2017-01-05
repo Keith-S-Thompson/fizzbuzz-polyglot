@@ -58,6 +58,9 @@ run() {
             gdc $filename -o $basename
             ./$basename > $out
             ;;
+        elisp)
+            ./$filename 2>/dev/null > $out
+            ;;
         f66)
             cp $filename fizzbuzz66.f
             gfortran fizzbuzz66.f -o $basename
