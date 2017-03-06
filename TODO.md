@@ -30,6 +30,7 @@ proverbial Round Tuit:
 - [Foo](https://esolangs.org/wiki/Foo)
 - [Frege](https://github.com/Frege/frege) -- Similar or identical to Haskell
 - [Frink](https://frinklang.org/)
+- [Gravity](https://github.com/marcobambini/gravity)
 - [Intercal](http://catb.org/esr/intercal/)
 - [K](https://en.wikipedia.org/wiki/K_(programming_language))
 - [Kitten](http://kittenlang.org/)
