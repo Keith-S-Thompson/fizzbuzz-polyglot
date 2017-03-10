@@ -122,6 +122,9 @@ run() {
         ps)
             gs -q -dNODISPLAY $filename > $out
             ;;
+        ps1)
+            powershell -NoLogo -File $filename > $out
+            ;;
         pure)
             ./$filename > $out
             ;;
