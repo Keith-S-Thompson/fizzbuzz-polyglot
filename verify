@@ -167,6 +167,10 @@ run() {
             jar cfe $basename.jar $basename *.class
             scala $basename.jar > $out
             ;;
+        sd7)
+            s7c $filename
+            ./$basename > $out
+            ;;
         sim)
             cim -e $filename
             ./$basename > $out
