@@ -16,9 +16,6 @@ run() {
     cd $tmpdir
     cp -p ../$filename .
     case $suffix in
-        a68)
-            a68g $filename > $out
-            ;;
         adb)
             gnatmake $basename
             ./$basename > $out
