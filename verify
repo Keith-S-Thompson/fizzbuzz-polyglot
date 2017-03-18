@@ -14,7 +14,7 @@ run() {
     tmpdir=__${filename}__$$
     mkdir $tmpdir || return
     cd $tmpdir
-    cp -p ../$filename ../expected-output.txt .
+    cp -p ../$filename .
     case $suffix in
         a68)
             a68g $filename > $out
@@ -206,7 +206,7 @@ run() {
             ./$filename > $out
             ;;
     esac
-    if ! cmp -s $out expected-output.txt ; then
+    if ! cmp -s $out ../expected-output.txt ; then
         ok=false
         failures="$failures $filename"
         (( failure_count++ ))
