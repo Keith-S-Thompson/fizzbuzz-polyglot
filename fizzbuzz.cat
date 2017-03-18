@@ -7,6 +7,7 @@
 
 # NOTE: This is cheating; "cat" is not really a scripting language,
 # This depends on the existence of the expected-output.txt file
-# (provided with this project) in the current directory.
+# (provided with this project) in the parent directory (the test
+# is run in a temporary subdirectory)
 
-cat expected-output.txt
+cat ../expected-output.txt
