@@ -1,0 +1,28 @@
+(*
+ * Language:       Seed7
+ * Web site:       http://seed7.sourceforge.net/
+ * Last tested on: Ubuntu 16.10
+ * Requires:       Download seed7_05_20170305.tgz
+ *                 dpkg -i libmysqlclient-dev
+ *                 Install from source (see read_me.txt)
+ *)
+
+$ include "seed7_05.s7i";
+  include "stdio.s7i";
+
+const proc: main is func
+  local
+    var integer: i is 0;
+  begin
+    for i range 1 to 100 do
+      if i mod 15 = 0 then
+        writeln("FizzBuzz");
+      elsif i mod 3 = 0 then
+        writeln("Fizz");
+      elsif i mod 5 = 0 then
+        writeln("Buzz");
+      else
+        writeln(i);
+      end if;
+    end for;
+  end func;
