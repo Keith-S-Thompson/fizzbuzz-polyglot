@@ -21,6 +21,7 @@ proverbial Round Tuit:
 - [Cobra](http://cobra-language.com/)
 - [Coconut](http://coconut-lang.org/)
 - [Cyclops](http://cyclopslang.org/) 𐙀
+- [Dale](https://github.com/tomhrr/dale)
 - [E](https://en.wikipedia.org/wiki/E_(programming_language)) ... [see also](http://erights.org/)
 - [Eiffel](https://en.wikipedia.org/wiki/Eiffel_(programming_language))
 - [Elixir](http://elixir-lang.org/)
