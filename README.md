@@ -15,7 +15,7 @@ The requirements are simple:
 > five print "FizzBuzz".
 
 In my [fizzbuz-c](https://github.com/Keith-S-Thompson/fizzbuzz-c) project
-I present multiple (86 at last count) C solutions.
+I present multiple (91 at last count) C solutions.
 
 **NOTE :** This is not intended as a collaborative project.  It is my
 own personal playground.  A few people have submitted pull requests for
