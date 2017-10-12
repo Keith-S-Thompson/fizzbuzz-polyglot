@@ -54,7 +54,6 @@ proverbial Round Tuit:
 - [Pyth](https://pyth.readthedocs.io/)
 - [Rebol](http://www.rebol.com/)
 - [Red](http://www.red-lang.org/)
-- [Sed](https://www.gnu.org/software/sed/) (This is going to be challenging.)
 - [Self](http://www.selflanguage.org/)
 - [SNOBOL/SPITBOL](http://daveshields.me/2012/09/02/on-being-the-maintainer-sole-developer-and-probably-the-sole-active-user-of-the-programming-language-spitbol/)
 - [Stanza](http://lbstanza.org/)

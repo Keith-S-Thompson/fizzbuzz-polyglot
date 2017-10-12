@@ -168,6 +168,9 @@ run() {
             s7c $filename
             ./$basename > $out
             ;;
+        sed)
+            echo '' | ./$filename > $out
+            ;;
         sim)
             cim -e $filename
             ./$basename > $out
