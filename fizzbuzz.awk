@@ -3,7 +3,7 @@
 # Language:       Awk
 # Web site:       http://invisible-island.net/mawk/
 #                 http://www.gnu.org/software/gawk/
-# Last tested on: Ubuntu 16.10
+# Last tested on: Ubuntu 17.04
 # Requires:       The "gawk" (GNU awk) and "mawk" packages are pre-installed.
 
 BEGIN {

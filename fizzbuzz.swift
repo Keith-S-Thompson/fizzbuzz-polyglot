@@ -2,7 +2,7 @@
 
 // Language:       Swift
 // Web site:       https://swift.org/
-// Last tested on: Ubuntu 16.10
+// Last tested on: Ubuntu 17.04
 // Requires:       Install swift-DEVELOPMENT-SNAPSHOT-2016-11-29-a-ubuntu16.10.tar.gz
 
 for i in 1...100 {

@@ -2,7 +2,7 @@
 
 # Language:       Julia
 # Web site:       http://julialang.org/
-# Last tested on: Ubuntu 16.10
+# Last tested on: Ubuntu 17.04
 # Requires:       apt-get install julia
 
 for i = 1:100

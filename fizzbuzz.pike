@@ -2,7 +2,7 @@
 
 // Language:       Pike
 // Web site:       http://pike.lysator.liu.se/
-// Last tested on: Ubuntu 16.10
+// Last tested on: Ubuntu 17.04
 // Requires:       apt-get install pike8.0
 
 int main() {

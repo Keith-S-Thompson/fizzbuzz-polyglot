@@ -1,6 +1,6 @@
 // Language:       C#
 // Web site:       http://www.ecma-international.org/publications/standards/Ecma-334.htm
-// Last tested on: Ubuntu 16.10
+// Last tested on: Ubuntu 17.04
 // Requires:       apt-get mono-xbuild mono-mcs mono-devel
 //                 (was apt-get install mono-gmcs)
 

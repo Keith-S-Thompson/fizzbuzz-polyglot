@@ -2,7 +2,7 @@
 
 # Language:       Perl6
 # Web site:       http://perl6.org/
-# Last tested on: Ubuntu 16.10
+# Last tested on: Ubuntu 17.04
 # Requires:       apt-get install rakudo
 
 ( (1..100).map: {

@@ -1,6 +1,6 @@
       * LANGUAGE:       COBOL
       * Web site:       http://www.opencobol.org/
-      * Last tested on: Ubuntu 16.10
+      * Last tested on: Ubuntu 17.04
       * Requires:       apt-get install open-cobol
 
         IDENTIFICATION DIVISION.

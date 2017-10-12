@@ -1,6 +1,6 @@
 // Language:       Java
 // Web site:       http://www.java.com/
-// Last tested on: Ubuntu 16.10
+// Last tested on: Ubuntu 17.04
 // Requires:       apt-get install openjdk-7-jdk
 
 public class fizzbuzz
