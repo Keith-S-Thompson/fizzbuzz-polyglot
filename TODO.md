@@ -4,6 +4,7 @@ Obviously the major flaw of this project is that there just aren't
 enough languages.  Here are a few that I plan to add when I get the
 proverbial Round Tuit:
 
+- [8th](https://8th-dev.com/)
 - [Anguish](http://blogs.perl.org/users/zoffix_znet/2016/05/anguish-invisible-programming-language-and-invisible-data-theft.html)
 - [APL](https://www.gnu.org/software/apl/)
 - [Ark](http://ark-lang.org/)
