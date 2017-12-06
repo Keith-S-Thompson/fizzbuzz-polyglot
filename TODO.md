@@ -70,3 +70,4 @@ proverbial Round Tuit:
 - [Xonsh](http://xon.sh/)
 - [Yorick](http://yorick.sourceforge.net)
 - [Zig](http://ziglang.org/)
+- [Zimbu](http://www.zimbu.org/)
