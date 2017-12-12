@@ -54,6 +54,7 @@ proverbial Round Tuit:
 - [PL/M](https://en.wikipedia.org/wiki/PL/M)
 - [Prolog](https://en.wikipedia.org/wiki/Prolog)
 - [Pyth](https://pyth.readthedocs.io/)
+- [Q](https://code.kx.com/q/)
 - [Rebol](http://www.rebol.com/)
 - [Red](http://www.red-lang.org/)
 - [RPL/2](http://www.rpl2.net/)
