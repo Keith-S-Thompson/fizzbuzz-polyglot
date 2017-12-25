@@ -3,7 +3,7 @@
 // Language:       Swift
 // Web site:       https://swift.org/
 // Last tested on: Ubuntu 17.04
-// Requires:       Install swift-DEVELOPMENT-SNAPSHOT-2016-11-29-a-ubuntu16.10.tar.gz
+// Requires:       Install swift-4.0.3-RELEASE-ubuntu16.10.tar.gz
 
 for i in 1...100 {
     if i % 15 == 0 {
