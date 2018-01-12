@@ -9,6 +9,7 @@ proverbial Round Tuit:
 - [APL](https://www.gnu.org/software/apl/)
 - [Ark](http://ark-lang.org/)
 - [ArnoldC](https://github.com/lhartikk/ArnoldC)
+- [Bato](https://github.com/jjuliano/bato)
 - [Batsh](https://github.com/BYVoid/Batsh)
 - [BCPL](http://www.cl.cam.ac.uk/~mr10/index.html)
 - [BLISS](https://madisongh.github.io/blissc/)
