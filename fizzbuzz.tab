@@ -1,6 +1,6 @@
 # Language:       Tab
 # Web site:       http://tkatchev.bitbucket.org/tab/
-# Last tested on: Ubuntu 17.04
+# Last tested on: Ubuntu 17.10
 # Requires:       Clone the git repo at http://bitbucket.org/tkatchev/tab
 #                 `make`
 #                 Install `tab` in $PATH as `tab`

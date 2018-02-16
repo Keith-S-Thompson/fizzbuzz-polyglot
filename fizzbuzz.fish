@@ -2,7 +2,7 @@
 
 # Language:       fish shell
 # Web site:       http://fishshell.com/
-# Last tested on: Ubuntu 17.04
+# Last tested on: Ubuntu 17.10
 # Requires:       apt-get install fish
 
 for i in (seq 1 100)

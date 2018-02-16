@@ -2,7 +2,7 @@
 
 // Language:       Io
 // Web site:       http://iolanguage.org/
-// Last tested on: Ubuntu 17.04
+// Last tested on: Ubuntu 17.10
 // Requires:       Download http://iobin.suspended-chord.info/linux/iobin-linux-x64-deb-current.zip
 //                 Extract IoLanguage-2013.11.04-Linux-x64.deb
 //                 dpkg -i IoLanguage-2013.11.04-Linux-x64.deb

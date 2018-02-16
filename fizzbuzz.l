@@ -2,7 +2,7 @@
 
 // Language:       Little
 // Web site:       http://www.little-lang.org/
-// Last tested on: Ubuntu 17.04
+// Last tested on: Ubuntu 17.10
 // Requires:       git clone --recursive https://github.com/bitkeeper-scm/little-lang.git
 //                 make && make PREFIX=... install
 //                 apt-get install libxft-dev

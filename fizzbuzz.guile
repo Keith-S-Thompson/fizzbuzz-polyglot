@@ -3,7 +3,7 @@
 
 ; Language:       Guile
 ; Web site:       http://www.gnu.org/software/guile/
-; Last tested on: Ubuntu 17.04
+; Last tested on: Ubuntu 17.10
 ; Requires:       apt-get install guile-2.0
 
 (define line

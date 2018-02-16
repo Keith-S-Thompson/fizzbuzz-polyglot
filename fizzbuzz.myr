@@ -1,7 +1,7 @@
 /*
  * Language:       Myrddin
  * Web site:       http://myrlang.org/
- * Last tested on: Ubuntu 17.04
+ * Last tested on: Ubuntu 17.10
  * Requires:       git clone https://github.com/oridb/mc
  *                 Install from source
  */

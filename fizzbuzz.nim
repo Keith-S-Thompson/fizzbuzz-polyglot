@@ -1,6 +1,6 @@
 # Language:       Nim
 # Web site:       http://nim-lang.org/
-# Last tested on: Ubuntu 17.04
+# Last tested on: Ubuntu 17.10
 # Requires:       Install from source, nim-0.15.2.tar.xz
 #                 Currently using Nim 0.15.2
 

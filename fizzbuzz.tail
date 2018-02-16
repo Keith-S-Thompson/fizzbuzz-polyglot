@@ -2,7 +2,7 @@
 
 Language:       tail
 Web site:       http://www.gnu.org/software/coreutils/
-Last tested on: Ubuntu 17.04
+Last tested on: Ubuntu 17.10
 Requires:       The "coreutils" package is pre-installed
 
 NOTE: This is cheating; "tail" is not really a scripting language.

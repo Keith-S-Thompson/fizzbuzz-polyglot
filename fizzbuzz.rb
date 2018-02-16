@@ -2,7 +2,7 @@
 
 # Language:       Ruby
 # Web site:       http://www.ruby-lang.org/
-# Last tested on: Ubuntu 17.04
+# Last tested on: Ubuntu 17.10
 # Requires:       apt-get install ruby
 
 (1..100).each do |i|

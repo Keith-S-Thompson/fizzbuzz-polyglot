@@ -2,7 +2,7 @@
  * Language:       Modula-2
  * Web site:       http://www.modula2.org/
  *                 http://www.nongnu.org/gm2/
- * Last tested on: Ubuntu 17.04
+ * Last tested on: Ubuntu 17.10
  *
  * See http://www.nongnu.org/gm2/debian.html
  *     Add to /etc/apt/sources.list:

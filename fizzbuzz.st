@@ -3,7 +3,7 @@
 "
 Language:       Smalltalk
 Web site:       http://smalltalk.gnu.org/
-Last tested on: Ubuntu 17.04
+Last tested on: Ubuntu 17.10
 Requires:       apt-get install gnu-smalltalk (previously called gst)
 "
 

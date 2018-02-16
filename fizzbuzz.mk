@@ -2,7 +2,7 @@
 
 # Language:       Make
 # Web site:       http://www.gnu.org/software/make/ (for the GNU implementation)
-# Last tested on: Ubuntu 17.04
+# Last tested on: Ubuntu 17.10
 # Requires:       The "make" package is pre-installed
 
 # This is a brute-force approach, where each line depends on the previous

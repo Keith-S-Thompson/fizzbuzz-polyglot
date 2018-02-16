@@ -2,7 +2,7 @@
 
 // Language:       Node.js (JavaScript)
 // Web site:       http://nodejs.org/
-// Last tested on: Ubuntu 17.04
+// Last tested on: Ubuntu 17.10
 // Requires:       apt-get install nodejs nodejs-legacy curl
 
 // Note: The "nodejs-legacy" creates /usr/bin/node as a symlink to nodejs.

@@ -2,7 +2,7 @@
 
 // Language:       JavaScript
 // Web site:       https://developer.mozilla.org/en-US/docs/JavaScript
-// Last tested on: Ubuntu 17.04
+// Last tested on: Ubuntu 17.10
 // Requires:       apt-get install rhino
 
 for (i = 1; i <= 100; i ++) {

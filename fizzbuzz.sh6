@@ -2,10 +2,10 @@
 
 : "Language:       Thompson Shell (Unix V6)"
 : "Web site:       http://v6shell.org/"
-: "Last tested on: Ubuntu 17.04"
+: "Last tested on: Ubuntu 17.10"
 : "Requires:       Install from source, http://v6shell.org/src/osh-4.2.1.tar.gz"
 : "                NOTE: Using the sh6 command, this works under Linux"
-: "                Mint 17.3, but fails under Ubuntu 17.04, apparently due"
+: "                Mint 17.3, but fails under Ubuntu 17.10, apparently due"
 : "                to a problem with the external goto command Attempts"
 : "                to diagnose and correct the problem, with the help of"
 : "                J.A. Neitzel, the maintainer of the v6shell project,"
