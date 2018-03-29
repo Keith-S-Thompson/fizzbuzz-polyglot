@@ -1,10 +1,10 @@
-#!/usr/bin/env lily
+t#!/usr/bin/env lily
 
 # Language:       Lily
-# Web site:       https://jesserayadkins.github.io/lily/
+# Web site:       https://github.com/FascinatedBox/lily
 # Last tested on: Ubuntu 17.10
 # Requires:       Install from source:
-#                     git clone https://github.com/jesserayadkins/lily
+#                     git clone https://github.com/FascinatedBox/lily
 #                     cmake -DCMAKE_INSTALL_PREFIX=<...>
 #                     make
 #                     make install
