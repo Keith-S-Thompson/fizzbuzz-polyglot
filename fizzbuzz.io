@@ -1,12 +1,10 @@
-#!/usr/bin/env io
+#!/usr/local/bin/io
 
 // Language:       Io
 // Web site:       http://iolanguage.org/
 // Last tested on: Ubuntu 17.10
-// Requires:       Download http://iobin.suspended-chord.info/linux/iobin-linux-x64-deb-current.zip
-//                 Extract IoLanguage-2013.11.04-Linux-x64.deb
-//                 dpkg -i IoLanguage-2013.11.04-Linux-x64.deb
-//                 (May require installing some other packages; see README.txt from the zip file.)
+// Requires:       apt-get install iolanguage
+//                 (installs under /usr/local for some reason)
 
 for (i, 1, 100,
     if (i % 15 == 0,
