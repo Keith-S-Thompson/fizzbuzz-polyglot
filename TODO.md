@@ -28,7 +28,6 @@ proverbial Round Tuit:
 - [Eiffel](https://en.wikipedia.org/wiki/Eiffel_(programming_language))
 - [Elixir](http://elixir-lang.org/)
 - [Elm](http://elm-lang.org/)
-- [Elvish](https://elvish.io/)
 - [Euphoria](http://www.rapideuphoria.com/)
 - [Factor](http://factorcode.org/)
 - [Foo](https://esolangs.org/wiki/Foo)
