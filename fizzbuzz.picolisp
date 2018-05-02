@@ -1,0 +1,26 @@
+#!/usr/bin/picolisp
+
+; Language:       PicoLisp
+; Web site:       https://picolisp.com/
+; Last tested on: Ubuntu 17.10
+; Requires:       apt-get install picolisp
+
+(de print_lines (n)
+  "Print lines from 1 to n"
+  (cond ((< n 1) nil)
+        (t (print_lines (- n 1))(print_line n))
+  )
+)
+
+(de print_line (n)
+    "Print a single line"
+    (cond ((= (% n 15) 0) (prinl "FizzBuzz"))
+          ((= (% n 3) 0) (prinl "Fizz"))
+          ((= (% n 5) 0) (prinl "Buzz"))
+          (t (prinl n))
+    )
+)
+
+(print_lines 100)
+
+(bye)
