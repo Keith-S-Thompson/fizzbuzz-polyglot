@@ -1,9 +1,10 @@
-#!/usr/bin/julia
+#!/usr/bin/env julia
 
 # Language:       Julia
 # Web site:       http://julialang.org/
-# Last tested on: Ubuntu 17.10
-# Requires:       apt-get install julia
+# Last tested on: Ubuntu 18.04
+# Requires:       Download and unpack https://julialang-s3.julialang.org/bin/linux/x64/0.6/julia-0.6.2-linux-x86_64.tar.gz
+#                 Install binaries in $PATH
 
 for i = 1:100
     if i % 15 == 0
