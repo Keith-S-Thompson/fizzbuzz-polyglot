@@ -1,5 +1,5 @@
 // Language:       Groovy
-// Web site:       http://groovy.codehaus.org/
+// Web site:       http://groovy-lang.org/
 // Last tested on: Ubuntu 17.10
 // Requires:       apt-get install groovy openjdk-7-jdk
 
