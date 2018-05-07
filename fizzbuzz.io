@@ -2,7 +2,7 @@
 
 // Language:       Io
 // Web site:       http://iolanguage.org/
-// Last tested on: Ubuntu 17.10
+// Last tested on: Ubuntu 18.04
 // Requires:       apt-get install iolanguage
 //                 (installs under /usr/local for some reason)
 

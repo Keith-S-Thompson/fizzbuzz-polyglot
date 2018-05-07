@@ -1,6 +1,6 @@
 // Language:       G-Portugol
 // Web site:       http://gpt.berlios.de/site/
-// Last tested on: Ubuntu 17.10
+// Last tested on: Ubuntu 18.04
 // Requires:       apt-get install gpt
 
 algoritmo fizzbuzz;

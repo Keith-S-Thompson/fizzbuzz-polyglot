@@ -2,7 +2,7 @@
 
 # Language:       Tcl
 # Web site:       http://www.tcl.tk/
-# Last tested on: Ubuntu 17.10
+# Last tested on: Ubuntu 18.04
 # Requires:       The "tcl" package is pre-installed
 
 for {set i 1} {$i<= 100} {incr i} {

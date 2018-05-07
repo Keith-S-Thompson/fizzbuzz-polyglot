@@ -2,7 +2,7 @@
 
 # Language:       NQP ("Not Quite Perl")
 # Web site:       https://github.com/perl6/nqp
-# Last tested on: Ubuntu 17.10
+# Last tested on: Ubuntu 18.04
 # Requires:       apt-get install nqp
 
 my $i := 1;

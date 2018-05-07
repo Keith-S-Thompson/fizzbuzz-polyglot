@@ -2,7 +2,7 @@
 
 // Language:       Swift
 // Web site:       https://swift.org/
-// Last tested on: Ubuntu 17.10
+// Last tested on: Ubuntu 18.04
 // Requires:       Install swift-4.0.3-RELEASE-ubuntu16.10.tar.gz
 
 for i in 1...100 {

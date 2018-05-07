@@ -1,7 +1,7 @@
 /*
  * Language:       x86/x86_64/SPARC assembly
  * Web site:       http://gcc.gnu.org/
- * Last tested on: Ubuntu 17.10
+ * Last tested on: Ubuntu 18.04
  * Requires:       The "gcc" package is pre-installed
  *
  * The code was generated from fizzbuzz.c with the command:

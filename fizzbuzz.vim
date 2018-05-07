@@ -1,6 +1,6 @@
 " Language:       Vimscript
 " Web site:       http://www.vim.org/
-" Last tested on: Ubuntu 17.10
+" Last tested on: Ubuntu 18.04
 " Requires:       apt-get install vim
 
 let i = 1

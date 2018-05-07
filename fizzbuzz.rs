@@ -1,6 +1,6 @@
 // Language:       Rust
 // Web site:       http://www.rust-lang.org/
-// Last tested on: Ubuntu 17.10
+// Last tested on: Ubuntu 18.04
 // Requires:       apt-get install rustc
 fn main() {
     for i in 1..101 {

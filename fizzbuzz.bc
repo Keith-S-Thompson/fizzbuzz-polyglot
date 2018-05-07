@@ -3,7 +3,7 @@
 /*
  * Language:       bc
  * Web page:       http://www.gnu.org/software/bc/
- * Last tested on: Ubuntu 17.10
+ * Last tested on: Ubuntu 18.04
  * Requires:       The "bc" package is pre-installed
  */
 

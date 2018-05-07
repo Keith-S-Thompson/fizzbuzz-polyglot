@@ -3,7 +3,7 @@
 \ Language:       Forth
 \ Web site:       http://www.forth.org/
 \                 https://www.gnu.org/software/gforth/
-\ Last tested on: Ubuntu 17.10
+\ Last tested on: Ubuntu 18.04
 \ Requires:       apt-get install gforth
 
 : fizzbuzz ( -- )

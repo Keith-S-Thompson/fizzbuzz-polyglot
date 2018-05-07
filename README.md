@@ -25,7 +25,7 @@ similar, see [Rosetta Code](http://rosettacode.org/wiki/Rosetta_Code).
 Bug reports are quite welcome.
 
 Here I present multiple implementations, one in each language.
-The current set of languages (97 of them) is:
+The current set of languages (97 of them, with 4 currently failing) is:
 
 - [Ada](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.adb)
 - [Algol 68](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.a68)
@@ -142,8 +142,17 @@ page](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot) rather
 than in the current directory.  It also requires an Internet connection.
 
 The `verify` script executes each program and confirms that its
-output is correct.  It works on my system, x86_64 Ubuntu 16.10,
-with required packages installed as documented in each source file.
+output is correct.  All programs passed on my system under x86_64
+Ubuntu 17.10.  with required packages installed as documented in each
+source file.  After I upgraded to Ubuntu 18.04, four programs fail.
+I'll work on getting them to pass, time and available software
+permitting.
+
+The failures are:
+- Modula-2 `fizzbuzz.mod`
+- NodeJS `fizzbuzz.nodejs`
+- PowerShell `fizzbuzz.ps1`
+- Pure `fizzbuzz.pure`
 
 `fizzbuzz.b` is not tested with an actual B compiler; see that file
 for details.
