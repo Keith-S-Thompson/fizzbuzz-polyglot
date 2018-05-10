@@ -2,8 +2,7 @@
  * Language:       Modula-2
  * Web site:       http://www.modula2.org/
  *                 http://www.nongnu.org/gm2/
- * Last tested on: Ubuntu 17.10
- * Not currently working on Ubuntu 18.04
+ * Last tested on: Ubuntu 18.04
  *
  * See http://www.nongnu.org/gm2/debian.html
  *     Add to /etc/apt/sources.list:
@@ -20,6 +19,8 @@
  *
  * Other steps were necessary in earlier versions.  See the git history
  * of this file for details.
+ *
+ * For Ubuntu 18.04, I had to create a symlink libmpfr.so.4 -> libmpfr.so.6
  *)
 
 MODULE fizzbuzz;

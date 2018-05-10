@@ -144,12 +144,11 @@ than in the current directory.  It also requires an Internet connection.
 The `verify` script executes each program and confirms that its
 output is correct.  All programs passed on my system under x86_64
 Ubuntu 17.10.  with required packages installed as documented in each
-source file.  After I upgraded to Ubuntu 18.04, four programs fail.
+source file.  After I upgraded to Ubuntu 18.04, three programs fail.
 I'll work on getting them to pass, time and available software
 permitting.
 
 The failures are:
-- Modula-2 `fizzbuzz.mod`
 - NodeJS `fizzbuzz.nodejs`
 - PowerShell `fizzbuzz.ps1`
 - Pure `fizzbuzz.pure`
