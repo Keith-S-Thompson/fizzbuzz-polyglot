@@ -13,6 +13,7 @@ proverbial Round Tuit:
 - [Batsh](https://github.com/BYVoid/Batsh)
 - [BCPL](http://www.cl.cam.ac.uk/~mr10/index.html)
 - [BLISS](https://madisongh.github.io/blissc/)
+- [Bloom](http://bloom-lang.net/)
 - [Boo](http://boo-lang.org/)
 - [Brainfuck](http://www.muppetlabs.com/~breadbox/bf/)
 - [C--](http://www.cs.tufts.edu/~nr/c--/)
@@ -53,6 +54,7 @@ proverbial Round Tuit:
 - [PL/1](https://en.wikipedia.org/wiki/PL/I)
 - [Plankalkül](https://en.wikipedia.org/wiki/Plankalk%C3%BCl) See also the [Konrad Zuse Internet Archive](http://zuse.zib.de/) -- It's not likely that I'll find an implementation
 - [PL/M](https://en.wikipedia.org/wiki/PL/M)
+- [Pony](https://www.ponylang.org/)
 - [Prolog](https://en.wikipedia.org/wiki/Prolog)
 - [Pyth](https://pyth.readthedocs.io/)
 - [Q](https://code.kx.com/q/)
