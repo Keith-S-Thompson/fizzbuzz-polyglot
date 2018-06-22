@@ -85,6 +85,9 @@ run() {
             gpt $filename -o $basename
             ./$basename > $out
             ;;
+        gravity)
+            gravity -q $filename > $out
+            ;;
         groovy)
             groovyc $filename
             jar cvf $basename.jar *.class

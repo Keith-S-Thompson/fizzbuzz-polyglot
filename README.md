@@ -15,7 +15,7 @@ The requirements are simple:
 > five print "FizzBuzz".
 
 In my [fizzbuz-c](https://github.com/Keith-S-Thompson/fizzbuzz-c) project
-I present multiple (97 at last count) C solutions.
+I present multiple (98 at last count) C solutions.
 
 **NOTE :** This is not intended as a collaborative project.  It is my
 own personal playground.  A few people have submitted pull requests for
@@ -25,7 +25,7 @@ similar, see [Rosetta Code](http://rosettacode.org/wiki/Rosetta_Code).
 Bug reports are quite welcome.
 
 Here I present multiple implementations, one in each language.
-The current set of languages (97 of them, with 4 currently failing) is:
+The current set of languages (98 of them, with 3 currently failing) is:
 
 - [Ada](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.adb)
 - [Algol 68](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.a68)
@@ -62,6 +62,7 @@ The current set of languages (97 of them, with 4 currently failing) is:
 - [gcc error messages](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.gcc)
 - [gdb](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.gdb)
 - [Go](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.go)
+- [Gravity](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.gravity)
 - [Groovy](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.groovy)
 - [Guile](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.guile)
 - [Haskell](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.hs)
