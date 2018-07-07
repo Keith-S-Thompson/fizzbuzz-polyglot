@@ -74,5 +74,4 @@ proverbial Round Tuit:
 - [Wren](https://munificent.github.io/wren/index.html)
 - [Xonsh](http://xon.sh/)
 - [Yorick](http://yorick.sourceforge.net)
-- [Zig](http://ziglang.org/)
 - [Zimbu](http://www.zimbu.org/)

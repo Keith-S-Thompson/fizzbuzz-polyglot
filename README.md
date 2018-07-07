@@ -15,7 +15,7 @@ The requirements are simple:
 > five print "FizzBuzz".
 
 In my [fizzbuz-c](https://github.com/Keith-S-Thompson/fizzbuzz-c) project
-I present multiple (98 at last count) C solutions.
+I present multiple (99 at last count) C solutions.
 
 **NOTE :** This is not intended as a collaborative project.  It is my
 own personal playground.  A few people have submitted pull requests for
@@ -25,7 +25,7 @@ similar, see [Rosetta Code](http://rosettacode.org/wiki/Rosetta_Code).
 Bug reports are quite welcome.
 
 Here I present multiple implementations, one in each language.
-The current set of languages (98 of them, with 3 currently failing) is:
+The current set of languages (99 of them, with 3 currently failing) is:
 
 - [Ada](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.adb)
 - [Algol 68](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.a68)
@@ -124,6 +124,7 @@ The current set of languages (98 of them, with 3 currently failing) is:
 - [Whitespace](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.ws)
 - [Wren](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.wren)
 - [x86/x86_64/SPARC assembly](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.sx)
+- [Zig](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.zig)
 - [Zsh](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.zsh)
 
 Many of these are inspired by http://99-bottles-of-beer.net/.
