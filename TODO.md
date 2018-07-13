@@ -26,6 +26,7 @@ proverbial Round Tuit:
 - [Cyclops](http://cyclopslang.org/) 𐙀
 - [Dale](https://github.com/tomhrr/dale)
 - [E](https://en.wikipedia.org/wiki/E_(programming_language)) ... [see also](http://erights.org/)
+- [Egison](https://www.egison.org/)
 - [Eiffel](https://en.wikipedia.org/wiki/Eiffel_(programming_language))
 - [Elixir](http://elixir-lang.org/)
 - [Elm](http://elm-lang.org/)
