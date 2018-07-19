@@ -8,9 +8,10 @@
 #                     cmake -DCMAKE_INSTALL_PREFIX=<...>
 #                     make
 #                     make install
+# Currently using revision 204980004a 2018-05-08 (version 1.4 +)
 
-for i in 1...100:
-    if i % 15 == 0:
+for i in 1...100: {
+    if i % 15 == 0: {
         print("FizzBuzz")
     elif i % 3 == 0:
         print("Fizz")
@@ -18,3 +19,5 @@ for i in 1...100:
         print("Buzz")
     else:
         print(i)
+    }
+}
