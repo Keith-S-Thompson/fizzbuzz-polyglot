@@ -1,0 +1,19 @@
+// Language:       Gravity
+// Web site:       https://marcobambini.github.io/gravity/
+// Last tested on: Ubuntu 18.04
+// Requires:       Clone git repo, install from source
+//                 Currently using Gravity 0.5.0
+
+func main() {
+    for (var i in 1...100) {
+        if (i % 15 == 0) {
+            System.print("FizzBuzz");
+        } else if (i % 3 == 0) {
+            System.print("Fizz");
+        } else if (i % 5 == 0) {
+            System.print("Buzz");
+        } else {
+            System.print(i)
+        }
+    }
+}
