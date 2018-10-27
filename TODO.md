@@ -39,6 +39,7 @@ proverbial Round Tuit:
 - [Gluon](http://gluon-lang.org/)
 - [Intercal](http://catb.org/esr/intercal/)
 - [K](https://en.wikipedia.org/wiki/K_(programming_language))
+- [Kit](https://www.kitlang.org/)
 - [Kitten](http://kittenlang.org/)
 - [KLisp (kernel)](http://klisp.org/)
 - [Kotlin](https://kotlinlang.org/)
