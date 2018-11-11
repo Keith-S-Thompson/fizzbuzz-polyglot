@@ -206,7 +206,7 @@ run() {
             whitespace $filename > $out
             ;;
         zig)
-            zig run $filename 2>$out
+            zig run $filename >$out
             ;;
         *)
             ./$filename > $out
