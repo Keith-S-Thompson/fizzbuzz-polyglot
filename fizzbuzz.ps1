@@ -1,12 +1,11 @@
+#!/usr/bin/pwsh
+
 # Language:       PowerShell
 # Web site:       https://github.com/PowerShell/PowerShell
-# Last tested on: Ubuntu 17.10
-# Not currently working on Ubuntu 18.04
+# Last tested on: Ubuntu 18.04
 # Requires:       Download:
-#                     http://mirrors.kernel.org/ubuntu/pool/main/i/icu/libicu55_55.1-7_amd64.deb
-#                     https://github.com/PowerShell/PowerShell/releases/download/v6.0.0-alpha.16/powershell_6.0.0-alpha.16-1ubuntu1.16.04.1_amd64.deb
-#                 Install both .deb files using "dpkg -i"
-#                 (PowerShell depends on libicu55; Ubuntu 17.10 provides libicu 57)
+#                     https://github.com/PowerShell/PowerShell/releases/download/v6.1.1/powershell_6.1.1-1.ubuntu.18.04_amd64.deb
+#                 Install using "dpkg -i"
 
 For ( $i = 1
       $i -le 100
