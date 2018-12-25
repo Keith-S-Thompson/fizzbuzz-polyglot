@@ -202,6 +202,12 @@ run() {
         ws)
             whitespace $filename > $out
             ;;
+        xpl)
+            xpldir=/o/apps/xpl-0.6
+            $xpldir/bin/xpl $filename
+            gcc -I$xpldir/include fizzbuzz.c -L$xpldir/lib -lxpl -o fizzbuzz
+            ./fizzbuzz >$out
+            ;;
         zig)
             zig run $filename >$out
             ;;
