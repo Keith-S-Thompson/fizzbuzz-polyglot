@@ -1,0 +1,26 @@
+/* Language:       PL/I
+ * Web site:       http://www.iron-spring.com/
+ * Last tested on: Ubuntu 18.04
+ * Requires:       Install from source, nim-0.15.2.tar.xz
+ *                 Currently using Nim 0.15.2
+ * NOTE:           Output includes a form-feed character.
+ *                 The verify script deletes it.
+ *                 Compile and link commands derived from samples/Makefile.Linux
+ */
+
+fizzbuzz: proc options(main);
+    dcl i fixed dec(3);
+    do i = 1 to 100;
+        if mod(i, 15) = 0 then
+            put ('FizzBuzz');
+        else if mod(i, 3) = 0 then
+            put ('Fizz');
+        else if mod(i, 5) = 0 then
+            put ('Buzz');
+        else if i < 10 then
+            put edit(i)(p'9');
+        else
+            put edit(i)(p'z9');
+        put skip;
+    end;
+end fizzbuzz;

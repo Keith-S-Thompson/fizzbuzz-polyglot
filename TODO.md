@@ -53,7 +53,6 @@ proverbial Round Tuit:
 - [P](https://github.com/p-org/P)
 - [Pharo](http://pharo.org/)
 - [Picat](http://picat-lang.org/)
-- [PL/1](https://en.wikipedia.org/wiki/PL/I)
 - [Plankalkül](https://en.wikipedia.org/wiki/Plankalk%C3%BCl) See also the [Konrad Zuse Internet Archive](http://zuse.zib.de/) -- It's not likely that I'll find an implementation
 - [PL/M](https://en.wikipedia.org/wiki/PL/M)
 - [Pony](https://www.ponylang.org/)
