@@ -124,7 +124,7 @@ run() {
              PLI=/o/apps/pli-0.9.10a
              $PLI/bin/plic -C -dELF -lsiaxgo -ew "-cn(^) -i$PLI/lib/include" fizzbuzz.pli -o fizzbuzz.o
              ld -z muldefs -Bstatic -o fizzbuzz --oformat=elf32-i386 -melf_i386 -e main fizzbuzz.o --start-group $PLI/lib/libprf.a --end-group
-             ./$basename | tr -d $'\f' > $out
+             ./$basename > $out
              ;;
         ps)
             gs -q -dNODISPLAY $filename > $out

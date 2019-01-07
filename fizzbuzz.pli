@@ -3,13 +3,12 @@
  * Last tested on: Ubuntu 18.04
  * Requires:       Install from source, nim-0.15.2.tar.xz
  *                 Currently using Nim 0.15.2
- * NOTE:           Output includes a form-feed character.
- *                 The verify script deletes it.
- *                 Compile and link commands derived from samples/Makefile.Linux
+ * NOTE:           Compile and link commands derived from samples/Makefile.Linux
  */
 
 fizzbuzz: proc options(main);
     dcl i fixed dec(3);
+    on endpage (Sysprint);
     do i = 1 to 100;
         if mod(i, 15) = 0 then
             put ('FizzBuzz');
