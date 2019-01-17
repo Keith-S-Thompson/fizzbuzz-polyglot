@@ -1,8 +1,7 @@
 # Language:       Nim
 # Web site:       http://nim-lang.org/
 # Last tested on: Ubuntu 18.04
-# Requires:       Install from source, nim-0.15.2.tar.xz
-#                 Currently using Nim 0.15.2
+# Requires:       apt-get install nim
 
 template foreach(i, lo, hi, actions) =
     for i in lo..hi:
