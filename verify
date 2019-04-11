@@ -40,7 +40,7 @@ run() {
             g++ $filename -o $basename
             ./$basename > $out
             ;;
-        crystal)
+        cr)
             crystal build $filename
             ./$basename > $out
             ;;

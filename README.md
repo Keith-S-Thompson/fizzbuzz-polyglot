@@ -44,7 +44,7 @@ The current set of languages (102 of them, with 2 currently failing) is:
 - [Clojure](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.clojure)
 - [COBOL](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.cob)
 - [Common Lisp](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.clisp)
-- [Crystal](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.crystal)
+- [Crystal](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.cr)
 - [curl](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.curl)
 - [D](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.d)
 - [Dart](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.dart)
