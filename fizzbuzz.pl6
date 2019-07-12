@@ -5,9 +5,9 @@
 # Last tested on: Ubuntu 18.04
 # Requires:       apt-get install rakudo
 
-( (1..100).map: {
+$_.say for [(0..∞).map:{
     $_ % 15 == 0 ?? "FizzBuzz" !!
     $_ %  3 == 0 ?? "Fizz" !!
     $_ %  5 == 0 ?? "Buzz" !!
     $_
-} ).join("\n").say;
+}][1..100];
