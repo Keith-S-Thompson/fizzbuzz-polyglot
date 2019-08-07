@@ -1,7 +1,8 @@
 // Language:       Zig
 // Web site:       https://ziglang.org/
 // Last tested on: Ubuntu 18.04
-// Requires:       Build from source
+// Requires:       Install binaries from
+//     https://ziglang.org/download/0.4.0/zig-linux-x86_64-0.4.0.tar.xz
 
 const std = @import("std");
 
