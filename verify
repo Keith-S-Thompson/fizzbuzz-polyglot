@@ -111,6 +111,10 @@ run() {
             javac $filename
             java $basename > $out
             ;;
+        kt)
+            kotlinc $filename -include-runtime -d $basename.jar
+            java -jar $basename.jar > $out
+            ;;
         logo)
             # ucblogo 6.0 depends on X11
             timeout 10 ./$filename > $out

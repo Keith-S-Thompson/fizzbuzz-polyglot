@@ -42,7 +42,6 @@ proverbial Round Tuit:
 - [Kit](https://www.kitlang.org/)
 - [Kitten](http://kittenlang.org/)
 - [KLisp (kernel)](http://klisp.org/)
-- [Kotlin](https://kotlinlang.org/)
 - [LISP/C](https://github.com/eratosthenesia/lispc)
 - [MoonScript](http://moonscript.org/)
 - [Mumps](https://en.wikipedia.org/wiki/MUMPS)
