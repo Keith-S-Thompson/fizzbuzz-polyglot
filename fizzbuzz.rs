@@ -4,9 +4,11 @@
 // Requires:       apt-get install rustc
 fn main() {
     for i in 1..=100 {
-        if      i % 15 == 0 { println!("FizzBuzz") }
-        else if i %  3 == 0 { println!("Fizz") }
-        else if i %  5 == 0 { println!("Buzz") }
-        else                { println!("{}", i) }
+        match i % 15 {
+            0              => println!("FizzBuzz"),
+            3 | 6 | 9 | 12 => println!("Fizz"),
+            5 | 10         => println!("Buzz"),
+            _              => println!("{}", i),
+        }
     }
 }
