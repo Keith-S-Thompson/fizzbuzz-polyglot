@@ -8,6 +8,8 @@
 // Requires:       Build from source
 //                 Currently using Pure 0.64
 
+// See https://github.com/agraef/pure-lang/wiki/PureOnDebian
+
 using system;
 
 print_line n::int = puts "FizzBuzz" if n mod 15 == 0;
