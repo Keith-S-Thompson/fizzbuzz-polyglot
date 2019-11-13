@@ -17,10 +17,8 @@
                print '(a)', 'Buzz'
            else if (i .lt. 10) then
                print '(i1)', i
-           else if (i .lt. 100) then
-               print '(i2)', i
            else
-               print '(i3)', i
+               print '(i2)', i
            end if
 
        end do
