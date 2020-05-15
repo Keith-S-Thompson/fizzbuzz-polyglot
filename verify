@@ -199,6 +199,10 @@ run() {
         tail)
             _POSIX2_VERSION=199209 ./$filename > $out
             ;;
+        v)
+            v $filename
+            ./$basename > $out
+            ;;
         vala)
             valac $filename -o $basename
             ./$basename > $out

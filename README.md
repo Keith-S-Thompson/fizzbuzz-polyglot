@@ -25,7 +25,7 @@ similar, see [Rosetta Code](http://rosettacode.org/wiki/Rosetta_Code).
 Bug reports are quite welcome.
 
 Here I present multiple implementations, one in each language.
-The current set of languages (104 of them, with 2 currently failing) is:
+The current set of languages (105 of them, with 1 currently failing) is:
 
 - [Ada](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.adb)
 - [Algol 68](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.a68)
@@ -121,6 +121,7 @@ The current set of languages (104 of them, with 2 currently failing) is:
 - [tail](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.tail)
 - [Tcl](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.tcl)
 - [Thompson Shell](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.sh6)
+- [V](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.v)
 - [Vala](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.vala)
 - [Vigil](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.vg)
 - [Vimscript](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.vim)
@@ -148,17 +149,11 @@ of `expected-output.txt`, but on this [`GitHub` project
 page](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot) rather
 than in the current directory.  It also requires an Internet connection.
 
-The `verify` script executes each program and confirms that its
-output is correct.  All programs passed on my system under x86_64
-Ubuntu 17.10.  with required packages installed as documented in each
-source file.  After I upgraded to Ubuntu 18.04, three programs fail.
-I'll work on getting them to pass, time and available software
-permitting.
+The `verify` script executes each program and confirms that its output
+is correct.  Currently one program is failing on Ubuntu 18.04.3 LTS.
 
-The failures are:
+The failure is:
 - NodeJS `fizzbuzz.nodejs`
-- PowerShell `fizzbuzz.ps1`
-- Pure `fizzbuzz.pure`
 
 `fizzbuzz.b` is not tested with an actual B compiler; see that file
 for details.
