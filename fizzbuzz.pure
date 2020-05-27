@@ -2,8 +2,7 @@
 
 // Language:       Pure
 // Web site:       https://purelang.bitbucket.io/
-// Last tested on: Ubuntu 17.10
-// Not currently working on Ubuntu 18.04
+// Last tested on: Ubuntu 20.04
 // https://bitbucket.org/purelang/pure-lang/issues/36/port-pure-to-the-mcjit-in-order-to-support
 // Requires:       Build from source
 //                 Currently using Pure 0.64

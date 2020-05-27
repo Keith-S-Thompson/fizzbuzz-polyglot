@@ -150,9 +150,10 @@ page](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot) rather
 than in the current directory.  It also requires an Internet connection.
 
 The `verify` script executes each program and confirms that its output
-is correct.  Currently one program is failing on Ubuntu 18.04.3 LTS.
+is correct.  Currently two program is failing on Ubuntu 20.04 LTS.
 
-The failure is:
+The failures are:
+- Modula-2 `fizzbuzz.mod`
 - NodeJS `fizzbuzz.nodejs`
 
 `fizzbuzz.b` is not tested with an actual B compiler; see that file

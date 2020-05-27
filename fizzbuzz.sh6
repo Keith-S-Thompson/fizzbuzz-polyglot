@@ -2,7 +2,7 @@
 
 : "Language:       Thompson Shell (Unix V6)"
 : "Web site:       http://v6shell.org/"
-: "Last tested on: Ubuntu 18.04"
+: "Last tested on: Ubuntu 20.04"
 : "Requires:       Install from source, http://v6shell.org/src/osh-4.2.1.tar.gz"
 : "                NOTE: Using the sh6 command, this works under Linux"
 : "                Mint 17.3, but fails under Ubuntu 17.10, apparently due"

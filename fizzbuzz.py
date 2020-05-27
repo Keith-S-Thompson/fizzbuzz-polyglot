@@ -2,7 +2,7 @@
 
 # Language:       Python 2
 # Web site:       http://python.org/
-# Last tested on: Ubuntu 18.04
+# Last tested on: Ubuntu 20.04
 # Requires:       The "python" package is pre-installed
 
 for i in xrange(1,101):

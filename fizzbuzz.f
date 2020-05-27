@@ -1,6 +1,6 @@
 C Language:       FORTRAN 77
 C Web site:       http://www.netlib.org/f2c/ (for the f2c translator)
-C Last tested on: Ubuntu 18.04
+C Last tested on: Ubuntu 20.04
 C Requires:       apt-get install gfortran
 
        program FizzBuzz

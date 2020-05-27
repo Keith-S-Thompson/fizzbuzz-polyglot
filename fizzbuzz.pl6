@@ -2,7 +2,7 @@
 
 # Language:       Perl6
 # Web site:       http://perl6.org/
-# Last tested on: Ubuntu 18.04
+# Last tested on: Ubuntu 20.04
 # Requires:       apt-get install rakudo
 
 $_.say for [(0..∞).map:{

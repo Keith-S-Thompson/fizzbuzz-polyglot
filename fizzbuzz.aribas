@@ -3,7 +3,7 @@
 (*
  * Language:       Aribas
  * Web site:       http://www.mathematik.uni-muenchen.de/~forster/sw/aribas.html
- * Last tested on: Ubuntu 18.04
+ * Last tested on: Ubuntu 20.04
  * Requires:       apt-get install aribas
  *)
 

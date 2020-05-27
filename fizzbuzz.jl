@@ -2,7 +2,7 @@
 
 # Language:       Julia
 # Web site:       http://julialang.org/
-# Last tested on: Ubuntu 18.04
+# Last tested on: Ubuntu 20.04
 # Requires:       Download and unpack https://julialang-s3.julialang.org/bin/linux/x64/0.6/julia-0.6.2-linux-x86_64.tar.gz
 #                 Install binaries in $PATH
 

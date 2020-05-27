@@ -1,6 +1,6 @@
 1 REM Language:       BASIC
 2 REM Web site:       http://www.bwbasic.at/info.htm
-3 REM Last tested on: Ubuntu 18.04
+3 REM Last tested on: Ubuntu 20.04
 4 REM Requires:       apt-get install bwbasic
 5 REM NOTE:           bwBASIC actually supports a structured IF/THEN/ELSE
 6 REM                 statement, but I decided to use old-style line numbers

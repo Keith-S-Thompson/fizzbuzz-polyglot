@@ -2,7 +2,7 @@
 
 # Language:       zsh
 # Web site:       http://www.zsh.org/
-# Last tested on: Ubuntu 18.04
+# Last tested on: Ubuntu 20.04
 # Requires:       apt-get install zsh
 
 for (( i = 1; i <= 100; i ++ )) {

@@ -1,6 +1,6 @@
 ! Language:       Fortran 90
 ! Web site:       http://gcc.gnu.org/wiki/GFortran (for the GNU implementation)
-! Last tested on: Ubuntu 18.04
+! Last tested on: Ubuntu 20.04
 ! Requires:       apt-get install gfortran
 
        program FizzBuzz

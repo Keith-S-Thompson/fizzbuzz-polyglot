@@ -2,7 +2,7 @@
  * Language:       C
  * Web site:       http://www.open-std.org/JTC1/SC22/WG14/
  *                 http://gcc.gnu.org/
- * Last tested on: Ubuntu 18.04
+ * Last tested on: Ubuntu 20.04
  * Requires:       The "gcc" package is pre-installed
  */
 

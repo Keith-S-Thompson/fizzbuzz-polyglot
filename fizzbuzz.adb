@@ -1,6 +1,6 @@
 -- Language:       Ada
 -- Web site:       http://www.adaic.org/
--- Last tested on: Ubuntu 18.04
+-- Last tested on: Ubuntu 20.04
 -- Requires:       apt-get install gnat
 
 with Ada.Text_IO; use Ada.Text_IO;

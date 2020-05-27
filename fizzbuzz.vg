@@ -2,7 +2,7 @@
 
 # Language:       Vigil
 # Web site:       https://github.com/munificent/vigil
-# Last tested on: Ubuntu 18.04
+# Last tested on: Ubuntu 20.04
 # Requires:       Install interpreter from git repo
 
 def fizzbuzz_line(n):

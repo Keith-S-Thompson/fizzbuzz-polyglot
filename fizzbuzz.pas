@@ -1,7 +1,7 @@
 (*
  * Language:       Pascal
  * Web site:       http://www.freepascal.org/
- * Last tested on: Ubuntu 18.04
+ * Last tested on: Ubuntu 20.04
  * Requires:       apt-get install fp-compiler
  *)
 program FizzBuzz;
