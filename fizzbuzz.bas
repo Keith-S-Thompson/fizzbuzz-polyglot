@@ -12,7 +12,7 @@
 110 if I mod 15 = 0 then goto 200
 120 if I mod 3 = 0 then goto 160
 130 if I mod 5 = 0 then goto 180
-140 print using "#"; I
+140 print using "#";I
 150 goto 210
 160 print "Fizz"                
 170 goto 210
