@@ -8,16 +8,16 @@
 8 REM NOTE:           There doesn't seem to be a way to tell bwbasic not to
 9 REM                 print a copyright header and a trailing blank line, so
 10 REM                the verify script filters them out.
-100 for I = 1 to 100
-110 if I mod 15 = 0 then goto 200
-120 if I mod 3 = 0 then goto 160
-130 if I mod 5 = 0 then goto 180
-140 print using "#";I
-150 goto 210
-160 print "Fizz"                
-170 goto 210
-180 print "Buzz"                
-190 goto 210
-200 print "FizzBuzz"        
-210 next I                  
-220 quit
+100 FOR I = 1 TO 100
+110 IF I MOD 15 = 0 THEN GOTO 200
+120 IF I MOD 3 = 0 THEN GOTO 160
+130 IF I MOD 5 = 0 THEN GOTO 180
+140 PRINT USING "#";I
+150 GOTO 210
+160 PRINT "Fizz"
+170 GOTO 210
+180 PRINT "Buzz"
+190 GOTO 210
+200 PRINT "FizzBuzz"
+210 NEXT I
+220 QUIT
