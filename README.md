@@ -4,8 +4,9 @@ really can't.
 
 References:
 
-- [http://imranontech.com/2007/01/24/using-fizzbuzz-to-find-developers-who-grok-coding/](Using FizzBuzz to Find Developers who Grok Coding) by Imran Ghory
-- [http://www.codinghorror.com/blog/2007/02/why-cant-programmers-program.html](Why Can't Programmers.. Program?) by Jeff Atwood
+* [Using FizzBuzz to Find Developers who Grok Coding](http://imranontech.com/2007/01/24/using-fizzbuzz-to-find-developers-who-grok-coding/) by Imran Ghory
+* [Why Can't Programmers.. Program?](http://www.codinghorror.com/blog/2007/02/why-cant-programmers-program.html) by Jeff Atwood
+* [https://www.gayle.com/blog/2015/5/31/the-problem-with-the-fizzbuzz-problem](https://www.gayle.com/blog/2015/5/31/the-problem-with-the-fizzbuzz-problem) by Gayle Laakmann McDowell
 
 The requirements are simple:
 
@@ -15,7 +16,7 @@ The requirements are simple:
 > five print "FizzBuzz".
 
 In my [fizzbuz-c](https://github.com/Keith-S-Thompson/fizzbuzz-c) project
-I present multiple (127 at last count) C solutions.
+I present multiple (128 at last count) C solutions.
 
 **NOTE :** This is not intended as a collaborative project.  It is my
 own personal playground.  A few people have submitted pull requests for
