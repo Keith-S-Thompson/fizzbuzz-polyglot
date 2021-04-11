@@ -6,7 +6,7 @@ References:
 
 * [Using FizzBuzz to Find Developers who Grok Coding](http://imranontech.com/2007/01/24/using-fizzbuzz-to-find-developers-who-grok-coding/) by Imran Ghory
 * [Why Can't Programmers.. Program?](http://www.codinghorror.com/blog/2007/02/why-cant-programmers-program.html) by Jeff Atwood
-* [https://www.gayle.com/blog/2015/5/31/the-problem-with-the-fizzbuzz-problem](https://www.gayle.com/blog/2015/5/31/the-problem-with-the-fizzbuzz-problem) by Gayle Laakmann McDowell
+* [The Problem with the FizzBuzz Problem](https://www.gayle.com/blog/2015/5/31/the-problem-with-the-fizzbuzz-problem) by Gayle Laakmann McDowell
 
 The requirements are simple:
 
