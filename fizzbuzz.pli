@@ -1,9 +1,8 @@
 /* Language:       PL/I
  * Web site:       http://www.iron-spring.com/
  * Last tested on: Ubuntu 20.04
- * Requires:       Install from source, nim-0.15.2.tar.xz
- *                 Currently using Nim 0.15.2
- * NOTE:           Compile and link commands derived from samples/Makefile.Linux
+ * Requires:       Install from source, pli-0.9.10c.tar.gz
+ * NOTE:           Compile and link commands in the `verify` script are derived from samples/Makefile.Linux
  */
 
 fizzbuzz: proc options(main);
