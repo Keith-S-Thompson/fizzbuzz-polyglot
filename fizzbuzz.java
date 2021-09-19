@@ -3,10 +3,8 @@
 // Last tested on: Ubuntu 20.04
 // Requires:       apt-get install openjdk-7-jdk
 
-public class fizzbuzz
-{
-    public static final void main( String args[] )
-    {
+public class fizzbuzz {
+    public static final void main( String args[] ) {
 	for (int i = 1; i <= 100; i ++) {
             if (i % 15 == 0) {
                 System.out.println("FizzBuzz");
