@@ -1,0 +1,21 @@
+#!/usr/bin/calc -f
+
+## Language:       Calc
+## Web site:       http://www.isthe.com/chongo/tech/comp/calc/
+## Last tested on: Ubuntu 20.04
+## Requires:       apt-get install calc
+
+for (i = 1; i <= 100; i ++) {
+    if (i % 15 == 0) {
+        print "FizzBuzz";
+    }
+    else if (i % 3 == 0) {
+        print "Fizz";
+    }
+    else if (i % 5 == 0) {
+        print "Buzz";
+    }
+    else {
+        print i
+    }
+}
