@@ -23,6 +23,7 @@ proverbial Round Tuit:
 - [Cmajor](https://sourceforge.net/projects/cmajor/)
 - [Cobra](http://cobra-language.com/)
 - [Coconut](http://coconut-lang.org/)
+- [Cotowali](https://github.com/cotowali/cotowali)
 - [Cyclops](http://cyclopslang.org/) 𐙀
 - [Dale](https://github.com/tomhrr/dale)
 - [E](https://en.wikipedia.org/wiki/E_(programming_language)) ... [see also](http://erights.org/)
