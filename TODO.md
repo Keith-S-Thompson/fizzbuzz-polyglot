@@ -59,6 +59,7 @@ proverbial Round Tuit:
 - [Prolog](https://en.wikipedia.org/wiki/Prolog)
 - [Pyth](https://pyth.readthedocs.io/)
 - [Q](https://code.kx.com/q/)
+- [Racket](https://racket-lang.org/)
 - [Rebol](http://www.rebol.com/)
 - [Red](http://www.red-lang.org/)
 - [Rockstar](https://codewithrockstar.com/)
