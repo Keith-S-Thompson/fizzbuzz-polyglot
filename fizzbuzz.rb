@@ -1,8 +1,8 @@
 #!/usr/bin/ruby
 
 # Language:       Ruby
-# Web site:       http://www.ruby-lang.org/
-# Last tested on: Ubuntu 20.04
+# Web site:       https://www.ruby-lang.org/
+# Last tested on: Ubuntu 22.04.1
 # Requires:       apt-get install ruby
 
 (1..100).each do |i|

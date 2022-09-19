@@ -1,9 +1,9 @@
 #!/usr/bin/env julia
 
 # Language:       Julia
-# Web site:       http://julialang.org/
-# Last tested on: Ubuntu 20.04
-# Requires:       Download and unpack https://julialang-s3.julialang.org/bin/linux/x64/0.6/julia-0.6.2-linux-x86_64.tar.gz
+# Web site:       https://julialang.org/
+# Last tested on: Ubuntu 22.04.1
+# Requires:       Download and unpack https://julialang-s3.julialang.org/bin/linux/x64/1.8/julia-1.8.1-linux-x86_64.tar.gz
 #                 Install binaries in $PATH
 
 for i = 1:100

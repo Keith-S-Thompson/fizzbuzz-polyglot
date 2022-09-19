@@ -2,8 +2,8 @@
 
 /*
  * Language:       bc
- * Web page:       http://www.gnu.org/software/bc/
- * Last tested on: Ubuntu 20.04
+ * Web page:       https://www.gnu.org/software/bc/
+ * Last tested on: Ubuntu 22.04.1
  * Requires:       The "bc" package is pre-installed
  */
 

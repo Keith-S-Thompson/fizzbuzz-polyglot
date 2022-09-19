@@ -1,6 +1,6 @@
 ' Language:       Visual Basic .NET
-' Web site:       http://msdn.microsoft.com/en-us/vstudio/hh388568.aspx
-' Last tested on: Ubuntu 20.04
+' Web site:       https://learn.microsoft.com/en-us/dotnet/visual-basic/programming-guide/
+' Last tested on: Ubuntu 22.04.1
 ' Requires:       apt-get install mono-vbnc
 
 Module FizzBuzz

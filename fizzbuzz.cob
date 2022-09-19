@@ -1,7 +1,7 @@
       * LANGUAGE:       COBOL
-      * Web site:       http://www.opencobol.org/
-      * Last tested on: Ubuntu 20.04
-      * Requires:       apt-get install open-cobol
+      * Web site:       https://sourceforge.net/projects/gnucobol/
+      * Last tested on: Ubuntu 22.04.1
+      * Requires:       apt-get install gnucobol
 
         IDENTIFICATION DIVISION.
         PROGRAM-ID. FIZZBUZZ.

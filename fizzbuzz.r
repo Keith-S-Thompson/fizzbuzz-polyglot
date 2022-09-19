@@ -1,8 +1,8 @@
 #!/usr/bin/R --slave -f
 
 # Language:       R
-# Web site:       http://www.r-project.org/
-# Last tested on: Ubuntu 20.04
+# Web site:       https://www.r-project.org/
+# Last tested on: Ubuntu 22.04.1
 # Requires:       apt-get install r-base-core
 
 

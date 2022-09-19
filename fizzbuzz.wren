@@ -1,8 +1,8 @@
 #!/usr/bin/env wren
 
 // Language:       Wren
-// Web site:       http://wren.io/
-// Last tested on: Ubuntu 20.04
+// Web site:       https://wren.io/
+// Last tested on: Ubuntu 22.04.1
 // Requires:       Install from source:
 //                     git clone https://github.com/munificent/wren
 //                     cd wren

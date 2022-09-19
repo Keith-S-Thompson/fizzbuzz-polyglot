@@ -2,7 +2,7 @@
 
 BTW  Language:      LOLCODE
 BTW Web site:       http://lolcode.org/
-BTW Last tested on: Ubuntu 20.04
+BTW Last tested on: Ubuntu 22.04.1
 BTW Requires:       Install from source: https://github.com/justinmeza/lci
 BTW                 Requires cmake (apt-get install cmake)
 

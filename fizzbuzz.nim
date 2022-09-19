@@ -1,6 +1,6 @@
 # Language:       Nim
 # Web site:       http://nim-lang.org/
-# Last tested on: Ubuntu 20.04
+# Last tested on: Ubuntu 22.04.1
 # Requires:       apt-get install nim
 
 template foreach(i, lo, hi, actions) =

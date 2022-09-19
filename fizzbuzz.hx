@@ -1,6 +1,6 @@
 // Language:       Haxe
-// Web site:       http://haxe.org/
-// Last tested on: Ubuntu 20.04
+// Web site:       https://haxe.org/
+// Last tested on: Ubuntu 22.04.1
 // Requires:       apt-get install haxe
 
 // NOTE: Haxe requires a class name to start with an upper case letter,

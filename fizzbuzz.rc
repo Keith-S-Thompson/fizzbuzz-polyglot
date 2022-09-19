@@ -1,8 +1,9 @@
 #!/usr/bin/env rc
 
 # Language:       rc (Plan 9 shell)
-# Web site:       http://plan9.bell-labs.com/sys/doc/rc.html
-# Last tested on: Ubuntu 20.04
+# Web site:       http://plan9.bell-labs.com/sys/doc/rc.html # site no longer exists
+# Web site:       https://github.com/rakitzis/rc
+# Last tested on: Ubuntu 22.04.1
 # Requires:       apt-get install rc
 
 for ( i in `{seq 100} ) {

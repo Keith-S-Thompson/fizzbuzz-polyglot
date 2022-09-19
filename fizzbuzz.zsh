@@ -1,8 +1,8 @@
 #!/bin/zsh
 
 # Language:       zsh
-# Web site:       http://www.zsh.org/
-# Last tested on: Ubuntu 20.04
+# Web site:       https://www.zsh.org/
+# Last tested on: Ubuntu 22.04.1
 # Requires:       apt-get install zsh
 
 for (( i = 1; i <= 100; i ++ )) {

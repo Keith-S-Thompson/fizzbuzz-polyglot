@@ -1,6 +1,6 @@
 // Language:       V
 // Web site:       https://vlang.io/
-// Last tested on: Ubuntu 20.04
+// Last tested on: Ubuntu 22.04.1
 // Requires:       Clone git repo https://github.com/vlang/v
 //                 Build `v` executable using `make` and install in $PATH
 

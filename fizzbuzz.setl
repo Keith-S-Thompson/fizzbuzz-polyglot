@@ -1,10 +1,10 @@
 #!/usr/bin/env setl
 
 -- Language:       SETL
--- Web site:       http://setl.org/setl/
--- Last tested on: Ubuntu 20.04
+-- Web site:       https://setl.org/setl/
+-- Last tested on: Ubuntu 22.04.1
 -- Requires:       Install precompiled executables from
---                 http://setl.org/setl/bin/Linux-x86-64bit/
+--                 https://setl.org/setl/bin/Linux-x86-64bit/
 
 program Fizz_Buzz;
     fizz := {3, 6..100};

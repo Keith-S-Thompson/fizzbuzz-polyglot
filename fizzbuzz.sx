@@ -1,7 +1,7 @@
 /*
  * Language:       x86/x86_64/SPARC assembly
- * Web site:       http://gcc.gnu.org/
- * Last tested on: Ubuntu 20.04
+ * Web site:       https://gcc.gnu.org/
+ * Last tested on: Ubuntu 22.04.1
  * Requires:       The "gcc" package is pre-installed
  *
  * The code was generated from fizzbuzz.c with the command:

@@ -1,6 +1,6 @@
 # Language:       Crystal
 # Web site:       http://crystal-lang.org/
-# Last tested on: Ubuntu 20.04
+# Last tested on: Ubuntu 22.04.1 - FAILED
 # Requires:       Installation instructions at http://crystal-lang.org/docs/installation/on_debian_and_ubuntu.html
 #                 apt-key adv --keyserver keys.gnupg.net --recv-keys 09617FD37CC06B54
 #                 echo "deb http://dist.crystal-lang.org/apt crystal main" > /etc/apt/sources.list.d/crystal.list

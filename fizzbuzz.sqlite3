@@ -1,6 +1,6 @@
 -- Language:       sqlite3 (SQL)
 -- Web site:       https://www.sqlite.org/
--- Last tested on: Ubuntu 20.04
+-- Last tested on: Ubuntu 22.04.1
 -- Requires:       apt-get install sqlite
 
 -- Loop code based on a Stack Overflow answer by Doug Currie,

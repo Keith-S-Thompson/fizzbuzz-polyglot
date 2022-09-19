@@ -1,8 +1,8 @@
 #!/usr/bin/perl
 
 # Language:       Perl
-# Web site:       http://www.perl.org/
-# Last tested on: Ubuntu 20.04
+# Web site:       https://www.perl.org/
+# Last tested on: Ubuntu 22.04.1
 # Requires:       The "perl" package is pre-installed
 
 use strict;

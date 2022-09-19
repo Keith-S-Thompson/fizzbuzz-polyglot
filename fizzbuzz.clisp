@@ -1,8 +1,8 @@
 #!/usr/bin/clisp
 
 ; Language:       Common Lisp
-; Web site:       http://common-lisp.net/
-; Last tested on: Ubuntu 20.04
+; Web site:       https://common-lisp.net/
+; Last tested on: Ubuntu 22.04.1
 ; Requires:       apt-get install clisp
 
 (defun lines (n)

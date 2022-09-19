@@ -2,8 +2,8 @@
 
 /* 
  * Language:       REXX
- * Web site:       http://regina-rexx.sourceforge.net/
- * Last tested on: Ubuntu 20.04
+ * Web site:       https://regina-rexx.sourceforge.io/
+ * Last tested on: Ubuntu 22.04.1
  * Requires:       apt-get install regina-rexx
 */
 

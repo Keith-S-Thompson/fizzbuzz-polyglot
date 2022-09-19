@@ -1,7 +1,7 @@
 // Language:       Java
 // Web site:       http://www.java.com/
-// Last tested on: Ubuntu 20.04
-// Requires:       apt-get install openjdk-7-jdk
+// Last tested on: Ubuntu 22.04.01
+// Requires:       apt-get install openjdk-11-jdk-headless:amd64
 
 public class fizzbuzz {
     public static final void main( String args[] ) {

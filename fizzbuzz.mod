@@ -1,9 +1,10 @@
 (* 
+ * FAILED
  * Language:       Modula-2
- * Web site:       http://www.modula2.org/
- *                 http://www.nongnu.org/gm2/
+ * Web site:       https://www.modula2.org/
+ *                 https://www.nongnu.org/gm2/
  * Last tested on: Ubuntu 18.04
- * Not currently working on Ubuntu 20.04
+ * Not currently working on Ubuntu 22.04.1
  *
  * See http://www.nongnu.org/gm2/debian.html
  *     Add to /etc/apt/sources.list:

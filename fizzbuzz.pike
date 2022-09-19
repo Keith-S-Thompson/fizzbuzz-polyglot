@@ -1,9 +1,11 @@
 #!/usr/bin/env pike
 
 // Language:       Pike
-// Web site:       http://pike.lysator.liu.se/
-// Last tested on: Ubuntu 20.04
-// Requires:       apt-get install pike8.0
+// Web site:       https://pike.lysator.liu.se/
+// Last tested on: Ubuntu 22.04.1
+// Requires:       Download https://pike.lysator.liu.se/pub/pike/latest-stable/Pike-v8.0.1738.tar.gz
+//                 Build and install from source
+// 
 
 int main() {
     for (int i = 1; i <= 100; i ++) {

@@ -2,8 +2,8 @@
 
 "
 Language:       Smalltalk
-Web site:       http://smalltalk.gnu.org/
-Last tested on: Ubuntu 20.04
+Web site:       https://www.gnu.org/software/smalltalk/
+Last tested on: Ubuntu 22.04.1
 Requires:       apt-get install gnu-smalltalk (previously called gst)
 "
 

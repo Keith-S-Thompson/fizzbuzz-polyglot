@@ -1,8 +1,8 @@
 #!/usr/bin/fish
 
 # Language:       fish shell
-# Web site:       http://fishshell.com/
-# Last tested on: Ubuntu 20.04
+# Web site:       https://fishshell.com/
+# Last tested on: Ubuntu 22.04.1
 # Requires:       apt-get install fish
 
 for i in (seq 1 100)

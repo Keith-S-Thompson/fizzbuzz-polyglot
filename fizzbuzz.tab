@@ -1,6 +1,6 @@
 # Language:       Tab
-# Web site:       http://tkatchev.bitbucket.org/tab/
-# Last tested on: Ubuntu 20.04
+# Web site:       https://bitbucket.org/tkatchev/tab/src/master/
+# Last tested on: Ubuntu 22.04.1
 # Requires:       Clone the git repo at http://bitbucket.org/tkatchev/tab
 #                 `make`
 #                 Install `tab` in $PATH as `tab`

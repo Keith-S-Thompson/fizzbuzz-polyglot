@@ -1,9 +1,9 @@
 #!/usr/bin/awk -f
 
 # Language:       Awk
-# Web site:       http://invisible-island.net/mawk/
-#                 http://www.gnu.org/software/gawk/
-# Last tested on: Ubuntu 20.04
+# Web site:       https://invisible-island.net/mawk/
+#                 https://www.gnu.org/software/gawk/
+# Last tested on: Ubuntu 22.04.1
 # Requires:       The "gawk" (GNU awk) and "mawk" packages are pre-installed.
 
 BEGIN {

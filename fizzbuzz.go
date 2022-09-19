@@ -1,6 +1,6 @@
 // Language:       go
-// Web site:       http://golang.org/
-// Last tested on: Ubuntu 20.04
+// Web site:       https://go.dev/
+// Last tested on: Ubuntu 22.04.1
 // Requires:       apt-get install golang
 
 // NOTE: The above currently installs Go version 1.6.1.

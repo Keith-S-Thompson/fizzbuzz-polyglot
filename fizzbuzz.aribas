@@ -2,8 +2,8 @@
 
 (*
  * Language:       Aribas
- * Web site:       http://www.mathematik.uni-muenchen.de/~forster/sw/aribas.html
- * Last tested on: Ubuntu 20.04
+ * Web site:       https://www.mathematik.uni-muenchen.de/~forster/sw/aribas.html
+ * Last tested on: Ubuntu 22.04.1
  * Requires:       apt-get install aribas
  *)
 

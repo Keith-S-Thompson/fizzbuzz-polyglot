@@ -1,8 +1,8 @@
 #!/usr/bin/escript
 
 % Language:       Erlang
-% Web site:       http://www.erlang.org/
-% Last tested on: Ubuntu 20.04
+% Web site:       https://www.erlang.org/
+% Last tested on: Ubuntu 22.04.1
 % Requires:       apt-get install erlang
 
 print_line(N) when N rem 15 == 0 ->

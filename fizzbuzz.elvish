@@ -2,7 +2,7 @@
 
 # Language:       Elvish
 # Web site:       https://elvish.io/
-# Last tested on: Ubuntu 20.04
+# Last tested on: Ubuntu 22.04.1
 # Requires:       apt-get install elvish
 
 for i [ ( seq 1 100 ) ] {

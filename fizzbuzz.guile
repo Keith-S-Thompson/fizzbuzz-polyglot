@@ -2,8 +2,8 @@
 !#
 
 ; Language:       Guile
-; Web site:       http://www.gnu.org/software/guile/
-; Last tested on: Ubuntu 20.04
+; Web site:       https://www.gnu.org/software/guile/
+; Last tested on: Ubuntu 22.04.1
 ; Requires:       apt-get install guile-2.0
 
 (define line

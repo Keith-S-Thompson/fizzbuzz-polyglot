@@ -1,8 +1,8 @@
 #!/usr/bin/php
 <?php
     // Language:       php
-    // Web site:       http://php.net/
-    // Last tested on: Ubuntu 20.04
+    // Web site:       https://www.php.net/
+    // Last tested on: Ubuntu 22.04.1
     // Requires:       apt-get install php5 php5-cli
     for ($i = 1; $i <= 100; $i ++) {
         if ($i % 15 == 0) {

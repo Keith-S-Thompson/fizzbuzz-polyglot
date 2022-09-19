@@ -1,8 +1,8 @@
 #!/usr/bin/slsh
 
 % Language:       S-Lang
-% Web site:       http://www.jedsoft.org/slang/
-% Last tested on: Ubuntu 20.04
+% Web site:       https://www.jedsoft.org/slang/
+% Last tested on: Ubuntu 22.04.1
 % Requires:       apt-get install slsh
 
 variable i;

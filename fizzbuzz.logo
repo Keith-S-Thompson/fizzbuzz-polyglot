@@ -3,8 +3,8 @@
 ; Language:       Logo
 ; Web site:       http://ucblogo.sourceforge.net/
 ;                 ftp://ftp.cs.berkeley.edu/pub/ucblogo/
-;                 http://packages.ubuntu.com/xenial/amd64/ucblogo/download
-; Last tested on: Ubuntu 20.04
+;                 https://packages.ubuntu.com/jammy/amd64/ucblogo/download
+; Last tested on: Ubuntu 22.04.1
 ; Requires:       Build from a modified version of ucblogo-5.6.tar.gz
 ;                 from the ftp site to fix a compilation error
 ;                 (replace "exp" by "Exp" *except* in math.c).

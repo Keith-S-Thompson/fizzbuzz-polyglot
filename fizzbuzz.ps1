@@ -2,10 +2,8 @@
 
 # Language:       PowerShell
 # Web site:       https://github.com/PowerShell/PowerShell
-# Last tested on: Ubuntu 20.04
-# Requires:       Download:
-#                     https://github.com/PowerShell/PowerShell/releases/download/v6.1.1/powershell_6.1.1-1.ubuntu.18.04_amd64.deb
-#                 Install using "dpkg -i"
+# Last tested on: Ubuntu 22.04.1
+# Requires:       apt-get install powershell
 
 For ( $i = 1
       $i -le 100

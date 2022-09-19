@@ -1,8 +1,9 @@
 #!/bin/csh -f
 
 # Language:       csh (C shell)
-# Web site:       http://www.tcsh.org/ (for tcsh, an enhanced version of csh)
-# Last tested on: Ubuntu 20.04
+# Web site:       https://cvsweb.openbsd.org/src/bin/csh/
+#                 https://www.tcsh.org/ (for tcsh, an enhanced version of csh)
+# Last tested on: Ubuntu 22.04.1
 # Requires:       apt-get install csh (or tcsh)
 
 @ i = 1

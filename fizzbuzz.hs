@@ -1,6 +1,6 @@
 -- Language:       Haskell
--- Web site:       http://www.haskell.org/
--- Last tested on: Ubuntu 20.04
+-- Web site:       https://www.haskell.org/
+-- Last tested on: Ubuntu 22.04.1
 -- Requires:       apt-get install ghc
 
 line n

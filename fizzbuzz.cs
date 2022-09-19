@@ -1,6 +1,6 @@
 // Language:       C#
 // Web site:       http://www.ecma-international.org/publications/standards/Ecma-334.htm
-// Last tested on: Ubuntu 20.04
+// Last tested on: Ubuntu 22.04.1
 // Requires:       apt-get mono-xbuild mono-mcs mono-devel
 //                 (was apt-get install mono-gmcs)
 

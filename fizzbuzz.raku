@@ -1,8 +1,8 @@
-#!/usr/bin/perl6
+#!/usr/bin/rakudo
 
-# Language:       Perl6
-# Web site:       http://perl6.org/
-# Last tested on: Ubuntu 20.04
+# Language:       Raku (formerly Perl6)
+# Web site:       https://raku.org/
+# Last tested on: Ubuntu 22.04.1
 # Requires:       apt-get install rakudo
 
 $_.say for [(0..∞).map:{

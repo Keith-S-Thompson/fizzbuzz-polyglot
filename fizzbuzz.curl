@@ -1,8 +1,8 @@
 #!/usr/bin/curl https://raw.githubusercontent.com/Keith-S-Thompson/fizzbuzz-polyglot/master/expected-output.txt
 
 # Language:       curl
-# Web site:       http://curl.haxx.se/
-# Last tested on: Ubuntu 20.04
+# Web site:       https://curl.se/
+# Last tested on: Ubuntu 22.04.1
 # Requires:       apt-get install curl
 
 # NOTE: This is cheating; "curl" is not really a scripting language,

@@ -1,6 +1,6 @@
 # Language:       Icon
-# Web site:       http://www.cs.arizona.edu/icon/
-# Last tested on: Ubuntu 20.04
+# Web site:       https://www2.cs.arizona.edu/icon/
+# Last tested on: Ubuntu 22.04.1
 # Requires:       apt-get install iconc icont iconx
 
 procedure main()

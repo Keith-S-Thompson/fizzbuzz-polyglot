@@ -1,6 +1,6 @@
 // Language:       D
-// Web site:       http://dlang.org/
-// Last tested on: Ubuntu 20.04
+// Web site:       https://dlang.org/
+// Last tested on: Ubuntu 22.04.1
 // Requires:       apt-get install gdc
 
 import std.stdio;

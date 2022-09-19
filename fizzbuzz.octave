@@ -1,8 +1,8 @@
 #!/usr/bin/octave -q
 
 % Language:       Octave (should be compatible with Matlab)
-% Web site:       http://www.gnu.org/software/octave/
-% Last tested on: Ubuntu 20.04
+% Web site:       https://octave.org/
+% Last tested on: Ubuntu 22.04.1
 % Requires:       apt-get install octave
 
 for i=1:100
