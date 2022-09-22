@@ -1,10 +1,14 @@
 #!/usr/bin/env vigil
 
-# FAILED on Ubuntu 22.04.1; the interpreter is written in Python and assumes Python 2
 # Language:       Vigil
 # Web site:       https://github.com/munificent/vigil
-# Last tested on: Ubuntu 20.04
+# Last tested on: Ubuntu 22.04.1
 # Requires:       Install interpreter from git repo
+#                 The interpreter is a Python2 script.  If necessary, change
+#                     #!/usr/bin/env python
+#                 to
+#                     #!/usr/bin/env python2
+#                 on the first line.
 
 def fizzbuzz_line(n):
     """
