@@ -7,6 +7,8 @@ References:
 * [Using FizzBuzz to Find Developers who Grok Coding](http://imranontech.com/2007/01/24/using-fizzbuzz-to-find-developers-who-grok-coding/) by Imran Ghory
 * [Why Can't Programmers.. Program?](http://www.codinghorror.com/blog/2007/02/why-cant-programmers-program.html) by Jeff Atwood
 * [The Problem with the FizzBuzz Problem](https://www.gayle.com/blog/2015/5/31/the-problem-with-the-fizzbuzz-problem) by Gayle Laakmann McDowell
+* [FizzBuzz Still Works](https://www.globalnerdy.com/2012/11/15/fizzbuzz-still-works/) by Joey deVilla
+* [Further Into FizzBuzz!](https://www.globalnerdy.com/2012/11/16/further-into-fizzbuzz/) by Joey deVilla
 
 The requirements are simple:
 
@@ -16,7 +18,7 @@ The requirements are simple:
 > five print "FizzBuzz".
 
 In my [fizzbuz-c](https://github.com/Keith-S-Thompson/fizzbuzz-c) project
-I present multiple (128 at last count) C solutions.
+I present multiple (132 at last count) C solutions.
 
 **NOTE :** This is not intended as a collaborative project.  It is my
 own personal playground.  A few people have submitted pull requests for
