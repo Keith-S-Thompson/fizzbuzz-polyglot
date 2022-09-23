@@ -9,6 +9,8 @@
 #                 to
 #                     #!/usr/bin/env python2
 #                 on the first line.
+#                 I've submitted a pull request to make Vigil
+#                 compatible with both Python 2 and Python 3.
 
 def fizzbuzz_line(n):
     """
@@ -28,5 +30,5 @@ def fizzbuzz_line(n):
     return result
 
 def main():
-    for n in xrange(1, 101):
-        print fizzbuzz_line(n)
+    for n in range(1, 101):
+        print(fizzbuzz_line(n))
