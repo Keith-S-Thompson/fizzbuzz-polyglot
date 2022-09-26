@@ -4,13 +4,6 @@
 # Web site:       https://github.com/munificent/vigil
 # Last tested on: Ubuntu 22.04.1
 # Requires:       Install interpreter from git repo
-#                 The interpreter is a Python2 script.  If necessary, change
-#                     #!/usr/bin/env python
-#                 to
-#                     #!/usr/bin/env python2
-#                 on the first line.
-#                 I've submitted a pull request to make Vigil
-#                 compatible with both Python 2 and Python 3.
 
 def fizzbuzz_line(n):
     """
