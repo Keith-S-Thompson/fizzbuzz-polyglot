@@ -28,7 +28,7 @@ similar, see [Rosetta Code](http://rosettacode.org/wiki/Rosetta_Code).
 Bug reports are quite welcome.
 
 Here I present multiple implementations, one in each language.
-The current set of languages (106 of them, with 2 currently failing) is:
+The current set of languages (106 of them, with 1 currently failing) is:
 
 - [Ada](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.adb)
 - [Algol 68](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.a68)
@@ -48,7 +48,7 @@ The current set of languages (106 of them, with 2 currently failing) is:
 - [Clojure](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.clojure)
 - [COBOL](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.cob)
 - [Common Lisp](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.clisp)
-- [Crystal](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.cr) (failing)
+- [Crystal](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.cr)
 - [curl](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.curl)
 - [D](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.d)
 - [Dart](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.dart)
@@ -154,10 +154,9 @@ page](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot) rather
 than in the current directory.  It also requires an Internet connection.
 
 The `verify` script executes each program and confirms that its output
-is correct.  Currently two programs are failing on Ubuntu 22.04.1 LTS.
+is correct.  Currently 1 program is failing on Ubuntu 22.04.1 LTS.
 
-The failures are:
-- Crystal `fizzbuzz.cr`
+The failure is:
 - Modula-2 `fizzbuzz.mod`
 
 `fizzbuzz.b` is not tested with an actual B compiler; see that file

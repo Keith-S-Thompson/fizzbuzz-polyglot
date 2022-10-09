@@ -1,11 +1,7 @@
 # Language:       Crystal
-# Web site:       http://crystal-lang.org/
-# Last tested on: Ubuntu 22.04.1 - FAILED
-# Requires:       Installation instructions at http://crystal-lang.org/docs/installation/on_debian_and_ubuntu.html
-#                 apt-key adv --keyserver keys.gnupg.net --recv-keys 09617FD37CC06B54
-#                 echo "deb http://dist.crystal-lang.org/apt crystal main" > /etc/apt/sources.list.d/crystal.list
-#                 apt-get update
-#                 apt-get install crystal
+# Web site:       https://crystal-lang.org/
+# Last tested on: Ubuntu 22.04.1
+# Requires:       Installation instructions at https://crystal-lang.org/install/on_ubuntu
 
 # Note: This is identical to fizzbuzz.rb (Ruby),
 # but it's compiled rather than interpreted.
