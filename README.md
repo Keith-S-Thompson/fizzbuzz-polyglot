@@ -28,7 +28,7 @@ similar, see [Rosetta Code](http://rosettacode.org/wiki/Rosetta_Code).
 Bug reports are quite welcome.
 
 Here I present multiple implementations, one in each language.
-The current set of languages (106 of them, with 1 currently failing) is:
+The current set of languages (106 of them) is:
 
 - [Ada](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.adb)
 - [Algol 68](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.a68)
@@ -85,7 +85,7 @@ The current set of languages (106 of them, with 1 currently failing) is:
 - [Lua](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.lua)
 - [M4](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.m4)
 - [Make](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.mk)
-- [Modula-2](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.mod) (failing)
+- [Modula-2](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.mod)
 - [Myrddin](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.myr)
 - [Nickle](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.nickle)
 - [Nim (formerly Nimrod)](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.nim)
@@ -154,10 +154,7 @@ page](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot) rather
 than in the current directory.  It also requires an Internet connection.
 
 The `verify` script executes each program and confirms that its output
-is correct.  Currently 1 program is failing on Ubuntu 22.04.1 LTS.
-
-The failure is:
-- Modula-2 `fizzbuzz.mod`
+is correct.  All 106 programs pass on Ubuntu 22.04.1 LTS.
 
 `fizzbuzz.b` is not tested with an actual B compiler; see that file
 for details.

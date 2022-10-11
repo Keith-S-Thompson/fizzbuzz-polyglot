@@ -1,28 +1,22 @@
 (* 
- * FAILED
  * Language:       Modula-2
  * Web site:       https://www.modula2.org/
  *                 https://www.nongnu.org/gm2/
- * Last tested on: Ubuntu 18.04
- * Not currently working on Ubuntu 22.04.1
+ * Last tested on: Ubuntu 22.04.1
  *
- * See http://www.nongnu.org/gm2/debian.html
- *     Add to /etc/apt/sources.list:
- *         deb     http://floppsie.comp.glam.ac.uk/debian/ jessie main 
- *         deb-src http://floppsie.comp.glam.ac.uk/debian/ jessie main
- *     Then:
- *         apt-get update
- *         apt-get install gm2 libpth-dev
- *     (gm2-doc may also be useful)
- * You'll see a warning that the gm2 package cannot be authenticated.
- *
- * See /etc/debian_version to determine the Debian release corresponding
- * to your current Ubuntu or Linux Mint release.
- *
- * Other steps were necessary in earlier versions.  See the git history
- * of this file for details.
- *
- * For Ubuntu 18.04, I had to create a symlink libmpfr.so.4 -> libmpfr.so.6
+ * gm2, the GNU Modula-2 compiler, can normally be installed as a package.
+ * See https://www.nongnu.org/gm2/debian.html
+ * But that resulted in errors from the gm2 command, which I've been unable to resolve:
+ *     /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/m2/m2pim/libm2pim.so: undefined reference to `RTco_select'
+ *     /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/m2/m2pim/libm2pim.so: undefined reference to `RTco_initSemaphore'
+ *     /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/m2/m2pim/libm2pim.so: undefined reference to `RTco_wait'
+ *     /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/m2/m2pim/libm2pim.so: undefined reference to `RTco_signal'
+ *     collect2: error: ld returned 1 exit status
+ * 
+ * Instead, I've installed the compiler by building it from source from the git repo:
+ *     git://gcc.gnu.org/git/gcc.git
+ *     branch devel/modula-2 (commit c92177a3eb2, 2022-10-10)
+ *     Configure with "--enable-languages=m2 -enable-host-shared"
  *)
 
 MODULE fizzbuzz;
