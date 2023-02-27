@@ -14,6 +14,7 @@ proverbial Round Tuit:
 - [BCPL](http://www.cl.cam.ac.uk/~mr10/index.html)
 - [BLISS](https://madisongh.github.io/blissc/)
 - [Bloom](http://bloom-lang.net/)
+- [Bog](https://github.com/Vexu/bog)
 - [Boo](http://boo-lang.org/)
 - [Brainfuck](http://www.muppetlabs.com/~breadbox/bf/)
 - [C--](http://www.cs.tufts.edu/~nr/c--/)
@@ -26,6 +27,7 @@ proverbial Round Tuit:
 - [Cobra](http://cobra-language.com/)
 - [Coconut](http://coconut-lang.org/)
 - [Cotowali](https://github.com/cotowali/cotowali)
+- [Cyber](https://cyberscript.dev/)
 - [Cyclops](http://cyclopslang.org/) 𐙀
 - [Dale](https://github.com/tomhrr/dale)
 - [E](https://en.wikipedia.org/wiki/E_(programming_language)) ... [see also](http://erights.org/)
@@ -41,6 +43,7 @@ proverbial Round Tuit:
 - [Gambas](https://en.wikipedia.org/wiki/Gambas)
 - [Gluon](http://gluon-lang.org/)
 - [Intercal](http://catb.org/esr/intercal/)
+- [Joy](https://en.wikipedia.org/wiki/Joy_(programming_language))
 - [K](https://en.wikipedia.org/wiki/K_(programming_language))
 - [Kit](https://www.kitlang.org/)
 - [Kitten](http://kittenlang.org/)
