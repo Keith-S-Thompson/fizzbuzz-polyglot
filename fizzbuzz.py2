@@ -5,7 +5,7 @@
 # Last tested on: Ubuntu 22.04.1
 # Requires:       The "python" package is pre-installed
 
-for i in xrange(1,101):
+for i in xrange(1, 101):
     if i % 15 == 0:
         print "FizzBuzz"
     elif i % 3 == 0:
