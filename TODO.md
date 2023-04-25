@@ -55,6 +55,7 @@ proverbial Round Tuit:
 - [newLISP](http://www.newlisp.org/)
 - [Ni](https://github.com/gokr/ni) ... [see also](http://goran.krampe.se/2015/09/16/ni-a-strange-little-language/)
 - [OCaml](https://ocaml.org/)
+- [Odin](https://odin-lang.org/)
 - [Oz](http://mozart.github.io/)
 - [P](https://github.com/p-org/P)
 - [Pharo](http://pharo.org/)
