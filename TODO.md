@@ -50,6 +50,7 @@ proverbial Round Tuit:
 - [KLisp (kernel)](http://klisp.org/)
 - [LISP/C](https://github.com/eratosthenesia/lispc)
 - [MCPL](https://www.cl.cam.ac.uk/~mr10/MCPL.html)
+- [Mojo](https://docs.modular.com/mojo/)
 - [MoonScript](http://moonscript.org/)
 - [Mumps](https://en.wikipedia.org/wiki/MUMPS)
 - [newLISP](http://www.newlisp.org/)
