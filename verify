@@ -60,11 +60,12 @@ run() {
             ;;
         f66)
             cp $filename fizzbuzz66.f
-            gfortran fizzbuzz66.f -o $basename
+            gfortran -std=legacy fizzbuzz66.f -o $basename
             ./$basename > $out
             ;;
         f)
-            gfortran $filename -o $basename
+            # Fortran 77
+            gfortran -std=legacy $filename -o $basename
             ./$basename > $out
             ;;
         f90)
