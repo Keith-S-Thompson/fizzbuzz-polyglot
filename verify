@@ -26,7 +26,7 @@ run() {
             ./$basename > $out
             ;;
         bas)
-            bwbasic $filename | sed '/ \|^$/d' > $out # Need to filter out the copyright header
+            bwbasic $filename > $out
             ;;
         c)
             gcc -std=c99 $filename -o $basename
