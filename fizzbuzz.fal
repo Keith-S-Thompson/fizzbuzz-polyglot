@@ -2,7 +2,7 @@
 
 // Language:       Falcon
 // Web site:       http://falconpl.org
-// Last tested on: Ubuntu 22.04.1
+// Last tested on: Ubuntu 22.04.3
 // Requires:       Build from source, Falcon-0.9.6.8.tgz
 //                 (There doesn't seem to be be a falconpl package for Ubuntu 17.10)
 

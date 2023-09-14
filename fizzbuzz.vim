@@ -1,6 +1,6 @@
 " Language:       Vimscript
 " Web site:       https://www.vim.org/
-" Last tested on: Ubuntu 22.04.1
+" Last tested on: Ubuntu 22.04.3
 " Requires:       apt-get install vim
 
 let i = 1

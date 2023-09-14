@@ -2,7 +2,7 @@
 
 // Language:       Little
 // Web site:       https://www.little-lang.org/
-// Last tested on: Ubuntu 22.04.1
+// Last tested on: Ubuntu 22.04.3
 // Requires:       git clone --recursive https://github.com/bitkeeper-scm/little-lang.git
 //                 make && make PREFIX=... install
 //                 apt-get install libxft-dev

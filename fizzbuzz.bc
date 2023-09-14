@@ -3,7 +3,7 @@
 /*
  * Language:       bc
  * Web page:       https://www.gnu.org/software/bc/
- * Last tested on: Ubuntu 22.04.1
+ * Last tested on: Ubuntu 22.04.3
  * Requires:       The "bc" package is pre-installed
  */
 

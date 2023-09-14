@@ -1,6 +1,6 @@
 // Language:       G-Portugol
 // Web site:       https://sourceforge.net/projects/gpt.berlios/
-// Last tested on: Ubuntu 22.04.1
+// Last tested on: Ubuntu 22.04.3
 // Requires:       apt-get install gpt
 
 algoritmo fizzbuzz;

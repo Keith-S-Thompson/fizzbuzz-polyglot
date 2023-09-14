@@ -1,6 +1,6 @@
 # Language:       Ratfor
 # Web site:       http://sepwww.stanford.edu/doku.php?id=sep:software:ratfor
-# Last tested on: Ubuntu 22.04.1
+# Last tested on: Ubuntu 22.04.3
 # Requires:       apt-get install f2c ratfor
 
 program fizzbuzz

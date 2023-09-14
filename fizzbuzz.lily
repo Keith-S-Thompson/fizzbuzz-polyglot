@@ -2,7 +2,7 @@
 
 # Language:       Lily
 # Web site:       https://github.com/FascinatedBox/lily
-# Last tested on: Ubuntu 22.04.1
+# Last tested on: Ubuntu 22.04.3
 # Requires:       Install from source:
 #                     git clone https://github.com/FascinatedBox/lily
 #                     cmake -DCMAKE_INSTALL_PREFIX=<...>

@@ -2,7 +2,7 @@
 
 # Language:       Sed
 # Web site:       https://www.gnu.org/software/sed/
-# Last tested on: Ubuntu 22.04.1
+# Last tested on: Ubuntu 22.04.3
 # Requires:       The "sed" package is preinstalled.
 
 # Requires input of a single empty line.

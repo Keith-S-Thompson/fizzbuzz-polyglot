@@ -2,7 +2,7 @@
 
 # Language:       Julia
 # Web site:       https://julialang.org/
-# Last tested on: Ubuntu 22.04.1
+# Last tested on: Ubuntu 22.04.3
 # Requires:       Download and unpack https://julialang-s3.julialang.org/bin/linux/x64/1.8/julia-1.8.1-linux-x86_64.tar.gz
 #                 Install binaries in $PATH
 
