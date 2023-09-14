@@ -200,6 +200,10 @@ run() {
         tail)
             _POSIX2_VERSION=199209 ./$filename > $out
             ;;
+        ts)
+            tsc --outfile "fizzbuzz_$$.js" "$filename" && node "fizzbuzz_$$.js" > $out
+            rm "fizzbuzz_$$.js"
+            ;;
         v)
             v $filename
             ./$basename > $out

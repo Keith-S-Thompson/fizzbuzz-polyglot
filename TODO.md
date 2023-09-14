@@ -78,7 +78,6 @@ proverbial Round Tuit:
 - [TECO](http://almy.us/teco.html) ... [see also](http://goodmath.scientopia.org/2010/11/30/the-glorious-horror-of-teco/)
 - [Terra](http://terralang.org/index.html)
 - [TrumpScript](https://github.com/samshadwell/TrumpScript)
-- [TypeScript](https://www.typescriptlang.org/)
 - [Useless](https://esolangs.org/wiki/Useless) (This will require implementing platform-specific features)
 - [Whenever](http://www.dangermouse.net/esoteric/whenever.html)
 - [Whiley](http://whiley.org/)
