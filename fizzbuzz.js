@@ -1,13 +1,13 @@
-#!/usr/bin/rhino
+#!/usr/bin/node
 
 // Language:       JavaScript
 // Web site:       https://developer.mozilla.org/en-US/docs/JavaScript
-// Last tested on: Ubuntu 22.04.1
-// Requires:       apt-get install rhino
+// Last tested on: Ubuntu 22.04.3
+// Requires:       apt-get install nodejs
 
 for (i = 1; i <= 100; i ++) {
-    print(i % 15 == 0 ? "FizzBuzz" :
-          i %  3 == 0 ? "Fizz" :
-          i %  5 == 0 ? "Buzz" :
-          i)
+    console.log(i % 15 == 0 ? "FizzBuzz" :
+                i %  3 == 0 ? "Fizz" :
+                i %  5 == 0 ? "Buzz" :
+                i)
 }
