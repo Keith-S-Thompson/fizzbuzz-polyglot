@@ -146,7 +146,7 @@ run() {
             m4 $filename > $out
             ;;
         mod)
-            gm2 $filename -o $basename
+            gm2 -fiso $filename -o $basename
             ./$basename > $out
             ;;
         myr)
