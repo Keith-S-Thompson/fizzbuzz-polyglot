@@ -82,6 +82,9 @@ run() {
             go build -o $basename $filename
             ./$basename > $out
             ;;
+        gp)
+            gp -q $filename > $out
+            ;;
         gpt)
             gpt $filename -o $basename
             ./$basename > $out

@@ -28,7 +28,7 @@ similar, see [Rosetta Code](http://rosettacode.org/wiki/Rosetta_Code).
 Bug reports are quite welcome.
 
 Here I present multiple implementations, one in each language.
-The current set of languages (107 of them) is:
+The current set of languages (108 of them) is:
 
 - [Ada](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.adb)
 - [Algol 68](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.a68)
@@ -93,6 +93,7 @@ The current set of languages (107 of them) is:
 - [NQP](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.nqp)
 - [Objective-C](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.m)
 - [Octave](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.octave) (should be compatible with Matlab)
+- [PARI/GP](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.gp)
 - [PHP](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.php)
 - [Pascal](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.pas)
 - [Perl 5](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.pl)
@@ -155,7 +156,7 @@ page](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot) rather
 than in the current directory.  It also requires an Internet connection.
 
 The `verify` script executes each program and confirms that its output
-is correct.  All 106 programs pass on Ubuntu 22.04.1 LTS.
+is correct.  All programs pass on Ubuntu 22.04.3 LTS.
 
 `fizzbuzz.b` is not tested with an actual B compiler; see that file
 for details.
