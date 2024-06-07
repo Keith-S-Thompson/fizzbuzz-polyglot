@@ -18,7 +18,7 @@ COMMENT
         ELIF i MOD 5 = 0 THEN
             printf (( $ "Buzz" l $ ))
         ELSE
-            printf (( $ n(width(i))d l$, i ))
+            printf (( $ n(width(i))d l $, i ))
         FI
     OD
 )
