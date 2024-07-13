@@ -1,7 +1,7 @@
 COMMENT
 Language:       Simula
 Web site:       http://www.simula67.info/
-Last tested on: Ubuntu 22.04.3
+Last tested on: Ubuntu 22.04.4
 Requires:       Install from source, http://simula67.at.ifi.uio.no/Cim/cim-3.37.tar.gz
                 Building with default options results in a segmentation fault running the "cim" command.
                 It works if I build with CFLAGS=-m32, making "cim" an x86 binary.

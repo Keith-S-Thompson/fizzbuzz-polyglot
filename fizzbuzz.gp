@@ -1,6 +1,6 @@
 \\ Language:       PARI/GP
 \\ Web site:       https://pari.math.u-bordeaux.fr/
-\\ Last tested on: Ubuntu 22.04.3
+\\ Last tested on: Ubuntu 22.04.4
 \\ Requires:       apt-get install pari-gp
 
 for (i = 1, 100, \

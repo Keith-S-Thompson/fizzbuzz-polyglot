@@ -2,7 +2,7 @@
 
 : "Language:       Thompson Shell (Unix V6)"
 : "Web site:       https://etsh.nl/"
-: "Last tested on: Ubuntu 22.04.3"
+: "Last tested on: Ubuntu 22.04.4"
 : "Requires:       Install from source, https://etsh.nl/src/osh-4.2.1.tar.gz"
 : "                NOTE: Using the sh6 command, this works under Linux"
 : "                Mint 17.3, but fails under Ubuntu 17.10, apparently due"

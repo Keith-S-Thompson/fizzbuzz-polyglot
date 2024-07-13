@@ -2,7 +2,7 @@
 
 # Language:       Bourne shell
 # Web site:       (Defined by POSIX; see opengroup.org)
-# Last tested on: Ubuntu 22.04.3
+# Last tested on: Ubuntu 22.04.4
 # Requires:       The "dash" package is pre-installed
 
 i=1

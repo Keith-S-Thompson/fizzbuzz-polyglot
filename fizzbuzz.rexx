@@ -3,7 +3,7 @@
 /* 
  * Language:       REXX
  * Web site:       https://regina-rexx.sourceforge.io/
- * Last tested on: Ubuntu 22.04.3
+ * Last tested on: Ubuntu 22.04.4
  * Requires:       apt-get install regina-rexx
 */
 

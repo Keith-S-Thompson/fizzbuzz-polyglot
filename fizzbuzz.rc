@@ -3,7 +3,7 @@
 # Language:       rc (Plan 9 shell)
 # Web site:       http://plan9.bell-labs.com/sys/doc/rc.html # site no longer exists
 # Web site:       https://github.com/rakitzis/rc
-# Last tested on: Ubuntu 22.04.3
+# Last tested on: Ubuntu 22.04.4
 # Requires:       apt-get install rc
 
 for ( i in `{seq 100} ) {

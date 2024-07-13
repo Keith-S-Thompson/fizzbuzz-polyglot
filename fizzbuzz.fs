@@ -3,7 +3,7 @@
 \ Language:       Forth
 \ Web site:       http://www.forth.org/
 \                 https://www.gnu.org/software/gforth/
-\ Last tested on: Ubuntu 22.04.3
+\ Last tested on: Ubuntu 22.04.4
 \ Requires:       apt-get install gforth
 
 : fizzbuzz ( -- )

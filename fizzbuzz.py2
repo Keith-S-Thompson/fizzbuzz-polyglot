@@ -2,7 +2,7 @@
 
 # Language:       Python 2
 # Web site:       https://www.python.org/
-# Last tested on: Ubuntu 22.04.3
+# Last tested on: Ubuntu 22.04.4
 # Requires:       The "python2" package is pre-installed
 
 for i in xrange(1, 101):

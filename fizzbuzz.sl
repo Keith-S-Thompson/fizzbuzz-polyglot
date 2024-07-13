@@ -2,7 +2,7 @@
 
 % Language:       S-Lang
 % Web site:       https://www.jedsoft.org/slang/
-% Last tested on: Ubuntu 22.04.3
+% Last tested on: Ubuntu 22.04.4
 % Requires:       apt-get install slsh
 
 variable i;

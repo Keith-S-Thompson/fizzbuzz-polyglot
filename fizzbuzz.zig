@@ -1,6 +1,6 @@
 // Language:       Zig
 // Web site:       https://ziglang.org/
-// Last tested on: Ubuntu 22.04.3.1
+// Last tested on: Ubuntu 22.04.4.1
 // Requires:       Install binaries from
 //     https://ziglang.org/download/0.4.0/zig-linux-x86_64-0.4.0.tar.xz
 

@@ -1,7 +1,7 @@
 /*
  * Language:       XPL
  * Web site:       https://sourceforge.net/projects/xpl-compiler/
- * Last tested on: Ubuntu 22.04.3
+ * Last tested on: Ubuntu 22.04.4
  * Requires:       Download xpl0006.zip, unpack, build and install from source
  */
 

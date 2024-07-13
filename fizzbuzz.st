@@ -3,7 +3,7 @@
 "
 Language:       Smalltalk
 Web site:       https://www.gnu.org/software/smalltalk/
-Last tested on: Ubuntu 22.04.3
+Last tested on: Ubuntu 22.04.4
 Requires:       apt-get install gnu-smalltalk (previously called gst)
 "
 
