@@ -59,6 +59,9 @@ run() {
             gdc $filename -o $basename
             ./$basename > $out
             ;;
+        ed)
+            ed -s < $filename > $out
+            ;;
         elisp)
             ./$filename 2>/dev/null > $out
             ;;

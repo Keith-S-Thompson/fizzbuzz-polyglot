@@ -18,7 +18,7 @@ The requirements are simple:
 > five print "FizzBuzz".
 
 In my [fizzbuz-c](https://github.com/Keith-S-Thompson/fizzbuzz-c) project
-I present multiple (136 at last count) C solutions.
+I present multiple (138 at last count) C solutions.
 
 **NOTE :** This is not intended as a collaborative project.  It is my
 own personal playground.  A few people have submitted pull requests for
@@ -28,7 +28,7 @@ similar, see [Rosetta Code](http://rosettacode.org/wiki/Rosetta_Code).
 Bug reports are quite welcome.
 
 Here I present multiple implementations, one in each language.
-The current set of languages (109 of them) is:
+The current set of languages (110 of them) is:
 
 - [Ada](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.adb)
 - [Algol 60](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.a60)
@@ -53,6 +53,7 @@ The current set of languages (109 of them) is:
 - [curl](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.curl)
 - [D](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.d)
 - [Dart](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.dart)
+- [ed](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.ed)
 - [Elvish](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.elvish)
 - [Emacs Lisp](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.elisp)
 - [Erlang (using escript)](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.erl)

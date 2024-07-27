@@ -1,0 +1,68 @@
+# Language:       ed
+# Web site:       https://www.gnu.org/software/ed/
+#                 https://pubs.opengroup.org/onlinepubs/9699919799/utilities/ed.html
+# Last tested on: Ubuntu 22.04.4
+# Requires:       The "ed" package is preinstalled.
+#
+r !seq 100
+3s/.*/Fizz/
++3s/.*/Fizz/
++3s/.*/Fizz/
++3s/.*/Fizz/
++3s/.*/Fizz/
++3s/.*/Fizz/
++3s/.*/Fizz/
++3s/.*/Fizz/
++3s/.*/Fizz/
++3s/.*/Fizz/
++3s/.*/Fizz/
++3s/.*/Fizz/
++3s/.*/Fizz/
++3s/.*/Fizz/
++3s/.*/Fizz/
++3s/.*/Fizz/
++3s/.*/Fizz/
++3s/.*/Fizz/
++3s/.*/Fizz/
++3s/.*/Fizz/
++3s/.*/Fizz/
++3s/.*/Fizz/
++3s/.*/Fizz/
++3s/.*/Fizz/
++3s/.*/Fizz/
++3s/.*/Fizz/
++3s/.*/Fizz/
++3s/.*/Fizz/
++3s/.*/Fizz/
++3s/.*/Fizz/
++3s/.*/Fizz/
++3s/.*/Fizz/
++3s/.*/Fizz/
+5s/.*/Buzz/
++5s/.*/Buzz/
++5s/.*/Buzz/
++5s/.*/Buzz/
++5s/.*/Buzz/
++5s/.*/Buzz/
++5s/.*/Buzz/
++5s/.*/Buzz/
++5s/.*/Buzz/
++5s/.*/Buzz/
++5s/.*/Buzz/
++5s/.*/Buzz/
++5s/.*/Buzz/
++5s/.*/Buzz/
++5s/.*/Buzz/
++5s/.*/Buzz/
++5s/.*/Buzz/
++5s/.*/Buzz/
++5s/.*/Buzz/
++5s/.*/Buzz/
+15s/.*/FizzBuzz/
++15s/.*/FizzBuzz/
++15s/.*/FizzBuzz/
++15s/.*/FizzBuzz/
++15s/.*/FizzBuzz/
++15s/.*/FizzBuzz/
+1,$p
+Q
