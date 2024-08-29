@@ -29,7 +29,8 @@ proverbial Round Tuit:
 - [Coconut](http://coconut-lang.org/)
 - [Cotowali](https://github.com/cotowali/cotowali)
 - [Cyber](https://cyberscript.dev/)
-- [Cyclops](http://cyclopslang.org/) 𐙀
+- [Cyclone](http://cyclone.thelanguage.org/)
+- [Cyclops](http://cyclopslang.org/)
 - [Dale](https://github.com/tomhrr/dale)
 - [E](https://en.wikipedia.org/wiki/E_(programming_language)) ... [see also](http://erights.org/)
 - [Egison](https://www.egison.org/)
