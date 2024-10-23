@@ -1,6 +1,6 @@
 1 REM Language:       BASIC
 2 REM Web site:       https://sourceforge.net/projects/bwbasic/
-3 REM Last tested on: Ubuntu 22.04.4
+3 REM Last tested on: Ubuntu 22.04.5
 4 REM Requires:       apt-get install bwbasic
 5 REM OR:             Build from source, https://github.com/Keith-S-Thompson/bwbasic, branch "3.20+fixes"
 6 REM NOTE:           bwBASIC actually supports a structured IF/THEN/ELSE

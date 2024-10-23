@@ -2,7 +2,7 @@ begin
     comment Language:       Algol 60;
     comment Web site:       https://www.algol60.org/;
     comment                 https://www.algol60.org/translators/a60-0.22.tar.gz;
-    comment Last tested on: Ubuntu 22.04.4;
+    comment Last tested on: Ubuntu 22.04.5;
     comment Requires:       Build and install a60 interpreter from source;
 
     integer procedure idivide(x, y); integer x, y;

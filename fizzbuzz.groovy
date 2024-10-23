@@ -1,6 +1,6 @@
 // Language:       Groovy
 // Web site:       https://groovy-lang.org/
-// Last tested on: Ubuntu 22.04.4
+// Last tested on: Ubuntu 22.04.5
 // Requires:       apt-get install groovy openjdk-7-jdk
 
 1.upto(100) {

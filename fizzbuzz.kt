@@ -1,6 +1,6 @@
 // Language:       Kotlin
 // Web site:       https://kotlinlang.org/
-// Last tested on: Ubuntu 22.04.4
+// Last tested on: Ubuntu 22.04.5
 // Requires:       snap install kotlin
 
 fun main() {

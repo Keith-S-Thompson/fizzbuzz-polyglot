@@ -1,6 +1,6 @@
 // Language:       TypeScript
 // Web site:       https://www.typescriptlang.org/
-// Last tested on: Ubuntu 22.04.4
+// Last tested on: Ubuntu 22.04.5
 // Requires:       apt-get install node-typescript
 
 var i:number

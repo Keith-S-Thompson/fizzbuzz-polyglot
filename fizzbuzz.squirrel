@@ -2,7 +2,7 @@
 
 // Language:       Squirrel
 // Web site:       http://squirrel-lang.org/
-// Last tested on: Ubuntu 22.04.4
+// Last tested on: Ubuntu 22.04.5
 // Requires:       Build from source (v3.1)
 
 for (local i = 1; i <= 100; i += 1) {

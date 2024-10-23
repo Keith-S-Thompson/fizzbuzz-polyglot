@@ -2,7 +2,7 @@
 
 # Language:       Bython
 # Web site:       https://github.com/mathialo/bython
-# Last tested on: Ubuntu 22.04.4
+# Last tested on: Ubuntu 22.04.5
 # Requires:       pip3 install bython
 
 for i in range(1, 101) {

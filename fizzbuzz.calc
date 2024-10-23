@@ -2,7 +2,7 @@
 
 ## Language:       Calc
 ## Web site:       https://www.isthe.com/chongo/tech/comp/calc/
-## Last tested on: Ubuntu 22.04.4
+## Last tested on: Ubuntu 22.04.5
 ## Requires:       apt-get install calc
 
 for (i = 1; i <= 100; i ++) {

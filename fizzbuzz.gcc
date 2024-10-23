@@ -2,7 +2,7 @@
  * Language:       gcc error messages
  * Web site:       https://www.open-std.org/JTC1/SC22/WG14/
  *                 https://gcc.gnu.org/
- * Last tested on: Ubuntu 22.04.4
+ * Last tested on: Ubuntu 22.04.5
  * Requires:       The "gcc" package is pre-installed
  * NOTE:           The stderr output of the compiler must be filtered to
  *                 extract the correct output; see the `verify` script.

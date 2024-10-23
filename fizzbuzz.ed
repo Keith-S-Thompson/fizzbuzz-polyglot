@@ -1,7 +1,7 @@
 # Language:       ed
 # Web site:       https://www.gnu.org/software/ed/
 #                 https://pubs.opengroup.org/onlinepubs/9699919799/utilities/ed.html
-# Last tested on: Ubuntu 22.04.4
+# Last tested on: Ubuntu 22.04.5
 # Requires:       The "ed" package is preinstalled.
 #
 r !seq 100

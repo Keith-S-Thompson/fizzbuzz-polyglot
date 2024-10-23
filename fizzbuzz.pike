@@ -2,7 +2,7 @@
 
 // Language:       Pike
 // Web site:       https://pike.lysator.liu.se/
-// Last tested on: Ubuntu 22.04.4
+// Last tested on: Ubuntu 22.04.5
 // Requires:       Download https://pike.lysator.liu.se/pub/pike/latest-stable/Pike-v8.0.1738.tar.gz
 //                 Build and install from source
 // 

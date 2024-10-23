@@ -2,7 +2,7 @@
 <?php
     // Language:       php
     // Web site:       https://www.php.net/
-    // Last tested on: Ubuntu 22.04.4
+    // Last tested on: Ubuntu 22.04.5
     // Requires:       apt-get install php5 php5-cli
     for ($i = 1; $i <= 100; $i ++) {
         if ($i % 15 == 0) {

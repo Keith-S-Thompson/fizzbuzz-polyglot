@@ -2,7 +2,7 @@
 
 // Language:       Pure
 // Web site:       https://purelang.bitbucket.io/
-// Last tested on: Ubuntu 22.04.4
+// Last tested on: Ubuntu 22.04.5
 // https://bitbucket.org/purelang/pure-lang/issues/36/port-pure-to-the-mcjit-in-order-to-support
 // Requires:       Build from source
 //                 Currently using Pure 0.64

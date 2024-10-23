@@ -1,6 +1,6 @@
 // Language:       go
 // Web site:       https://go.dev/
-// Last tested on: Ubuntu 22.04.4
+// Last tested on: Ubuntu 22.04.5
 // Requires:       apt-get install golang
 
 // NOTE: The above currently installs Go version 1.6.1.

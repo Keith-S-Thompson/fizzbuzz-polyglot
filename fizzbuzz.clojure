@@ -2,7 +2,7 @@
 
 ; Language:       Clojure
 ; Web site:       https://clojure.org/
-; Last tested on: Ubuntu 22.04.4
+; Last tested on: Ubuntu 22.04.5
 ; Requires:       apt-get install clojure
 
 (defn line [n]

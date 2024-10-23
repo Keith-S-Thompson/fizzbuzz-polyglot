@@ -2,7 +2,7 @@
 
 # Language:       PowerShell
 # Web site:       https://github.com/PowerShell/PowerShell
-# Last tested on: Ubuntu 22.04.4
+# Last tested on: Ubuntu 22.04.5
 # Requires:       apt-get install powershell
 
 For ( $i = 1

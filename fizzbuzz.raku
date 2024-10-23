@@ -2,7 +2,7 @@
 
 # Language:       Raku (formerly Perl6)
 # Web site:       https://raku.org/
-# Last tested on: Ubuntu 22.04.4
+# Last tested on: Ubuntu 22.04.5
 # Requires:       apt-get install rakudo
 
 $_.say for [(0..∞).map:{

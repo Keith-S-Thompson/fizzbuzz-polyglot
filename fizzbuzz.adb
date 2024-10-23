@@ -1,6 +1,6 @@
 -- Language:       Ada
 -- Web site:       https://www.adaic.org/
--- Last tested on: Ubuntu 22.04.4
+-- Last tested on: Ubuntu 22.04.5
 -- Requires:       apt-get install gnat
 
 with Ada.Text_IO; use Ada.Text_IO;

@@ -1,6 +1,6 @@
 // Language:       Java
 // Web site:       http://www.java.com/
-// Last tested on: Ubuntu 22.04.41
+// Last tested on: Ubuntu 22.04.51
 // Requires:       apt-get install openjdk-11-jdk-headless:amd64
 
 public class fizzbuzz {

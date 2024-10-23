@@ -1,7 +1,7 @@
 (*
  * Language:       Seed7
  * Web site:       http://seed7.sourceforge.net/
- * Last tested on: Ubuntu 22.04.4
+ * Last tested on: Ubuntu 22.04.5
  * Requires:       Download seed7_05_20170305.tgz
  *                 dpkg -i libmysqlclient-dev
  *                 Install from source (see read_me.txt)

@@ -1,7 +1,7 @@
 /*
  * Language:       B
  * Web site:       https://www.bell-labs.com/usr/dmr/www/kbman.html
- * Last tested on: Ubuntu 22.04.4
+ * Last tested on: Ubuntu 22.04.5
  * Requires:       I've verified the program using a B compiler available
  *                 at https://github.com/Leushenko/ybc I have not yet
  *                 set up the `verify` script to use it.  Instead, the
