@@ -1,7 +1,7 @@
 # Language:       Crystal
 # Web site:       https://crystal-lang.org/
-# Last tested on: Ubuntu 22.04.4
-# Requires:       Installation instructions at https://crystal-lang.org/install/on_ubuntu
+# Last tested on: Ubuntu 22.04.5
+# Requires:       sudo snap install --classic crystal
 
 # Note: This is identical to fizzbuzz.rb (Ruby),
 # but it's compiled rather than interpreted.
