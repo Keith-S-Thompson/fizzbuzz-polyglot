@@ -255,16 +255,12 @@ run() {
     (( count++ ))
 }
 
-if [ $# -eq 1 ] && [ "$1" = "-git" ] ; then
-    for file in $(git ls-files 'fizzbuzz.*') ; do
-        run $file
-    done
-elif [ $# -gt 0 ] ; then
+if [ $# -gt 0 ] ; then
     for file in "$@" ; do
         run $file
     done
 else
-    for file in fizzbuzz.* ; do
+    for file in $(cat list.txt) ; do
         run $file
     done
 fi
