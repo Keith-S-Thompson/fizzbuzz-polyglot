@@ -1,10 +1,9 @@
 (*
  * Language:       Seed7
- * Web site:       http://seed7.sourceforge.net/
+ * Web site:       https://seed7.sourceforge.net/
+ * Web site:       https://github.com/ThomasMertes/seed7
  * Last tested on: Ubuntu 22.04.5
- * Requires:       Download seed7_05_20170305.tgz
- *                 dpkg -i libmysqlclient-dev
- *                 Install from source (see read_me.txt)
+ * Requires:       Clone the repo, follow build instructions in read_me.txt
  *)
 
 $ include "seed7_05.s7i";
