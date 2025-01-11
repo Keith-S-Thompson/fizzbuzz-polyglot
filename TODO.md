@@ -19,7 +19,6 @@ proverbial Round Tuit:
 - [Brainfuck](http://www.muppetlabs.com/~breadbox/bf/)
 - [C--](http://www.cs.tufts.edu/~nr/c--/)
 - [C2](http://c2lang.org/)
-- [C3](https://github.com/c3lang/c3c/)
 - [Carbon](https://github.com/carbon-language/carbon-lang)
 - [Ceylon](http://ceylon-lang.org/)
 - [Chapel](https://chapel-lang.org/)

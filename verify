@@ -36,6 +36,10 @@ run() {
             gcc -std=c99 $filename -o $basename
             ./$basename > $out
             ;;
+        c3)
+            c3c compile $filename
+            ./$basename > $out
+            ;;
         cob)
             cobc -x $filename
             ./$basename > $out
