@@ -1,6 +1,6 @@
 // Language:       C++
 // Web site:       https://www.open-std.org/JTC1/SC22/WG21/
-// Last tested on: Ubuntu 22.04.5
+// Last tested on: Ubuntu 24.04.2 LTS
 // Requires:       The "g++" package is pre-installed
 
 #include <iostream>

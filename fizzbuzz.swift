@@ -2,7 +2,7 @@
 
 // Language:       Swift
 // Web site:       https://swift.org/
-// Last tested on: Ubuntu 22.04.5
+// Last tested on: Ubuntu 24.04.2 LTS
 // Requires:       Install swift-5.8-RELEASE-ubuntu22.04.tar.gz
 
 for i in 1...100 {

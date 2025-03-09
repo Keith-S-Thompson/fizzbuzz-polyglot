@@ -1,6 +1,6 @@
 /* Language:       PL/I
  * Web site:       http://www.iron-spring.com/
- * Last tested on: Ubuntu 22.04.5
+ * Last tested on: Ubuntu 24.04.2 LTS
  * Requires:       Install from source, pli-0.9.10c.tar.gz
  * NOTE:           Compile and link commands in the `verify` script are derived from samples/Makefile.Linux
  */

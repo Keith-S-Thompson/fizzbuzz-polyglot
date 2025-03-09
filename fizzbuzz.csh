@@ -3,7 +3,7 @@
 # Language:       csh (C shell)
 # Web site:       https://cvsweb.openbsd.org/src/bin/csh/
 #                 https://www.tcsh.org/ (for tcsh, an enhanced version of csh)
-# Last tested on: Ubuntu 22.04.5
+# Last tested on: Ubuntu 24.04.2 LTS
 # Requires:       apt-get install csh (or tcsh)
 
 @ i = 1

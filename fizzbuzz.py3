@@ -2,7 +2,7 @@
 
 # Language:       Python 3
 # Web site:       https://www.python.org/
-# Last tested on: Ubuntu 22.04.5
+# Last tested on: Ubuntu 24.04.2 LTS
 # Requires:       The "python3" package is pre-installed
 
 for i in range(1, 101):

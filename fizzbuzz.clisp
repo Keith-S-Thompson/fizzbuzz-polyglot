@@ -2,7 +2,7 @@
 
 ; Language:       Common Lisp
 ; Web site:       https://common-lisp.net/
-; Last tested on: Ubuntu 22.04.5
+; Last tested on: Ubuntu 24.04.2 LTS
 ; Requires:       apt-get install clisp
 
 (defun lines (n)

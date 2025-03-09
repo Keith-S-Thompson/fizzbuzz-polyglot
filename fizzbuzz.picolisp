@@ -2,7 +2,7 @@
 
 ; Language:       PicoLisp
 ; Web site:       https://picolisp.com/
-; Last tested on: Ubuntu 22.04.5
+; Last tested on: Ubuntu 24.04.2 LTS
 ; Requires:       apt-get install picolisp
 
 (de print_lines (n)

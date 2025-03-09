@@ -2,7 +2,7 @@
  * Language:       Modula-2
  * Web site:       https://www.modula2.org/
  *                 https://www.nongnu.org/gm2/
- * Last tested on: Ubuntu 22.04.5
+ * Last tested on: Ubuntu 24.04.2 LTS
  *
  * gm2, the GNU Modula-2 compiler, can normally be installed as a package.
  * See https://www.nongnu.org/gm2/debian.html

@@ -2,7 +2,7 @@
 
 % Language:       Erlang
 % Web site:       https://www.erlang.org/
-% Last tested on: Ubuntu 22.04.5
+% Last tested on: Ubuntu 24.04.2 LTS
 % Requires:       apt-get install erlang
 
 print_line(N) when N rem 15 == 0 ->

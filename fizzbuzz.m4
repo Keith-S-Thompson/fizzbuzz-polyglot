@@ -1,6 +1,6 @@
 dnl Language:       m4
 dnl Web site:       http://www.gnu.org/software/m4/
-dnl Last tested on: Ubuntu 22.04.5
+dnl Last tested on: Ubuntu 24.04.2 LTS
 dnl Requires:       The "m4" package is pre-installed
 define(`line', `ifelse(eval($1 % 15), `0', `FizzBuzz
 ',

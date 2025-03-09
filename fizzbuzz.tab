@@ -1,6 +1,6 @@
 # Language:       Tab
 # Web site:       https://bitbucket.org/tkatchev/tab/src/master/
-# Last tested on: Ubuntu 22.04.5
+# Last tested on: Ubuntu 24.04.2 LTS
 # Requires:       Clone the git repo at http://bitbucket.org/tkatchev/tab
 #                 `make`
 #                 Install `tab` in $PATH as `tab`

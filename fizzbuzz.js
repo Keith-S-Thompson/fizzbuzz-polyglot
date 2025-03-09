@@ -2,7 +2,7 @@
 
 // Language:       JavaScript
 // Web site:       https://developer.mozilla.org/en-US/docs/JavaScript
-// Last tested on: Ubuntu 22.04.5
+// Last tested on: Ubuntu 24.04.2 LTS
 // Requires:       apt-get install nodejs
 
 for (i = 1; i <= 100; i ++) {

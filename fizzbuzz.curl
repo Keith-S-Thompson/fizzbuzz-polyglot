@@ -2,7 +2,7 @@
 
 # Language:       curl
 # Web site:       https://curl.se/
-# Last tested on: Ubuntu 22.04.5
+# Last tested on: Ubuntu 24.04.2 LTS
 # Requires:       apt-get install curl
 
 # NOTE: This is cheating; "curl" is not really a scripting language,

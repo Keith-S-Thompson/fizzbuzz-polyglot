@@ -1,6 +1,6 @@
       * LANGUAGE:       COBOL
       * Web site:       https://sourceforge.net/projects/gnucobol/
-      * Last tested on: Ubuntu 22.04.5
+      * Last tested on: Ubuntu 24.04.2 LTS
       * Requires:       apt-get install gnucobol
 
         IDENTIFICATION DIVISION.

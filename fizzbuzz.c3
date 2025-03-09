@@ -1,10 +1,12 @@
 // Language:       C3
 // Web site:       https://c3-lang.org/
-// Last tested on: Ubuntu 22.04.5
+// Last tested on: Ubuntu 24.04.2 LTS
 // Requires:       Install from source:
 //                     git clone https://github.com/c3lang/c3c/
 //                     Follow build instructions in README.md
-//                     For Ubuntu 22.04.5, build from tag v0.6.1
+//                     I haven't been able to build c3 on Ubuntu 24.04.2,
+//                     but I have a working v0.6.1 build created on
+//                     Ubuntu 22.04.5.
 
 module fizzbuzz;
 import std::io;

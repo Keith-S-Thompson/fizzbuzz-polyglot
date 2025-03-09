@@ -4,7 +4,7 @@
 ; Web site:       http://ucblogo.sourceforge.net/
 ;                 ftp://ftp.cs.berkeley.edu/pub/ucblogo/
 ;                 https://packages.ubuntu.com/jammy/amd64/ucblogo/download
-; Last tested on: Ubuntu 22.04.5
+; Last tested on: Ubuntu 24.04.2 LTS
 ; Requires:       Build from a modified version of ucblogo-5.6.tar.gz
 ;                 from the ftp site to fix a compilation error
 ;                 (replace "exp" by "Exp" *except* in math.c).

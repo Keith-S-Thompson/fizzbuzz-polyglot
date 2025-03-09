@@ -2,7 +2,7 @@
 
 // Language:       Dart
 // Web site:       https://www.dartlang.org/
-// Last tested on: Ubuntu 22.04.5
+// Last tested on: Ubuntu 24.04.2 LTS
 // Requires:       Download https://storage.googleapis.com/dart-archive/channels/stable/release/latest/linux_packages/debian_wheezy/dart_1.20.1-1_amd64.deb
 //                 dpkg -i dart_1.20.1-1_amd64.deb
 

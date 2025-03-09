@@ -2,7 +2,7 @@
 
 ; Language:       Emacs Lisp
 ; Web site:       https://www.gnu.org/software/emacs/
-; Last tested on: Ubuntu 22.04.5
+; Last tested on: Ubuntu 24.04.2 LTS
 ; Requires:       apt-get install emacs
 ;                 (The verify script filters out messages written to stderr.)
 

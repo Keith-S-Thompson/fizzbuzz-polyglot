@@ -2,7 +2,7 @@
 
 # Language:       bash
 # Web site:       https://www.gnu.org/software/bash/
-# Last tested on: Ubuntu 22.04.5
+# Last tested on: Ubuntu 24.04.2 LTS
 # Requires:       The "bash" package is pre-installed
 
 for i in {1..100} ; do

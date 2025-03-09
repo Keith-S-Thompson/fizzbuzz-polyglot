@@ -2,7 +2,7 @@
 
 # Language:       Bython
 # Web site:       https://github.com/mathialo/bython
-# Last tested on: Ubuntu 22.04.5
+# Last tested on: Ubuntu 24.04.2 LTS
 # Requires:       pip3 install bython
 #                 With recent Ubuntu and Python, requires a venv
 

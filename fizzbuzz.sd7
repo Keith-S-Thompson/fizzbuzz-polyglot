@@ -2,7 +2,7 @@
  * Language:       Seed7
  * Web site:       https://seed7.sourceforge.net/
  * Web site:       https://github.com/ThomasMertes/seed7
- * Last tested on: Ubuntu 22.04.5
+ * Last tested on: Ubuntu 24.04.2 LTS
  * Requires:       Clone the repo, follow build instructions in read_me.txt
  *)
 

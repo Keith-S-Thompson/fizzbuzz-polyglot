@@ -2,7 +2,7 @@
 
 -- Language:       SETL
 -- Web site:       https://setl.org/setl/
--- Last tested on: Ubuntu 22.04.5
+-- Last tested on: Ubuntu 24.04.2 LTS
 -- Requires:       Install precompiled executables from
 --                 https://setl.org/setl/bin/Linux-x86-64bit/
 

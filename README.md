@@ -160,7 +160,7 @@ page](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot) rather
 than in the current directory.  It also requires an Internet connection.
 
 The `verify` script executes each program and confirms that its output
-is correct.  All programs pass on Ubuntu 22.04.4 LTS.
+is correct.  All programs pass on Ubuntu 24.04.2 LTS.
 
 `fizzbuzz.b` is not tested with an actual B compiler; see that file
 for details.

@@ -2,7 +2,7 @@
 
 -- Language:       Lua
 -- Web site:       http://www.lua.org/
--- Last tested on: Ubuntu 22.04.5
+-- Last tested on: Ubuntu 24.04.2 LTS
 -- Requires:       apt-get install lua5.3
 --                 update-alternatives --install /usr/bin/lua  lua-interpreter /usr/bin/lua5.3  90
 --                 update-alternatives --install /usr/bin/luac lua-compiler    /usr/bin/luac5.3 90

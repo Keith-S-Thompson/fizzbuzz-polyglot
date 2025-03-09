@@ -2,7 +2,7 @@
 
 # Language:       R
 # Web site:       https://www.r-project.org/
-# Last tested on: Ubuntu 22.04.5
+# Last tested on: Ubuntu 24.04.2 LTS
 # Requires:       apt-get install r-base-core
 
 

@@ -1,6 +1,6 @@
 // Language:       Objective-C
 // Web site:       https://developer.apple.com/library/mac/#documentation/Cocoa/Conceptual/ObjectiveC/Introduction/introObjectiveC.html
-// Last tested on: Ubuntu 22.04.5
+// Last tested on: Ubuntu 24.04.2 LTS
 // Requires:       apt-get install gobjc libgnustep-base-dev
 
 // Note: The use of Objective-C's object-oriented features (creating

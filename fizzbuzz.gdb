@@ -1,6 +1,6 @@
 # Language:       gdb
 # Web site:       https://www.gnu.org/software/gdb/
-# Last tested on: Ubuntu 22.04.5
+# Last tested on: Ubuntu 24.04.2 LTS
 # Requires:       apt-get install gdb
 
 set $i = 1

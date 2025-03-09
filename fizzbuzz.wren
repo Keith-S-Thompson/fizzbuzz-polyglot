@@ -2,7 +2,7 @@
 
 // Language:       Wren
 // Web site:       https://wren.io/
-// Last tested on: Ubuntu 22.04.5
+// Last tested on: Ubuntu 24.04.2 LTS
 // Requires:       Install from source:
 //                     git clone https://github.com/munificent/wren
 //                     cd wren

@@ -1,6 +1,6 @@
 // Language:       Scala
 // Web site:       https://www.scala-lang.org/
-// Last tested on: Ubuntu 22.04.5
+// Last tested on: Ubuntu 24.04.2 LTS
 // Requires:       apt-get install scala openjdk-8-jdk-headless:amd64 openjdk-8-jre:amd64 openjdk-8-jre-headless:amd64
 //                 (Uninstall openjdk-9 if necessary.)
 //                 NOTE: The scalac and/or scala command invokes stty, causing it to hang if stdout is not a tty.

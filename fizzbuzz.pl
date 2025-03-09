@@ -2,7 +2,7 @@
 
 # Language:       Perl
 # Web site:       https://www.perl.org/
-# Last tested on: Ubuntu 22.04.5
+# Last tested on: Ubuntu 24.04.2 LTS
 # Requires:       The "perl" package is pre-installed
 
 use strict;
