@@ -9,6 +9,7 @@ fizzbuzz.bash
 fizzbuzz.bc
 fizzbuzz.by
 fizzbuzz.c
+fizzbuzz.c3
 fizzbuzz.calc
 fizzbuzz.cat
 fizzbuzz.clisp
