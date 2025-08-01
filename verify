@@ -152,8 +152,9 @@ run() {
             ./$filename > $out
             ;;
         m)
-            . /usr/share/GNUstep/Makefiles/GNUstep.sh
-            cc -std=c99 `gnustep-config --objc-flags` $filename -lobjc -lgnustep-base -o $basename
+            # . /usr/share/GNUstep/Makefiles/GNUstep.sh
+            # The above doesn't seem to be necessary
+            gcc -std=c99 $(gnustep-config --objc-flags) $filename -lobjc -lgnustep-base -o $basename
             ./$basename > $out
             ;;
         m4)
