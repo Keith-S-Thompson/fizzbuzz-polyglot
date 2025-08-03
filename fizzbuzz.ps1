@@ -1,9 +1,9 @@
-#!/usr/bin/pwsh
+#!/snap/bin/pwsh
 
 # Language:       PowerShell
 # Web site:       https://github.com/PowerShell/PowerShell
 # Last tested on: Ubuntu 24.04.2 LTS
-# Requires:       apt-get install powershell
+# Requires:       snap install powershell
 
 For ( $i = 1
       $i -le 100

@@ -1,9 +1,12 @@
-#!/usr/bin/python2
+#!/usr/bin/env python2
 
 # Language:       Python 2
 # Web site:       https://www.python.org/
+#                 https://github.com/python/cpython
 # Last tested on: Ubuntu 24.04.2 LTS
-# Requires:       The "python2" package is pre-installed
+# Requires:       Build python-2.7.18 from source (tag "v2.7.18")
+#                 (The "python2" package is no longer available on recent
+#                 versions of Ubuntu.)
 
 for i in xrange(1, 101):
     if i % 15 == 0:
