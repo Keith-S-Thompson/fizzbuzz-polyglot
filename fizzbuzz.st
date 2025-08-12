@@ -1,4 +1,4 @@
-#!/usr/bin/gst -g
+#!/usr/bin/env -S gst -g
 
 "
 Language:       Smalltalk
