@@ -56,6 +56,7 @@ proverbial Round Tuit:
 - [Mumps](https://en.wikipedia.org/wiki/MUMPS)
 - [newLISP](http://www.newlisp.org/)
 - [Ni](https://github.com/gokr/ni) ... [see also](http://goran.krampe.se/2015/09/16/ni-a-strange-little-language/)
+- [Oberon](https://ocaml.org/)(https://en.wikipedia.org/wiki/Oberon_(programming_language))
 - [OCaml](https://ocaml.org/)
 - [Odin](https://odin-lang.org/)
 - [Oz](http://mozart.github.io/)
