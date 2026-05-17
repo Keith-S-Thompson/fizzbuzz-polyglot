@@ -1,0 +1,19 @@
+begin
+    comment Language:       ALGOL W ;
+    comment Web site:       https://github.com/glynawe/awe ;
+    comment Last tested on: Ubuntu 24.04.4 LTS ;
+    comment Requires:       Build and install awe from source ;
+
+    integer i;
+    for i := 1 step 1 until 100 do
+    begin
+        if i rem 15 = 0 then
+            WRITE("FizzBuzz")
+        else if i rem 3 = 0 then
+            WRITE("Fizz")
+        else if i rem 5 = 0 then
+            WRITE("Buzz")
+        else
+            WRITE(I_W := 0, i);
+    end;
+end.

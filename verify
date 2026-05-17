@@ -24,6 +24,10 @@ run() {
             gnatmake $basename
             ./$basename > $out
             ;;
+        awe)
+            awe $filename
+            ./$basename > $out
+            ;;
         b)
             sed 's/^$/#include <stdio.h>/;s/main()/int main(void)/;s/auto/auto int/;s/*n/\\n/' $filename >| $filename.c
             gcc $filename.c -o $basename
