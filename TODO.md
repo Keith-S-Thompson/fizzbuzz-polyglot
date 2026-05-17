@@ -17,6 +17,7 @@ proverbial Round Tuit:
 - [Bog](https://github.com/Vexu/bog)
 - [Boo](http://boo-lang.org/)
 - [Brainfuck](http://www.muppetlabs.com/~breadbox/bf/)
+- [Brunost](https://lindbakk.com/blog/introducing-brunost)
 - [C--](http://www.cs.tufts.edu/~nr/c--/)
 - [C2](http://c2lang.org/)
 - [Carbon](https://github.com/carbon-language/carbon-lang)
