@@ -1,8 +1,11 @@
 /* Language:       PL/I
  * Web site:       http://www.iron-spring.com/
- * Last tested on: Ubuntu 24.04.2 LTS
- * Requires:       Install from source, pli-0.9.10c.tar.gz
+ * Last tested on: Ubuntu 24.04.4 LTS
+ * Requires:       Install from tarball, pli-1.4.1.tgz
  * NOTE:           Compile and link commands in the `verify` script are derived from samples/Makefile.Linux
+ * NOTE:           A bug introduced in release 0.9.10d causes a spurious
+ *                 trailing blank to be printed by a simple `put ('FizzBuzz');`.
+ *                 Using `put edit` is a workaround.
  */
 
 fizzbuzz: proc options(main);
@@ -10,11 +13,14 @@ fizzbuzz: proc options(main);
     on endpage (Sysprint);
     do i = 1 to 100;
         if mod(i, 15) = 0 then
-            put ('FizzBuzz');
+            /* put ('FizzBuzz'); */
+            put edit ('FizzBuzz') (A);
         else if mod(i, 3) = 0 then
-            put ('Fizz');
+            /* put ('Fizz'); */
+            put edit ('Fizz') (A);
         else if mod(i, 5) = 0 then
-            put ('Buzz');
+            /* put ('Buzz'); */
+            put edit ('Buzz') (A);
         else if i < 10 then
             put edit(i)(p'9');
         else

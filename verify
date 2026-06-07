@@ -144,8 +144,8 @@ run() {
             ;;
         pli)
              # compile and link commands derived from samples/Makefile.Linux in pli tarball
-             PLI=/o/apps/pli-0.9.10c
-             $PLI/bin/plic -C -dELF -lsiaxgo -ew "-cn(^) -i$PLI/lib/include" fizzbuzz.pli -o fizzbuzz.o
+             PLI=/o/apps/pli-1.4.1
+             $PLI/bin/plic -C -dELF -lsiaxgo -ew '-cn(^)' -i$PLI/lib/include fizzbuzz.pli -o fizzbuzz.o
              ld -z muldefs -Bstatic -o fizzbuzz --oformat=elf32-i386 -melf_i386 -e main fizzbuzz.o --start-group $PLI/lib/libprf.a --end-group
              ./$basename > $out
              ;;
