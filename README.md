@@ -1,3 +1,5 @@
+# fizzbuzz-polyglot
+
 FizzBuzz is a nearly trivial programming exercise, sometimes used in
 job interviews to weed out candidates who say they can program but
 really can't.
@@ -144,7 +146,9 @@ The current set of languages (113 of them) is:
 - [Zig](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.zig)
 - [Zsh](https://github.com/Keith-S-Thompson/fizzbuzz-polyglot/blob/master/fizzbuzz.zsh)
 
-Many of these are inspired by http://99-bottles-of-beer.net/.
+Many of these are inspired by <http://99-bottles-of-beer.net/>,
+which, alas, is no more -- but there's a backup
+[here](https://99-bottles-of-beer.spielmannspiel.com/).
 
 `tail` and `cat` are simply the standard Unix/Linux utilities, not real
 scripting languages.  The `cat` implementation in particular is an ugly
