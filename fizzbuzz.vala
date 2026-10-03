@@ -1,6 +1,6 @@
 // Language:       Vala
 // Web site:       https://wiki.gnome.org/Projects/Vala
-// Last tested on: Ubuntu 24.04.2 LTS
+// Last tested on: Ubuntu 26.04.1 LTS
 // Requires:       apt-get install valac
 
 void main() {

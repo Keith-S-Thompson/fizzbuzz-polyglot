@@ -2,8 +2,8 @@
 <?php
     // Language:       php
     // Web site:       https://www.php.net/
-    // Last tested on: Ubuntu 24.04.2 LTS
-    // Requires:       apt-get install php5 php5-cli
+    // Last tested on: Ubuntu 26.04.1 LTS
+    // Requires:       apt-get install php
     for ($i = 1; $i <= 100; $i ++) {
         if ($i % 15 == 0) {
             echo "FizzBuzz\n";
